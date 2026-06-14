@@ -267,7 +267,7 @@ def _call_subprocess(prompt: str, resolved_model: str, timeout: int) -> str:
             )
     except FileNotFoundError:
         raise LLMExtractionError(
-            "⚠  cowork needs Claude Code to be installed.\n"
+            "⚠  keel needs Claude Code to be installed.\n"
             "   Download it at: claude.ai/code\n"
             "   Once installed, try again."
         )
@@ -352,7 +352,7 @@ def _load_anthropic():
             raise LLMExtractionError(
                 "The 'anthropic' package is required for api mode.\n"
                 "Install it: pip install anthropic\n"
-                "Or switch to mode: subscription in ~/.cowork/config.yaml"
+                "Or switch to mode: subscription in ~/.keel/config.yaml"
             )
     return _anthropic
 
@@ -373,7 +373,7 @@ def _extract_sdk(
     if not api_key:
         raise LLMExtractionError(
             f"API key not found in environment variable {cfg.llm.api_key_env!r}.\n"
-            "Set it or switch to mode: subscription in ~/.cowork/config.yaml"
+            "Set it or switch to mode: subscription in ~/.keel/config.yaml"
         )
 
     client = ant.Anthropic(api_key=api_key)
@@ -449,7 +449,7 @@ def assert_claude_available() -> None:
     """
     if not check_claude_available():
         print(
-            "\n⚠  cowork needs Claude Code to be installed.\n"
+            "\n⚠  keel needs Claude Code to be installed.\n"
             "   Download it at: claude.ai/code\n"
             "   Once installed, reopen your terminal.\n",
             file=sys.stderr,

@@ -58,7 +58,7 @@ def build_ra_graph() -> tuple[dict, SimpleGraph, dict]:
     """
     Returns (node_index{code: metadata}, SimpleGraph, refs).
     refs maps semantic keys → node codes for external lookups.
-    Uses shared.store — reads $COWORK_HOME/ra/.
+    Uses shared.store — reads $KEEL_HOME/ra/.
     """
     projects  = store.load_projects()
     ideas     = store.load_ideas()

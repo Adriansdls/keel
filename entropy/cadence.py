@@ -7,8 +7,8 @@ Fires entropy.brief() when any condition is met:
 
 On fire:
   1. handler.handle({"action": "brief"}) → EntropyReport
-  2. Appends report to ~/.cowork/entropy/findings.jsonl (one JSON line per run)
-  3. Updates ~/.cowork/entropy/last-run.json
+  2. Appends report to ~/.keel/entropy/findings.jsonl (one JSON line per run)
+  3. Updates ~/.keel/entropy/last-run.json
 
 Fail-open: errors never crash a hook.
 """

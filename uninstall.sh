@@ -1,11 +1,11 @@
 #!/usr/bin/env bash
 # cowork — uninstaller
-# Removes hooks and MCP registration. Leaves ~/.cowork/ data intact.
+# Removes hooks and MCP registration. Leaves ~/.keel/ data intact.
 # Pass --purge to also delete all cowork data.
 
 set -euo pipefail
 
-COWORK_HOME="${COWORK_HOME:-$HOME/.cowork}"
+KEEL_HOME="${KEEL_HOME:-$HOME/.keel}"
 CLAUDE_SETTINGS="$HOME/.claude/settings.json"
 PURGE=false
 
@@ -35,7 +35,7 @@ for event, entries in hooks_cfg.items():
     hooks_cfg[event] = [
         entry for entry in entries
         if not any(
-            "$COWORK_HOME/packages" in h.get("command", "")
+            "$KEEL_HOME/packages" in h.get("command", "")
             for h in entry.get("hooks", [])
         )
     ]
@@ -65,14 +65,14 @@ fi
 # ── Purge data (opt-in) ───────────────────────────────────────────────────────
 
 if [ "$PURGE" = true ]; then
-  rm -rf "$COWORK_HOME"
-  echo "  ✓ ~/.cowork/ deleted"
+  rm -rf "$KEEL_HOME"
+  echo "  ✓ ~/.keel/ deleted"
 else
   echo ""
-  echo "  Your data is still at: $COWORK_HOME"
-  echo "  Delete it manually if you want:  rm -rf $COWORK_HOME"
+  echo "  Your data is still at: $KEEL_HOME"
+  echo "  Delete it manually if you want:  rm -rf $KEEL_HOME"
 fi
 
 echo ""
-echo "  cowork removed. Restart Claude Code to apply."
+echo "  keel removed. Restart Claude Code to apply."
 echo ""

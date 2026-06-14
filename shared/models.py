@@ -9,7 +9,7 @@ Sections:
   2. SWM models               (Fact, FactKind, PremiseFinding)
   3. Auto-capture models      (AutoCaptureEvent, AutoCaptureResult)
   4. Outcome loop models      (OutcomeVerdict, OutcomeReport)
-  5. Config models            (CoworkConfig and nested)
+  5. Config models            (KeelConfig and nested)
 """
 
 from __future__ import annotations
@@ -312,7 +312,7 @@ class FactKind(str, Enum):
 class Fact(BaseModel):
     """
     Atomic unit of SWM working memory.
-    Lives in ~/.cowork/swm/{project_id}/committed.jsonl (one JSON object per line).
+    Lives in ~/.keel/swm/{project_id}/committed.jsonl (one JSON object per line).
     project=None means global — injected in ALL sessions regardless of cwd.
     """
     model_config = ConfigDict(use_enum_values=True)
@@ -496,9 +496,9 @@ class OutcomeConfig(BaseModel):
     decision_check_after_days: int = 30
 
 
-class CoworkConfig(BaseModel):
+class KeelConfig(BaseModel):
     """
-    Parsed from ~/.cowork/config.yaml.
+    Parsed from ~/.keel/config.yaml.
     All fields have defaults — a missing config.yaml is fine.
     """
     llm:        LLMConfig     = Field(default_factory=LLMConfig)

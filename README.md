@@ -1,6 +1,6 @@
-# cowork
+# keel
 
-**cowork** makes Claude Code remember what matters across sessions — decisions, constraints, in-progress work — and automatically tracks everything you build.
+**keel** makes Claude Code remember what matters across sessions — decisions, constraints, in-progress work — and automatically tracks everything you build.
 
 ## Install
 
@@ -10,7 +10,7 @@ cd cowork
 bash install.sh
 ```
 
-That's it. Open Claude Code in any project and cowork starts working.
+That's it. Open Claude Code in any project and keel starts working.
 
 **Requirements:** [Claude Code](https://claude.ai/code) and Python 3.9+. No API key needed — uses your Claude subscription.
 
@@ -18,7 +18,7 @@ That's it. Open Claude Code in any project and cowork starts working.
 
 ## What happens automatically
 
-Once installed, cowork runs silently in the background on every Claude Code session:
+Once installed, keel runs silently in the background on every Claude Code session:
 
 - **Remembers decisions** — when you and Claude decide something, it's committed to memory and injected into every future session. Survives compaction and restarts.
 - **Tracks work automatically** — tasks, bets, decisions captured from conversation without you asking.
@@ -45,13 +45,13 @@ Once installed, cowork runs silently in the background on every Claude Code sess
 
 ## Works with Claude Cowork too
 
-If you use the Claude desktop app (Claude Cowork), `install.sh` also registers ra-pm there automatically. Both Claude Code and Claude Cowork read and write the same `~/.cowork/` store.
+If you use the Claude desktop app (Claude Cowork), `install.sh` also registers ra-pm there automatically. Both Claude Code and Claude Cowork read and write the same `~/.keel/` store.
 
 ---
 
 ## Configuration
 
-Edit `~/.cowork/config.yaml` to change behaviour. Defaults work well out of the box.
+Edit `~/.keel/config.yaml` to change behaviour. Defaults work well out of the box.
 
 ```yaml
 llm:
@@ -71,7 +71,7 @@ health:
 
 ## Your data
 
-Everything lives in `~/.cowork/` as plain YAML and JSONL files. Human-readable, no database, no cloud sync. You own it entirely.
+Everything lives in `~/.keel/` as plain YAML and JSONL files. Human-readable, no database, no cloud sync. You own it entirely.
 
 ---
 

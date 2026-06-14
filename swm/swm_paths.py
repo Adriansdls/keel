@@ -18,7 +18,7 @@ from types import SimpleNamespace
 import sys as _sys
 _sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 from shared.store import swm_root as _swm_root
-ROOT = _swm_root()  # reads $COWORK_HOME/swm, default ~/.cowork/swm
+ROOT = _swm_root()  # reads $KEEL_HOME/swm, default ~/.keel/swm
 
 # The kernel (habitat) owns project identity. We key state by the kernel's project_id so
 # every subdir of a project shares ONE world-model (no per-cwd fragmentation) and so a

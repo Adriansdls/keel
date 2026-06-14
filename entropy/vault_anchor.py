@@ -1,6 +1,6 @@
 """vault_anchor — check whether projects are anchored to a strategy vault.
 
-Optional: if no vault_path is configured in ~/.cowork/config.yaml,
+Optional: if no vault_path is configured in ~/.keel/config.yaml,
 unanchored() returns [] and the metric is silently skipped.
 
 Configure by adding to config.yaml:

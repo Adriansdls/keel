@@ -6,10 +6,10 @@
 set -euo pipefail
 
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
-COWORK_HOME="${COWORK_HOME:-$HOME/.cowork}"
+KEEL_HOME="${KEEL_HOME:-$HOME/.keel}"
 CLAUDE_SETTINGS="$HOME/.claude/settings.json"
-PACKAGES="$COWORK_HOME/packages"
-VENV="$COWORK_HOME/.venv"
+PACKAGES="$KEEL_HOME/packages"
+VENV="$KEEL_HOME/.venv"
 
 echo ""
 echo "  Installing cowork..."
@@ -18,7 +18,7 @@ echo ""
 # ── 1. Prerequisites ──────────────────────────────────────────────────────────
 
 if ! command -v claude &>/dev/null; then
-  echo "  ⚠  cowork needs Claude Code to be installed."
+  echo "  ⚠  keel needs Claude Code to be installed."
   echo "     Download it at: claude.ai/code"
   echo "     Once installed, run this script again."
   echo ""
@@ -34,7 +34,7 @@ fi
 
 # ── 2. Directory scaffold ─────────────────────────────────────────────────────
 
-mkdir -p "$COWORK_HOME"/{packages,ra,swm,entropy,outcome-loop}
+mkdir -p "$KEEL_HOME"/{packages,ra,swm,entropy,outcome-loop}
 echo "  ✓ directories"
 
 # ── 3. Python venv + deps ─────────────────────────────────────────────────────
@@ -60,11 +60,11 @@ echo "  ✓ packages"
 
 # ── 5. Write config.yaml (once — never overwritten) ──────────────────────────
 
-if [ ! -f "$COWORK_HOME/config.yaml" ]; then
-  COWORK_HOME="$COWORK_HOME" "$PYTHON" - <<PYEOF
+if [ ! -f "$KEEL_HOME/config.yaml" ]; then
+  KEEL_HOME="$KEEL_HOME" "$PYTHON" - <<PYEOF
 import sys, os
 sys.path.insert(0, "$PACKAGES")
-os.environ["COWORK_HOME"] = "$COWORK_HOME"
+os.environ["KEEL_HOME"] = "$KEEL_HOME"
 from shared.store import write_default_config
 write_default_config()
 PYEOF
@@ -90,7 +90,7 @@ s = json.loads(settings_path.read_text(encoding="utf-8")) if settings_path.exist
 s.setdefault("mcpServers", {})["ra-pm"] = {
     "command": "$VENV/bin/python",
     "args":    ["$PACKAGES/ra-pm/server.py"],
-    "env":     {"COWORK_HOME": "$COWORK_HOME"},
+    "env":     {"KEEL_HOME": "$KEEL_HOME"},
 }
 tmp = settings_path.with_suffix(".tmp")
 tmp.write_text(json.dumps(s, indent=2), encoding="utf-8")
@@ -112,7 +112,7 @@ cfg = json.loads(cfg_path.read_text(encoding="utf-8"))
 cfg.setdefault("mcpServers", {})["ra-pm"] = {
     "command": "$VENV/bin/python",
     "args":    ["$PACKAGES/ra-pm/server.py"],
-    "env":     {"COWORK_HOME": "$COWORK_HOME"},
+    "env":     {"KEEL_HOME": "$KEEL_HOME"},
 }
 tmp = cfg_path.with_suffix(".tmp")
 tmp.write_text(json.dumps(cfg, indent=4), encoding="utf-8")
@@ -125,7 +125,7 @@ fi
 
 # ── 7. Register hooks ─────────────────────────────────────────────────────────
 
-COWORK_HOME="$COWORK_HOME" "$PYTHON" - <<PYEOF
+KEEL_HOME="$KEEL_HOME" "$PYTHON" - <<PYEOF
 import json, os, sys
 from pathlib import Path
 
@@ -188,10 +188,10 @@ PYEOF
 if [ -d "$HOME/.ra" ]; then
   echo ""
   echo "  Found ~/.ra/ — migrating existing data..."
-  COWORK_HOME="$COWORK_HOME" "$PYTHON" - <<PYEOF
+  KEEL_HOME="$KEEL_HOME" "$PYTHON" - <<PYEOF
 import sys, os
 sys.path.insert(0, "$PACKAGES")
-os.environ["COWORK_HOME"] = "$COWORK_HOME"
+os.environ["KEEL_HOME"] = "$KEEL_HOME"
 from shared.store import migrate_from_legacy
 from pathlib import Path
 r = migrate_from_legacy(Path.home() / ".ra")
@@ -205,12 +205,12 @@ fi
 
 echo ""
 echo "  ┌─────────────────────────────────────────────────────────┐"
-echo "  │  cowork installed ✓                                     │"
+echo "  │  keel installed ✓                                     │"
 echo "  │                                                         │"
 echo "  │  Open Claude Code in any project.                       │"
-echo "  │  cowork starts working automatically.                   │"
+echo "  │  keel starts working automatically.                   │"
 echo "  │                                                         │"
-echo "  │  Your projects:  ~/.cowork/                             │"
-echo "  │  Settings:       ~/.cowork/config.yaml                  │"
+echo "  │  Your projects:  ~/.keel/                             │"
+echo "  │  Settings:       ~/.keel/config.yaml                  │"
 echo "  └─────────────────────────────────────────────────────────┘"
 echo ""

@@ -23,11 +23,11 @@ def run_probe() -> dict:
     results: dict[str, bool] = {}
     failures: list[str] = []
 
-    # Isolated store for the probe — never touches real ~/.cowork data
+    # Isolated store for the probe — never touches real ~/.keel data
     with tempfile.TemporaryDirectory() as td:
-        os.environ["COWORK_HOME"] = td
+        os.environ["KEEL_HOME"] = td
 
-        # Re-import store with the new COWORK_HOME
+        # Re-import store with the new KEEL_HOME
         import importlib
         import shared.store as st
         importlib.reload(st)

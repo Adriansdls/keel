@@ -5,10 +5,10 @@ Single module. All packages read/write through here.
 Returns Pydantic models — never raw dicts.
 All writes are atomic: tmp file → rename (POSIX-safe).
 
-Store root: $COWORK_HOME (default ~/.cowork)
+Store root: $KEEL_HOME (default ~/.keel)
 
 Layout:
-  ~/.cowork/
+  ~/.keel/
     config.yaml
     ra/
       projects.yaml
@@ -52,27 +52,27 @@ import yaml
 from pydantic import BaseModel
 
 from shared.models import (
-    Bet, CoworkConfig, Decision, Experiment, Fact,
+    Bet, KeelConfig, Decision, Experiment, Fact,
     Finding, Focus, InboxIdea, Issue, NorthStar, OutcomeVerdict,
     PremiseFinding, Project, Thesis, TheoryOfChange,
 )
 
 # ── Root ─────────────────────────────────────────────────────────────────────
 
-def _cowork_home() -> Path:
-    return Path(os.environ.get("COWORK_HOME", "~/.cowork")).expanduser()
+def _keel_home() -> Path:
+    return Path(os.environ.get("KEEL_HOME", "~/.keel")).expanduser()
 
 
 def root() -> Path:
-    return _cowork_home()
+    return _keel_home()
 
 
 def ra_root() -> Path:
-    return _cowork_home() / "ra"
+    return _keel_home() / "ra"
 
 
 def swm_root() -> Path:
-    return _cowork_home() / "swm"
+    return _keel_home() / "swm"
 
 
 # ── Atomic write ─────────────────────────────────────────────────────────────
@@ -106,29 +106,29 @@ def _atomic_jsonl_append(path: Path, record: dict) -> None:
 
 # ── Config ───────────────────────────────────────────────────────────────────
 
-_config_cache: Optional[CoworkConfig] = None
+_config_cache: Optional[KeelConfig] = None
 
 
-def load_config(force_reload: bool = False) -> CoworkConfig:
+def load_config(force_reload: bool = False) -> KeelConfig:
     global _config_cache
     if _config_cache is not None and not force_reload:
         return _config_cache
-    path = _cowork_home() / "config.yaml"
+    path = _keel_home() / "config.yaml"
     if path.exists():
         raw = yaml.safe_load(path.read_text(encoding="utf-8")) or {}
-        _config_cache = CoworkConfig.model_validate(raw)
+        _config_cache = KeelConfig.model_validate(raw)
     else:
-        _config_cache = CoworkConfig()
+        _config_cache = KeelConfig()
     return _config_cache
 
 
 def write_default_config() -> None:
     """Write config.yaml with defaults if it doesn't exist."""
-    path = _cowork_home() / "config.yaml"
+    path = _keel_home() / "config.yaml"
     if path.exists():
         return
     template = """\
-# cowork configuration
+# keel configuration
 # You probably don't need to change anything here.
 
 # ── How cowork thinks ─────────────────────────────────────────────────────────
@@ -522,7 +522,7 @@ def save_strategic_state(project_id: str, text: str) -> None:
 # ══════════════════════════════════════════════════════════════════════════════
 
 def load_verdicts() -> list[OutcomeVerdict]:
-    path = _cowork_home() / "outcome-loop" / "verdicts.jsonl"
+    path = _keel_home() / "outcome-loop" / "verdicts.jsonl"
     if not path.exists():
         return []
     verdicts = []
@@ -538,12 +538,12 @@ def load_verdicts() -> list[OutcomeVerdict]:
 
 
 def save_verdict(v: OutcomeVerdict) -> None:
-    path = _cowork_home() / "outcome-loop" / "verdicts.jsonl"
+    path = _keel_home() / "outcome-loop" / "verdicts.jsonl"
     _atomic_jsonl_append(path, v.model_dump(mode="json"))
 
 
 # ══════════════════════════════════════════════════════════════════════════════
-# Migration: ~/.ra/ → ~/.cowork/ra/
+# Migration: ~/.ra/ → ~/.keel/ra/
 # ══════════════════════════════════════════════════════════════════════════════
 
 class MigrationReport(BaseModel):
@@ -555,7 +555,7 @@ class MigrationReport(BaseModel):
 
 def migrate_from_legacy(legacy_root: Path = Path.home() / ".ra") -> MigrationReport:
     """
-    One-time migration from ~/.ra/ to ~/.cowork/ra/.
+    One-time migration from ~/.ra/ to ~/.keel/ra/.
     Non-destructive: never deletes ~/.ra/.
     Validates each record through Pydantic before writing.
     """

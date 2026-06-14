@@ -3,7 +3,7 @@
 ra-pm — LLM-native project + strategy management MCP server
 Adrian Sanchez de la Sierra
 
-Data lives in $COWORK_HOME/ra/ (default ~/.cowork/ra) — global across all projects.
+Data lives in $KEEL_HOME/ra/ (default ~/.keel/ra) — global across all projects.
 """
 
 import json
@@ -30,7 +30,7 @@ from shared.models import (
 
 mcp = FastMCP("ra-pm")
 
-# DATA root reads $COWORK_HOME env var (default ~/.cowork/ra)
+# DATA root reads $KEEL_HOME env var (default ~/.keel/ra)
 DATA          = _ra_root()
 PROJECTS_FILE = DATA / "projects.yaml"
 FOCUS_FILE    = DATA / "focus.yaml"
