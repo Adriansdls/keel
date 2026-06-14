@@ -517,3 +517,15 @@ class ContradictionCheck(BaseModel):
     contradicts:    bool
     prior_decision: Optional[str] = None   # the specific prior that conflicts, if any
     reasoning:      str
+
+
+class PremiseVerdict(BaseModel):
+    """LLM judgment on a single premise's current validity."""
+    premise_id: str
+    status:     Literal["valid", "invalid", "challenged", "uncertain"]
+    reasoning:  str
+
+
+class PremiseCheckResult(BaseModel):
+    """Full structured output from a premise-check Sonnet call."""
+    verdicts: list[PremiseVerdict] = []
