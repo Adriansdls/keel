@@ -80,23 +80,13 @@ mkdir -p "$(dirname "$CLAUDE_SETTINGS")"
 
 # ── 6. Register MCP server ────────────────────────────────────────────────────
 
-# Register ra-pm MCP in Claude Code settings.json (direct write — no CLI quirks)
-"$PYTHON" - <<PYEOF
-import json, os
-from pathlib import Path
-
-settings_path = Path("$CLAUDE_SETTINGS")
-s = json.loads(settings_path.read_text(encoding="utf-8")) if settings_path.exists() else {}
-s.setdefault("mcpServers", {})["ra-pm"] = {
-    "command": "$VENV/bin/python",
-    "args":    ["$PACKAGES/ra-pm/server.py"],
-    "env":     {"KEEL_HOME": "$KEEL_HOME"},
-}
-tmp = settings_path.with_suffix(".tmp")
-tmp.write_text(json.dumps(s, indent=2), encoding="utf-8")
-import os as _os; _os.replace(tmp, settings_path)
-print("  ✓ MCP server registered in Claude Code (ra-pm)")
-PYEOF
+# Register ra-pm MCP via claude CLI (user scope — available in all projects)
+claude mcp remove "ra-pm" -s user 2>/dev/null || true
+claude mcp add ra-pm -s user \
+  -e "KEEL_HOME=$KEEL_HOME" \
+  -- "$VENV/bin/python" "$PACKAGES/ra-pm/server.py" \
+  && echo "  ✓ MCP server registered in Claude Code (ra-pm)" \
+  || echo "  ⚠  MCP registration failed — restart Claude Code and run: claude mcp add ra-pm -s user -e KEEL_HOME=$KEEL_HOME -- $VENV/bin/python $PACKAGES/ra-pm/server.py"
 
 # ── 7a. Register MCP in Claude desktop app (Claude Cowork) ───────────────────
 
