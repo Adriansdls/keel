@@ -229,6 +229,26 @@ def main() -> int:
     except Exception:
         pass
 
+    # Entropy: surface latest field health if report is < 48h old and metrics are amber/red
+    try:
+        import sys as _sys
+        _sys.path.insert(0, str(__import__("pathlib").Path(__file__).resolve().parent.parent))
+        from shared.store import root as _store_root
+        from shared.models import EntropyReport as _EntropyReport
+        from datetime import datetime as _dt, timedelta as _td
+        _findings = _store_root() / "entropy" / "findings.jsonl"
+        if _findings.exists():
+            _lines = [l for l in _findings.read_text().splitlines() if l.strip()]
+            if _lines:
+                _rpt = _EntropyReport.model_validate_json(_lines[-1])
+                _age = (_dt.now() - _rpt.generated_at).total_seconds() / 3600
+                if _age < 48 and (_rpt.leakage_rate > 0.25 or _rpt.dormant_idea_count > 5):
+                    block.append(
+                        "─ entropy (field health) ─\n" + _rpt.narrative
+                    )
+    except Exception:
+        pass
+
     # Cross-project: inject global facts (decisions/constraints with project=None)
     try:
         import sys as _sys

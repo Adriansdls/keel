@@ -501,10 +501,11 @@ class CoworkConfig(BaseModel):
     Parsed from ~/.cowork/config.yaml.
     All fields have defaults — a missing config.yaml is fine.
     """
-    llm:      LLMConfig     = Field(default_factory=LLMConfig)
-    memory:   MemoryConfig  = Field(default_factory=MemoryConfig)
-    health:   HealthConfig  = Field(default_factory=HealthConfig)
-    outcomes: OutcomeConfig = Field(default_factory=OutcomeConfig)
+    llm:        LLMConfig     = Field(default_factory=LLMConfig)
+    memory:     MemoryConfig  = Field(default_factory=MemoryConfig)
+    health:     HealthConfig  = Field(default_factory=HealthConfig)
+    outcomes:   OutcomeConfig = Field(default_factory=OutcomeConfig)
+    vault_path: Optional[str] = None  # path to strategy vault for anchor checks
 
 
 # ── Ra-pm internal helpers ─────────────────────────────────────────────────────
@@ -529,3 +530,20 @@ class PremiseVerdict(BaseModel):
 class PremiseCheckResult(BaseModel):
     """Full structured output from a premise-check Sonnet call."""
     verdicts: list[PremiseVerdict] = []
+
+
+# ── Entropy Manager models ─────────────────────────────────────────────────────
+
+class EntropyReport(BaseModel):
+    """Field health report produced by the Entropy Manager brief action."""
+    leakage_rate:        float   = 0.0
+    conversion_rate:     float   = 0.0
+    n_ideas:             int     = 0
+    n_projects:          int     = 0
+    dormant_idea_count:  int     = 0
+    dormant_project_ids: list[str] = []
+    illegible_ids:       list[str] = []
+    unanchored_ids:      list[str] = []
+    connectivity:        float   = 0.0
+    generated_at:        datetime = Field(default_factory=datetime.now)
+    narrative:           str     = ""
