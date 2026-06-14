@@ -101,6 +101,7 @@ HOOKS = {
         (str(venv_python) + " " + str(packages / "swm/premise_check.py"), 45),
         (str(venv_python) + " " + str(packages / "auto-capture/hook.py"), 45),
         (str(venv_python) + " " + str(packages / "entropy/hook.py"),          60),
+        (str(venv_python) + " " + str(packages / "outcome-loop/hook.py"),     90),
     ],
     "PreCompact": [
         (str(venv_python) + " " + str(packages / "swm/pre_compact.py"),   30),

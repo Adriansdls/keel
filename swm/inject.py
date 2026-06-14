@@ -263,6 +263,35 @@ def main() -> int:
             block.append("\n".join(_glines))
     except Exception:
         pass
+
+    # Outcome loop: surface contradicted decisions + stale bets (< 48h old)
+    try:
+        import sys as _sys, json as _json
+        _sys.path.insert(0, str(__import__("pathlib").Path(__file__).resolve().parent.parent))
+        from shared.store import root as _store_root
+        from datetime import datetime as _dt
+        _wpath = _store_root() / "outcome-loop" / "warnings.jsonl"
+        if _wpath.exists():
+            _warns = []
+            for _line in _wpath.read_text().splitlines():
+                _line = _line.strip()
+                if not _line:
+                    continue
+                try:
+                    _w = _json.loads(_line)
+                    _age = (_dt.now() - _dt.fromisoformat(_w["flagged_at"])).total_seconds() / 3600
+                    if _age < 48:
+                        _warns.append(_w)
+                except Exception:
+                    pass
+            if _warns:
+                _wlines = ["─ outcome loop warnings ─"]
+                for _w in _warns[-5:]:
+                    _wlines.append(f"  [{_w['type']}] project:{_w['project']} "
+                                   f"#{_w['id']} — {_w['reasoning'][:80]}")
+                block.append("\n".join(_wlines))
+    except Exception:
+        pass
     if not block:
         return 0
     # Frame the whole block. Top border already added when committed state exists;
