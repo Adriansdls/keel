@@ -5,7 +5,7 @@
 ## Install
 
 ```bash
-git clone https://github.com/adriandelasierra/cowork
+git clone https://github.com/Adriansdls/keel
 cd cowork
 bash install.sh
 ```
