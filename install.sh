@@ -83,6 +83,31 @@ claude mcp add --scope user ra-pm \
   && echo "  ✓ MCP server registered (ra-pm)" \
   || echo "  ⚠  MCP registration failed — run: claude mcp add --scope user ra-pm -- $VENV/bin/python $PACKAGES/ra-pm/server.py"
 
+# ── 7a. Register MCP in Claude desktop app (Claude Cowork) ───────────────────
+
+DESKTOP_CFG="$HOME/Library/Application Support/Claude/claude_desktop_config.json"
+
+if [ -f "$DESKTOP_CFG" ]; then
+  "$PYTHON" - <<PYEOF
+import json, os
+from pathlib import Path
+
+cfg_path = Path("$DESKTOP_CFG")
+cfg = json.loads(cfg_path.read_text(encoding="utf-8"))
+cfg.setdefault("mcpServers", {})["ra-pm"] = {
+    "command": "$VENV/bin/python",
+    "args":    ["$PACKAGES/ra-pm/server.py"],
+    "env":     {"COWORK_HOME": "$COWORK_HOME"},
+}
+tmp = cfg_path.with_suffix(".tmp")
+tmp.write_text(json.dumps(cfg, indent=4), encoding="utf-8")
+import os as _os; _os.replace(tmp, cfg_path)
+print("  ✓ MCP server registered in Claude Cowork (claude_desktop_config.json)")
+PYEOF
+else
+  echo "  ✓ Claude desktop app not found — skipping Cowork registration"
+fi
+
 # ── 7. Register hooks ─────────────────────────────────────────────────────────
 
 COWORK_HOME="$COWORK_HOME" "$PYTHON" - <<PYEOF
