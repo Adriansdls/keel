@@ -1768,3 +1768,123 @@ def ra_reconcile(apply: bool = False, archive: str = "", snooze_days: int = 0) -
 if __name__ == "__main__":
     _ensure()
     mcp.run()
+
+
+@mcp.tool()
+def ra_inject_preview(project_id: str = "") -> dict:
+    """Preview exactly what keel is currently injecting into your Claude context.
+
+    Shows the full world-model block that gets prepended to every turn:
+    committed decisions, constraints, premises, global facts, open issues
+    flagged as unlinked, premise findings, entropy health, and outcome-loop warnings.
+
+    Args:
+        project_id: project to preview (default: inferred from registered projects,
+                    falls back to showing global facts only)
+    """
+    import sys as _sys
+    _sys.path.insert(0, str(_Path(__file__).resolve().parent.parent))
+
+    from shared.store import (
+        load_facts, load_strategic_state, load_premise_findings,
+        root as _keel_root, load_issues, match_project_by_cwd,
+    )
+    from shared.models import FactKind
+
+    # Resolve project
+    pid = project_id.strip() or None
+    if not pid:
+        projects = _load_projects()
+        active = [p for p in projects if p.get("status") == "active"]
+        pid = active[0]["id"] if active else None
+
+    sections: list[str] = []
+
+    # ── 1. Strategic state (committed world model) ────────────────────────────
+    if pid:
+        state = load_strategic_state(pid)
+        if state.strip():
+            sections.append("── WORLD MODEL ──\n" + state.strip())
+        else:
+            sections.append("── WORLD MODEL ──\n(empty — no facts committed yet for this project)")
+
+    # ── 2. Global facts ───────────────────────────────────────────────────────
+    global_facts = load_facts(project_id=None,
+                              kinds=[FactKind.decision, FactKind.constraint])
+    if global_facts:
+        lines = [f"  [{f.kind}] {f.text}" for f in global_facts[:10]]
+        sections.append("── GLOBAL FACTS (all projects) ──\n" + "\n".join(lines))
+
+    # ── 3. Unlinked issues ────────────────────────────────────────────────────
+    if pid:
+        active_s = {"planned", "in-progress", "idea", "blocked"}
+        unlinked = [
+            i for i in load_issues(pid)
+            if str(i.status) in active_s and not i.traces_to_priority
+        ]
+        if unlinked:
+            lines = [f"  #{i.id} [{i.status}] {i.title}" for i in unlinked[:10]]
+            sections.append(
+                f"── UNLINKED ISSUES ({len(unlinked)}) ──\n"
+                + "\n".join(lines)
+                + "\n(these have no strategic priority link)"
+            )
+
+    # ── 4. Premise findings ───────────────────────────────────────────────────
+    if pid:
+        findings = load_premise_findings(pid)
+        invalid = [f for f in findings if f.verdict in ("invalid", "challenged")]
+        if invalid:
+            lines = [f"  [{f.verdict}] {f.reasoning[:100]}" for f in invalid[-5:]]
+            sections.append("── PREMISE WARNINGS ──\n" + "\n".join(lines))
+
+    # ── 5. Entropy findings ───────────────────────────────────────────────────
+    from datetime import datetime, timedelta
+    import json as _json
+
+    entropy_path = _keel_root() / "entropy" / "findings.jsonl"
+    if entropy_path.exists():
+        lines = [l for l in entropy_path.read_text().splitlines() if l.strip()]
+        if lines:
+            try:
+                from shared.models import EntropyReport
+                rpt = EntropyReport.model_validate_json(lines[-1])
+                age_h = (datetime.now() - rpt.generated_at).total_seconds() / 3600
+                if age_h < 48 and (rpt.leakage_rate > 0.25 or rpt.dormant_idea_count > 5):
+                    sections.append("── ENTROPY (field health) ──\n  " + rpt.narrative)
+                elif age_h >= 48:
+                    sections.append(f"── ENTROPY ──\n  (last report {age_h:.0f}h ago — run `ra_entropy_brief` to refresh)")
+            except Exception:
+                pass
+
+    # ── 6. Outcome-loop warnings ──────────────────────────────────────────────
+    warnings_path = _keel_root() / "outcome-loop" / "warnings.jsonl"
+    if warnings_path.exists():
+        warnings = []
+        for line in warnings_path.read_text().splitlines():
+            if not line.strip():
+                continue
+            try:
+                w = _json.loads(line)
+                age_h = (datetime.now() - datetime.fromisoformat(w["flagged_at"])).total_seconds() / 3600
+                if age_h < 48:
+                    warnings.append(f"  [{w['type']}] #{w['id']} — {w['reasoning'][:80]}")
+            except Exception:
+                pass
+        if warnings:
+            sections.append("── OUTCOME WARNINGS ──\n" + "\n".join(warnings[-5:]))
+
+    if not sections:
+        return {
+            "project": pid or "none",
+            "preview": "(nothing injected yet — start a session to build context)",
+            "tip": "keel builds up context as you work. Commit a decision with ra_decide to see it here.",
+        }
+
+    preview = "\n\n".join(sections)
+    return {
+        "project":         pid or "global",
+        "sections":        len(sections),
+        "character_count": len(preview),
+        "preview":         preview,
+    }
