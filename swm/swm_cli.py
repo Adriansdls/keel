@@ -334,7 +334,7 @@ def cmd_link_issue(args: list[str]) -> int:
     Writes traces_to_priority into the issue's frontmatter."""
     if len(args) < 3:
         print("usage: link-issue <project-id> <issue-id> <priority-id>", file=sys.stderr)
-        print("  project-id: e.g. cc-os, raising-agents", file=sys.stderr)
+        print("  project-id: e.g. my-app, backend-api", file=sys.stderr)
         print("  issue-id:   numeric id from `ra_issues`", file=sys.stderr)
         print("  priority-id: from `swm priority list`", file=sys.stderr)
         return 2

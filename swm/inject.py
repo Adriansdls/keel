@@ -20,7 +20,7 @@ import json
 import sys
 from pathlib import Path
 
-HERE = Path(__file__).resolve().parent          # ~/raising-agents/.claude/hooks
+HERE = Path(__file__).resolve().parent
 sys.path.insert(0, str(HERE))
 from capture_patterns import load_candidates     # noqa: E402
 import cold_log as cl                             # noqa: E402  (recall from untouched full log)

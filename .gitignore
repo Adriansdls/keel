@@ -1,2 +1,23 @@
-*.pyc
+# Python
 __pycache__/
+*.py[cod]
+*.pyo
+.venv/
+*.egg-info/
+
+# macOS
+.DS_Store
+
+# Editor
+.idea/
+.vscode/
+*.swp
+
+# Backups
+*.bak
+*.bak2
+*.tmp
+
+# Never commit personal data
+*.jsonl
+*.yaml.bak

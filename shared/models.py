@@ -5,7 +5,7 @@ Single source of truth. Every package imports from here.
 No package-specific logic — pure data shapes and validation only.
 
 Sections:
-  1. Ra-pm core models        (ported from raising-agents/mcp/ra-pm/models.py)
+  1. Ra-pm core models
   2. SWM models               (Fact, FactKind, PremiseFinding)
   3. Auto-capture models      (AutoCaptureEvent, AutoCaptureResult)
   4. Outcome loop models      (OutcomeVerdict, OutcomeReport)

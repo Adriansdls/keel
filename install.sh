@@ -73,15 +73,30 @@ else
   echo "  ✓ config exists (not overwritten)"
 fi
 
+# ── 6. Create Claude settings dir if needed ─────────────────────────────────
+
+mkdir -p "$(dirname "$CLAUDE_SETTINGS")"
+[ -f "$CLAUDE_SETTINGS" ] || echo "{}" > "$CLAUDE_SETTINGS"
+
 # ── 6. Register MCP server ────────────────────────────────────────────────────
 
-# Remove and re-add to ensure paths are up to date (idempotent)
-claude mcp remove ra-pm 2>/dev/null || true
-claude mcp add --scope user ra-pm \
-    -e "COWORK_HOME=$COWORK_HOME" \
-    -- "$VENV/bin/python" "$PACKAGES/ra-pm/server.py" 2>/dev/null \
-  && echo "  ✓ MCP server registered (ra-pm)" \
-  || echo "  ⚠  MCP registration failed — run: claude mcp add --scope user ra-pm -- $VENV/bin/python $PACKAGES/ra-pm/server.py"
+# Register ra-pm MCP in Claude Code settings.json (direct write — no CLI quirks)
+"$PYTHON" - <<PYEOF
+import json, os
+from pathlib import Path
+
+settings_path = Path("$CLAUDE_SETTINGS")
+s = json.loads(settings_path.read_text(encoding="utf-8")) if settings_path.exists() else {}
+s.setdefault("mcpServers", {})["ra-pm"] = {
+    "command": "$VENV/bin/python",
+    "args":    ["$PACKAGES/ra-pm/server.py"],
+    "env":     {"COWORK_HOME": "$COWORK_HOME"},
+}
+tmp = settings_path.with_suffix(".tmp")
+tmp.write_text(json.dumps(s, indent=2), encoding="utf-8")
+import os as _os; _os.replace(tmp, settings_path)
+print("  ✓ MCP server registered in Claude Code (ra-pm)")
+PYEOF
 
 # ── 7a. Register MCP in Claude desktop app (Claude Cowork) ───────────────────
 

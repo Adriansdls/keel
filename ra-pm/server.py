@@ -49,7 +49,7 @@ DECISIONS_DIR = DATA / "decisions"
 # ── helpers ──────────────────────────────────────────────────────────────────
 
 # Entropy Manager gate (live swap 2026-06-01): a commit must not contradict un-rescinded precedent.
-# Inlined from ~/zartis-agent/agents/built/entropy-manager (no cross-repo import). Reversible: git revert.
+# Contradiction check inlined from shared.llm — no cross-repo import needed.
 
 
 def _em_contradicts_llm(new_decision: str, prior_decisions: list[dict]) -> tuple[bool, dict | None, str]:
@@ -325,7 +325,7 @@ def ra_add_project(
 ) -> dict:
     """
     Register a new project.
-    id: short slug e.g. 'tostadito', 'raising-agents'
+    id: short slug e.g. 'my-app', 'backend-api'
     workspace_path: absolute path to project directory
     """
     _ensure()

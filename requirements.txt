@@ -1,0 +1,5 @@
+# cowork dependencies
+# install.sh handles this automatically — you don't need to run pip manually.
+pydantic>=2.0
+pyyaml>=6.0
+mcp[cli]>=1.0
