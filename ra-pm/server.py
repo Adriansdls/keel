@@ -1783,7 +1783,7 @@ def ra_inject_preview(project_id: str = "") -> dict:
                     falls back to showing global facts only)
     """
     import sys as _sys
-    _sys.path.insert(0, str(_Path(__file__).resolve().parent.parent))
+    _sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
     from shared.store import (
         load_facts, load_strategic_state, load_premise_findings,
