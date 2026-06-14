@@ -505,3 +505,15 @@ class CoworkConfig(BaseModel):
     memory:   MemoryConfig  = Field(default_factory=MemoryConfig)
     health:   HealthConfig  = Field(default_factory=HealthConfig)
     outcomes: OutcomeConfig = Field(default_factory=OutcomeConfig)
+
+
+# ── Ra-pm internal helpers ─────────────────────────────────────────────────────
+
+class ContradictionCheck(BaseModel):
+    """
+    LLM judgment on whether a new decision contradicts an existing one.
+    Used by the ra_decide tool gate — replaces the old word-overlap heuristic.
+    """
+    contradicts:    bool
+    prior_decision: Optional[str] = None   # the specific prior that conflicts, if any
+    reasoning:      str
