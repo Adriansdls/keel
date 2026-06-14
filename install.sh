@@ -51,7 +51,9 @@ echo "  ✓ python environment"
 cp -r "$SCRIPT_DIR/shared"       "$PACKAGES/"
 cp -r "$SCRIPT_DIR/ra-pm"        "$PACKAGES/"
 cp -r "$SCRIPT_DIR/swm"          "$PACKAGES/"
-cp -r "$SCRIPT_DIR/auto-capture" "$PACKAGES/"
+cp -r "$SCRIPT_DIR/auto-capture"   "$PACKAGES/"
+cp -r "$SCRIPT_DIR/entropy"        "$PACKAGES/"
+cp -r "$SCRIPT_DIR/outcome-loop"   "$PACKAGES/"
 # Remove pycache from copied packages
 find "$PACKAGES" -type d -name __pycache__ -exec rm -rf {} + 2>/dev/null || true
 echo "  ✓ packages"
