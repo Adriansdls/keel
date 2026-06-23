@@ -1,0 +1,19 @@
+id: 9
+decision: 'CORRECTION to decision #8: the replication target is NOT settled and is
+  Lucía''s call (Methods Decision #1). Buss et al. 2023 (great-whale, archaeology)
+  is her stated frontrunner; Stewart et al. 2025 was my proposal and likely fails
+  requirement #3 (it coded all 596 retrieved with no PRISMA screening flow / no found->included
+  winnowing). Stewart = weak candidate only. Also correcting stored project memory:
+  the ontology is corpus-induced + expert-refined; CIDOC-CRM is explicitly REJECTED,
+  not adopted.'
+rationale: 'After reading Lucía''s Paper1_Methods_structure.md and Paper1_Introduction_draft.md
+  in full (prior reads were proxy-elided; I had been modelling from stale strategic
+  memory), §2.9.1 lists explicit requirements for the reference review (published
+  search strategy, inclusion/exclusion, PRISMA flow, accessible included list, PECO-translatable,
+  archaeology-adjacent) and names Buss 2023 as frontrunner. Stewart''s all-retrieved
+  coding doesn''t provide a screening flow. Owning the overstep: I decided a question
+  the doc assigns to Lucía. CIDOC-CRM rejection is stated verbatim in §2.5 and §1.5.'
+alternatives_rejected: []
+bets_affected: []
+logged: '2026-06-02'
+source: null

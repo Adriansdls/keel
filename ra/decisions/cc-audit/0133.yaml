@@ -1,0 +1,9 @@
+id: 133
+decision: 'Build three components: (1) Python config generator mapping feature ID
+  to settings.json blocks, (2) TypeScript web updater replacing hardcoded routing,
+  (3) Python CLI re-measure flow'
+rationale: (auto-captured from session — see SWM committed.jsonl for full context)
+alternatives_rejected: []
+bets_affected: []
+logged: '2026-06-21'
+source: swm-bridge

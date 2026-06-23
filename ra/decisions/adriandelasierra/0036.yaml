@@ -1,0 +1,9 @@
+id: 36
+decision: 'Five lenses operationalize CTO feedback: (1) features unused, (2) cost/time
+  waste, (3) model-routing inefficiency, (4) authoring/leverage (repeated manual work
+  → package), (5) integration dead-weight; each emits uniform Finding(score·evidence·action·install·why·savings)'
+rationale: (auto-captured from session — see SWM committed.jsonl for full context)
+alternatives_rejected: []
+bets_affected: []
+logged: '2026-06-16'
+source: swm-bridge

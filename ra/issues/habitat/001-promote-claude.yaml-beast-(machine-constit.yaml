@@ -1,0 +1,20 @@
+id: 1
+title: Promote CLAUDE.md/beast (machine constitution) from stage-0 prose to a bounded
+  A
+status: idea
+priority: p1
+area: infra
+why: Drift ledger shows 31% of responses leak the constitution (some dims 80%+). CLAUDE.md
+  is a stage-0 naive prose agent per habitat's own maturity ladder, yet it is the
+  governance ROOT — every leaf agent (commit-guard, planchadito) is contract-bound
+  while the root that governs them is ungoverned prose. Paper 1 (OPBR) proves contracts
+  beat output/prose (F1 0.982 vs 0.400). Machinery (habitat agent adopt/ratify/amend,
+  tamper-detection, watcher) already exists and is verified live. This is the convergence
+  point of habitat + zagent + raising-agents.
+hypothesis: Mapping CLAUDE.md onto the agent.toml anatomy (frozen principles + rubric
+  + authority + mined frozen-evals + contract.py for consequential preconditions)
+  and wiring the existing beast audit as the watcher.capture will measurably reduce
+  drift below the current 31% leak rate, because enforcement moves from passive text
+  to runtime gates + hash-pinned ground_truth.
+created: '2026-06-01'
+updated: '2026-06-01'

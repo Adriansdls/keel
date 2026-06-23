@@ -1,0 +1,6 @@
+{"id": "6dad39fc1a3d", "kind": "constraint", "text": "Implement tiered_price(units, base) in billing.py; acceptance test in test_billing.py", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "037333e1dc8d", "kind": "constraint", "text": "Tier 1 (units 1-10): 100% base; Tier 2 (units 11-50): 90% base; Tier 3 (units 51+): 80% base", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "1dfe8409fe43", "kind": "constraint", "text": "Minimum charge: 5.00; round result to 2 decimal places", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "0631e5cda96d", "kind": "constraint", "text": "Test must kill mutations: off-by-one tier boundaries (10/11 and 50/51), wrong discount rates, missing minimum charge, wrong/missing rounding", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "f6c60f114c1a", "kind": "elimination", "text": "Single happy-path test case is insufficient; must have mutation-resistant coverage to pass governance", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "da9070a54004", "kind": "premise", "text": "'Done' requires test to both pass AND reject wrong implementations—test passing alone is not sufficient", "turn_added": 1, "last_seen": 1, "source": "capture"}

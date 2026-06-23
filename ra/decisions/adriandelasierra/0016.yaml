@@ -1,0 +1,9 @@
+id: 16
+decision: A grouping/wrapper layer for sibling workspaces is justified only at 5+
+  siblings. Below that threshold (current count is 2), the navigation overhead outweighs
+  organizational benefit.
+rationale: (auto-captured from session — see SWM committed.jsonl for full context)
+alternatives_rejected: []
+bets_affected: []
+logged: '2026-06-15'
+source: swm-bridge

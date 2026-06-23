@@ -1,0 +1,3 @@
+{"id": "c5243e10fcf5", "kind": "elimination", "text": "log_decision    — a firm project-level decision with rationale AND at least one rejected alternative explicitly stated.", "turn_added": 0, "last_seen": 0, "source": "capture"}
+{"id": "0a4577401294", "kind": "constraint", "text": "Do NOT capture soft preferences.", "turn_added": 0, "last_seen": 0, "source": "capture"}
+{"id": "4056e48a710b", "kind": "premise", "text": "Evidence requirement (>80% catch rate, <20% false positive) unvalidated.\",", "turn_added": 0, "last_seen": 0, "source": "capture"}

@@ -1,0 +1,2 @@
+{"id": "3699465c3a9d", "kind": "constraint", "text": "parse_config refactoring must NOT change behavior", "turn_added": 7, "last_seen": 7, "source": "capture"}
+{"id": "c2755fa0ad8a", "kind": "decision", "text": "Refactor parse_config for readability through smaller helper functions and clearer logical flow", "turn_added": 7, "last_seen": 7, "source": "capture"}

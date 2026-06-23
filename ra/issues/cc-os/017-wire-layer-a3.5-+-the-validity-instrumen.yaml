@@ -1,0 +1,24 @@
+id: 17
+title: 'Wire-layer A3.5 + the validity instrument GATES the Steward (B3) — the evidence '
+status: idea
+priority: p1
+area: infra
+why: 'VERIFIED against live proxy code + logs: the proxy elides ~44% of wire bytes
+  (tool_results older than 8 msgs → stub) and, at long sessions, format-poisons the
+  model (model copies the mask tokens input:{}/[pruned] into its own output — 26/656
+  empty-input tool_use + 23 [pruned] text blocks + a self-truncated final answer,
+  session c0b27e47). Consequence: the drift ledger the Steward will consume mis-attributes
+  proxy artifacts as model/law failures (verification_by_evidence 79% + action leaks
+  are partly proxy-induced, not the AI''s fault). If B3 petitions amendments off this
+  ledger, it rewrites good rules to fix non-problems. So the doc''s Opportunity 1
+  — proxy emits a per-request elision/wire-event manifest; kernel tags each leak law-failure
+  vs context-starvation vs format-poisoning — is a VALIDITY PRECONDITION for B3, not
+  an optional feature. Fold into the build as a B2 signal-validity input (and a wire-layer
+  A3.5: proxy lifecycle owned by habitat boot/selftest, wire_events.jsonl on the event
+  bus, deny/keep policy from permit.toml).'
+hypothesis: 'Until the wire elision manifest exists and the kernel joins it against
+  the drift ledger, the Steward''s evidence is poisoned; building B3 before A3.5/the
+  manifest means the Steward optimizes against proxy artifacts. Sequence: wire-event
+  manifest BEFORE B3 acts on the ledger.'
+created: '2026-06-01'
+updated: '2026-06-01'

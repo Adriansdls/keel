@@ -1,0 +1,8 @@
+id: 77
+decision: Phase-B human oracle validation is the natural next priority work after
+  v0.1 completion
+rationale: (auto-captured from session — see SWM committed.jsonl for full context)
+alternatives_rejected: []
+bets_affected: []
+logged: '2026-06-16'
+source: swm-bridge

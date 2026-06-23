@@ -1,0 +1,9 @@
+id: 9
+decision: 'Outcomes API and sentinel-reviewer are distinct and must coexist: Outcomes
+  provides real-time retry-loop gate during execution; sentinel-reviewer is post-hoc
+  longitudinal auditor after session completion'
+rationale: (auto-captured from session — see SWM committed.jsonl for full context)
+alternatives_rejected: []
+bets_affected: []
+logged: '2026-06-16'
+source: swm-bridge

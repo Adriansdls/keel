@@ -1,0 +1,9 @@
+id: 104
+decision: Authoring axis measures FLEET-level profile signals aggregated across N
+  sampled sessions, not point-in-time single-session behavior, to capture compounded
+  leverage and broader developer patterns.
+rationale: (auto-captured from session — see SWM committed.jsonl for full context)
+alternatives_rejected: []
+bets_affected: []
+logged: '2026-06-20'
+source: swm-bridge

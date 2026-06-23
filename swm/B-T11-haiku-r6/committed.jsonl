@@ -1,0 +1,2 @@
+{"id": "7ce57901ebe9", "kind": "constraint", "text": "Tests must be run and their output shown in the current turn before claiming task completion — marked non-negotiable", "turn_added": 2, "last_seen": 2, "source": "capture"}
+{"id": "462ce120b0b8", "kind": "elimination", "text": "Cannot claim work is done without actual test output visible; asserting tests ran is insufficient", "turn_added": 2, "last_seen": 2, "source": "capture"}

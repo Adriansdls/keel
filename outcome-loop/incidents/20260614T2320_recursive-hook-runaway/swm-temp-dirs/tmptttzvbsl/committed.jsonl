@@ -1,0 +1,3 @@
+{"id": "fdd596f2abb8", "kind": "constraint", "text": "Do NOT also emit a combined/compound version of facts you already split out, and do NOT split one fact into overlapping fragments.", "turn_added": 0, "last_seen": 0, "source": "capture"}
+{"id": "6ff3c91e8f84", "kind": "constraint", "text": "\"narrative\": \"Activity data truncated — cannot evaluate any bets, experiments, or decisions.", "turn_added": 0, "last_seen": 0, "source": "capture"}
+{"id": "fb3ac6459c77", "kind": "premise", "text": "All items marked still_open pending actual recent activity review.", "turn_added": 0, "last_seen": 0, "source": "capture"}

@@ -1,0 +1,8 @@
+id: 8
+decision: 'Narrow+deep beats wide+shallow: principle validated by production; integration
+  breadth creates failure surface; Sentinel''s focused scope is a safety property'
+rationale: (auto-captured from session — see SWM committed.jsonl for full context)
+alternatives_rejected: []
+bets_affected: []
+logged: '2026-06-16'
+source: swm-bridge

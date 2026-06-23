@@ -1,0 +1,8 @@
+id: 81
+decision: 'Scan race condition fixed: SSE opens first, scan POST fires on open event
+  only, guarded by scanFiredRef in SessionFlow.tsx'
+rationale: (auto-captured from session — see SWM committed.jsonl for full context)
+alternatives_rejected: []
+bets_affected: []
+logged: '2026-06-19'
+source: swm-bridge

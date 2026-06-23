@@ -1,0 +1,9 @@
+id: 35
+decision: 'Verification scoring uses three anchors: 0.0 for assertion (many edits,
+  no checks), 0.5 for occasional verification (meaningful unconfirmed changes), 1.0
+  for evidence-driven (verify_calls keep pace with or exceed write_edits).'
+rationale: (auto-captured from session — see SWM committed.jsonl for full context)
+alternatives_rejected: []
+bets_affected: []
+logged: '2026-06-16'
+source: swm-bridge

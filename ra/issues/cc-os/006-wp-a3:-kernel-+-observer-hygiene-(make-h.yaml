@@ -1,0 +1,12 @@
+id: 6
+title: 'WP-A3: Kernel + observer hygiene (make habitat ''complete'')'
+status: idea
+priority: p1
+area: infra
+why: 'Dedupe/retire across the ~50 observers, fix the hook-output schema leaks (the
+  em_brief/em_drift schema corrections were a symptom of an unenforced ABI), one rubric
+  engine confirmed, modes/eventlog/budget/registry coherence, habitat selftest green.
+  This is what ''complete'' means: the contracts are clean + enforced + tested. Depends
+  A0.'
+created: '2026-06-01'
+updated: '2026-06-01'

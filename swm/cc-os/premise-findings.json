@@ -1,0 +1,1675 @@
+{
+  "ts": "2026-06-23T06:33:22+00:00",
+  "turns_since_full": 0,
+  "backend": "default+rule+rule(floor)",
+  "results": [
+    {
+      "premise_id": "407367e39db2",
+      "status": "challenged",
+      "evidence": "not evaluated (no backend)",
+      "source": "default",
+      "groundedness": 0.25
+    },
+    {
+      "premise_id": "4a17a312ded1",
+      "status": "challenged",
+      "evidence": "premise terms appear contradicted in recent context",
+      "source": "rule",
+      "groundedness": 1.0
+    },
+    {
+      "premise_id": "13ea786fa1ed",
+      "status": "challenged",
+      "evidence": "not evaluated (no backend)",
+      "source": "default",
+      "groundedness": 0.25
+    },
+    {
+      "premise_id": "9f315187ea09",
+      "status": "challenged",
+      "evidence": "not evaluated (no backend)",
+      "source": "default",
+      "groundedness": 0.25
+    },
+    {
+      "premise_id": "d8d7690fc59f",
+      "status": "challenged",
+      "evidence": "not evaluated (no backend)",
+      "source": "default",
+      "groundedness": 0.25
+    },
+    {
+      "premise_id": "6cdcd7df1546",
+      "status": "challenged",
+      "evidence": "not evaluated (no backend)",
+      "source": "default",
+      "groundedness": 0.25
+    },
+    {
+      "premise_id": "32b23831361d",
+      "status": "challenged",
+      "evidence": "not evaluated (no backend)",
+      "source": "default",
+      "groundedness": 0.25
+    },
+    {
+      "premise_id": "929950556c07",
+      "status": "challenged",
+      "evidence": "premise terms appear contradicted in recent context",
+      "source": "rule",
+      "groundedness": 1.0
+    },
+    {
+      "premise_id": "2332c4b46b2d",
+      "status": "challenged",
+      "evidence": "not evaluated (no backend)",
+      "source": "default",
+      "groundedness": 0.25
+    },
+    {
+      "premise_id": "a308d9730a4f",
+      "status": "challenged",
+      "evidence": "premise terms appear contradicted in recent context",
+      "source": "rule",
+      "groundedness": 1.0
+    },
+    {
+      "premise_id": "00d9abaff228",
+      "status": "challenged",
+      "evidence": "not evaluated (no backend)",
+      "source": "default",
+      "groundedness": 0.25
+    },
+    {
+      "premise_id": "7e6b4922f8a7",
+      "status": "challenged",
+      "evidence": "not evaluated (no backend)",
+      "source": "default",
+      "groundedness": 0.25
+    },
+    {
+      "premise_id": "3b06877b78fd",
+      "status": "challenged",
+      "evidence": "not evaluated (no backend)",
+      "source": "default",
+      "groundedness": 0.25
+    },
+    {
+      "premise_id": "ab555e531546",
+      "status": "challenged",
+      "evidence": "not evaluated (no backend)",
+      "source": "default",
+      "groundedness": 0.25
+    },
+    {
+      "premise_id": "482eb61111b9",
+      "status": "challenged",
+      "evidence": "not evaluated (no backend)",
+      "source": "default",
+      "groundedness": 0.25
+    },
+    {
+      "premise_id": "8a543b349896",
+      "status": "challenged",
+      "evidence": "not evaluated (no backend)",
+      "source": "default",
+      "groundedness": 0.25
+    },
+    {
+      "premise_id": "b26c9e5013ef",
+      "status": "invalid",
+      "evidence": "provisional premise now treated as settled (shared: both, completion, close)",
+      "source": "rule(floor)",
+      "groundedness": 1.0
+    },
+    {
+      "premise_id": "6477ea8299c2",
+      "status": "challenged",
+      "evidence": "not evaluated (no backend)",
+      "source": "default",
+      "groundedness": 0.25
+    },
+    {
+      "premise_id": "b7040c0c3ffc",
+      "status": "challenged",
+      "evidence": "not evaluated (no backend)",
+      "source": "default",
+      "groundedness": 0.25
+    },
+    {
+      "premise_id": "5f9ce02cd939",
+      "status": "challenged",
+      "evidence": "not evaluated (no backend)",
+      "source": "default",
+      "groundedness": 0.25
+    },
+    {
+      "premise_id": "eb226d399b18",
+      "status": "challenged",
+      "evidence": "not evaluated (no backend)",
+      "source": "default",
+      "groundedness": 0.25
+    },
+    {
+      "premise_id": "d0de03086e1b",
+      "status": "challenged",
+      "evidence": "not evaluated (no backend)",
+      "source": "default",
+      "groundedness": 0.25
+    },
+    {
+      "premise_id": "3fee68609807",
+      "status": "challenged",
+      "evidence": "not evaluated (no backend)",
+      "source": "default",
+      "groundedness": 0.25
+    },
+    {
+      "premise_id": "7c02e15eaa47",
+      "status": "challenged",
+      "evidence": "not evaluated (no backend)",
+      "source": "default",
+      "groundedness": 0.25
+    },
+    {
+      "premise_id": "7322ea3c1392",
+      "status": "challenged",
+      "evidence": "premise terms appear contradicted in recent context",
+      "source": "rule",
+      "groundedness": 1.0
+    },
+    {
+      "premise_id": "cb3b6f95f9b7",
+      "status": "challenged",
+      "evidence": "premise terms appear contradicted in recent context",
+      "source": "rule",
+      "groundedness": 1.0
+    },
+    {
+      "premise_id": "db7e5f966b86",
+      "status": "challenged",
+      "evidence": "not evaluated (no backend)",
+      "source": "default",
+      "groundedness": 0.25
+    },
+    {
+      "premise_id": "a69ee94d1280",
+      "status": "challenged",
+      "evidence": "not evaluated (no backend)",
+      "source": "default",
+      "groundedness": 0.25
+    },
+    {
+      "premise_id": "24e7a0858238",
+      "status": "challenged",
+      "evidence": "not evaluated (no backend)",
+      "source": "default",
+      "groundedness": 0.25
+    },
+    {
+      "premise_id": "306d7e55a9c9",
+      "status": "challenged",
+      "evidence": "premise terms appear contradicted in recent context",
+      "source": "rule",
+      "groundedness": 1.0
+    },
+    {
+      "premise_id": "08b413cd91da",
+      "status": "challenged",
+      "evidence": "not evaluated (no backend)",
+      "source": "default",
+      "groundedness": 0.25
+    },
+    {
+      "premise_id": "bcb22d3b9bcf",
+      "status": "challenged",
+      "evidence": "not evaluated (no backend)",
+      "source": "default",
+      "groundedness": 0.25
+    },
+    {
+      "premise_id": "b4f69ae2e326",
+      "status": "challenged",
+      "evidence": "not evaluated (no backend)",
+      "source": "default",
+      "groundedness": 0.25
+    },
+    {
+      "premise_id": "27acd9992f51",
+      "status": "challenged",
+      "evidence": "not evaluated (no backend)",
+      "source": "default",
+      "groundedness": 0.25
+    },
+    {
+      "premise_id": "3d2a0f4f3348",
+      "status": "challenged",
+      "evidence": "premise terms appear contradicted in recent context",
+      "source": "rule",
+      "groundedness": 1.0
+    },
+    {
+      "premise_id": "2cf7884ba69a",
+      "status": "challenged",
+      "evidence": "not evaluated (no backend)",
+      "source": "default",
+      "groundedness": 0.25
+    },
+    {
+      "premise_id": "ee0030419013",
+      "status": "challenged",
+      "evidence": "not evaluated (no backend)",
+      "source": "default",
+      "groundedness": 0.25
+    },
+    {
+      "premise_id": "e131f852cb38",
+      "status": "challenged",
+      "evidence": "not evaluated (no backend)",
+      "source": "default",
+      "groundedness": 0.25
+    },
+    {
+      "premise_id": "1ca9e65c58d2",
+      "status": "challenged",
+      "evidence": "premise terms appear contradicted in recent context",
+      "source": "rule",
+      "groundedness": 1.0
+    },
+    {
+      "premise_id": "7fca63752fc2",
+      "status": "challenged",
+      "evidence": "not evaluated (no backend)",
+      "source": "default",
+      "groundedness": 0.25
+    },
+    {
+      "premise_id": "1491480ac6af",
+      "status": "challenged",
+      "evidence": "not evaluated (no backend)",
+      "source": "default",
+      "groundedness": 0.25
+    },
+    {
+      "premise_id": "40c1555a9969",
+      "status": "challenged",
+      "evidence": "not evaluated (no backend)",
+      "source": "default",
+      "groundedness": 0.25
+    },
+    {
+      "premise_id": "7d695a1d5bfb",
+      "status": "challenged",
+      "evidence": "not evaluated (no backend)",
+      "source": "default",
+      "groundedness": 0.25
+    },
+    {
+      "premise_id": "2c0eaf20c0a1",
+      "status": "challenged",
+      "evidence": "not evaluated (no backend)",
+      "source": "default",
+      "groundedness": 0.25
+    },
+    {
+      "premise_id": "0aabfd54f455",
+      "status": "challenged",
+      "evidence": "not evaluated (no backend)",
+      "source": "default",
+      "groundedness": 0.25
+    },
+    {
+      "premise_id": "e351f43ec53c",
+      "status": "challenged",
+      "evidence": "not evaluated (no backend)",
+      "source": "default",
+      "groundedness": 0.25
+    },
+    {
+      "premise_id": "e6475cf1fcfc",
+      "status": "challenged",
+      "evidence": "not evaluated (no backend)",
+      "source": "default",
+      "groundedness": 0.25
+    },
+    {
+      "premise_id": "d5c17ae89574",
+      "status": "challenged",
+      "evidence": "not evaluated (no backend)",
+      "source": "default",
+      "groundedness": 0.25
+    },
+    {
+      "premise_id": "3250ad5fd150",
+      "status": "challenged",
+      "evidence": "not evaluated (no backend)",
+      "source": "default",
+      "groundedness": 0.25
+    },
+    {
+      "premise_id": "457d2029f2e4",
+      "status": "challenged",
+      "evidence": "not evaluated (no backend)",
+      "source": "default",
+      "groundedness": 0.25
+    },
+    {
+      "premise_id": "3d74c618a0fc",
+      "status": "challenged",
+      "evidence": "not evaluated (no backend)",
+      "source": "default",
+      "groundedness": 0.25
+    },
+    {
+      "premise_id": "5c7f506577b4",
+      "status": "challenged",
+      "evidence": "premise terms appear contradicted in recent context",
+      "source": "rule",
+      "groundedness": 1.0
+    },
+    {
+      "premise_id": "8198b5f22f35",
+      "status": "challenged",
+      "evidence": "premise terms appear contradicted in recent context",
+      "source": "rule",
+      "groundedness": 1.0
+    },
+    {
+      "premise_id": "13e876fd3df3",
+      "status": "challenged",
+      "evidence": "not evaluated (no backend)",
+      "source": "default",
+      "groundedness": 0.25
+    },
+    {
+      "premise_id": "607e1f459027",
+      "status": "challenged",
+      "evidence": "not evaluated (no backend)",
+      "source": "default",
+      "groundedness": 0.25
+    },
+    {
+      "premise_id": "d45ff9ac9acd",
+      "status": "challenged",
+      "evidence": "not evaluated (no backend)",
+      "source": "default",
+      "groundedness": 0.25
+    },
+    {
+      "premise_id": "9fcf46e00627",
+      "status": "challenged",
+      "evidence": "not evaluated (no backend)",
+      "source": "default",
+      "groundedness": 0.25
+    },
+    {
+      "premise_id": "e94c32e8d9e0",
+      "status": "challenged",
+      "evidence": "not evaluated (no backend)",
+      "source": "default",
+      "groundedness": 0.25
+    },
+    {
+      "premise_id": "c5966d6796c4",
+      "status": "challenged",
+      "evidence": "not evaluated (no backend)",
+      "source": "default",
+      "groundedness": 0.25
+    },
+    {
+      "premise_id": "47f1c4327f9f",
+      "status": "challenged",
+      "evidence": "not evaluated (no backend)",
+      "source": "default",
+      "groundedness": 0.25
+    },
+    {
+      "premise_id": "3e2c127c7b9e",
+      "status": "challenged",
+      "evidence": "not evaluated (no backend)",
+      "source": "default",
+      "groundedness": 0.25
+    },
+    {
+      "premise_id": "59b28f3dcd81",
+      "status": "challenged",
+      "evidence": "premise terms appear contradicted in recent context",
+      "source": "rule",
+      "groundedness": 1.0
+    },
+    {
+      "premise_id": "355f5e49256a",
+      "status": "challenged",
+      "evidence": "not evaluated (no backend)",
+      "source": "default",
+      "groundedness": 0.25
+    },
+    {
+      "premise_id": "8e7fd57a6cb8",
+      "status": "challenged",
+      "evidence": "not evaluated (no backend)",
+      "source": "default",
+      "groundedness": 0.25
+    },
+    {
+      "premise_id": "cec036d1ad2d",
+      "status": "challenged",
+      "evidence": "not evaluated (no backend)",
+      "source": "default",
+      "groundedness": 0.25
+    },
+    {
+      "premise_id": "64a2b054173d",
+      "status": "challenged",
+      "evidence": "premise terms appear contradicted in recent context",
+      "source": "rule",
+      "groundedness": 1.0
+    },
+    {
+      "premise_id": "f10d6afcb3c0",
+      "status": "challenged",
+      "evidence": "premise terms appear contradicted in recent context",
+      "source": "rule",
+      "groundedness": 1.0
+    },
+    {
+      "premise_id": "ce6091af10df",
+      "status": "challenged",
+      "evidence": "not evaluated (no backend)",
+      "source": "default",
+      "groundedness": 0.25
+    },
+    {
+      "premise_id": "b75c5a440588",
+      "status": "challenged",
+      "evidence": "not evaluated (no backend)",
+      "source": "default",
+      "groundedness": 0.25
+    },
+    {
+      "premise_id": "772ed5a8e32f",
+      "status": "challenged",
+      "evidence": "not evaluated (no backend)",
+      "source": "default",
+      "groundedness": 0.25
+    },
+    {
+      "premise_id": "385ecb1a408d",
+      "status": "challenged",
+      "evidence": "premise terms appear contradicted in recent context",
+      "source": "rule",
+      "groundedness": 1.0
+    },
+    {
+      "premise_id": "1791f6c21924",
+      "status": "challenged",
+      "evidence": "not evaluated (no backend)",
+      "source": "default",
+      "groundedness": 0.25
+    },
+    {
+      "premise_id": "091ea5d80c46",
+      "status": "challenged",
+      "evidence": "premise terms appear contradicted in recent context",
+      "source": "rule",
+      "groundedness": 1.0
+    },
+    {
+      "premise_id": "c8ec5aa024cd",
+      "status": "challenged",
+      "evidence": "not evaluated (no backend)",
+      "source": "default",
+      "groundedness": 0.25
+    },
+    {
+      "premise_id": "7c901613b9e7",
+      "status": "challenged",
+      "evidence": "not evaluated (no backend)",
+      "source": "default",
+      "groundedness": 0.25
+    },
+    {
+      "premise_id": "d73b06af62d7",
+      "status": "challenged",
+      "evidence": "not evaluated (no backend)",
+      "source": "default",
+      "groundedness": 0.25
+    },
+    {
+      "premise_id": "9699eb044260",
+      "status": "invalid",
+      "evidence": "provisional premise now treated as settled (shared: from, answer, stale)",
+      "source": "rule(floor)",
+      "groundedness": 1.0
+    },
+    {
+      "premise_id": "862fdfa6033f",
+      "status": "invalid",
+      "evidence": "provisional premise now treated as settled (shared: answer, files, make)",
+      "source": "rule(floor)",
+      "groundedness": 1.0
+    },
+    {
+      "premise_id": "82492c9e17ef",
+      "status": "challenged",
+      "evidence": "not evaluated (no backend)",
+      "source": "default",
+      "groundedness": 0.25
+    },
+    {
+      "premise_id": "130939039ac8",
+      "status": "invalid",
+      "evidence": "provisional premise now treated as settled (shared: will, final, next)",
+      "source": "rule(floor)",
+      "groundedness": 1.0
+    },
+    {
+      "premise_id": "fd6e1bd7cc7d",
+      "status": "challenged",
+      "evidence": "not evaluated (no backend)",
+      "source": "default",
+      "groundedness": 0.25
+    },
+    {
+      "premise_id": "30255251155b",
+      "status": "challenged",
+      "evidence": "not evaluated (no backend)",
+      "source": "default",
+      "groundedness": 0.25
+    },
+    {
+      "premise_id": "2e8f39e1e733",
+      "status": "challenged",
+      "evidence": "not evaluated (no backend)",
+      "source": "default",
+      "groundedness": 0.25
+    },
+    {
+      "premise_id": "efb03f2ee7d7",
+      "status": "challenged",
+      "evidence": "not evaluated (no backend)",
+      "source": "default",
+      "groundedness": 0.25
+    },
+    {
+      "premise_id": "44f29914b85b",
+      "status": "challenged",
+      "evidence": "not evaluated (no backend)",
+      "source": "default",
+      "groundedness": 0.25
+    },
+    {
+      "premise_id": "ce7644a25591",
+      "status": "challenged",
+      "evidence": "not evaluated (no backend)",
+      "source": "default",
+      "groundedness": 0.25
+    },
+    {
+      "premise_id": "1051c242b960",
+      "status": "challenged",
+      "evidence": "not evaluated (no backend)",
+      "source": "default",
+      "groundedness": 0.25
+    },
+    {
+      "premise_id": "63a35cbc1c18",
+      "status": "challenged",
+      "evidence": "not evaluated (no backend)",
+      "source": "default",
+      "groundedness": 0.25
+    },
+    {
+      "premise_id": "8721db45393c",
+      "status": "challenged",
+      "evidence": "not evaluated (no backend)",
+      "source": "default",
+      "groundedness": 1.0
+    },
+    {
+      "premise_id": "3cc0cd7f16b9",
+      "status": "challenged",
+      "evidence": "premise terms appear contradicted in recent context",
+      "source": "rule",
+      "groundedness": 1.0
+    },
+    {
+      "premise_id": "0dfb0455d95d",
+      "status": "challenged",
+      "evidence": "not evaluated (no backend)",
+      "source": "default",
+      "groundedness": 0.25
+    },
+    {
+      "premise_id": "8b8ca5ae9884",
+      "status": "challenged",
+      "evidence": "not evaluated (no backend)",
+      "source": "default",
+      "groundedness": 0.25
+    },
+    {
+      "premise_id": "6c088a9cabbf",
+      "status": "challenged",
+      "evidence": "not evaluated (no backend)",
+      "source": "default",
+      "groundedness": 0.25
+    },
+    {
+      "premise_id": "b205daf2058a",
+      "status": "challenged",
+      "evidence": "not evaluated (no backend)",
+      "source": "default",
+      "groundedness": 0.25
+    },
+    {
+      "premise_id": "7939beff9bd8",
+      "status": "challenged",
+      "evidence": "not evaluated (no backend)",
+      "source": "default",
+      "groundedness": 0.25
+    },
+    {
+      "premise_id": "a96fb1dc7221",
+      "status": "challenged",
+      "evidence": "not evaluated (no backend)",
+      "source": "default",
+      "groundedness": 0.25
+    },
+    {
+      "premise_id": "519db8dc8a37",
+      "status": "challenged",
+      "evidence": "not evaluated (no backend)",
+      "source": "default",
+      "groundedness": 0.25
+    },
+    {
+      "premise_id": "d8000b4aaea9",
+      "status": "challenged",
+      "evidence": "not evaluated (no backend)",
+      "source": "default",
+      "groundedness": 0.25
+    },
+    {
+      "premise_id": "e6f50072787f",
+      "status": "challenged",
+      "evidence": "not evaluated (no backend)",
+      "source": "default",
+      "groundedness": 0.25
+    },
+    {
+      "premise_id": "37bd439ecb89",
+      "status": "challenged",
+      "evidence": "not evaluated (no backend)",
+      "source": "default",
+      "groundedness": 0.25
+    },
+    {
+      "premise_id": "32288b001b4c",
+      "status": "challenged",
+      "evidence": "not evaluated (no backend)",
+      "source": "default",
+      "groundedness": 0.25
+    },
+    {
+      "premise_id": "4d47ea505553",
+      "status": "challenged",
+      "evidence": "not evaluated (no backend)",
+      "source": "default",
+      "groundedness": 0.25
+    },
+    {
+      "premise_id": "c586ccd7f6c9",
+      "status": "challenged",
+      "evidence": "not evaluated (no backend)",
+      "source": "default",
+      "groundedness": 0.25
+    },
+    {
+      "premise_id": "5a4afeb331d5",
+      "status": "challenged",
+      "evidence": "not evaluated (no backend)",
+      "source": "default",
+      "groundedness": 0.25
+    },
+    {
+      "premise_id": "56f3a44d78a7",
+      "status": "challenged",
+      "evidence": "not evaluated (no backend)",
+      "source": "default",
+      "groundedness": 0.25
+    },
+    {
+      "premise_id": "8829490f68e9",
+      "status": "challenged",
+      "evidence": "not evaluated (no backend)",
+      "source": "default",
+      "groundedness": 0.25
+    },
+    {
+      "premise_id": "7c5fa4e27ed2",
+      "status": "challenged",
+      "evidence": "not evaluated (no backend)",
+      "source": "default",
+      "groundedness": 0.25
+    },
+    {
+      "premise_id": "01d763a40462",
+      "status": "challenged",
+      "evidence": "not evaluated (no backend)",
+      "source": "default",
+      "groundedness": 0.25
+    },
+    {
+      "premise_id": "49ed64a06013",
+      "status": "challenged",
+      "evidence": "not evaluated (no backend)",
+      "source": "default",
+      "groundedness": 0.25
+    },
+    {
+      "premise_id": "db13511d9dab",
+      "status": "challenged",
+      "evidence": "not evaluated (no backend)",
+      "source": "default",
+      "groundedness": 0.25
+    },
+    {
+      "premise_id": "e6eeacc73dc1",
+      "status": "challenged",
+      "evidence": "not evaluated (no backend)",
+      "source": "default",
+      "groundedness": 0.25
+    },
+    {
+      "premise_id": "a1ee08e665fe",
+      "status": "challenged",
+      "evidence": "not evaluated (no backend)",
+      "source": "default",
+      "groundedness": 0.25
+    },
+    {
+      "premise_id": "286df42a0f32",
+      "status": "challenged",
+      "evidence": "not evaluated (no backend)",
+      "source": "default",
+      "groundedness": 0.25
+    },
+    {
+      "premise_id": "63b66b24d6a7",
+      "status": "challenged",
+      "evidence": "not evaluated (no backend)",
+      "source": "default",
+      "groundedness": 0.25
+    },
+    {
+      "premise_id": "424845af4947",
+      "status": "invalid",
+      "evidence": "provisional premise now treated as settled (shared: account, pending, audit)",
+      "source": "rule(floor)",
+      "groundedness": 1.0
+    },
+    {
+      "premise_id": "8d08ed96c7fa",
+      "status": "challenged",
+      "evidence": "not evaluated (no backend)",
+      "source": "default",
+      "groundedness": 0.25
+    },
+    {
+      "premise_id": "7fb41cd24e40",
+      "status": "challenged",
+      "evidence": "not evaluated (no backend)",
+      "source": "default",
+      "groundedness": 0.25
+    },
+    {
+      "premise_id": "9a4ea9fbaaa7",
+      "status": "challenged",
+      "evidence": "not evaluated (no backend)",
+      "source": "default",
+      "groundedness": 0.25
+    },
+    {
+      "premise_id": "57c5030e53b7",
+      "status": "challenged",
+      "evidence": "not evaluated (no backend)",
+      "source": "default",
+      "groundedness": 0.25
+    },
+    {
+      "premise_id": "f63f6dcc4cc0",
+      "status": "challenged",
+      "evidence": "not evaluated (no backend)",
+      "source": "default",
+      "groundedness": 0.25
+    },
+    {
+      "premise_id": "93288b1fec76",
+      "status": "challenged",
+      "evidence": "not evaluated (no backend)",
+      "source": "default",
+      "groundedness": 0.25
+    },
+    {
+      "premise_id": "7d688eaac04d",
+      "status": "challenged",
+      "evidence": "not evaluated (no backend)",
+      "source": "default",
+      "groundedness": 0.25
+    },
+    {
+      "premise_id": "bb3dd8321d47",
+      "status": "challenged",
+      "evidence": "not evaluated (no backend)",
+      "source": "default",
+      "groundedness": 0.25
+    },
+    {
+      "premise_id": "86cc672e809f",
+      "status": "challenged",
+      "evidence": "not evaluated (no backend)",
+      "source": "default",
+      "groundedness": 0.25
+    },
+    {
+      "premise_id": "33cbce81f47c",
+      "status": "challenged",
+      "evidence": "premise terms appear contradicted in recent context",
+      "source": "rule",
+      "groundedness": 1.0
+    },
+    {
+      "premise_id": "c904a1834c07",
+      "status": "challenged",
+      "evidence": "not evaluated (no backend)",
+      "source": "default",
+      "groundedness": 0.25
+    },
+    {
+      "premise_id": "2308a796657e",
+      "status": "challenged",
+      "evidence": "not evaluated (no backend)",
+      "source": "default",
+      "groundedness": 0.25
+    },
+    {
+      "premise_id": "716878142925",
+      "status": "challenged",
+      "evidence": "premise terms appear contradicted in recent context",
+      "source": "rule",
+      "groundedness": 1.0
+    },
+    {
+      "premise_id": "d6139c691b9c",
+      "status": "challenged",
+      "evidence": "not evaluated (no backend)",
+      "source": "default",
+      "groundedness": 0.25
+    },
+    {
+      "premise_id": "4d19cab4970c",
+      "status": "challenged",
+      "evidence": "not evaluated (no backend)",
+      "source": "default",
+      "groundedness": 0.25
+    },
+    {
+      "premise_id": "31b01e4af218",
+      "status": "challenged",
+      "evidence": "not evaluated (no backend)",
+      "source": "default",
+      "groundedness": 0.25
+    },
+    {
+      "premise_id": "a8274471c7e3",
+      "status": "challenged",
+      "evidence": "not evaluated (no backend)",
+      "source": "default",
+      "groundedness": 0.25
+    },
+    {
+      "premise_id": "ffa72006eb6c",
+      "status": "challenged",
+      "evidence": "not evaluated (no backend)",
+      "source": "default",
+      "groundedness": 0.25
+    },
+    {
+      "premise_id": "f5f6d447d698",
+      "status": "challenged",
+      "evidence": "not evaluated (no backend)",
+      "source": "default",
+      "groundedness": 0.25
+    },
+    {
+      "premise_id": "f866c8f28179",
+      "status": "invalid",
+      "evidence": "provisional premise now treated as settled (shared: session, rate, claims)",
+      "source": "rule(floor)",
+      "groundedness": 1.0
+    },
+    {
+      "premise_id": "6d8290b75ae4",
+      "status": "challenged",
+      "evidence": "not evaluated (no backend)",
+      "source": "default",
+      "groundedness": 0.25
+    },
+    {
+      "premise_id": "11611d12221b",
+      "status": "challenged",
+      "evidence": "not evaluated (no backend)",
+      "source": "default",
+      "groundedness": 0.25
+    },
+    {
+      "premise_id": "d5f37b6f80a7",
+      "status": "challenged",
+      "evidence": "not evaluated (no backend)",
+      "source": "default",
+      "groundedness": 0.25
+    },
+    {
+      "premise_id": "d670af81c4f4",
+      "status": "challenged",
+      "evidence": "not evaluated (no backend)",
+      "source": "default",
+      "groundedness": 0.25
+    },
+    {
+      "premise_id": "cf771b734331",
+      "status": "challenged",
+      "evidence": "not evaluated (no backend)",
+      "source": "default",
+      "groundedness": 0.25
+    },
+    {
+      "premise_id": "abec096d9157",
+      "status": "challenged",
+      "evidence": "not evaluated (no backend)",
+      "source": "default",
+      "groundedness": 0.25
+    },
+    {
+      "premise_id": "a97400daa43c",
+      "status": "challenged",
+      "evidence": "not evaluated (no backend)",
+      "source": "default",
+      "groundedness": 0.25
+    },
+    {
+      "premise_id": "538132ea0a41",
+      "status": "challenged",
+      "evidence": "not evaluated (no backend)",
+      "source": "default",
+      "groundedness": 0.25
+    },
+    {
+      "premise_id": "0c1a0f7616fd",
+      "status": "challenged",
+      "evidence": "not evaluated (no backend)",
+      "source": "default",
+      "groundedness": 0.25
+    },
+    {
+      "premise_id": "dc5e8e743d47",
+      "status": "challenged",
+      "evidence": "not evaluated (no backend)",
+      "source": "default",
+      "groundedness": 0.25
+    },
+    {
+      "premise_id": "8e8f31f27929",
+      "status": "challenged",
+      "evidence": "not evaluated (no backend)",
+      "source": "default",
+      "groundedness": 0.25
+    },
+    {
+      "premise_id": "b1595d9189ff",
+      "status": "challenged",
+      "evidence": "premise terms appear contradicted in recent context",
+      "source": "rule",
+      "groundedness": 1.0
+    },
+    {
+      "premise_id": "9d314cb3f4c0",
+      "status": "challenged",
+      "evidence": "not evaluated (no backend)",
+      "source": "default",
+      "groundedness": 0.25
+    },
+    {
+      "premise_id": "075b9c0017e5",
+      "status": "challenged",
+      "evidence": "not evaluated (no backend)",
+      "source": "default",
+      "groundedness": 0.25
+    },
+    {
+      "premise_id": "9c635bdcd5d4",
+      "status": "challenged",
+      "evidence": "not evaluated (no backend)",
+      "source": "default",
+      "groundedness": 0.25
+    },
+    {
+      "premise_id": "f770bf72b7f5",
+      "status": "challenged",
+      "evidence": "not evaluated (no backend)",
+      "source": "default",
+      "groundedness": 0.25
+    },
+    {
+      "premise_id": "0d4ddb3cc55f",
+      "status": "challenged",
+      "evidence": "not evaluated (no backend)",
+      "source": "default",
+      "groundedness": 0.25
+    },
+    {
+      "premise_id": "a10b82c0a1c8",
+      "status": "challenged",
+      "evidence": "not evaluated (no backend)",
+      "source": "default",
+      "groundedness": 0.25
+    },
+    {
+      "premise_id": "a5847899751a",
+      "status": "challenged",
+      "evidence": "not evaluated (no backend)",
+      "source": "default",
+      "groundedness": 0.25
+    },
+    {
+      "premise_id": "267843d3d923",
+      "status": "challenged",
+      "evidence": "not evaluated (no backend)",
+      "source": "default",
+      "groundedness": 0.25
+    },
+    {
+      "premise_id": "23d48ab11f48",
+      "status": "challenged",
+      "evidence": "not evaluated (no backend)",
+      "source": "default",
+      "groundedness": 0.25
+    },
+    {
+      "premise_id": "77496b7c1792",
+      "status": "challenged",
+      "evidence": "not evaluated (no backend)",
+      "source": "default",
+      "groundedness": 0.25
+    },
+    {
+      "premise_id": "a14b8e33c6db",
+      "status": "challenged",
+      "evidence": "not evaluated (no backend)",
+      "source": "default",
+      "groundedness": 0.25
+    },
+    {
+      "premise_id": "ef0bd7f26e9e",
+      "status": "challenged",
+      "evidence": "not evaluated (no backend)",
+      "source": "default",
+      "groundedness": 0.25
+    },
+    {
+      "premise_id": "aafaa8ae28c7",
+      "status": "challenged",
+      "evidence": "not evaluated (no backend)",
+      "source": "default",
+      "groundedness": 0.25
+    },
+    {
+      "premise_id": "310c743305ff",
+      "status": "challenged",
+      "evidence": "not evaluated (no backend)",
+      "source": "default",
+      "groundedness": 0.25
+    },
+    {
+      "premise_id": "8cfd544eff5b",
+      "status": "challenged",
+      "evidence": "not evaluated (no backend)",
+      "source": "default",
+      "groundedness": 0.25
+    },
+    {
+      "premise_id": "6197c50049e4",
+      "status": "challenged",
+      "evidence": "not evaluated (no backend)",
+      "source": "default",
+      "groundedness": 0.25
+    },
+    {
+      "premise_id": "630b8924b30a",
+      "status": "challenged",
+      "evidence": "not evaluated (no backend)",
+      "source": "default",
+      "groundedness": 0.25
+    },
+    {
+      "premise_id": "08078c8485dd",
+      "status": "challenged",
+      "evidence": "not evaluated (no backend)",
+      "source": "default",
+      "groundedness": 0.25
+    },
+    {
+      "premise_id": "895a14774511",
+      "status": "challenged",
+      "evidence": "not evaluated (no backend)",
+      "source": "default",
+      "groundedness": 0.25
+    },
+    {
+      "premise_id": "193d0a65e91d",
+      "status": "challenged",
+      "evidence": "not evaluated (no backend)",
+      "source": "default",
+      "groundedness": 0.25
+    },
+    {
+      "premise_id": "433425a900ad",
+      "status": "challenged",
+      "evidence": "not evaluated (no backend)",
+      "source": "default",
+      "groundedness": 0.25
+    },
+    {
+      "premise_id": "6a331e607ad8",
+      "status": "challenged",
+      "evidence": "not evaluated (no backend)",
+      "source": "default",
+      "groundedness": 0.25
+    },
+    {
+      "premise_id": "a1adbea10993",
+      "status": "challenged",
+      "evidence": "not evaluated (no backend)",
+      "source": "default",
+      "groundedness": 0.25
+    },
+    {
+      "premise_id": "f49455b5f114",
+      "status": "challenged",
+      "evidence": "not evaluated (no backend)",
+      "source": "default",
+      "groundedness": 0.25
+    },
+    {
+      "premise_id": "5f128a616648",
+      "status": "challenged",
+      "evidence": "premise terms appear contradicted in recent context",
+      "source": "rule",
+      "groundedness": 1.0
+    },
+    {
+      "premise_id": "463574a75473",
+      "status": "challenged",
+      "evidence": "not evaluated (no backend)",
+      "source": "default",
+      "groundedness": 0.25
+    },
+    {
+      "premise_id": "857ffda57413",
+      "status": "challenged",
+      "evidence": "not evaluated (no backend)",
+      "source": "default",
+      "groundedness": 0.25
+    },
+    {
+      "premise_id": "5d8d7eec5b65",
+      "status": "challenged",
+      "evidence": "not evaluated (no backend)",
+      "source": "default",
+      "groundedness": 0.25
+    },
+    {
+      "premise_id": "1d9ba6f061bb",
+      "status": "challenged",
+      "evidence": "not evaluated (no backend)",
+      "source": "default",
+      "groundedness": 0.25
+    },
+    {
+      "premise_id": "e1bccb271e15",
+      "status": "challenged",
+      "evidence": "not evaluated (no backend)",
+      "source": "default",
+      "groundedness": 0.25
+    },
+    {
+      "premise_id": "156378e1736b",
+      "status": "challenged",
+      "evidence": "not evaluated (no backend)",
+      "source": "default",
+      "groundedness": 0.25
+    },
+    {
+      "premise_id": "c26fd3e517ba",
+      "status": "challenged",
+      "evidence": "not evaluated (no backend)",
+      "source": "default",
+      "groundedness": 0.25
+    },
+    {
+      "premise_id": "034c1083d41c",
+      "status": "challenged",
+      "evidence": "not evaluated (no backend)",
+      "source": "default",
+      "groundedness": 0.25
+    },
+    {
+      "premise_id": "38656de1da17",
+      "status": "challenged",
+      "evidence": "not evaluated (no backend)",
+      "source": "default",
+      "groundedness": 0.25
+    },
+    {
+      "premise_id": "b4628331c577",
+      "status": "challenged",
+      "evidence": "not evaluated (no backend)",
+      "source": "default",
+      "groundedness": 0.25
+    },
+    {
+      "premise_id": "8622bd2a77a1",
+      "status": "challenged",
+      "evidence": "not evaluated (no backend)",
+      "source": "default",
+      "groundedness": 0.25
+    },
+    {
+      "premise_id": "f74c6a27b78e",
+      "status": "challenged",
+      "evidence": "not evaluated (no backend)",
+      "source": "default",
+      "groundedness": 0.25
+    },
+    {
+      "premise_id": "8fb12d652fba",
+      "status": "challenged",
+      "evidence": "not evaluated (no backend)",
+      "source": "default",
+      "groundedness": 0.25
+    },
+    {
+      "premise_id": "c6e87f285288",
+      "status": "challenged",
+      "evidence": "not evaluated (no backend)",
+      "source": "default",
+      "groundedness": 0.25
+    },
+    {
+      "premise_id": "b7afe59f96f7",
+      "status": "challenged",
+      "evidence": "not evaluated (no backend)",
+      "source": "default",
+      "groundedness": 0.25
+    },
+    {
+      "premise_id": "5287bd288f1d",
+      "status": "challenged",
+      "evidence": "not evaluated (no backend)",
+      "source": "default",
+      "groundedness": 0.25
+    },
+    {
+      "premise_id": "1eb9c7f0c2f9",
+      "status": "challenged",
+      "evidence": "not evaluated (no backend)",
+      "source": "default",
+      "groundedness": 0.25
+    },
+    {
+      "premise_id": "93f0c0b7fd53",
+      "status": "challenged",
+      "evidence": "not evaluated (no backend)",
+      "source": "default",
+      "groundedness": 0.25
+    },
+    {
+      "premise_id": "92396b1ae69f",
+      "status": "challenged",
+      "evidence": "not evaluated (no backend)",
+      "source": "default",
+      "groundedness": 0.25
+    },
+    {
+      "premise_id": "ee3c39a12008",
+      "status": "challenged",
+      "evidence": "not evaluated (no backend)",
+      "source": "default",
+      "groundedness": 0.25
+    },
+    {
+      "premise_id": "d7b074c6c518",
+      "status": "challenged",
+      "evidence": "not evaluated (no backend)",
+      "source": "default",
+      "groundedness": 0.25
+    },
+    {
+      "premise_id": "91e43eb6bd2c",
+      "status": "challenged",
+      "evidence": "not evaluated (no backend)",
+      "source": "default",
+      "groundedness": 0.25
+    },
+    {
+      "premise_id": "e4fef5027353",
+      "status": "invalid",
+      "evidence": "provisional premise now treated as settled (shared: config, across, with)",
+      "source": "rule(floor)",
+      "groundedness": 1.0
+    },
+    {
+      "premise_id": "e03603e8cfa0",
+      "status": "challenged",
+      "evidence": "not evaluated (no backend)",
+      "source": "default",
+      "groundedness": 0.25
+    },
+    {
+      "premise_id": "0cd0688d0d2e",
+      "status": "challenged",
+      "evidence": "premise terms appear contradicted in recent context",
+      "source": "rule",
+      "groundedness": 1.0
+    },
+    {
+      "premise_id": "acbade376f82",
+      "status": "challenged",
+      "evidence": "not evaluated (no backend)",
+      "source": "default",
+      "groundedness": 0.25
+    },
+    {
+      "premise_id": "aea903f76b33",
+      "status": "challenged",
+      "evidence": "not evaluated (no backend)",
+      "source": "default",
+      "groundedness": 0.25
+    },
+    {
+      "premise_id": "9b848090fe51",
+      "status": "challenged",
+      "evidence": "not evaluated (no backend)",
+      "source": "default",
+      "groundedness": 0.25
+    },
+    {
+      "premise_id": "b7b5a8288f69",
+      "status": "challenged",
+      "evidence": "not evaluated (no backend)",
+      "source": "default",
+      "groundedness": 0.25
+    },
+    {
+      "premise_id": "f40633cc9295",
+      "status": "challenged",
+      "evidence": "not evaluated (no backend)",
+      "source": "default",
+      "groundedness": 0.25
+    },
+    {
+      "premise_id": "ddf9dae8f555",
+      "status": "challenged",
+      "evidence": "not evaluated (no backend)",
+      "source": "default",
+      "groundedness": 0.25
+    },
+    {
+      "premise_id": "dfe851475699",
+      "status": "challenged",
+      "evidence": "not evaluated (no backend)",
+      "source": "default",
+      "groundedness": 0.25
+    },
+    {
+      "premise_id": "9fbb26cdb84a",
+      "status": "challenged",
+      "evidence": "premise terms appear contradicted in recent context",
+      "source": "rule",
+      "groundedness": 1.0
+    },
+    {
+      "premise_id": "ee3248137e1f",
+      "status": "challenged",
+      "evidence": "premise terms appear contradicted in recent context",
+      "source": "rule",
+      "groundedness": 1.0
+    },
+    {
+      "premise_id": "8f61144e13f2",
+      "status": "challenged",
+      "evidence": "not evaluated (no backend)",
+      "source": "default",
+      "groundedness": 0.25
+    },
+    {
+      "premise_id": "016bd98ebdd9",
+      "status": "challenged",
+      "evidence": "not evaluated (no backend)",
+      "source": "default",
+      "groundedness": 0.25
+    }
+  ],
+  "invalid": [
+    "b26c9e5013ef",
+    "9699eb044260",
+    "862fdfa6033f",
+    "130939039ac8",
+    "424845af4947",
+    "f866c8f28179",
+    "e4fef5027353"
+  ],
+  "challenged": [
+    "407367e39db2",
+    "4a17a312ded1",
+    "13ea786fa1ed",
+    "9f315187ea09",
+    "d8d7690fc59f",
+    "6cdcd7df1546",
+    "32b23831361d",
+    "929950556c07",
+    "2332c4b46b2d",
+    "a308d9730a4f",
+    "00d9abaff228",
+    "7e6b4922f8a7",
+    "3b06877b78fd",
+    "ab555e531546",
+    "482eb61111b9",
+    "8a543b349896",
+    "6477ea8299c2",
+    "b7040c0c3ffc",
+    "5f9ce02cd939",
+    "eb226d399b18",
+    "d0de03086e1b",
+    "3fee68609807",
+    "7c02e15eaa47",
+    "7322ea3c1392",
+    "cb3b6f95f9b7",
+    "db7e5f966b86",
+    "a69ee94d1280",
+    "24e7a0858238",
+    "306d7e55a9c9",
+    "08b413cd91da",
+    "bcb22d3b9bcf",
+    "b4f69ae2e326",
+    "27acd9992f51",
+    "3d2a0f4f3348",
+    "2cf7884ba69a",
+    "ee0030419013",
+    "e131f852cb38",
+    "1ca9e65c58d2",
+    "7fca63752fc2",
+    "1491480ac6af",
+    "40c1555a9969",
+    "7d695a1d5bfb",
+    "2c0eaf20c0a1",
+    "0aabfd54f455",
+    "e351f43ec53c",
+    "e6475cf1fcfc",
+    "d5c17ae89574",
+    "3250ad5fd150",
+    "457d2029f2e4",
+    "3d74c618a0fc",
+    "5c7f506577b4",
+    "8198b5f22f35",
+    "13e876fd3df3",
+    "607e1f459027",
+    "d45ff9ac9acd",
+    "9fcf46e00627",
+    "e94c32e8d9e0",
+    "c5966d6796c4",
+    "47f1c4327f9f",
+    "3e2c127c7b9e",
+    "59b28f3dcd81",
+    "355f5e49256a",
+    "8e7fd57a6cb8",
+    "cec036d1ad2d",
+    "64a2b054173d",
+    "f10d6afcb3c0",
+    "ce6091af10df",
+    "b75c5a440588",
+    "772ed5a8e32f",
+    "385ecb1a408d",
+    "1791f6c21924",
+    "091ea5d80c46",
+    "c8ec5aa024cd",
+    "7c901613b9e7",
+    "d73b06af62d7",
+    "82492c9e17ef",
+    "fd6e1bd7cc7d",
+    "30255251155b",
+    "2e8f39e1e733",
+    "efb03f2ee7d7",
+    "44f29914b85b",
+    "ce7644a25591",
+    "1051c242b960",
+    "63a35cbc1c18",
+    "8721db45393c",
+    "3cc0cd7f16b9",
+    "0dfb0455d95d",
+    "8b8ca5ae9884",
+    "6c088a9cabbf",
+    "b205daf2058a",
+    "7939beff9bd8",
+    "a96fb1dc7221",
+    "519db8dc8a37",
+    "d8000b4aaea9",
+    "e6f50072787f",
+    "37bd439ecb89",
+    "32288b001b4c",
+    "4d47ea505553",
+    "c586ccd7f6c9",
+    "5a4afeb331d5",
+    "56f3a44d78a7",
+    "8829490f68e9",
+    "7c5fa4e27ed2",
+    "01d763a40462",
+    "49ed64a06013",
+    "db13511d9dab",
+    "e6eeacc73dc1",
+    "a1ee08e665fe",
+    "286df42a0f32",
+    "63b66b24d6a7",
+    "8d08ed96c7fa",
+    "7fb41cd24e40",
+    "9a4ea9fbaaa7",
+    "57c5030e53b7",
+    "f63f6dcc4cc0",
+    "93288b1fec76",
+    "7d688eaac04d",
+    "bb3dd8321d47",
+    "86cc672e809f",
+    "33cbce81f47c",
+    "c904a1834c07",
+    "2308a796657e",
+    "716878142925",
+    "d6139c691b9c",
+    "4d19cab4970c",
+    "31b01e4af218",
+    "a8274471c7e3",
+    "ffa72006eb6c",
+    "f5f6d447d698",
+    "6d8290b75ae4",
+    "11611d12221b",
+    "d5f37b6f80a7",
+    "d670af81c4f4",
+    "cf771b734331",
+    "abec096d9157",
+    "a97400daa43c",
+    "538132ea0a41",
+    "0c1a0f7616fd",
+    "dc5e8e743d47",
+    "8e8f31f27929",
+    "b1595d9189ff",
+    "9d314cb3f4c0",
+    "075b9c0017e5",
+    "9c635bdcd5d4",
+    "f770bf72b7f5",
+    "0d4ddb3cc55f",
+    "a10b82c0a1c8",
+    "a5847899751a",
+    "267843d3d923",
+    "23d48ab11f48",
+    "77496b7c1792",
+    "a14b8e33c6db",
+    "ef0bd7f26e9e",
+    "aafaa8ae28c7",
+    "310c743305ff",
+    "8cfd544eff5b",
+    "6197c50049e4",
+    "630b8924b30a",
+    "08078c8485dd",
+    "895a14774511",
+    "193d0a65e91d",
+    "433425a900ad",
+    "6a331e607ad8",
+    "a1adbea10993",
+    "f49455b5f114",
+    "5f128a616648",
+    "463574a75473",
+    "857ffda57413",
+    "5d8d7eec5b65",
+    "1d9ba6f061bb",
+    "e1bccb271e15",
+    "156378e1736b",
+    "c26fd3e517ba",
+    "034c1083d41c",
+    "38656de1da17",
+    "b4628331c577",
+    "8622bd2a77a1",
+    "f74c6a27b78e",
+    "8fb12d652fba",
+    "c6e87f285288",
+    "b7afe59f96f7",
+    "5287bd288f1d",
+    "1eb9c7f0c2f9",
+    "93f0c0b7fd53",
+    "92396b1ae69f",
+    "ee3c39a12008",
+    "d7b074c6c518",
+    "91e43eb6bd2c",
+    "e03603e8cfa0",
+    "0cd0688d0d2e",
+    "acbade376f82",
+    "aea903f76b33",
+    "9b848090fe51",
+    "b7b5a8288f69",
+    "f40633cc9295",
+    "ddf9dae8f555",
+    "dfe851475699",
+    "9fbb26cdb84a",
+    "ee3248137e1f",
+    "8f61144e13f2",
+    "016bd98ebdd9"
+  ]
+}

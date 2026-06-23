@@ -1,0 +1,10 @@
+id: 1
+decision: 'Start a fresh CC session in ~/cc-workshop-vault/ to fix the MCP registration
+  issue. Rationale: Adrian likely started CC before setup.py registered the server
+  in .claude.json (session was already running 10m 57s), so the registration cannot
+  take effect until next session startup.'
+rationale: (auto-captured from session — see SWM committed.jsonl for full context)
+alternatives_rejected: []
+bets_affected: []
+logged: '2026-06-16'
+source: swm-bridge

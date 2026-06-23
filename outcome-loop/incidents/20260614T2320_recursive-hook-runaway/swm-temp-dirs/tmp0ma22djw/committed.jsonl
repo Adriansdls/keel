@@ -1,0 +1,2 @@
+{"id": "d7c1a0fb4889", "kind": "constraint", "text": "\"narrative\": \"Cannot perform meaningful retrospective review due to truncated activity data.", "turn_added": 0, "last_seen": 0, "source": "capture"}
+{"id": "6328053fad6d", "kind": "premise", "text": "All bets and experiments remain marked as still_open pending availability of recent work logs, commits, or session records that would provide evidence for resolution, contradiction, or staleness assessments.\"", "turn_added": 0, "last_seen": 0, "source": "capture"}

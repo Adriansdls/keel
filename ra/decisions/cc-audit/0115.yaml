@@ -1,0 +1,9 @@
+id: 115
+decision: Verify behavioral correctness through running actual tests rather than line-by-line
+  code review; use /run vitest run to confirm state behavior and edge cases execute
+  correctly
+rationale: (auto-captured from session — see SWM committed.jsonl for full context)
+alternatives_rejected: []
+bets_affected: []
+logged: '2026-06-20'
+source: swm-bridge

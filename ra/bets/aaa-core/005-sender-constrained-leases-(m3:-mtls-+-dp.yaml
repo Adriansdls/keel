@@ -1,0 +1,17 @@
+id: 5
+statement: 'Sender-constrained leases (M3: mTLS + DPoP-style proof-of-possession per
+  RFC 9449) close theft-of-first-use and caller binding without degrading agent UX/latency
+  enough to block adoption in real workflows.'
+rationale: what-is-protected.md and threat-model.md identify theft-of-first-use +
+  caller binding as the two open M3 gaps; DPoP is a proven web pattern; the question
+  is whether the latency/friction cost is acceptable inside an agent loop, which is
+  unproven.
+confidence: 0.4
+evidence_needed: Implement sender binding in M3; measure consume latency vs M1 baseline
+  in a real cc-os agent workflow; run a stolen-lease-presented-by-wrong-actor mutation
+  suite (must all refuse); characterize integration friction.
+status: active
+created: '2026-06-23'
+updated: '2026-06-23'
+updates: []
+source: null

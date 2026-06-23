@@ -1,0 +1,8 @@
+id: 2
+decision: 'cc-config-ui event concentration (113 events in 24h) warrants audit to
+  determine root cause: genuine scope growth or observer noise collection'
+rationale: (auto-captured from session — see SWM committed.jsonl for full context)
+alternatives_rejected: []
+bets_affected: []
+logged: '2026-06-15'
+source: swm-bridge

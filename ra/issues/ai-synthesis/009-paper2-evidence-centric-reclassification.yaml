@@ -1,0 +1,15 @@
+id: 9
+title: 'Paper2 evidence-centric reclassification (RQ3/RQ4) is the AI-weak judgment
+  step '
+status: idea
+priority: p1
+area: research
+why: 'Deciding whether a given assemblage''s evidence actually meets the operational
+  criteria for ''competition'' vs ''co-occurrence'' is interpretive appraisal — the
+  step where automated synthesis benchmarks worst (~0.62 RoB analogue) vs ~0.95 for
+  extraction. If fully automated, reviewers will reject it. Mitigation: human-validated
+  gold subset + inter-rater agreement (human vs model) reported as a method result.
+  This is the human-in-the-loop boundary (bet 2) made concrete for Paper 2.'
+created: '2026-06-01'
+updated: '2026-06-01'
+bet_id: 2

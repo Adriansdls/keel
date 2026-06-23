@@ -1,0 +1,12 @@
+id: 3
+decision: Keep product structure flat with all 21 Reforge skills in one ~/product/.claude/skills/
+  directory rather than splitting by disciplines
+rationale: One product (Raising Agents) means sub-splitting would create unnecessary
+  navigation friction with zero benefit at current scale. Splitting growth vs PMF
+  vs retention into sub-directories like ~/product/growth/ adds complexity without
+  proportional benefit.
+alternatives_rejected:
+- Sub-splitting by disciplines (growth, PMF, retention) within ~/product/
+bets_affected: []
+logged: '2026-06-15'
+source: auto-hook

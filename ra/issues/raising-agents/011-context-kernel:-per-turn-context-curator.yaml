@@ -1,0 +1,16 @@
+id: 11
+title: 'Context Kernel: per-turn context curator for Claude Code'
+status: idea
+priority: p1
+area: infra
+why: 'Claude Code degrades on long sessions: CLAUDE.md contradictions, raw tool output
+  bloat, compaction loss, attention rot. Users trust it, then get burned mid-task.
+  If we externalize state + curate per-turn working set, compaction never fires and
+  trust survives. Pairs with ra-pm as the project-state substrate.'
+hypothesis: 'A UserPromptSubmit-based curator that injects a small, ranked working-set
+  (project state from ra-pm, session deltas, sliced CLAUDE.md, last N tool results
+  compressed) keeps effective context under 30k tokens indefinitely while preserving
+  task continuity. Measurable: time-to-compaction → never; perceived "lost track"
+  incidents → ~0.'
+created: '2026-05-28'
+updated: '2026-05-28'

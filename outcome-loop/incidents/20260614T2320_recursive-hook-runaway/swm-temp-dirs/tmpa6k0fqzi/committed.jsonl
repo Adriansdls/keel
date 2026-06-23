@@ -1,0 +1,4 @@
+{"id": "c5243e10fcf5", "kind": "elimination", "text": "log_decision    — a firm project-level decision with rationale AND at least one rejected alternative explicitly stated.", "turn_added": 0, "last_seen": 0, "source": "capture"}
+{"id": "0a4577401294", "kind": "constraint", "text": "Do NOT capture soft preferences.", "turn_added": 0, "last_seen": 0, "source": "capture"}
+{"id": "304cee247995", "kind": "constraint", "text": "lude all items; emit 'still_open' for anything you cannot judge.", "turn_added": 0, "last_seen": 0, "source": "capture"}
+{"id": "f1fb7344bea7", "kind": "constraint", "text": "Cannot measure whether premature closure drops to near 0.", "turn_added": 0, "last_seen": 0, "source": "capture"}

@@ -1,0 +1,18 @@
+id: 7
+decision: 'Paper 1 is an ARCHAEOLOGY contribution (tool brought to the field), not
+  a CS/graph-theory contribution. Percolation theorem deferred to a future paper;
+  giant component treated as an empirically-measured property (saturation curve),
+  not a proven theorem. Novelty claim narrowed to: first end-to-end pipeline combining
+  LLM + knowledge graph + systematic-review discipline (search protocol + recall validation)
+  for archaeology. This REFINES (does not reverse) decision #4: the Cobo two-paper
+  spine still holds — Paper 1 methods, Paper 2 substantive.'
+rationale: 'Lucia (domain lead) reframed Paper 1 as archaeology. De-risks the build:
+  removes theorem-proving burden, removes graph-theory novelty requirement, softens
+  prior-art blocker (intro v3 Section 1.4 already positions against Graham/Yates,
+  Schimmenti ATR4CH, Baulin, Zhao, Kim, Das, Peters). Contribution is a validated,
+  open, reproducible tool demonstrated on Neanderthal-carnivore interactions. The
+  two-paper structure is unchanged.'
+alternatives_rejected: []
+bets_affected: []
+logged: '2026-06-02'
+source: null

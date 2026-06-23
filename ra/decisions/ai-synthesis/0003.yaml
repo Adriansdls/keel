@@ -1,0 +1,32 @@
+id: 3
+decision: 'Reframe the paper spine away from EBM-style "agentic synthesis transforms
+  archaeology" toward "reproducible, recall-guaranteed corpus construction + taxonomic/ontology
+  harmonization via agentic citation-graph synthesis, demonstrated on a Final Palaeolithic
+  NAC / archaeology literature-as-data problem." Position at the archaeology ∩ meta-science
+  intersection (synthesis OF the literature''s structure: taxonomy, citation graph,
+  inter-observer variation), NOT synthesis of dirt-level interpretive evidence. Concede
+  the throughput/pooling framing does not fit archaeology; win on the unit-instability
+  + searching-catastrophe problems that EBM has already solved away and archaeology
+  has not.'
+rationale: 'Research 1 (adversarial) verdict: archaeology is LEAST positioned for
+  EBM-style synthesis (''mismatch is fundamental, not incremental''). Submitting the
+  naive thesis invites a fatal reviewer-2 rejection on exactly that logic. But the
+  report''s own meta-science loophole — ''AI can treat archaeological publication
+  patterns, citation networks, and methodological debates as data'' — plus the documented
+  91% failure of de novo LLM search, converts archaeology''s weakness into the strongest
+  available wedge: the unsolved frontier of agentic synthesis is ontology repair under
+  unstable units, and archaeology is the proving ground because its units are provably
+  broken (Riede/CLIOARCH). This reframe survives the adversarial read intact.'
+alternatives_rejected:
+- Naive thesis 'agentic synthesis transforms archaeology like EBM' — falsified by
+  Research 1, fatal under review
+- Pivot to a well-positioned domain (ecology/biomedicine living reviews) — crowded,
+  validated, owned by Elicit/FutureHouse/Cochrane; no defensible wedge
+- Abandon archaeology framing entirely — discards the MSCA fit and the one genuinely
+  open, ownable problem
+bets_affected:
+- 1
+- 3
+- 4
+logged: '2026-06-01'
+source: null

@@ -1,0 +1,12 @@
+id: 10
+title: 'WP-B2: The Steward''s senses (signal adapters + failing-turn retriever)'
+status: idea
+priority: p1
+area: infra
+why: 'Read-only skills the loop calls: adapters over the live signals (constitution-rubric.jsonl,
+  beast drift.jsonl, trust scores, recurring corrections, EM field, eventlog) + the
+  failing-turn retriever (given a leaking dim, pull the actual transcript turns behind
+  it from the eventlog). The senses are what make the investigation EVIDENCE-grounded
+  vs stat-only. Depends A0/A2.'
+created: '2026-06-01'
+updated: '2026-06-01'

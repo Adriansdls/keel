@@ -1,0 +1,7 @@
+{"id": "b1baf0daf6d9", "kind": "decision", "text": "Support outer join semantics when concatenating datasets with different variables (matching pandas.concat behavior)", "turn_added": 2, "last_seen": 2, "source": "capture"}
+{"id": "c43d78cfc71c", "kind": "decision", "text": "Fill missing data variables with NaN instead of raising errors", "turn_added": 2, "last_seen": 2, "source": "capture"}
+{"id": "011816d01a64", "kind": "decision", "text": "Promote integer types to float64 to accommodate NaN", "turn_added": 2, "last_seen": 2, "source": "capture"}
+{"id": "17fd01111e99", "kind": "decision", "text": "Preserve validation of structural coordinates (dimension-related coordinates still raise errors if missing)", "turn_added": 2, "last_seen": 2, "source": "capture"}
+{"id": "01836d4b5792", "kind": "elimination", "text": "Rejected requiring users to create dummy variables filled with NaN", "turn_added": 2, "last_seen": 2, "source": "capture"}
+{"id": "fcab656ef0cc", "kind": "elimination", "text": "Rejected dropping mismatched variables as a solution", "turn_added": 2, "last_seen": 2, "source": "capture"}
+{"id": "fbfd33f7c971", "kind": "premise", "text": "Test results claimed as passing without evidence shown", "turn_added": 2, "last_seen": 2, "source": "capture"}

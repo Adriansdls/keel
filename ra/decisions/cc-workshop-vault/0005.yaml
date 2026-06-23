@@ -1,0 +1,8 @@
+id: 5
+decision: CLAUDE.md now explicitly blocks the pattern of inferring MCP unavailable
+  from SWM behavior
+rationale: (auto-captured from session — see SWM committed.jsonl for full context)
+alternatives_rejected: []
+bets_affected: []
+logged: '2026-06-17'
+source: swm-bridge

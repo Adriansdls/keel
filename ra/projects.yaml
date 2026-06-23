@@ -1,0 +1,165 @@
+- id: raising-agents
+  name: Raising Agents
+  status: active
+  workspace_path: ~/raising-agents
+  description: Measures agent behavior. Ships evidence-first content for engineers.
+  area: null
+  last_touched: '2026-06-14'
+  created: '2026-05-26'
+- id: tostadito
+  name: Tostadito
+  status: active
+  workspace_path: ~/Desktop/tostadito
+  description: Next.js expense tracker with Turso + Telegram bot. tostadito.vercel.app
+  area: null
+  last_touched: '2026-06-14'
+  created: '2026-05-26'
+- id: trust-architecture
+  name: Trust Architecture Demo
+  status: active
+  workspace_path: ~/Desktop/desktop/code/trust-architecture-demo
+  description: Demo app for full trust architecture showcase.
+  area: null
+  last_touched: '2026-06-14'
+  created: '2026-05-26'
+- id: ai-intel-bot
+  name: AI Intel Bot
+  status: active
+  workspace_path: ~/innovation
+  description: Vendor intelligence system — scraper + Claude + Obsidian + Slack +
+    Modal. Two Azure DevOps repos.
+  area: null
+  last_touched: '2026-06-23'
+  created: '2026-05-26'
+- id: cohabit
+  name: Cohabit
+  status: active
+  workspace_path: ~/.cohabit
+  description: Living organism / cognitive cohabitation system. Includes ~/innovation/trends/
+    Neo4j KG.
+  area: null
+  last_touched: '2026-06-14'
+  created: '2026-05-26'
+- id: paper-3
+  name: Paper 3 — Graph Vision
+  status: active
+  workspace_path: ~/Desktop/agent-behavior-workbench
+  description: Mined contracts (process mining) + topology classifier. Agent Behavior
+    Workbench as spine.
+  area: null
+  last_touched: '2026-06-14'
+  created: '2026-05-26'
+- id: finance
+  name: Personal Finance System
+  status: active
+  workspace_path: ~/finance
+  description: Specialized Claude Code finance instance. GoCardless banking. €30K
+    pool goal Mar 2027.
+  area: null
+  last_touched: '2026-06-14'
+  created: '2026-05-26'
+- id: heuristics-and-praxis
+  name: Heuristics and Praxis
+  status: active
+  workspace_path: ~/Desktop/heuristics-and-praxis
+  description: H&P system for capturing and operationalizing personal working heuristics.
+  area: null
+  last_touched: '2026-06-14'
+  created: '2026-05-26'
+- id: habitat
+  name: Habitat
+  status: active
+  workspace_path: /Users/adriandelasierra/habitat
+  description: The Claude Code distribution. Kernel + observer registry + trust scorer
+    + mode router. Replaces competing hooks with one dispatcher, 18 observers, LLM-grade
+    trust enforcement, subscription-keyed LLM paths. raising-agents/habitat on GitHub.
+  area: null
+  last_touched: '2026-06-14'
+  created: '2026-05-30'
+- id: myvault
+  name: myvault
+  status: active
+  workspace_path: /tmp/claude-502/habitat-app-test-kbcwtlx0/myvault
+  description: A test knowledge app
+  area: null
+  last_touched: '2026-06-14'
+  created: '2026-05-31'
+- id: plainapp
+  name: plainapp
+  status: active
+  workspace_path: /tmp/claude-502/habitat-app-test-kbcwtlx0/plainapp
+  description: A stateless app
+  area: null
+  last_touched: '2026-06-14'
+  created: '2026-05-31'
+- id: cto-strategy
+  name: cto-strategy
+  status: active
+  workspace_path: /Users/adriandelasierra/cto-strategy
+  description: Angel Brain — CTO Strategy Vault
+  area: null
+  last_touched: '2026-06-14'
+  created: '2026-05-31'
+- id: finances
+  name: finances
+  status: active
+  workspace_path: /Users/adriandelasierra/finances
+  description: Finz — Sistema de gestión financiera familiar
+  area: null
+  last_touched: '2026-06-14'
+  created: '2026-05-31'
+- id: build-agent
+  name: build-agent
+  status: active
+  workspace_path: /Users/adriandelasierra/habitat/skills/build-agent
+  description: 'Adopted app: build-agent'
+  area: null
+  last_touched: '2026-06-14'
+  created: '2026-05-31'
+- id: ai-synthesis
+  name: AI Synthesis
+  status: active
+  workspace_path: /Users/adriandelasierra/ai-synthesis
+  description: 'Agentic, LLM-based research-synthesis process — first for archaeology,
+    designed to generalise. Target output: a co-authored paper anchored to an MSCA
+    (Marie Skłodowska-Curie Actions) project. Coauthors: Adrian + MSCA fellow.'
+  area: research
+  last_touched: '2026-06-14'
+  created: '2026-06-01'
+- id: cc-os
+  name: CC OS (Claude Code OS + the Steward)
+  status: active
+  workspace_path: ~/zartis-agent
+  description: 'Governance OS for Claude Code: kernel (habitat) + governed-capability
+    framework (zartis-agent) + the living constitution (compiled/drift-checked/evidence-evolved/human-ratified).
+    The OS Steward is the one real agent: an unattended governed loop that investigates
+    governance drift and petitions amendments for human ratification. Target: adoption
+    at Zartis + across clients (tech consulting / Anthropic partner).'
+  area: null
+  last_touched: '2026-06-14'
+  created: '2026-06-01'
+- id: process-integrity
+  name: Process Integrity — Diagnostic Contract Experiments
+  status: active
+  workspace_path: /Users/adriandelasierra/zartis-agent/experiments/process-integrity/exact-payload-replay
+  description: A suite of experiments testing whether live diagnostic contracts can
+    prevent ungoverned LLM agents from narrativizing partial evidence into premature
+    closure under action pressure. Ground truth is 12 validated failure cases mined
+    from real Claude Code session logs; the c5ee OpenAlex incident is the canonical
+    specimen for exact payload reconstruction and replay.
+  area: research
+  last_touched: '2026-06-14'
+  created: '2026-06-04'
+- id: aaa-core
+  name: Agent Execution Assurance (aaa-core)
+  status: active
+  workspace_path: /Users/adriandelasierra/aaa-core
+  description: OSS-clean Apache-2.0 Python reference implementation of the protected
+    effect endpoint + atomic single-use Action Lease primitive. An agent cannot perform
+    a consequential external action unless independent evidence and policy authorise
+    that exact action, and that authorisation is consumed atomically at the effect
+    boundary. M1 vertical slice is deploy(service, commit_sha, environment); intended
+    as the substrate of a commercial Agent Action Assurance Pilot consulting offer.
+  area: dev
+  last_touched: '2026-06-23'
+  created: '2026-06-23'

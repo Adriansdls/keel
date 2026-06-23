@@ -1,0 +1,8 @@
+id: 128
+decision: Created ScanReading.tsx component that self-writes character-by-character,
+  synced to scan progress, composing governance thesis live during scan completion
+rationale: (auto-captured from session — see SWM committed.jsonl for full context)
+alternatives_rejected: []
+bets_affected: []
+logged: '2026-06-21'
+source: swm-bridge

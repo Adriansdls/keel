@@ -1,0 +1,17 @@
+id: 3
+hypothesis: If we build a minimal end-to-end agentic synthesis pipeline (search →
+  screen → extract → harmonise → aggregate) and run it on one bounded archaeology
+  question with an existing human-authored synthesis as ground truth, then it will
+  reproduce the human findings within a defensible tolerance while surfacing ≥1 relation
+  a single analyst plausibly missed.
+bet_id: 3
+method: Scope an MVP on a question with a published human synthesis (Riede/CLIOARCH
+  taxonomy, Egeland butchery, or Buss whales); compare machine output to the human
+  result on coverage, extraction fidelity, and novel-relation discovery; document
+  divergences.
+expected_learning: Whether the discipline-transforming claim survives contact with
+  a real corpus, and which architecture components are load-bearing vs. theatre —
+  the spine of the MSCA paper's empirical contribution.
+status: completed
+started: '2026-06-01'
+completed: '2026-06-06'

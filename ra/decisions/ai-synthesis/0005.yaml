@@ -1,0 +1,32 @@
+id: 5
+decision: 'Adopt the boundary-condition architecture (Research 2) as the spine of
+  Paper 1. Paper 1 = framework + methods (PECO-for-observational, observable/interpreted
+  separation with dual confidence fields, descriptive-only autonomous synthesis /
+  RAG-only no-generative-interpretation, per-claim provenance data model, IOV-as-first-class-metadata,
+  versioned-taxonomy-with-coherence-scores) — generalisable, deadline-critical. Paper
+  2 = Lucia-led Neanderthal-carnivore application. Worked-example reconciliation:
+  Neanderthal-carnivore is the primary demo (Lucia''s expertise + existing draft +
+  deadline-feasible + gold-standard reviews Brugal&Fosse 2004 / Hussain 2022); CLIOARCH/Final-Palaeolithic
+  is the high-credibility stretch validation that requires a Riede/Aarhus collaboration
+  and is therefore a parallel/post-submission track, not the Aug-31 critical path.'
+rationale: Research 2 supplies the affirmative architecture that routes around Research
+  1's 'archaeology least-positioned for EBM pooling' verdict, and frames the contribution
+  as domain-led methodology (the moat) rather than AI engineering (commodity) — which
+  is exactly right for a domain-expert-co-authored MSCA paper. The boundary-condition
+  partition is a framework, publishable without a complete system. CLIOARCH has cleaner
+  ground truth but its 'non-negotiable CLIOARCH-team co-design' dependency and 14-week
+  build path are infeasible for Aug-31; Neanderthal-carnivore is owned by Lucia and
+  already drafted.
+alternatives_rejected:
+- CLIOARCH/Final-Palaeolithic as primary worked example (cleanest ground truth but
+  needs Riede collaboration + morphometric pipeline rebuild; infeasible by Aug-31)
+- Single combined paper (loses the methods/application separation that de-risks and
+  that both reports' structure supports)
+- Build the full 7-layer system before publishing (the 14-week MVP map is the roadmap,
+  not the paper scope — scope-creep trap)
+bets_affected:
+- 1
+- 2
+- 3
+logged: '2026-06-01'
+source: null

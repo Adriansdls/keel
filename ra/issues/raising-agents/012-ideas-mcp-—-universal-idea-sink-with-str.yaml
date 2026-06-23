@@ -1,0 +1,13 @@
+id: 12
+title: Ideas MCP — universal idea sink with strategic links
+status: idea
+priority: p2
+area: infra
+why: 'Adrian asked if a dedicated ideas-MCP would help. ra-pm already does this via
+  ra_capture (with why + hypothesis + project link). Need to decide: extend ra-pm
+  or fork an "ideas" server. Default: extend ra-pm — fewer surfaces, ideas already
+  link to bets/experiments/projects.'
+hypothesis: Splitting ideas into a separate MCP loses the strategic linkage (bet_id,
+  experiment_id, project). One sink with cheap capture beats two surfaces.
+created: '2026-05-28'
+updated: '2026-05-28'

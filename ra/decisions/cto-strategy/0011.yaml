@@ -1,0 +1,8 @@
+id: 11
+decision: ≥80% of engineering team must complete structured AI retraining module,
+  skill-tested not attendance-counted
+rationale: (auto-captured from session — see SWM committed.jsonl for full context)
+alternatives_rejected: []
+bets_affected: []
+logged: '2026-06-16'
+source: swm-bridge

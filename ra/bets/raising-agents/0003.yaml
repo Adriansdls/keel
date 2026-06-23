@@ -1,0 +1,16 @@
+id: 3
+statement: Research-first sequencing (papers → credibility → audience) outperforms
+  content-first for this project's 3-year horizon
+rationale: The audience RA wants (engineers who build serious agents) is credibility-sensitive.
+  Content-first without research backing produces engagement, not behavior change.
+  Paper 1 + Paper 2 arriving before ep 010 means the audience that builds up is the
+  right one.
+confidence: 0.75
+evidence_needed: Subscriber quality indicators — what % are engineers actually building
+  agents (vs passive AI consumers). Inbound quality post paper submissions. Compare
+  peer newsletters that went content-first.
+status: active
+created: '2026-05-27'
+updated: '2026-06-14'
+updates: []
+source: null

@@ -1,0 +1,3 @@
+{"kind": "constraint", "text": "- record_signal is RAM-ephemeral in AITT (per-turn, never persisted,", "reason": "no_markdown_headers", "archived_reason": "invariant"}
+{"kind": "constraint", "text": "- **Verbatim-port the pure machinery, fresh-write the coupled page.** Correct — never port the 1160-line orgId-coupled flow.", "reason": "no_markdown_headers", "archived_reason": "invariant"}
+{"kind": "constraint", "text": "- If NO saved report.json: do NOT auto-run a full LLM cc-audit", "reason": "no_markdown_headers", "archived_reason": "invariant"}

@@ -1,0 +1,22 @@
+id: 9
+experiment_id: 3
+result: 'Classification backend defect found + fixed. claude -p has no temperature/seed
+  flag and batches 10 papers/prompt, so labels were nondeterministic AND batch-context-dependent
+  (gold-in-peripheral shifted 56->119 across runs purely from batch regrouping; cache
+  key = sha1(model+prompt)). Built llm_api.py: Anthropic SDK via context-proxy (ANTHROPIC_BASE_URL=127.0.0.1:8788),
+  temperature=0, batch_size=1 (paper-intrinsic), JSON-in-prompt parse (proxy strips
+  tool-use field), disk-cached/frozen. Proxy probe: temp=0 label stable 5/5. API triage
+  slice (337 gold+2000 nongold): core 312/246gold (79% precision), peripheral 487/86gold,
+  skip 1538/5gold. recall core+peripheral=0.985, projected full-42K survivors ~9812
+  (4.3x shrink) vs CLI 13342 (3.2x).'
+implication: 'Path B (API, temp=0, paper-intrinsic) is both more reproducible AND
+  a better operating point than CLI: core precision 79% vs 65%, shrink 4.3x vs 3.2x.
+  Cost: strands 86 gold in peripheral + drops 5 gold to skip (1.5% triage recall floor
+  loss). Tool-use/schema enforcement unavailable through the context-proxy (strips
+  tools field) -> use temp=0 JSON parse, reproducibility via disk cache not model
+  determinism. Exp 3 target now: recover 86 peripheral gold via citation links to
+  the 312-paper core. Next: re-run snowball go/no-go on stable API tiers with corrected
+  sweep (links-primary, coupling saturated at >=1) + forward co-citation.'
+confidence_delta: 0.05
+source: experiments/triage/stewart/slice_api.json + src/synthpipe/llm_api.py
+logged: '2026-06-05'

@@ -1,0 +1,8 @@
+{"id": "159856d39972", "kind": "constraint", "text": "\"reasoning\": \"No recent activity provided; cannot evaluate progress toward harmonisation demonstrator.\",", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "a9faa71f3d70", "kind": "constraint", "text": "\"reasoning\": \"No recent activity provided; cannot evaluate pipeline accuracy benchmark.\",", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "90e6feb21767", "kind": "constraint", "text": "\"reasoning\": \"No recent activity provided; cannot evaluate second-domain generalisation evidence.\",", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "43952ee8c3ce", "kind": "constraint", "text": "\"reasoning\": \"No recent activity provided; cannot evaluate percolation threshold experiment.\",", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "3210e11559cd", "kind": "constraint", "text": "\"reasoning\": \"No recent activity provided; cannot evaluate scoping module impact.\",", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "4da5510477db", "kind": "constraint", "text": "\"reasoning\": \"No recent activity provided; cannot evaluate net relevant yield metric.\",", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "f477138ef8bc", "kind": "constraint", "text": "\"reasoning\": \"No recent activity provided; cannot evaluate counterfactual conclusion-shift.\",", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "8f17aea58531", "kind": "premise", "text": "All bets and experiments remain open pending evidence from ongoing work.", "turn_added": 1, "last_seen": 1, "source": "capture"}

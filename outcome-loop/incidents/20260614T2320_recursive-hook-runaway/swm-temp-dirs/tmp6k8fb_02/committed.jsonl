@@ -1,0 +1,3 @@
+{"id": "83981f9fe9d2", "kind": "constraint", "text": "Cannot judge without experimental evidence.\",", "turn_added": 0, "last_seen": 0, "source": "capture"}
+{"id": "a40e8fbbb5b9", "kind": "constraint", "text": "Cannot judge without test execution data.\",", "turn_added": 0, "last_seen": 0, "source": "capture"}
+{"id": "84b997ad5c66", "kind": "premise", "text": "All three bets and two experiments remain open pending experimental evidence.", "turn_added": 0, "last_seen": 0, "source": "capture"}

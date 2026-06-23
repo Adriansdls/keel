@@ -1,0 +1,9 @@
+id: 105
+decision: High edits_per_session + near-zero n_artifacts = one-off work, score low.
+  Low edit rates + high n_artifacts = leverage-builders, score high. These are inverse
+  signals; cannot rely on edit frequency alone.
+rationale: (auto-captured from session — see SWM committed.jsonl for full context)
+alternatives_rejected: []
+bets_affected: []
+logged: '2026-06-20'
+source: swm-bridge

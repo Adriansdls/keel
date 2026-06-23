@@ -1,0 +1,5 @@
+{"id": "550868bc362e", "kind": "constraint", "text": "Do not edit or add test files", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "b10d1db1c771", "kind": "decision", "text": "Add validation to reject blueprint names containing dots in the Blueprint __init__ method", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "37999da5c227", "kind": "premise", "text": "Blueprint dots are significant for nested blueprints, making name validation necessary", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "49c655ba4974", "kind": "premise", "text": "Endpoint names already have validation against dots at line 364 in blueprints.py", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "af5a5f0d690b", "kind": "decision", "text": "Removed incorrect assertion from the implementation", "turn_added": 3, "last_seen": 3, "source": "capture"}

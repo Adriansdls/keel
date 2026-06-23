@@ -1,0 +1,17 @@
+id: 8
+decision: Stewart et al. 2025 (Frontiers in Mammal Science, 596-article megafauna-extinction
+  systematic review; Carli Peters / ICArEHB) is the PRIMARY replication target for
+  methods 2.9.1, framed as a retrieval-recall validation (reconstruct + exceed a published
+  keyword corpus). Buss et al. 2023 (great-whale PRISMA SR with an included-list)
+  is the backup if we add a true screening-recall second case; not blocking.
+rationale: Stewart's design (coded all 596 keyword-retrieved with a published search
+  strategy) uniquely yields both 'did citation-expansion recover the 596' and 'what
+  relevant papers did keyword search miss' -- the direct instantiation of the ~91%
+  keyword-miss thesis. Domain-adjacent to Neanderthal-carnivore (shared Quaternary
+  fauna/taphonomy literature -> overlapping citation graphs -> coherent two-case narrative).
+  ICArEHB/Carli Peters is an institutional ally for access and review. Adrian delegated
+  the choice; decided to optimize for thesis-instantiation + institutional fit.
+alternatives_rejected: []
+bets_affected: []
+logged: '2026-06-02'
+source: null

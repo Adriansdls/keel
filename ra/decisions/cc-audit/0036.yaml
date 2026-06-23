@@ -1,0 +1,10 @@
+id: 36
+decision: Read-only exploration sessions (zero write_edits) score on raw verification
+  frequency independent of code-change discipline; a 26-turn session with 12 verify_calls
+  and 0 edits (46% verification rate) scores 0.72 / L3 despite undefined verify-to-edit
+  ratio.
+rationale: (auto-captured from session — see SWM committed.jsonl for full context)
+alternatives_rejected: []
+bets_affected: []
+logged: '2026-06-16'
+source: swm-bridge

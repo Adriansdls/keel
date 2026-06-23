@@ -1,0 +1,3 @@
+{"id": "79d24970c52a", "kind": "constraint", "text": "Cannot evaluate the >80% catch rate / <20% false positive threshold without experimental data.\",", "turn_added": 0, "last_seen": 0, "source": "capture"}
+{"id": "f988581129a4", "kind": "constraint", "text": "Without replay runs suppressing or relabeling stale_session_limit snippets, cannot confirm whether premature_session_limit_closure drops to near 0.\",", "turn_added": 0, "last_seen": 0, "source": "capture"}
+{"id": "60a7431caf55", "kind": "premise", "text": "All verdicts default to still_open pending execution of the planned replay experiments.\"", "turn_added": 0, "last_seen": 0, "source": "capture"}

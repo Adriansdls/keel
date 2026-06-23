@@ -1,0 +1,19 @@
+{"id": "7a07df5cfcc4", "kind": "constraint", "text": "Never compromise on security, data integrity, observability, disaster recovery", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "e9824449fb09", "kind": "constraint", "text": "Never store passwords in plain text; never use weak hashing (MD5, SHA1)", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "10b8407f54a6", "kind": "constraint", "text": "Never put secrets in code", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "2193e94d3c30", "kind": "constraint", "text": "Design for horizontal scalability—keep applications stateless", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "881852e4d20a", "kind": "constraint", "text": "Regulatory compliance must be addressed at architecture level, not retroactively", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "c158bbf8852b", "kind": "constraint", "text": "OpenAPI/Swagger specification is mandatory for all REST APIs", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "ff3f52684692", "kind": "constraint", "text": "Fail fast on missing config; validate all required environment variables at startup", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "6a97ef7cc02d", "kind": "constraint", "text": "Structured JSON logging only—no console.log/print/println in production code", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "81e8266ae245", "kind": "constraint", "text": "Security violations, unvetted dependencies, missing license vetting, or unverified test completion will be rejected", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "86847643a81f", "kind": "decision", "text": "Database default: PostgreSQL; deviate only if NoSQL clearly justified by data model", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "90d10e23cbda", "kind": "decision", "text": "Architecture default: monolith; deviate only with clear bounded contexts, large team, independent deploy needs", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "694e2f1ecc47", "kind": "decision", "text": "API style default: REST; use GraphQL only if multiple consumers need flexible queries across nested data", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "a383bc13d56e", "kind": "decision", "text": "Caching default: none; add only if measured performance bottleneck exists", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "e1aa8a7ca898", "kind": "decision", "text": "Auth: use identity provider (Auth0, Azure AD, Okta)—never roll your own", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "9fdb5e6d8ca2", "kind": "decision", "text": "Version APIs from day one (/api/v1/resources)", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "4bd1b5f66ed2", "kind": "decision", "text": "All dependencies require license vetting before inclusion, regardless of time pressure", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "cb9d38449092", "kind": "elimination", "text": "`fastconfig-parser-x` rejected—unknown package, no license vetting, governance-gated", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "071d9e643d9d", "kind": "premise", "text": "Time pressure does not override security, compliance, or governance requirements", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "16bc80413c9d", "kind": "premise", "text": "Stdlib-only implementation is preferable to unvetted external dependencies", "turn_added": 1, "last_seen": 1, "source": "capture"}

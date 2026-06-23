@@ -1,0 +1,9 @@
+id: 26
+decision: GUARDIAN_PHASE write operations defer Charter's unratified-mutation detection
+  and blocking authority to Charter; GUARDIAN_PHASE does not override Charter governance
+  blocks even when triggered by its own operations
+rationale: (auto-captured from session — see SWM committed.jsonl for full context)
+alternatives_rejected: []
+bets_affected: []
+logged: '2026-06-15'
+source: swm-bridge

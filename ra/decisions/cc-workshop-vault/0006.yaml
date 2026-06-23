@@ -1,0 +1,9 @@
+id: 6
+decision: The Beast Mode Constitution is established as the single source of truth
+  for agent behavioral governance, serving as canonical input to interpreter hooks,
+  auditors, MCPs, and evolution loops.
+rationale: (auto-captured from session — see SWM committed.jsonl for full context)
+alternatives_rejected: []
+bets_affected: []
+logged: '2026-06-17'
+source: swm-bridge

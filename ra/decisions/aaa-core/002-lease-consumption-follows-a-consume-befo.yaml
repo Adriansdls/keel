@@ -1,0 +1,14 @@
+id: 2
+decision: 'Lease consumption follows a consume-before-effect lifecycle with no transaction
+  held open across the external effect call: TX1 (short, CAS issued->consumed_pending)
+  -> Effect (outside any tx) -> TX2 (short, terminal outcome). A stranded consumed_pending
+  is reconciled to consumed_unknown, NEVER back to issued.'
+rationale: 'ADR-0001: separates consumption (guaranteed) from effect success (not
+  guaranteed), so a failed or unknown effect yields an honest terminal state and a
+  lease that cannot be reused. Re-running the deploy requires a fresh lease (fresh
+  evidence + policy), not re-consume.'
+alternatives_rejected: []
+bets_affected:
+- 1
+logged: '2026-06-23'
+source: null

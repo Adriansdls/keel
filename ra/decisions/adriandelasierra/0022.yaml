@@ -1,0 +1,8 @@
+id: 22
+decision: Detection layer (logging + blocking, no Guardian agent) will be built first
+  as day-1 validation to observe what would be intercepted before wiring the LLM
+rationale: (auto-captured from session — see SWM committed.jsonl for full context)
+alternatives_rejected: []
+bets_affected: []
+logged: '2026-06-15'
+source: swm-bridge

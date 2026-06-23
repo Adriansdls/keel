@@ -1,0 +1,8 @@
+id: 51
+decision: 'Profile tab layout: AITT tab nav, L3 badge card, 2-col radar + signal triangulation,
+  axis breakdown bars, 2-col discrepancy finding cards'
+rationale: (auto-captured from session — see SWM committed.jsonl for full context)
+alternatives_rejected: []
+bets_affected: []
+logged: '2026-06-20'
+source: swm-bridge

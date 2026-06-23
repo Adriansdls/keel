@@ -1,0 +1,9 @@
+id: 41
+decision: 'Authoring score calibration: all one-off edits with high volume scores
+  ~0.3; mixed reusable plus one-off work scores ~0.6; heavy structured authoring with
+  durable outputs scores ~0.9'
+rationale: (auto-captured from session — see SWM committed.jsonl for full context)
+alternatives_rejected: []
+bets_affected: []
+logged: '2026-06-16'
+source: swm-bridge

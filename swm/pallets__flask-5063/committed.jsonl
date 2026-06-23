@@ -1,0 +1,7 @@
+{"id": "df507b6c0346", "kind": "constraint", "text": "Flask routes command currently doesn't display which routes are assigned to which subdomain", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "1e7135b88538", "kind": "constraint", "text": "SERVER_NAME configured as 'test.local' with subdomains: admin.test.local, test.test.local, test.local", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "550868bc362e", "kind": "constraint", "text": "Do NOT edit or add test files", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "08d7ef02c500", "kind": "decision", "text": "Add a Domain column to the routes output showing full domain for each route", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "bb3a1f0a5b0c", "kind": "decision", "text": "Domain is constructed as {subdomain}.{SERVER_NAME} for subdomain routes, or just {SERVER_NAME} for non-subdomain routes", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "c9abc29a23a5", "kind": "decision", "text": "Only show Domain column when SERVER_NAME is configured, to maintain backward compatibility", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "5dd0d770cefd", "kind": "decision", "text": "Modified src/flask/cli.py in the routes_command function to implement the feature", "turn_added": 1, "last_seen": 1, "source": "capture"}

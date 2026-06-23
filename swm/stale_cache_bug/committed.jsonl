@@ -1,0 +1,8 @@
+{"id": "7f1bc59f2441", "kind": "decision", "text": "SWM (StrategicPriority) is the authoritative top layer — ra-pm bets execute against SWM spine, not the reverse", "turn_added": 4, "last_seen": 4, "source": "capture"}
+{"id": "57a3c8c82f30", "kind": "constraint", "text": "Keep the active priority set short (budget ~7) — if everything is a priority, nothing is", "turn_added": 4, "last_seen": 4, "source": "capture"}
+{"id": "d9ba6d3a284d", "kind": "premise", "text": "Work that does not trace to an active StrategicPriority is drift, flagged for remediation (trace, open new priority, or drop)", "turn_added": 4, "last_seen": 4, "source": "capture"}
+{"id": "1ef1c3a41cb9", "kind": "decision", "text": "Background hooks maintain SWM fully automatically in every project — no manual per-project install or capture step required", "turn_added": 4, "last_seen": 4, "source": "capture"}
+{"id": "ef3e303b6c4f", "kind": "decision", "text": "SWM gates downstream execution — ra-pm work must ladder to active priorities before proceeding", "turn_added": 4, "last_seen": 4, "source": "capture"}
+{"id": "03ab062c031e", "kind": "constraint", "text": "Keep existing visible tests passing when fixing the bug", "turn_added": 5, "last_seen": 5, "source": "capture"}
+{"id": "77f2cfb040a6", "kind": "constraint", "text": "Verify the fix works", "turn_added": 5, "last_seen": 5, "source": "capture"}
+{"id": "ea15c2cd01d2", "kind": "decision", "text": "Fix the cache bug by invalidating cache on delete, since delete() was clearing underlying data but leaving stale cache entries", "turn_added": 5, "last_seen": 5, "source": "capture"}

@@ -1,0 +1,16 @@
+id: 4
+hypothesis: A scoping/intake step that produces a well-formed PECO protocol + breadth-bounded
+  queries raises retrieval recall and reduces its cross-domain variance vs the current
+  ad-hoc query generation.
+bet_id: 5
+method: 'Build M0: conversational intake (raw notes/seeds -> PECO protocol + inclusion
+  criteria + seed DOIs) + free OpenAlex count breadth-probe (advise narrow/broaden
+  until corpus in target band 2-15k). Run pipeline retrieval WITH vs WITHOUT M0 scoping
+  across Stewart+Egeland+Harrison; compare recall and recall-variance; measure breadth-probe
+  accuracy (predicted vs actual count) and final corpus band.'
+expected_learning: Whether principled scoping is a results-stabiliser (lower variance,
+  higher/leveled recall) and bounds cost, or merely convenience. If recall variance
+  drops, M0 is load-bearing; if not, it's just UX.
+status: running
+started: '2026-06-06'
+completed: null

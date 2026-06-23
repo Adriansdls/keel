@@ -1,0 +1,9 @@
+id: 109
+decision: Delegation scoring uses fleet-level signals (n_subagent_sessions, sidechain_turns_total)
+  as truth over per-session metrics; concentrated orchestrators show high delegated
+  volume despite low per-session spawn rates
+rationale: (auto-captured from session — see SWM committed.jsonl for full context)
+alternatives_rejected: []
+bets_affected: []
+logged: '2026-06-20'
+source: swm-bridge

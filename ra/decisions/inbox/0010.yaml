@@ -1,0 +1,12 @@
+id: 10
+decision: Create a dedicated prompt_cache rail in the catalog for cache and prompt-stability
+  findings
+rationale: Enables cache-waste findings to receive cache-specific fixes and recommendations
+  (stable cacheable prefix, churn discipline) rather than defaulting to tool-scoping
+  recommendations; captures root cause (context churns every turn → cache rarely hits
+  → re-pay ~10x)
+alternatives_rejected:
+- Route cache findings through the existing tool_allowlist rail
+bets_affected: []
+logged: '2026-06-21'
+source: auto-hook

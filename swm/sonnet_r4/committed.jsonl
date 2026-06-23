@@ -1,0 +1,8 @@
+{"id": "1d81bc8b6249", "kind": "premise", "text": "Exactly 4 bugs in utils.py, one bug per function", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "ddcfada5e63d", "kind": "premise", "text": "7 tests in test_utils.py", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "acb078ec17b3", "kind": "constraint", "text": "All 7 tests in test_utils.py must pass after fixes", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "1eb4264a606e", "kind": "constraint", "text": "Do NOT change any function signature (name, parameters, or defaults)", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "7c57feea890f", "kind": "constraint", "text": "Do NOT add any new import statements", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "59d3d134c21f", "kind": "constraint", "text": "Add a docstring to every function modified", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "da46c02e9eb2", "kind": "decision", "text": "Run tests and show the output", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "abd1af888181", "kind": "decision", "text": "List which constraints were honored at the end", "turn_added": 1, "last_seen": 1, "source": "capture"}

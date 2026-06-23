@@ -1,0 +1,13 @@
+id: 24
+title: '[ARCHAEOLOGIST] Institutional full-text access (EZproxy/library or logged-in
+  bro'
+status: idea
+priority: p1
+area: research
+why: 'Free OA gets only 48/337 (14%) full text; 90 publisher-403 + 148 non-OA need
+  university subscription access. Without it, full-text extraction (WP2/WP3) is limited
+  to the OA subset + abstract fallback. The archaeologist''s institutional login would
+  unlock most of the corpus. Blocker type (b): credentials only the co-author can
+  provide.'
+created: '2026-06-05'
+updated: '2026-06-05'

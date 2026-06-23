@@ -1,0 +1,9 @@
+id: 97
+decision: 'Three-point scale: 0.0=claims work done without checking (many writes,
+  almost no verifies); 0.5=verifies sometimes (significant unconfirmed changes); 1.0=evidence-driven
+  (verify calls keep pace with or exceed writes).'
+rationale: (auto-captured from session — see SWM committed.jsonl for full context)
+alternatives_rejected: []
+bets_affected: []
+logged: '2026-06-20'
+source: swm-bridge

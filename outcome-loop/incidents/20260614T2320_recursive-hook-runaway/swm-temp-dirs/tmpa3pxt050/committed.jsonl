@@ -1,0 +1,2 @@
+{"id": "becb4b9a3655", "kind": "constraint", "text": "Cannot determine if the >80% catch rate with <20% false positive threshold has been met.\",", "turn_added": 0, "last_seen": 0, "source": "capture"}
+{"id": "ec4db18a47cb", "kind": "constraint", "text": "Cannot assess whether premature_session_limit_closure rate has dropped as predicted.\",", "turn_added": 0, "last_seen": 0, "source": "capture"}

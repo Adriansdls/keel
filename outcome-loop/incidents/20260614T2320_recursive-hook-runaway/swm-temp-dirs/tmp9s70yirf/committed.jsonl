@@ -1,0 +1,2 @@
+{"id": "413d08891386", "kind": "premise", "text": "All items marked still_open pending actual activity review.", "turn_added": 0, "last_seen": 0, "source": "capture"}
+{"id": "5acc3449ebc6", "kind": "constraint", "text": "Cannot assess staleness or resolution without activity timestamps and outcomes.\"", "turn_added": 0, "last_seen": 0, "source": "capture"}

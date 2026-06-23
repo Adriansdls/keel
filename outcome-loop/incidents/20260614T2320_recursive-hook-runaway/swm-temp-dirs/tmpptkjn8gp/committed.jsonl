@@ -1,0 +1,3 @@
+{"id": "c5243e10fcf5", "kind": "elimination", "text": "log_decision    — a firm project-level decision with rationale AND at least one rejected alternative explicitly stated.", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "0a4577401294", "kind": "constraint", "text": "Do NOT capture soft preferences.", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "c9867a82a2ff", "kind": "premise", "text": "All seven bets and three experiments remain in still_open status pending evidence.", "turn_added": 1, "last_seen": 1, "source": "capture"}

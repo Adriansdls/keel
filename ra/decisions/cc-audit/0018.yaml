@@ -1,0 +1,9 @@
+id: 18
+decision: Verify-to-edit ratio (verify_calls ÷ write_edits) is the primary discriminator
+  for verification discipline; exceeding 3.6 with 100% session coverage indicates
+  L5 mastery
+rationale: (auto-captured from session — see SWM committed.jsonl for full context)
+alternatives_rejected: []
+bets_affected: []
+logged: '2026-06-16'
+source: swm-bridge

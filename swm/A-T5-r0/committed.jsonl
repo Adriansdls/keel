@@ -1,0 +1,17 @@
+{"id": "3d4cf1dbada7", "kind": "constraint", "text": "WCAG 2.1 AA compliance is non-negotiable", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "1f7d8db99ead", "kind": "constraint", "text": "Security, data integrity, observability, and disaster recovery are non-negotiable", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "9bf0297c4930", "kind": "constraint", "text": "Never store passwords in plain text, never use weak hashing (MD5, SHA1), never put secrets in code", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "6ef087a6f81f", "kind": "constraint", "text": "Never mock the database in integration tests; use a test database instead", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "ded781367622", "kind": "constraint", "text": "Test behavior, not implementation; assert on what users see or APIs return", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "ab4abcf9c0f5", "kind": "constraint", "text": "No TODO/FIXME comments in committed code", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "c158bbf8852b", "kind": "constraint", "text": "OpenAPI/Swagger specification is mandatory for all REST APIs", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "d29ae22a8581", "kind": "constraint", "text": "API versioning required from day one (/api/v1/...)", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "a259bac83dc3", "kind": "constraint", "text": "Authorization model: use permissions OR roles, never both simultaneously", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "7998a25dd0aa", "kind": "constraint", "text": "Never roll your own auth; use identity provider (Auth0, Azure AD, Okta)", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "2193e94d3c30", "kind": "constraint", "text": "Design for horizontal scalability; keep applications stateless", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "8beeff5e0f81", "kind": "constraint", "text": "Structured JSON logging only in production; no console.log/println/print", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "ff3f52684692", "kind": "constraint", "text": "Fail fast on missing config; validate all required environment variables at startup", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "03d92b415f5c", "kind": "decision", "text": "Customer tech stack preference takes priority over company defaults", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "3a617bdfcf33", "kind": "decision", "text": "Choose simplest solution by default; complexity only justified by measured perf issue, regulatory requirement, or proven bottleneck", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "c49a529c2962", "kind": "elimination", "text": "Do not use unvetted or unknown third-party packages due to supply-chain risk", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "8ca8182d0493", "kind": "elimination", "text": "Company engineering heuristics are non-negotiable regardless of deadline pressure", "turn_added": 1, "last_seen": 1, "source": "capture"}

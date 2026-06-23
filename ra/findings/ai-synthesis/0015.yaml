@@ -1,0 +1,23 @@
+id: 15
+experiment_id: 3
+result: 'Wired Elsevier + Semantic Scholar credentials into the resolver factory (.env,
+  gitignored, never printed; added dependency-free .env loader to config.py). Built
+  s2_open resolver (S2 openAccessPdf, public-pool fallback). Elsevier API key ALONE
+  401d; key + institutional token (X-ELS-Insttoken) returns full text (106k chars
+  confirmed). After clearing negative cache + capability cache and re-running coverage:
+  full-text coverage 49 -> 152/337 (45%), elsevier_tdm fetched 103 papers. S2 key
+  REJECTED by Semantic Scholar (403 on all endpoints, all headers; UA-only/no-key
+  works fine) -> provider-side key issue (deactivated/revoked/mis-associated), not
+  our code.'
+implication: 'Elsevier token is the confirmed +103-paper unlock (14%->45% coverage).
+  Adding WILEY_TDM_TOKEN would push toward ~65% (66 Wiley papers). S2 key is dead
+  provider-side -> Adrian must verify/re-issue in S2 dashboard or contact support;
+  s2_open runs on public pool meanwhile (marginal for full-text since OA already covered
+  by oa_direct; S2''s real value is retrieval/citation-graph). Minor report gap: final
+  per-DOI status reflects the LAST resolver (manual_queue NOT_FOUND), masking inst_network/wiley
+  DENIED -> access menu undercounts ''what unlocks more''; fix = track best/most-informative
+  status across resolvers. Net: factory validated under real credentials; coverage
+  scales with creds as designed, zero code change.'
+confidence_delta: 0.05
+source: /tmp/ft_factory3.log + .cache/fulltext (152 ok) + src/synthpipe/fulltext/resolvers/{elsevier_tdm,s2_open}.py
+logged: '2026-06-05'

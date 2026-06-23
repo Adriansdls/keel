@@ -1,0 +1,9 @@
+id: 19
+decision: 'Delegation maturity will be scored 0.0–1.0 with three defined anchors:
+  0.0 = never delegates, 0.5 = occasional delegation, 1.0 = routinely orchestrates
+  with parallelization'
+rationale: (auto-captured from session — see SWM committed.jsonl for full context)
+alternatives_rejected: []
+bets_affected: []
+logged: '2026-06-16'
+source: swm-bridge

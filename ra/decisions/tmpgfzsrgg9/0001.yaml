@@ -1,0 +1,7 @@
+id: 1
+decision: '"reasoning": "Bet logged 10 days ago with confidence 0.65.'
+rationale: (auto-captured from session — see SWM committed.jsonl for full context)
+alternatives_rejected: []
+bets_affected: []
+logged: '2026-06-14'
+source: swm-bridge

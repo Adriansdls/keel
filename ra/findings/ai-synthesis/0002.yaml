@@ -1,0 +1,22 @@
+id: 2
+experiment_id: 1
+result: 'Whole pipeline L1-L4 built and run end-to-end (exp03_fullchain), LLMs via
+  `claude -p` (subscription auth, no API billing; batched ~3.2s/paper). One bounded
+  run produced: L1 guided expansion (400 nodes, giant comp 0.955); L2 PRISMA ensemble
+  screening Haiku+Sonnet (216 screened -> 75 incl / 93 excl / 48 uncertain human-band);
+  L2b Opus-induced ontology (12 entity + 16 relation types, incl. driver_supported_by/contradicted_by
+  capturing the debate); L2c Sonnet extraction (118 triples with verbatim evidence
+  + source DOI + source_legibility + extraction_confidence); L3 KG (156 entities,
+  72 observable / 46 interpretive, 0.61 observable); L4 communities (modularity 0.46).
+  Observable/interpretive split verified correct on inspection. L1 classifier (exp02)
+  splits 381 core/426 peripheral/592 skip, prunes off-topic from expansion.'
+implication: 'v1 is fully functional A-to-Z with every hard requirement operational
+  (relevance-guided search, PRISMA + bounded human band, corpus-induced ontology,
+  provenance-bearing triples, observable/interpretive separation, descriptive-only
+  KG), reproducible via OpenAlex + LLM decision caches. The thesis-critical observable/interpretive
+  distinction works in practice. Remaining for a strong result: guided-depth-2 vs
+  unguided-depth-2 recall-lift comparison, swap real Stewart Supp Table S1 gold, N-run
+  stability, extraction-prompt denoising.'
+confidence_delta: 0.05
+source: pipeline/experiments/exp03_fullchain/manifest.json + triples.json + ontology.json
+logged: '2026-06-02'

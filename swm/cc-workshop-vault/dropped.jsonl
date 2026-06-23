@@ -1,0 +1,10 @@
+{"kind": "decision", "text": "Federation was deliberately configured to exclude cc-workshop-vault from this session", "reason": "no_ephemeral_actions", "archived_reason": "invariant"}
+{"kind": "constraint", "text": "- Updated with explicit directive: \"Never substitute Bash file reading for MCP vault tools.", "reason": "no_markdown_headers", "archived_reason": "invariant"}
+{"kind": "elimination", "text": "- **Wrong update env syntax**: `az containerapp update` rejected `--env-vars`.", "reason": "no_markdown_headers", "archived_reason": "invariant"}
+{"kind": "constraint", "text": "- Participants can connect via HTTPS SSE and never see `trust.py` or the behavior-report contracts.", "reason": "no_markdown_headers", "archived_reason": "invariant"}
+{"kind": "constraint", "text": "- **Participants do NOT need the local repo** on their machines.", "reason": "no_markdown_headers", "archived_reason": "invariant"}
+{"kind": "constraint", "text": "- Never overwrite existing cards unless the teacher explicitly confirms each one.", "reason": "no_markdown_headers", "archived_reason": "invariant"}
+{"kind": "constraint", "text": "- Never modify `vault/shared/` during this procedure.", "reason": "no_markdown_headers", "archived_reason": "invariant"}
+{"kind": "constraint", "text": "- Do not include participant names in card bodies unless the transcript already makes them public; prefer `source_speaker: \"Participant A\"` style anonymization when identity is not load-bearing.", "reason": "no_markdown_headers", "archived_reason": "invariant"}
+{"kind": "constraint", "text": "- `trust.py` and behavior-report contracts live inside the container but never reach participants.", "reason": "no_markdown_headers", "archived_reason": "invariant"}
+{"kind": "constraint", "text": "- Do NOT include private participant names unless they are clearly public in the transcript.", "reason": "no_markdown_headers", "archived_reason": "invariant"}

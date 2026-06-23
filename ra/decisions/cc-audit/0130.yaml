@@ -1,0 +1,8 @@
+id: 130
+decision: 'Two explorers run in parallel: Explorer 1 maps rail/install/catalog seams
+  (issue #1), Explorer 2 maps cohort + re-scan seams (issues #2, #3)'
+rationale: (auto-captured from session — see SWM committed.jsonl for full context)
+alternatives_rejected: []
+bets_affected: []
+logged: '2026-06-21'
+source: swm-bridge

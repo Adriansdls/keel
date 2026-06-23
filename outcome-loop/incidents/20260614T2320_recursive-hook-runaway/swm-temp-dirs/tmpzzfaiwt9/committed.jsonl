@@ -1,0 +1,2 @@
+{"id": "7300faad12b9", "kind": "constraint", "text": "[3] Separate private repo (raising-agents-press) for the press — raw daily activity is personal ops data, never touches public site repo | logged: 2026-04-24", "turn_added": 0, "last_seen": 0, "source": "capture"}
+{"id": "a67dc0388e03", "kind": "constraint", "text": "\"reasoning\": \"No evidence Paper 1 is published or abw is open-sourced; cannot measure adoption metrics yet\",", "turn_added": 0, "last_seen": 0, "source": "capture"}

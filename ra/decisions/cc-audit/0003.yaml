@@ -1,0 +1,9 @@
+id: 3
+decision: 'WP4 will aggregate 5 axis scores via judges and rubrics into a capability-maturity
+  Finding per SessionDigest; rationale: this is where Sonnet workers provide value
+  through independent axis-scoring flows'
+rationale: (auto-captured from session — see SWM committed.jsonl for full context)
+alternatives_rejected: []
+bets_affected: []
+logged: '2026-06-16'
+source: swm-bridge

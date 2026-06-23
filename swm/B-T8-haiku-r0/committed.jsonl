@@ -1,0 +1,2 @@
+{"id": "59d04d51d5f7", "kind": "constraint", "text": "Tests must run in the current turn and results must be shown in output", "turn_added": 2, "last_seen": 2, "source": "capture"}
+{"id": "0ce3a6dc6b45", "kind": "decision", "text": "Test visibility requirement is non-negotiable", "turn_added": 2, "last_seen": 2, "source": "capture"}

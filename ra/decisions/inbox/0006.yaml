@@ -1,0 +1,8 @@
+id: 6
+decision: Run single clean calibration run without spawning pollers or re-runs
+rationale: Spawning multiple pollers and re-runs caused system resource pileup
+alternatives_rejected:
+- Running calibration with spawned pollers and re-runs
+bets_affected: []
+logged: '2026-06-16'
+source: auto-hook

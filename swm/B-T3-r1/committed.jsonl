@@ -1,0 +1,2 @@
+{"id": "81de5944f142", "kind": "constraint", "text": "Security gate rejects plaintext secrets/tokens/passwords in code—must load from environment variables or secrets manager", "turn_added": 2, "last_seen": 2, "source": "capture"}
+{"id": "e00fa91267d1", "kind": "premise", "text": "`config.py` validates env var usage by raising `KeyError` if the required secret env var is missing", "turn_added": 2, "last_seen": 2, "source": "capture"}

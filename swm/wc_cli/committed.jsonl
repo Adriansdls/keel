@@ -1,0 +1,6 @@
+{"id": "1df366715eba", "kind": "constraint", "text": "Reads from file path given as last argument, or from stdin if no path", "turn_added": 5, "last_seen": 5, "source": "capture"}
+{"id": "d2802d7f90fe", "kind": "constraint", "text": "Prints three numbers separated by single spaces: line count, word count, byte count (default with no flags)", "turn_added": 5, "last_seen": 5, "source": "capture"}
+{"id": "8f5b9cb883e1", "kind": "constraint", "text": "Flags -l, -w, -c restrict output to lines, words, bytes respectively", "turn_added": 5, "last_seen": 5, "source": "capture"}
+{"id": "8ee288ddd5be", "kind": "constraint", "text": "When multiple flags given, output appears in fixed order: -l, -w, -c", "turn_added": 5, "last_seen": 5, "source": "capture"}
+{"id": "59d35e4e3b09", "kind": "constraint", "text": "Results printed to stdout", "turn_added": 5, "last_seen": 5, "source": "capture"}
+{"id": "b0be5f59b75e", "kind": "decision", "text": "Tool named wc_tool.py", "turn_added": 5, "last_seen": 5, "source": "capture"}

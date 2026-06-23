@@ -1,0 +1,21 @@
+metric: Effect-boundary mutation refuse rate — fraction of unauthorized-execution
+  mutations in the PIMS suite that the gateway correctly refuses (escapes = unauthorized
+  effect reaches the adapter)
+current: 0.0
+target: 1.0
+timeframe: 2026-Q4 (end of M2)
+why_this_metric: 'The thesis is that consequential agent actions are safe enough to
+  deploy because they are PROVEN, not asserted. The only honest proof instrument for
+  a security boundary is an adversarial mutation suite at the effect boundary: if
+  a mutation that should be refused ever reaches the downstream effect, the boundary
+  is fictional regardless of how many functional tests pass. Refuse rate = 1.0 with
+  zero escapes is the binary security claim; anything less is a known hole.'
+leading_indicators:
+- PIMS mutation case count (target grows each milestone; frozen regressions must stay
+  refused)
+- M1 functional test count green (21 today; must stay green as suite grows)
+- Documented NOT-protected properties with a tracking issue each (no silent coverage
+  gap)
+- max evidence age tolerated at consume (freshness bound, tightened M1 wall-clock
+  -> M2 trusted-time)
+updated: '2026-06-23'

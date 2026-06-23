@@ -1,0 +1,9 @@
+{"id": "54866e5c6f3c", "kind": "decision", "text": "Claude Design brief focuses on unique pages/components and reusable patterns, not content instances—to optimize tokens, design the template once, reuse for different content", "turn_added": 5, "last_seen": 5, "source": "capture"}
+{"id": "686377835fd6", "kind": "constraint", "text": "CardLugar component designed once, reused across all 20 places of Tôr", "turn_added": 5, "last_seen": 5, "source": "capture"}
+{"id": "e25be1995b70", "kind": "constraint", "text": "CSS written once in shared style.css file, reused across all templates", "turn_added": 5, "last_seen": 5, "source": "capture"}
+{"id": "1b77e454d90f", "kind": "constraint", "text": "Components defined as reusable contracts, not as separate individual pages", "turn_added": 5, "last_seen": 5, "source": "capture"}
+{"id": "0bf571bdb09a", "kind": "premise", "text": "7 deliverables are structurally unique, not instances", "turn_added": 5, "last_seen": 5, "source": "capture"}
+{"id": "ff94d8dcb174", "kind": "decision", "text": "TÔR web prototype will be used as a source for content and structural reference, explicitly excluding its aesthetic/design direction", "turn_added": 8, "last_seen": 8, "source": "capture"}
+{"id": "fe5d35a95cfc", "kind": "elimination", "text": "The existing TÔR prototype's design/aesthetics were rejected and will not be reused", "turn_added": 8, "last_seen": 8, "source": "capture"}
+{"id": "3ed1f87a7f22", "kind": "decision", "text": "Content extraction/page scraping from the prototype will proceed in parallel", "turn_added": 8, "last_seen": 8, "source": "capture"}
+{"id": "629d9e8cb583", "kind": "premise", "text": "Backend work timing is conditional — pending clarification on Claude Design work progress before advancing in parallel", "turn_added": 8, "last_seen": 8, "source": "capture"}

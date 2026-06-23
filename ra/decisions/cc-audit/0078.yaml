@@ -1,0 +1,8 @@
+id: 78
+decision: Decided to park WP5 as coherent "Part A" (deterministic/$0 pieces) and defer
+  the token-spending live parts.
+rationale: (auto-captured from session — see SWM committed.jsonl for full context)
+alternatives_rejected: []
+bets_affected: []
+logged: '2026-06-19'
+source: swm-bridge

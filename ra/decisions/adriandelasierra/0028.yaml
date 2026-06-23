@@ -1,0 +1,8 @@
+id: 28
+decision: Set GUARDIAN_PHASE='3' in ~/.claude/settings.json to transition Guardian
+  from Phase 1 (log+allow) to full blocking mode
+rationale: (auto-captured from session — see SWM committed.jsonl for full context)
+alternatives_rejected: []
+bets_affected: []
+logged: '2026-06-15'
+source: swm-bridge

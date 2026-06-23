@@ -1,0 +1,18 @@
+id: 2
+statement: Behavior Watch (bi-weekly, artifact-per-issue) is the right distribution
+  format for reaching engineers who already have evals but lack behavioral regression
+  tooling
+rationale: The target reader is not AI-curious generalists but engineers with existing
+  eval pipelines hitting a specific ceiling. Bi-weekly cadence + one concrete artifact
+  per issue matches their consumption pattern better than weekly opinion or monthly
+  deep-dives. Behavior Watch is the continuous-practice surface; papers are the credibility
+  anchor.
+confidence: 0.65
+evidence_needed: Open rate after first 5 issues (target >40%). Reply/feedback signals
+  on trace teardowns vs narrative issues. Unsubscribe rate. Compare cohort from paper
+  launch vs organic watch subscribers — do they stick differently?
+status: active
+created: '2026-05-27'
+updated: '2026-06-14'
+updates: []
+source: null

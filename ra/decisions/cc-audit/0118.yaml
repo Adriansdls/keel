@@ -1,0 +1,8 @@
+id: 118
+decision: Keep prompts hyper-specific and bounded with exact file paths and concrete
+  requirements rather than high-level feature requests
+rationale: (auto-captured from session — see SWM committed.jsonl for full context)
+alternatives_rejected: []
+bets_affected: []
+logged: '2026-06-20'
+source: swm-bridge

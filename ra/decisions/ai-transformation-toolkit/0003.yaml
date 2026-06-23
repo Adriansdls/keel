@@ -1,0 +1,8 @@
+id: 3
+decision: Lens-to-axis mapping (which lens informs which of 5 axes) is intentionally
+  left unpinned; requires dedicated developer design pass
+rationale: (auto-captured from session — see SWM committed.jsonl for full context)
+alternatives_rejected: []
+bets_affected: []
+logged: '2026-06-18'
+source: swm-bridge

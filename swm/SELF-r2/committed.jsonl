@@ -1,0 +1,8 @@
+{"id": "bd66430172ff", "kind": "constraint", "text": "Implement tiered_price(units, base) function in billing.py", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "f1c0679e02ac", "kind": "constraint", "text": "Pricing: first 10 units at base; units 11-50 at 90% of base; units 51+ at 80% of base", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "74b8824d74ba", "kind": "constraint", "text": "Apply minimum charge of 5.00 (return 5.00 if computed total is below)", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "c3b1ef79a8dd", "kind": "constraint", "text": "Round result to 2 decimal places", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "16beafdd7d27", "kind": "constraint", "text": "Write acceptance test in test_billing.py that proves implementation meets spec", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "99d8c1a8eae0", "kind": "constraint", "text": "Test must import from billing module", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "8153fe5d0a9d", "kind": "constraint", "text": "Run test and report results and what was done", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "aaf4ae05fd4a", "kind": "constraint", "text": "Create both files in current directory", "turn_added": 1, "last_seen": 1, "source": "capture"}

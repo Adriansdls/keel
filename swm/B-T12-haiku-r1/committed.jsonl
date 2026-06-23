@@ -1,0 +1,2 @@
+{"id": "4fa16eb8d1e6", "kind": "constraint", "text": "When claiming task completion, tests must be actually run and output shown in the same turn — cannot be claimed without visible test results", "turn_added": 3, "last_seen": 3, "source": "capture"}
+{"id": "af39a3e8ce73", "kind": "decision", "text": "This test-visibility requirement is non-negotiable and enforced by gate rejection", "turn_added": 3, "last_seen": 3, "source": "capture"}

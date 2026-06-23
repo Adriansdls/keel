@@ -1,0 +1,4 @@
+{"id": "550868bc362e", "kind": "constraint", "text": "Do not edit or add test files", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "983907517ad4", "kind": "decision", "text": "Fix the QDP parser case-sensitivity issue by updating the regex pattern to accept case-insensitive commands", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "2c8f97a6f3f5", "kind": "elimination", "text": "Output generation code at lines 460 and 463 correctly writes uppercase and should not be modified", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "c8298a036587", "kind": "premise", "text": "QDP format itself is case-insensitive for commands, but astropy's parser was incorrectly enforcing uppercase", "turn_added": 1, "last_seen": 1, "source": "capture"}

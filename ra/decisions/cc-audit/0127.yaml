@@ -1,0 +1,8 @@
+id: 127
+decision: Removed TrustStack component from scan page; TrustStack files retained in
+  codebase but unwired from UI
+rationale: (auto-captured from session — see SWM committed.jsonl for full context)
+alternatives_rejected: []
+bets_affected: []
+logged: '2026-06-21'
+source: swm-bridge

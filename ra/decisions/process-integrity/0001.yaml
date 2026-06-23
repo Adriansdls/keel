@@ -1,0 +1,17 @@
+id: 1
+decision: Use exact proxy-captured API payload (payload_174.json) as the replay fixture
+  rather than synthetic reconstruction or a different session cut.
+rationale: The proxy log confirms byte-for-byte raw payload match via usage counters
+  (cache_read=583526, cache_write=4098, out=4240, request_id=req_011Cbgpo3cf3biyNr5fcEVsP).
+  This is the strongest possible ground truth — not a reconstruction of what the agent
+  saw but the actual incoming body before proxy mutation. Synthetic payloads would
+  introduce confounds.
+alternatives_rejected:
+- Use the post-prune forwarded payload — rejected because the proxy did not persist
+  it and reconstruction is close but not byte-identical (1,726,844 vs 1,727,418 bytes)
+- Use a different session cut (pre-line 3544) — rejected because payload_174 is already
+  the pre-failure payload; the next capture already contains the bad claim
+bets_affected:
+- 1
+logged: '2026-06-04'
+source: null

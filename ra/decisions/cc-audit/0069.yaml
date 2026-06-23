@@ -1,0 +1,8 @@
+id: 69
+decision: 'Two options for next phase: (1) fix verification rubric edge case + add
+  k-sample median self-consistency to judge, OR (2) pause and wait for Phase B results'
+rationale: (auto-captured from session — see SWM committed.jsonl for full context)
+alternatives_rejected: []
+bets_affected: []
+logged: '2026-06-16'
+source: swm-bridge

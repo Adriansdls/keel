@@ -1,0 +1,10 @@
+id: 56
+decision: 'Team evaluates response quality using grip (epistemic confidence: avoid
+  over-hedging when answer is known, avoid over-claiming when uncertain) and vein
+  (groundedness: claims grounded in evidence/citations versus unanchored assertions)
+  as primary evaluation dimensions'
+rationale: (auto-captured from session — see SWM committed.jsonl for full context)
+alternatives_rejected: []
+bets_affected: []
+logged: '2026-06-16'
+source: swm-bridge

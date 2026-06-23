@@ -1,0 +1,21 @@
+{"id": "6b03ca86a051", "kind": "premise", "text": "**Remaining on Ch4:** `final_publication_formatting` (Word styling + spell check) is the only pending pipeline step.", "turn_added": 2, "last_seen": 2, "source": "capture"}
+{"id": "9771c88e25bb", "kind": "constraint", "text": "Never ran.", "turn_added": 6, "last_seen": 6, "source": "capture"}
+{"id": "d890efbfc5da", "kind": "constraint", "text": "Never output tokens in plaintext.\"", "turn_added": 9, "last_seen": 93, "source": "capture"}
+{"id": "d88902aa1aaa", "kind": "premise", "text": "Pending Tasks:", "turn_added": 9, "last_seen": 130, "source": "capture"}
+{"id": "943bfc1f1c3a", "kind": "constraint", "text": "Resume directly — do not acknowledge the summary, do not recap what was happening, do not preface with \"I'll continue\" or similar.", "turn_added": 9, "last_seen": 130, "source": "capture"}
+{"id": "161b022ebbc0", "kind": "constraint", "text": "Pick up the last task as if the break never happened.", "turn_added": 9, "last_seen": 130, "source": "capture"}
+{"id": "58960672e562", "kind": "elimination", "text": "**Old draft archived** → `05-draft-v1-abandoned-old-thesis.md`", "turn_added": 14, "last_seen": 14, "source": "capture"}
+{"id": "0d7b5c2f4c8a", "kind": "constraint", "text": "Skill tool only scans ~/.claude/skills/ (global) and .claude/skills/ (project), not .agents/skills/", "turn_added": 22, "last_seen": 22, "source": "capture"}
+{"id": "507f010180e0", "kind": "constraint", "text": ".claude/skills/ directory in this project is empty", "turn_added": 22, "last_seen": 22, "source": "capture"}
+{"id": "e985b8d4c127", "kind": "elimination", "text": "Project skills in .agents/skills/ were never promoted globally using mcp__agent-registry__promote_skill", "turn_added": 22, "last_seen": 22, "source": "capture"}
+{"id": "3a687beb0a0a", "kind": "decision", "text": "Option B (symlink .agents/skills/* to .claude/skills/) recommended as 'probably the right call' — fixes for all future sessions in this project", "turn_added": 22, "last_seen": 22, "source": "capture"}
+{"id": "68afcdd704f0", "kind": "premise", "text": "Project has custom writing/analysis skills suite in .agents/skills/: cmd-strategize, cmd-research, cmd-extract, cmd-analyze, cmd-synthesize, cmd-write-prose, cmd-verify-claims, chapter-writing-orchestrator, chapter-learning-crystallizer", "turn_added": 22, "last_seen": 22, "source": "capture"}
+{"id": "52fbb2b56b5c", "kind": "decision", "text": "Option B executed: 14 skills from .agents/skills/ symlinked to .claude/skills/ for availability across libros/ directory and subdirectories", "turn_added": 24, "last_seen": 24, "source": "capture"}
+{"id": "e7dfc3ca1cf4", "kind": "premise", "text": "Symlinks point to agentic-rag skills source; updates to agentic-rag skills automatically propagate to libros context", "turn_added": 24, "last_seen": 24, "source": "capture"}
+{"id": "b92321ba6dd1", "kind": "constraint", "text": "Symlinked skills become available only after session restart", "turn_added": 24, "last_seen": 24, "source": "capture"}
+{"id": "3f87de075d08", "kind": "constraint", "text": "Do not attempt to simulate the pipeline manually.", "turn_added": 39, "last_seen": 39, "source": "capture"}
+{"id": "4b93677ae7e3", "kind": "constraint", "text": "The claim verification step was interrupted and never wrote its output.", "turn_added": 48, "last_seen": 48, "source": "capture"}
+{"id": "d2923f32d302", "kind": "premise", "text": "Verdict: **PASS** (15/27 verified, 1 partially verified, 1 unverified, 0 needs correction).", "turn_added": 52, "last_seen": 52, "source": "capture"}
+{"id": "7e510de6a100", "kind": "premise", "text": "Delete the incorrect downstream artifacts (synthesis, draft, hand-authored notes, worldview extraction) and reset state.json back to `phase: strategize` / `research: pending`.", "turn_added": 55, "last_seen": 55, "source": "capture"}
+{"id": "161e5c13affb", "kind": "constraint", "text": "dont run research,\" so research must not start without explicit confirmation.", "turn_added": 63, "last_seen": 93, "source": "capture"}
+{"id": "6897e150e18b", "kind": "elimination", "text": "Abandoned the minor expansion and moved to verification/state updates.", "turn_added": 108, "last_seen": 108, "source": "capture"}

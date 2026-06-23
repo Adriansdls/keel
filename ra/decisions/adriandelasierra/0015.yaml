@@ -1,0 +1,9 @@
+id: 15
+decision: Do not create a 'disciplines' wrapper folder. Keep discipline workspaces
+  (product, research, etc.) flat at root level rather than nested inside a parent
+  directory.
+rationale: (auto-captured from session — see SWM committed.jsonl for full context)
+alternatives_rejected: []
+bets_affected: []
+logged: '2026-06-15'
+source: swm-bridge

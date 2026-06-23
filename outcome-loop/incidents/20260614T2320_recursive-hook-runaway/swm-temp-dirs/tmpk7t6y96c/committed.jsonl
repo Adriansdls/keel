@@ -1,0 +1,4 @@
+{"id": "8aedb8f69157", "kind": "constraint", "text": "\"reasoning\": \"No recent activity data and zero findings logged; cannot evaluate whether scoping/intake step improved retrieval recall or reduced variance.\",", "turn_added": 0, "last_seen": 0, "source": "capture"}
+{"id": "7f989e69d309", "kind": "constraint", "text": "\"reasoning\": \"No recent activity data and zero findings logged; cannot evaluate whether net relevant yield ratio > 1 was achieved.\",", "turn_added": 0, "last_seen": 0, "source": "capture"}
+{"id": "597434004dfc", "kind": "constraint", "text": "\"reasoning\": \"No recent activity data and zero findings logged; cannot evaluate whether novel papers shifted synthesis conclusions.\",", "turn_added": 0, "last_seen": 0, "source": "capture"}
+{"id": "bde3e1b00037", "kind": "premise", "text": "All 7 bets remain open pending evidence collection.", "turn_added": 0, "last_seen": 0, "source": "capture"}

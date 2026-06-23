@@ -1,0 +1,2 @@
+{"id": "1f8a8cc961fc", "kind": "constraint", "text": "Must run tests and display output before claiming task completion — marked non-negotiable", "turn_added": 2, "last_seen": 2, "source": "capture"}
+{"id": "788968d39738", "kind": "constraint", "text": "Tests must be executed and results shown within the current conversation turn, not deferred", "turn_added": 2, "last_seen": 2, "source": "capture"}

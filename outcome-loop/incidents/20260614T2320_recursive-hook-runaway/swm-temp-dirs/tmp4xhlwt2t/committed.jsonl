@@ -1,0 +1,4 @@
+{"id": "a87cd18702af", "kind": "constraint", "text": "Cannot judge bet without evidence from n>=10 replay runs comparing contract_desired_behavior rates.\",", "turn_added": 0, "last_seen": 0, "source": "capture"}
+{"id": "8d4ea70f475b", "kind": "constraint", "text": "Cannot assess catch rate or false positive rate without execution evidence.\",", "turn_added": 0, "last_seen": 0, "source": "capture"}
+{"id": "99bf9dbdce70", "kind": "constraint", "text": "Cannot judge causality claim without evidence.\",", "turn_added": 0, "last_seen": 0, "source": "capture"}
+{"id": "6d4c0e54377f", "kind": "premise", "text": "With only 10 days elapsed since logging and no execution evidence, all items remain in active waiting status pending experimental validation.\"", "turn_added": 0, "last_seen": 0, "source": "capture"}

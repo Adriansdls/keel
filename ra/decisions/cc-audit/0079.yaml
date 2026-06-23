@@ -1,0 +1,9 @@
+id: 79
+decision: 'AITT design direction: SynthesisPage and Landing use staged-reveal JSX
+  (SignalCircle, InsightCard, dimension bars, AI reasoning feed, stage checklist,
+  tier hero); typography locked to IBM Plex Sans + JetBrains Mono in index.css'
+rationale: (auto-captured from session — see SWM committed.jsonl for full context)
+alternatives_rejected: []
+bets_affected: []
+logged: '2026-06-19'
+source: swm-bridge

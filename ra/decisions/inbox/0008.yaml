@@ -1,0 +1,11 @@
+id: 8
+decision: Cohort comparison ranks against clearly-labeled reference set; never unlabeled
+  'vs developers'
+rationale: 'Constitutional requirement: no fabricated populations; label must be mandatory
+  in code'
+alternatives_rejected:
+- Unlabeled cohort comparison
+- Implicit 'vs developers' baseline
+bets_affected: []
+logged: '2026-06-21'
+source: auto-hook

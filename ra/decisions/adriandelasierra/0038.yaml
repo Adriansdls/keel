@@ -1,0 +1,8 @@
+id: 38
+decision: 'rubrics/ asset: model-fit as versioned LLM rubrics — this is the LLM-first
+  heart of the product, making it agentic-era groundbreaking vs. regex NLP'
+rationale: (auto-captured from session — see SWM committed.jsonl for full context)
+alternatives_rejected: []
+bets_affected: []
+logged: '2026-06-16'
+source: swm-bridge

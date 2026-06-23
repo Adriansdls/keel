@@ -1,0 +1,14 @@
+id: 2
+hypothesis: If we suppress or relabel the stale_session_limit context snippets in
+  the payload before replay, premature_session_limit_closure will drop from its current
+  rate to near 0, confirming stale context as a necessary cause.
+bet_id: 3
+method: Fork extract_replay_material() to null out the stale_session_limit snippet
+  list before building the prompt. Run same 3-arm experiment with this modified material.
+  Compare premature_session_limit_closure rates against the baseline runs.
+expected_learning: Whether stale context removal is sufficient to suppress the failure
+  (stale context is necessary) or whether the model still closes prematurely on claude_p_timeout
+  alone (stale context is amplifier but not gating).
+status: running
+started: '2026-06-04'
+completed: null

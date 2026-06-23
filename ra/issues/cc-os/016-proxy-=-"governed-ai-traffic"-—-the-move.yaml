@@ -1,0 +1,23 @@
+id: 16
+title: Proxy = "Governed AI traffic" — the move that makes CC OS an actual OS (not
+  a CC
+status: idea
+priority: p1
+area: strategy
+why: 'The context-proxy intercepts the /v1/messages WIRE, not Claude Code specifically.
+  That means CC OS governance (constitution scoring, secret-scan, audit, policy) can
+  apply to ANY tool hitting the Anthropic API through the proxy — Codex, Cursor, CI
+  bots, custom agents, a dev''s script — regardless of which app made the call. This
+  is the difference between a CC enhancement and an OS: an OS governs all processes''
+  access to a resource. The proxy is the universal chokepoint. Enterprise/Anthropic-partner
+  product line: ''drop our wire in front of every team''s AI traffic — every request
+  governed by your constitution, every secret blocked, every interaction audited,
+  even from tools we didn''t write.'' ~10x bigger product surface than a plugin; the
+  proxy is the only piece that unlocks it. This is the strategic reframe to build
+  toward.'
+hypothesis: If CC OS governance runs at the wire (proxy) rather than only via CC hooks,
+  the same constitution + audit + secret-scan covers all AI traffic on a machine/org
+  from any client app — making 'Governed Claude' into 'Governed AI traffic', the defensible
+  enterprise consulting product for Zartis.
+created: '2026-06-01'
+updated: '2026-06-01'

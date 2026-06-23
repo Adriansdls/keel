@@ -1,0 +1,13 @@
+id: 2
+decision: 'Staging publish model: indicator auto-commits + deploys; log line stages
+  for Adrian to push; episodes stage to beehiiv for Adrian to publish'
+rationale: 'Numeric indicator has low risk and high benefit from automation. Log line
+  and episodes involve voice and judgment — require human gate. Composable: each layer
+  independently runnable and gate-able.'
+alternatives_rejected:
+- fully autonomous publishing
+- fully manual publishing
+bets_affected:
+- 4
+logged: '2026-04-24'
+source: null

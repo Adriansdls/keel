@@ -1,0 +1,8 @@
+id: 107
+decision: Adrian decided no-llm is fallback only; frontend should default to quick
+  mode, not no-llm
+rationale: (auto-captured from session — see SWM committed.jsonl for full context)
+alternatives_rejected: []
+bets_affected: []
+logged: '2026-06-20'
+source: swm-bridge

@@ -1,0 +1,14 @@
+id: 2
+decision: Do not organize workspaces into a 'disciplines/' folder at this time
+rationale: '(1) CC loads .claude/ config by walking UP from cwd, not down—so disciplines/product/.claude/
+  would unintentionally load configs from disciplines/.claude/ and ~/.claude/, causing
+  skill stacking from intermediate directories. (2) Current volume (2 active disciplines:
+  product, research) is too low to justify the navigation overhead. The organizational
+  threshold for grouping layers is 5+ siblings. The real problem is ~/root containing
+  too many project dirs; the solution is organizing projects into ~/projects/ or ~/work/,
+  not organizing disciplines.'
+alternatives_rejected:
+- Create a 'disciplines/' folder with product, research, and future discipline subfolders
+bets_affected: []
+logged: '2026-06-15'
+source: auto-hook

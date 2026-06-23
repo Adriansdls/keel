@@ -1,0 +1,26 @@
+id: 18
+title: 'Proxy wire-opportunity backlog: tamper-evident audit log · ingress injection-sca'
+status: in-progress
+priority: p2
+area: infra
+why: 'Net-new wire ideas beyond the doc''s 4 (validity instrument, counterfactual
+  fork, regression corpus, egress secret-scan): (1) TAMPER-EVIDENT AUDIT LOG — hash-chain
+  every prompt+output at the wire (reuse the existing ledger root-of-trust primitive);
+  the transcript is editable, the wire log is ground truth → enterprise compliance
+  artifact (''prove what your AI was told and said''). (2) INGRESS INJECTION-SCAN
+  — the security mirror of egress: scan inbound tool_results (web/file = the prompt-injection
+  vector) for injection signatures before the model conditions on them; ''security
+  is absolute'' applied to what enters context. (3) FEDERALISM-AT-THE-WIRE — per-project
+  statutes set their own keep-window/tool-denylist/model in permit.toml, governed
+  + AMEND-amendable; the wire is the enforcement arm of resource law (ties the federalism
+  research thread to something concrete). (4) SELF-HEAL CIRCUIT-BREAKER — proxy detects
+  its own mask tokens forming in model output and auto-intervenes (drop pruning/alert)
+  before corruption. THE DISCIPLINE (hold hard): proxy stays fail-open by default
+  (down → stock claude); ONLY the inviolable tier (secrets) earns fail-closed; everything
+  else observe+audit+advise — never make the wire a single point of failure.'
+hypothesis: Each rides the same wire-intercept substrate; sequence after the validity
+  instrument (the necessary one). The audit log + ingress scan are the strongest enterprise
+  add-ons; federalism-at-wire ties to the per-project-statute direction; self-heal
+  is cheap insurance grounded in the observed format-poisoning incident.
+created: '2026-06-01'
+updated: '2026-06-02'

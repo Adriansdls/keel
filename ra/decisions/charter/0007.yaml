@@ -1,0 +1,8 @@
+id: 7
+decision: 'Primary repair for projection_stale: run `charter render` (binary at ~/charter/.venv/bin/charter);
+  it is whitelisted as a repair command and will not be hard-denied'
+rationale: (auto-captured from session — see SWM committed.jsonl for full context)
+alternatives_rejected: []
+bets_affected: []
+logged: '2026-06-16'
+source: swm-bridge

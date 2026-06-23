@@ -1,0 +1,9 @@
+id: 46
+decision: suit is the canonical base for cc-workshop-vault; cto-strategy adds no features
+  over suit, only cosmetic string changes and prompt tuning for CTO context, making
+  suit the preferred choice for customization
+rationale: (auto-captured from session — see SWM committed.jsonl for full context)
+alternatives_rejected: []
+bets_affected: []
+logged: '2026-06-16'
+source: swm-bridge

@@ -1,0 +1,19 @@
+id: 3
+decision: The core is Apache-2.0, self-contained, zero proprietary dependencies. The
+  6 existing repos (attest, writ, charter, cc-os, bench, agent-behavior-workbench)
+  integrate as ADAPTERS behind interfaces (EffectAdapter, LeaseStore, Signer) in a
+  later phase, NOT as hard dependencies; concepts are borrowed but no proprietary
+  code is copied.
+rationale: 'ADR-0002 + ADR-0003: 5/6 existing repos are Proprietary, so any dependency
+  would contaminate the license; borrowing concepts (canonical-JSON+SHA-256, origin-trust
+  ladder, hash-chained ledger) without copying code keeps the core OSS-clean and preserves
+  a future dual-license / commercial-product option.'
+alternatives_rejected:
+- MIT (no explicit patent grant)
+- Apache-2.0 + commercial dual-license now (held for reconsideration before the repo
+  goes public)
+- Copy code from the existing Proprietary repos (license contamination)
+bets_affected:
+- 4
+logged: '2026-06-23'
+source: null

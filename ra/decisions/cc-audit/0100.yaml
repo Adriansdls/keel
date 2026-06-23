@@ -1,0 +1,8 @@
+id: 100
+decision: 'Delegation score anchors: 0.0 (never delegates), 0.5 (occasional delegation
+  with most work linear), 1.0 (routinely orchestrates with fleet-level volume).'
+rationale: (auto-captured from session — see SWM committed.jsonl for full context)
+alternatives_rejected: []
+bets_affected: []
+logged: '2026-06-20'
+source: swm-bridge

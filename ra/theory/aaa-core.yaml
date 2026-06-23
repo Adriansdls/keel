@@ -1,0 +1,53 @@
+inputs:
+- Adrian's design + implementation time (AI & Innovation mandate, Zartis A001)
+- 'Project brief: protected endpoint + atomic single-use Action Lease primitive'
+- Six existing repos (attest, writ, charter, cc-os, bench, agent-behavior-workbench)
+  as CONCEPT sources — 5/6 Proprietary, so zero code copied
+- Ed25519 + canonical-JSON+SHA-256 + SQLite WAL + hash-chained JSONL ledger as primitives
+- Threat model + ADRs authored in M1
+activities:
+- 'Implement the core primitive end-to-end on one vertical slice (M1 DONE: deploy(service,
+  commit_sha, environment))'
+- Build an adversarial mutation suite + PIMS aggregator at the effect boundary (M2)
+- Bind evidence freshness to ledger order or a trusted time source, replacing wall-clock
+  TTL (M2)
+- 'Add sender-constrained leases: mTLS + DPoP-style proof-of-possession so only the
+  bound key holder can consume (M3)'
+- Integrate cc-os PreToolUse as redirection+audit UX (NOT the boundary) and ship one
+  real deploy connector (M3)
+- Keep the core dependency-free; expose adapter/LeaseStore/Signer interfaces so Proprietary
+  repos plug in later
+- Publish the repo and design the Agent Action Assurance Pilot consulting offer spec
+outputs:
+- OSS-clean Apache-2.0 reference repo with 21 green tests + ADRs + threat model +
+  what-is-protected (DONE M1)
+- PIMS mutation suite + aggregator producing a refuse-rate signal
+- Trusted-time freshness + sender-constrained lease + one real deploy connector
+- cc-os agent integration behind the boundary
+- Public repo + pilot offer spec (scope/pricing/integration story)
+outcomes:
+- Every protected effect demonstrably refuses every unauthorized execution the mutation
+  suite can throw at it (refuse rate = 1.0)
+- Enterprises can run an Agent Action Assurance Pilot using the OSS core + Zartis-supplied
+  integration/policy/rollout
+- cc-os agents route consequential actions through the boundary; agent-side bypass
+  is UX-irrelevant to security
+- A reusable core that 5/6 existing Proprietary repos adapt to without license contamination
+impact: Consequential AI-agent actions become safe enough to deploy in real enterprise
+  workflows, proven (not asserted) at the effect boundary — yielding a Zartis consulting
+  revenue path (Agent Action Assurance Pilot) and a product option, with an OSS reference
+  that anchors credibility.
+assumptions:
+- The security boundary is the protected endpoint + credential isolation, NOT any
+  agent-side observer — an agent that can edit its own hooks/settings bypasses any
+  agent-side gate (ADR-0001)
+- The core stays dependency-free so the Apache-2.0 license never gets contaminated
+  by the 5 Proprietary repos (ADR-0003)
+- Adversarial mutation testing at the effect boundary is the right proof instrument
+  for security claims — functional tests alone under-claim coverage
+- Commercial value lives in enterprise integration/policy/rollout, not the primitive
+  itself — the OSS core is the reference, the messy integration is the offer
+- Enterprises will pay for an assurance pilot before a productized offering exists
+- Sender-constrained leases can be made adoptable (latency/UX) in real agent workflows
+  — currently unproven, an M3 bet
+updated: '2026-06-23'

@@ -1,0 +1,23 @@
+id: 1
+decision: The security boundary is the protected effect endpoint + credential isolation,
+  NOT any agent-side observer. cc-os (and any agent-side PreToolUse observer) is redirection
+  + audit UX only and is explicitly NOT load-bearing for security.
+rationale: 'ADR-0001: an agent that can edit its own hooks/settings can bypass any
+  agent-side gate; only the downstream system refusing unauthenticated calls is a
+  real boundary. The lease is the only thing that crosses from agent to gateway, and
+  it is single-use + action-bound, so even a stolen lease cannot be reused or repurposed.'
+alternatives_rejected:
+- Agent-side observer/gate as the boundary (bypassable by an agent that edits its
+  own hooks)
+- Opaque reference only, no signed lease token (forces a DB hit per verify, loses
+  stateless signature/expiry/binding verification)
+- Consume-on-success (a 'consumed' lease that secretly didn't consume on failure reopens
+  the replay surface)
+- Hold the transaction open across the effect call (long write lock, ambiguous tx
+  state on effect failure)
+bets_affected:
+- 1
+- 2
+- 3
+logged: '2026-06-23'
+source: null

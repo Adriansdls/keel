@@ -1,0 +1,10 @@
+id: 103
+decision: n_artifacts must be weighted heavily in authoring-axis scoring because it
+  directly reveals compounded, reusable tooling that per-session edit rates hide;
+  developers delegating authoring to subagents will show low sampled edits_per_session
+  but high n_artifacts, proving leverage-building despite modest sampled activity.
+rationale: (auto-captured from session — see SWM committed.jsonl for full context)
+alternatives_rejected: []
+bets_affected: []
+logged: '2026-06-20'
+source: swm-bridge

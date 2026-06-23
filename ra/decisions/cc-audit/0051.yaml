@@ -1,0 +1,9 @@
+id: 51
+decision: 'Score anchors: 0.0 = minimal construction and almost no authoring sessions;
+  0.5 = moderate volume with ~half sessions authoring; 1.0 = high volume with most
+  sessions authoring.'
+rationale: (auto-captured from session — see SWM committed.jsonl for full context)
+alternatives_rejected: []
+bets_affected: []
+logged: '2026-06-16'
+source: swm-bridge

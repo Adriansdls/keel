@@ -1,0 +1,21 @@
+id: 15
+title: 'CC OS "competence scoreboard" — a Beast-style performance score for Claude
+  Code '
+status: idea
+priority: p2
+area: strategy
+why: Adrian wants the BEAST-style per-response score (the screenshot) turned into
+  a rolling, longitudinal performance score for Claude Code itself — a feedback signal
+  on whether his machine experiments (new hooks, observers, skills, constitution amendments)
+  are net-improving CC's behaviour or hurting it. The raw material already exists
+  (constitution-rubric.jsonl per-turn dims, beast drift.jsonl 6-dim, trust.jsonl)
+  — the OS can aggregate these into a trend. This is a natural Steward/OS output and
+  a strong PRODUCT differentiator (a measurable competence trajectory per tenant)
+  and motivational loop for the operator.
+hypothesis: If we aggregate the existing per-turn rubric+drift+trust ledgers into
+  a single rolling CC competence score with a time series and attribute deltas to
+  machine-config changes (amendment/hook/observer events from events.jsonl), Adrian
+  will be able to tell within ~1-2 weeks whether a given experiment improved or degraded
+  CC — and the score becomes a per-tenant adoption KPI for the consulting product.
+created: '2026-06-01'
+updated: '2026-06-01'

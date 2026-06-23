@@ -1,0 +1,1 @@
+{"id": "1daddbe6a18d", "kind": "decision", "text": "Tier calculation replaced with closed-form logic: units per tier (0–10 @ base, 10–50 @ 90%, 50+ @ 80%), summed, min 5.0 charge applied, rounded—improves from O(n) to O(1) while preserving behavior", "turn_added": 2, "last_seen": 4, "source": "capture"}

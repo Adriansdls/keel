@@ -1,0 +1,9 @@
+id: 96
+decision: 'Verification axis measures: How disciplined is the developer about verifying
+  work with evidence rather than asserting it done? A session that edits heavily but
+  rarely reads/runs is asserting, not verifying.'
+rationale: (auto-captured from session — see SWM committed.jsonl for full context)
+alternatives_rejected: []
+bets_affected: []
+logged: '2026-06-20'
+source: swm-bridge

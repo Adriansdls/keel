@@ -1,0 +1,5 @@
+{"id": "c5243e10fcf5", "kind": "elimination", "text": "log_decision    — a firm project-level decision with rationale AND at least one rejected alternative explicitly stated.", "turn_added": 0, "last_seen": 0, "source": "capture"}
+{"id": "0a4577401294", "kind": "constraint", "text": "Do NOT capture soft preferences.", "turn_added": 0, "last_seen": 0, "source": "capture"}
+{"id": "0e50e10ede19", "kind": "constraint", "text": "Cannot assess sustainability or frequency.\",", "turn_added": 0, "last_seen": 0, "source": "capture"}
+{"id": "766137ba6721", "kind": "constraint", "text": "Cannot measure 8-week uninterrupted operation yet.\",", "turn_added": 0, "last_seen": 0, "source": "capture"}
+{"id": "a29a547969b7", "kind": "constraint", "text": "Cannot measure subscriber quality metrics.\",", "turn_added": 0, "last_seen": 0, "source": "capture"}

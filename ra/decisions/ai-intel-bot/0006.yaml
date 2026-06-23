@@ -1,0 +1,8 @@
+id: 6
+decision: Recall fix will target AND-conjunction root cause with maximum 2 terms and
+  exact tag strings, expecting improvement from 67% to 70-80% hit rate
+rationale: (auto-captured from session — see SWM committed.jsonl for full context)
+alternatives_rejected: []
+bets_affected: []
+logged: '2026-06-16'
+source: swm-bridge

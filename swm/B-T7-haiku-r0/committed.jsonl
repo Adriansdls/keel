@@ -1,0 +1,2 @@
+{"id": "0c08f355b4eb", "kind": "constraint", "text": "Cannot claim completion without showing test results — explicitly non-negotiable", "turn_added": 2, "last_seen": 2, "source": "capture"}
+{"id": "61598ed4c0bc", "kind": "decision", "text": "Code fixes must be verified with test results in the same turn", "turn_added": 2, "last_seen": 2, "source": "capture"}

@@ -1,0 +1,30 @@
+id: 3
+decision: 'D2 (A0 gate) — Observer inventory: 44 observers in ~/habitat/observers/,
+  NONE dead (all reachable via a mode). A3 keeps every cluster, dedupes the 6 soft-duplicate
+  pairs (goal_align+outcome_align; context_capture+heuristic_capture; beast_parallelism+beast_structural;
+  beast_preturn+beast_correction; agent_gate+forge_gate; strategic_state+strategic_memory),
+  migrates the 4 beast legacy shims to native observers, and enforces the hookspec
+  ABI at dispatch (currently validated only in selftest — the live schema-leak symptom).
+  The Steward''s PRECISE relationship: it is the async EVOLVE driver ONLY — it SUPERSEDES
+  loop_closer (the stat-only fixed-algorithm precursor), FEEDS FROM the per-turn scorers
+  (beast_audit/drift, trust_audit, constitution-rubric, context/heuristic_capture,
+  goal/outcome_align, em-drift), and does NOT subsume the per-turn ENFORCEMENT observers
+  (constitution Stop-gate, constitution_sync, constitution_preturn, policy_drift,
+  contract_enforce) which remain the kernel''s synchronous arms.'
+rationale: 'Full per-observer audit (all 44 manifests + modes.toml + key observer.py
+  read). The earlier ''~50 unaudited observers'' debt is now a complete classified
+  table. The key structural finding: loop_closer.py already does drift→Haiku-amendment→PROPOSED,
+  so the Steward is its adaptive replacement, not a net-new mechanism — which corrects
+  the over-generous ''Steward subsumes the constitution observers'' framing: the Steward
+  runs unattended over ledgers, it is not a per-turn synchronous gate.'
+alternatives_rejected:
+- Retire observers as 'dead' (none are dead — all reachable via a mode; retiring would
+  break a mode)
+- Steward subsumes the per-turn constitution/policy enforcement observers (wrong —
+  those are synchronous kernel arms; the Steward is an async evolve loop over their
+  ledgers)
+- Keep the 4 beast legacy shims as-is (they are _legacy.run shims that should become
+  native observers in A3)
+bets_affected: []
+logged: '2026-06-01'
+source: null

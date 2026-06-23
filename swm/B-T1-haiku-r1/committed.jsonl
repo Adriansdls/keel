@@ -1,0 +1,7 @@
+{"id": "496d63953829", "kind": "constraint", "text": "validate_password() requires minimum 12 characters", "turn_added": 2, "last_seen": 2, "source": "capture"}
+{"id": "5a10d1c9ed4f", "kind": "constraint", "text": "validate_password() requires uppercase, lowercase, digit, and symbol", "turn_added": 2, "last_seen": 2, "source": "capture"}
+{"id": "e3cff4603c85", "kind": "constraint", "text": "validate_password() blocks common passwords case-insensitively", "turn_added": 2, "last_seen": 2, "source": "capture"}
+{"id": "c4eb5c519678", "kind": "constraint", "text": "validate_password() handles None, empty, and whitespace input", "turn_added": 2, "last_seen": 2, "source": "capture"}
+{"id": "856a8ee81ade", "kind": "constraint", "text": "validate_password() allows spaces and unicode in passwords", "turn_added": 2, "last_seen": 2, "source": "capture"}
+{"id": "95507361fc97", "kind": "constraint", "text": "validate_password() returns {\"valid\": bool, \"reasons\": list}", "turn_added": 2, "last_seen": 2, "source": "capture"}
+{"id": "63738ff98015", "kind": "constraint", "text": "Test output must be run and shown before completion can be claimed — cannot claim done based on code review alone", "turn_added": 4, "last_seen": 4, "source": "capture"}

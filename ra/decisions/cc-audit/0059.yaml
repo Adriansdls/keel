@@ -1,0 +1,9 @@
+id: 59
+decision: Model fluency maturity axis measures whether developers route work to the
+  right model rather than defaulting to one; assessment uses distinct_models and model_mix
+  signals.
+rationale: (auto-captured from session — see SWM committed.jsonl for full context)
+alternatives_rejected: []
+bets_affected: []
+logged: '2026-06-16'
+source: swm-bridge

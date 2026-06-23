@@ -1,0 +1,59 @@
+{
+  "ts": "2026-06-22T22:16:50+00:00",
+  "turns_since_full": 0,
+  "backend": "default+rule(floor)",
+  "results": [
+    {
+      "premise_id": "6b03ca86a051",
+      "status": "invalid",
+      "evidence": "provisional premise now treated as settled (shared: pipeline, check, pending)",
+      "source": "rule(floor)",
+      "groundedness": 1.0
+    },
+    {
+      "premise_id": "d88902aa1aaa",
+      "status": "invalid",
+      "evidence": "provisional premise now treated as settled (shared: tasks, pending)",
+      "source": "rule(floor)",
+      "groundedness": 1.0
+    },
+    {
+      "premise_id": "68afcdd704f0",
+      "status": "challenged",
+      "evidence": "not evaluated (no backend)",
+      "source": "default",
+      "groundedness": 1.0
+    },
+    {
+      "premise_id": "e7dfc3ca1cf4",
+      "status": "challenged",
+      "evidence": "not evaluated (no backend)",
+      "source": "default",
+      "groundedness": 1.0
+    },
+    {
+      "premise_id": "d2923f32d302",
+      "status": "invalid",
+      "evidence": "provisional premise now treated as settled (shared: verified, verdict, pass)",
+      "source": "rule(floor)",
+      "groundedness": 1.0
+    },
+    {
+      "premise_id": "7e510de6a100",
+      "status": "invalid",
+      "evidence": "provisional premise now treated as settled (shared: json, pending, research)",
+      "source": "rule(floor)",
+      "groundedness": 1.0
+    }
+  ],
+  "invalid": [
+    "6b03ca86a051",
+    "d88902aa1aaa",
+    "d2923f32d302",
+    "7e510de6a100"
+  ],
+  "challenged": [
+    "68afcdd704f0",
+    "e7dfc3ca1cf4"
+  ]
+}

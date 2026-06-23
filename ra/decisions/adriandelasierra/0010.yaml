@@ -1,0 +1,8 @@
+id: 10
+decision: 'Next immediate action: execute WP-2 build by porting SWM hooks into cowork
+  repo, replacing path hardcodes, and replacing regex extractors with shared llm.extract()'
+rationale: (auto-captured from session — see SWM committed.jsonl for full context)
+alternatives_rejected: []
+bets_affected: []
+logged: '2026-06-15'
+source: swm-bridge

@@ -1,0 +1,2 @@
+{"id": "61d22f8d5636", "kind": "premise", "text": "All 7 bets and 3 experiments remain in still_open status pending evidence of progress or completion.", "turn_added": 0, "last_seen": 0, "source": "capture"}
+{"id": "47f18e7c0574", "kind": "constraint", "text": "Cannot make judgments without observable activity.\"", "turn_added": 0, "last_seen": 0, "source": "capture"}

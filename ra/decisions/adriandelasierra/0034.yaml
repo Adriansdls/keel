@@ -1,0 +1,9 @@
+id: 34
+decision: 'Product is cc-audit: a standalone package that scans real Claude Code usage
+  and returns evidence-backed maturity reports plus specific fixes; positioned as
+  consulting deliverable + showcase repo for client orgs'
+rationale: (auto-captured from session — see SWM committed.jsonl for full context)
+alternatives_rejected: []
+bets_affected: []
+logged: '2026-06-16'
+source: swm-bridge

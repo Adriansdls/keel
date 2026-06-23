@@ -1,0 +1,11 @@
+id: 4
+title: 'WP-A1: Unify the agent framework into ONE canonical'
+status: done
+priority: p1
+area: infra
+why: Collapse habitat/libs-agent + zartis-agent into one framework (the 3 archetypes
+  skill/protocol/agent + builder + runtime as canonical), migrate machine-root + the
+  live agents onto it, retire the loser. Two implementations of the same thesis is
+  the core debt; 'clean' is impossible until it's one. Depends A0.
+created: '2026-06-01'
+updated: '2026-06-01'

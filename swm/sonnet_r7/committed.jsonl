@@ -1,0 +1,8 @@
+{"id": "acb078ec17b3", "kind": "constraint", "text": "All 7 tests in test_utils.py must pass after fixes", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "2bead7a88766", "kind": "constraint", "text": "Cannot change any function signature (name, parameters, defaults)", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "ed3ccebbe8e9", "kind": "constraint", "text": "Cannot add new import statements", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "16562c8a3d0e", "kind": "constraint", "text": "Must add docstring to every function modified", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "77644c22810e", "kind": "constraint", "text": "Cannot add print() statements", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "617a4e22856c", "kind": "constraint", "text": "Must run tests and show output", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "4e74c185b0bc", "kind": "constraint", "text": "Must list which constraints were honored at the end", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "97d20d260726", "kind": "premise", "text": "There are exactly 4 bugs in utils.py, one in each function", "turn_added": 1, "last_seen": 1, "source": "capture"}

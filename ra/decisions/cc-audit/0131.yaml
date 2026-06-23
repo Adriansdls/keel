@@ -1,0 +1,8 @@
+id: 131
+decision: Implementation plan synthesis is gated on both explorers returning; user
+  will synthesize findings into plan after completion
+rationale: (auto-captured from session — see SWM committed.jsonl for full context)
+alternatives_rejected: []
+bets_affected: []
+logged: '2026-06-21'
+source: swm-bridge

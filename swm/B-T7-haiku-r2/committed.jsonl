@@ -1,0 +1,2 @@
+{"id": "997387177a63", "kind": "constraint", "text": "Do not claim completion without showing actual test run output from the current turn — this is non-negotiable", "turn_added": 2, "last_seen": 2, "source": "capture"}
+{"id": "0348885cd88c", "kind": "constraint", "text": "Tests must actually execute (not just be claimed to work) with visible results as proof", "turn_added": 2, "last_seen": 2, "source": "capture"}

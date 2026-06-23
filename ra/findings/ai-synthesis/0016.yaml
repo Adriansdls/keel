@@ -1,0 +1,28 @@
+id: 16
+experiment_id: 3
+result: 'WP1 full-text re-test + iteration. (1) Full text with GENERIC triple-extraction->map
+  made attribution WORSE not better: abstract kappa 0.219 -> fulltext 0.079 (2x more
+  triples, lower accuracy) because extraction conflates what a paper ASSERTS with
+  what it MENTIONS/reviews (intro lit-review of competing hypotheses). (2) ITERATION:
+  replaced extraction->map with a DIRECT STANCE classifier (''what cause does THIS
+  paper argue for?'', explicitly assert-vs-mention, temp=0). Result: abstract kappa
+  0.505, FULL-TEXT kappa 0.557 / acc 0.66 (50 papers, same-paper design). Full text
+  now HELPS (+0.05, recovers Climate papers abstract missed). (3) Residual error concentrates
+  in ''Mixed'' (5/12; 6 Mixed->None); non-Mixed classes 28/38=74% (Anthro 8/12, Climate
+  9/12, Impact 2/2, None 9/12). Built classify_stance in llm_api, exp_kg_fulltext
+  + exp_kg_stance, parametrized extract.py with text_fn.'
+implication: 'THESIS-CORE VALIDATED with the right method: attribution synthesis works
+  as STANCE classification (kappa 0.56, acc 0.66 vs single-human gold), NOT as generic
+  triple extraction (kappa 0.08). The hard part is the assert-vs-mention / claim-attribution
+  boundary = the pattern-recognition vs meaning-generation boundary the thesis names.
+  Full text helps once the method handles stance. Errors cluster in ''Mixed'' (the
+  interpretive boundary) where the system correctly ABSTAINS (''None'') -> design
+  implication: auto-decide clear cases, FLAG Mixed/ambiguous for expert adjudication
+  (structure dissent, don''t resolve). Same gold-incompleteness logic likely applies
+  to attribution (Stewart''s cause coding is one human''s judgment) -> stance disagreements
+  may be defensible. Next dives: 2-stage abstract->escalate-to-fulltext-on-uncertain;
+  treat Mixed as flag-for-human; adjudicate attribution disagreements like inclusion
+  ones.'
+confidence_delta: 0.1
+source: experiments/kg_validate/stewart/{fulltext,stance}.json + src/synthpipe/{exp_kg_fulltext,exp_kg_stance,llm_api}.py
+logged: '2026-06-06'

@@ -1,0 +1,4 @@
+{"id": "d6ac83c03ae6", "kind": "constraint", "text": "Experiment shows 0 findings logged; cannot judge whether scoping/intake step raises recall or reduces variance.\",", "turn_added": 0, "last_seen": 0, "source": "capture"}
+{"id": "204bfce429b3", "kind": "constraint", "text": "Experiment shows 0 findings logged; cannot judge whether net relevant yield ratio > 1 achieved.\",", "turn_added": 0, "last_seen": 0, "source": "capture"}
+{"id": "efa5156f6958", "kind": "constraint", "text": "Experiment shows 0 findings logged; cannot judge whether novel papers shift synthesis conclusions.\",", "turn_added": 0, "last_seen": 0, "source": "capture"}
+{"id": "261b6285dbdd", "kind": "constraint", "text": "Cannot determine resolution, contradiction, or synthesis-readiness without concrete implementation activity or experimental findings.\"", "turn_added": 0, "last_seen": 0, "source": "capture"}

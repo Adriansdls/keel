@@ -1,0 +1,21 @@
+id: 10
+decision: 'Recall-validation dataset recommendation (Adrian delegated to me, optimize
+  for the paper): PRIMARY = Egeland et al. 2024 (236 actualistic-butchery zooarchaeology
+  studies, 1860-2021; enumerable included list in Supplemental; documented 144->318->236
+  search/screening; already snowballed 5 iterations; English-only). Buss 2023 DISQUALIFIED
+  (it is a protocol, no included list exists). Stewart 2025 = backup (distinct megafauna
+  domain but retrieval-recall only, no screening winnow). Final call on Egeland''s
+  domain-adjacency to Case 2 is Lucia''s (domain expert).'
+rationale: 'Verified by reading the PDFs: Buss 2023 says ''will search/will include''
+  (prospective protocol) -> no result set to measure recall against. Egeland 2024
+  has citation info for the entire 236-study sample in Supplemental and a documented
+  found->screened->included flow. Egeland already performed iterative backward citation
+  chasing AND searched English-only -> lets the paper make its strongest quotable
+  claim: automated bidirectional citation-expansion beats a manual review that already
+  snowballed, and surfaces non-English studies an English-only protocol structurally
+  cannot reach -> instantiates both the recall claim and the language-reachability
+  finding in one dataset. Stewart cannot produce that contrast.'
+alternatives_rejected: []
+bets_affected: []
+logged: '2026-06-02'
+source: null

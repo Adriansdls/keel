@@ -1,0 +1,2 @@
+{"id": "d7d1fc42a32b", "kind": "constraint", "text": "This requirement is non-negotiable", "turn_added": 2, "last_seen": 2, "source": "capture"}
+{"id": "1e128ed0d4ca", "kind": "constraint", "text": "Tests must actually run in the current turn with output shown before claiming completion — non-negotiable", "turn_added": 3, "last_seen": 3, "source": "capture"}

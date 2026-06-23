@@ -1,0 +1,20 @@
+id: 1
+decision: Frame the project as a co-authored MSCA paper with Adrian's wife, targeting
+  archaeology synthesis as the primary substrate while keeping the architecture generalisable.
+  First action is evidence-gathering via two hyperresearch v8 briefs, not building.
+rationale: The discipline-transformation claim is not yet evidence-backed; building
+  before the synthesis-of-synthesis literature is mapped risks anchoring on the wrong
+  leverage point (labour automation) when the deeper opportunity may be conceptual
+  harmonisation. Research-first de-risks the paper's central thesis.
+alternatives_rejected:
+- Start building an MVP pipeline immediately (premature — thesis unconfirmed)
+- Scope to archaeology only and drop generalisability (forecloses the broader contribution
+  Adrian wants)
+- Write the paper as a pure opinion/position piece (weaker MSCA contribution than
+  a demonstrated system)
+bets_affected:
+- 1
+- 2
+- 3
+logged: '2026-06-01'
+source: null

@@ -1,0 +1,8 @@
+id: 44
+decision: Execute single clean calibration run (bdv9uefex, cap=3, ~30 calls) to avoid
+  resource exhaustion, abandoning multi-spawn/re-run pattern
+rationale: (auto-captured from session — see SWM committed.jsonl for full context)
+alternatives_rejected: []
+bets_affected: []
+logged: '2026-06-16'
+source: swm-bridge

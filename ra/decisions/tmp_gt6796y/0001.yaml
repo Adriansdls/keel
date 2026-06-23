@@ -1,0 +1,8 @@
+id: 1
+decision: Items logged 8-13 days ago with truncated activity record providing no empirical
+  validation evidence.
+rationale: (auto-captured from session — see SWM committed.jsonl for full context)
+alternatives_rejected: []
+bets_affected: []
+logged: '2026-06-14'
+source: swm-bridge

@@ -1,0 +1,11 @@
+id: 10
+decision: 'value-critic (BloodHound Phase 2 analyst) requires code-enforced harness
+  implementation, not prose; decision justified by: multi-step analytical workflow
+  (5 frameworks), judgment-driven assessment, reasoning over knowledge base (inventory
+  markdown + JSON), and consequential output guiding configuration decisions. Counterweight
+  role implies trust rubric needed for authority to critique other analysts.'
+rationale: (auto-captured from session — see SWM committed.jsonl for full context)
+alternatives_rejected: []
+bets_affected: []
+logged: '2026-06-17'
+source: swm-bridge

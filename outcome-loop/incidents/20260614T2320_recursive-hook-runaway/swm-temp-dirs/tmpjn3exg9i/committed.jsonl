@@ -1,0 +1,2 @@
+{"id": "fdd596f2abb8", "kind": "constraint", "text": "Do NOT also emit a combined/compound version of facts you already split out, and do NOT split one fact into overlapping fragments.", "turn_added": 0, "last_seen": 0, "source": "capture"}
+{"id": "807c829e8b19", "kind": "premise", "text": "All items conservatively marked still_open pending future evidence collection.\"", "turn_added": 0, "last_seen": 0, "source": "capture"}

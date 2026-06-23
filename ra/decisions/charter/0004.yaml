@@ -1,0 +1,8 @@
+id: 4
+decision: Guardian agent spawned by hook with --no-permission-prompts flag, receives
+  request + session context via agenth
+rationale: (auto-captured from session — see SWM committed.jsonl for full context)
+alternatives_rejected: []
+bets_affected: []
+logged: '2026-06-15'
+source: swm-bridge

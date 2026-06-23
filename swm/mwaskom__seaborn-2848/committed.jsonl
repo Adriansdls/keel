@@ -1,0 +1,10 @@
+{"id": "0544c3a5a07c", "kind": "constraint", "text": "Cannot edit or add test files", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "6332f7a95bf8", "kind": "decision", "text": "Fix location is HueMapping._lookup_single() in seaborn/_oldcore.py:146-165", "turn_added": 1, "last_seen": 2, "source": "capture"}
+{"id": "94bfa40ef53d", "kind": "decision", "text": "For categorical mappings, return transparent color (0, 0, 0, 0) when a hue value is not in the lookup table, avoiding np.isnan() call on string values", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "9bc42ffc7f79", "kind": "decision", "text": "Update deprecated pandas option mode.use_inf_as_null to mode.use_inf_as_na across 3 files", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "36ea45648b0c", "kind": "decision", "text": "Add matplotlib >= 3.5 compatibility for colormap registration", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "7a79877beec3", "kind": "premise", "text": "np.isnan() does not support categorical string values and cannot safely coerce them", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "e15ec8dbea24", "kind": "premise", "text": "The desired behavior when hue_order is a subset is to exclude (not plot) values not in the order list", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "d22388989b0a", "kind": "decision", "text": "Matplotlib >= 3.5 compatibility: use matplotlib.colormaps.register() with fallback to old API for earlier versions", "turn_added": 2, "last_seen": 2, "source": "capture"}
+{"id": "d935899622da", "kind": "premise", "text": "test_share_xy has a pre-existing pytest API incompatibility unrelated to the current changes", "turn_added": 3, "last_seen": 3, "source": "capture"}
+{"id": "c947aad21d16", "kind": "decision", "text": "All core fixes have been verified working via test execution (HueMapping._lookup_single, pandas deprecated options, DataFrame.iteritems, matplotlib colormap registration)", "turn_added": 3, "last_seen": 3, "source": "capture"}

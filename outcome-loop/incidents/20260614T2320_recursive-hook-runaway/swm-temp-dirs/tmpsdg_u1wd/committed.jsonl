@@ -1,0 +1,2 @@
+{"id": "fdd596f2abb8", "kind": "constraint", "text": "Do NOT also emit a combined/compound version of facts you already split out, and do NOT split one fact into overlapping fragments.", "turn_added": 0, "last_seen": 0, "source": "capture"}
+{"id": "c1dbe46445bd", "kind": "premise", "text": "All seven bets and three experiments remain open pending empirical validation.", "turn_added": 0, "last_seen": 0, "source": "capture"}

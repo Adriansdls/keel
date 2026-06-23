@@ -1,0 +1,4 @@
+{"id": "c5243e10fcf5", "kind": "elimination", "text": "log_decision    — a firm project-level decision with rationale AND at least one rejected alternative explicitly stated.", "turn_added": 0, "last_seen": 0, "source": "capture"}
+{"id": "0a4577401294", "kind": "constraint", "text": "Do NOT capture soft preferences.", "turn_added": 0, "last_seen": 0, "source": "capture"}
+{"id": "862e6cea4199", "kind": "premise", "text": "All seven open bets and three open experiments remain in still_open status pending evidence of progress, resolution, or contradiction.", "turn_added": 0, "last_seen": 0, "source": "capture"}
+{"id": "6ba96cc5b1d7", "kind": "constraint", "text": "Cannot assess stale status without activity timeline.\"", "turn_added": 0, "last_seen": 0, "source": "capture"}

@@ -1,0 +1,10 @@
+id: 49
+decision: Authoring scores are calibrated against signals (write_edits, authoring_hits,
+  distinct_tools, turns); pattern shows low score (0.3) for high-edit one-offs, medium
+  (0.6) for substantial mixed build work, high (0.9) for heavy structured authoring
+  with leverage.
+rationale: (auto-captured from session — see SWM committed.jsonl for full context)
+alternatives_rejected: []
+bets_affected: []
+logged: '2026-06-16'
+source: swm-bridge

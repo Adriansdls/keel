@@ -1,0 +1,23 @@
+id: 19
+experiment_id: 3
+result: 'Local-model triage benchmark (free, on-device via Ollama REST, format=json
+  + think=false; built llm/local.py + experiments/local_triage.py). gemma3:4b on Stewart
+  slice (337 gold + 400 non-gold), 0.86s/paper FREE, vs API/Sonnet labels + gold.
+  Results: agreement-with-API 0.49 (kappa 0.29, low); gold retention core+peripheral
+  LOCAL 0.944 vs API 0.985; non-gold skip rate LOCAL 0.37 vs API 0.77. Core-only:
+  gold retention 0.31 but precision 0.95; core+peripheral: gold 0.94 but only shrinks
+  corpus to 77%. NOTE: qwen3:8b empty-output bug fixed via REST think=false + format=json
+  (qwen3 reasoning ate the token budget). qwen2.5:7b + qwen3:8b pulled.'
+implication: 'gemma3:4b NOT sufficient as drop-in triage: no clean operating point
+  — either keeps gold without shrinking (core+peripheral 0.94 recall / 77% kept) or
+  shrinks without keeping gold (core-only 0.31 recall / 95% precision). 4B lacks discrimination
+  to keep gold AND cut noise simultaneously. BUT recall-safe half works (keeps 94%
+  gold free, on-device) -> supports ''offline screening, no data leaves machine''
+  thesis angle, and a viable use is local as a free FIRST-PASS noise filter (removes
+  ~1/3 noise free) feeding the API. Next: benchmarking qwen3:8b (stronger) — if it
+  finds a clean knee, local triage viable; else keep cheap API (Haiku) for triage.
+  Cost architecture still holds: bound corpus at intake + tier models; local may serve
+  the offline/privacy mode even if not the cost-optimal triage.'
+confidence_delta: 0.0
+source: experiments/local_triage/stewart_gemma3-4b.json + src/synthpipe/llm/local.py
+logged: '2026-06-06'

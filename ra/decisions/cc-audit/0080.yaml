@@ -1,0 +1,9 @@
+id: 80
+decision: 'Scan stuck at 0% root cause: POST request fired before SSE ''open'' event
+  completed; fixed via scanFiredRef guard in SessionFlow.tsx enforcing proper event
+  sequence; visual heartbeat creeps to 70% until scan_ready fires'
+rationale: (auto-captured from session — see SWM committed.jsonl for full context)
+alternatives_rejected: []
+bets_affected: []
+logged: '2026-06-19'
+source: swm-bridge

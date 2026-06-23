@@ -1,0 +1,9 @@
+id: 101
+decision: 'For read-only sessions: frequent reads/runs with no edits indicates healthy
+  investigation (~0.6 score); near-zero tool use indicates passive behavior (~0.2
+  score).'
+rationale: (auto-captured from session — see SWM committed.jsonl for full context)
+alternatives_rejected: []
+bets_affected: []
+logged: '2026-06-20'
+source: swm-bridge

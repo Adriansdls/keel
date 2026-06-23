@@ -1,0 +1,8 @@
+id: 60
+decision: Mono-model usage (same model regardless of task weight) scores 0.0 on model_fluency;
+  heavy model for trivial work (e.g., Opus for lookups) explicitly scores low.
+rationale: (auto-captured from session — see SWM committed.jsonl for full context)
+alternatives_rejected: []
+bets_affected: []
+logged: '2026-06-16'
+source: swm-bridge

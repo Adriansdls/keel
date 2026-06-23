@@ -1,0 +1,17 @@
+# Python artifacts
+__pycache__/
+*.py[cod]
+*.so
+.venv/
+venv/
+
+# macOS
+.DS_Store
+
+# Temp files
+*.tmp
+*.log.tmp
+
+# Recoverable / large transient SWM data
+swm/*/cold-logs/
+swm/*/state-backups/

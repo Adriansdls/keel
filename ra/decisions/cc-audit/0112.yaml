@@ -1,0 +1,9 @@
+id: 112
+decision: Developer at L5 maturity tier (score 86/100) operating at ceiling; highest
+  leverage move is improving integration (0.73, weakest axis) by wiring Claude Code
+  to external systems for auto-propagation of agent outputs
+rationale: (auto-captured from session — see SWM committed.jsonl for full context)
+alternatives_rejected: []
+bets_affected: []
+logged: '2026-06-20'
+source: swm-bridge

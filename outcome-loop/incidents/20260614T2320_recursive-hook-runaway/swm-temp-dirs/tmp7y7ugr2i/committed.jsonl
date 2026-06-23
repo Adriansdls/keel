@@ -1,0 +1,3 @@
+{"id": "6bccea8fa1af", "kind": "premise", "text": "Bet remains open pending n>=10 replay runs with run_c5_replay_experiment.py.\",", "turn_added": 0, "last_seen": 0, "source": "capture"}
+{"id": "48fbe5264fb6", "kind": "premise", "text": "Bet remains open pending replay_gate.py runs against 12 gold fixtures with >80% catch rate target.\",", "turn_added": 0, "last_seen": 0, "source": "capture"}
+{"id": "3be218ed86f7", "kind": "premise", "text": "Bet remains open pending replay runs with suppressed or relabeled stale_session_limit snippets.\",", "turn_added": 0, "last_seen": 0, "source": "capture"}

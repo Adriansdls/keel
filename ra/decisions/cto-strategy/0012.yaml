@@ -1,0 +1,8 @@
+id: 12
+decision: ≥3 internal workflows must move from 'human assists AI' to 'human validates
+  AI' per Automation Eras Framework, documented with before/after evidence
+rationale: (auto-captured from session — see SWM committed.jsonl for full context)
+alternatives_rejected: []
+bets_affected: []
+logged: '2026-06-16'
+source: swm-bridge

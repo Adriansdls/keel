@@ -1,0 +1,8 @@
+id: 3
+decision: Use decision:block + additionalContext for in-session task chaining instead
+  of subprocess spawning.
+rationale: (auto-captured from session — see SWM committed.jsonl for full context)
+alternatives_rejected: []
+bets_affected: []
+logged: '2026-06-16'
+source: swm-bridge

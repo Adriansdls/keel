@@ -1,0 +1,16 @@
+id: 4
+hypothesis: If press runs uninterrupted for 8 consecutive weeks with no manual intervention,
+  then weekly episode output frequency holds while Paper 3 work is simultaneously
+  active
+bet_id: 4
+method: 'Run press LaunchAgents for 8 consecutive weeks post-launch (starting 2026-05-04).
+  Log: number of nightly runs that failed and required manual fix, Adrian''s subjective
+  cognitive load on press maintenance, episode frequency maintained or dropped. Threshold:
+  ≤1 manual intervention per week = press is sustainable.'
+expected_learning: 'Positive: press is fire-and-forget, confirms the automation thesis.
+  Negative: constant fires → need more robust error handling or the press design is
+  wrong. Either: concrete data on what fraction of solo-operator mental load the press
+  consumes.'
+status: running
+started: '2026-05-04'
+completed: null

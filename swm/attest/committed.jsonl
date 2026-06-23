@@ -1,0 +1,7 @@
+{"id": "9c3974a3d2a8", "kind": "constraint", "text": "Schema compliance requires exact structure: {\"schema_version\": \"attest-final-answer-semantic/v1\", \"claims\": []}", "turn_added": 104, "last_seen": 104, "source": "capture"}
+{"id": "0e4000e0fb4c", "kind": "constraint", "text": "Sonnet model wraps JSON output in markdown code fences instead of returning bare JSON, violating schema requirement", "turn_added": 104, "last_seen": 104, "source": "capture"}
+{"id": "2d5f1e212268", "kind": "constraint", "text": "Opus model does not honor --json-schema flag; ignores it and returns prose instead of enforced JSON", "turn_added": 104, "last_seen": 104, "source": "capture"}
+{"id": "31cd10eb0c49", "kind": "premise", "text": "--json-schema CLI flag should enforce schema compliance and model output format across all models", "turn_added": 104, "last_seen": 104, "source": "capture"}
+{"id": "8b4645a01a17", "kind": "elimination", "text": "Markdown-wrapped JSON output path is not viable; violates bare JSON schema requirement", "turn_added": 104, "last_seen": 104, "source": "capture"}
+{"id": "2d2d52338702", "kind": "constraint", "text": "STRUCTURAL SIGNALS (ground truth from tool call log — these dims are computed deterministically; do NOT override):", "turn_added": 109, "last_seen": 109, "source": "capture"}
+{"id": "1cb68fafdda2", "kind": "constraint", "text": "Schema travels **only via the flag**, never inside the prompt text.", "turn_added": 109, "last_seen": 109, "source": "capture"}

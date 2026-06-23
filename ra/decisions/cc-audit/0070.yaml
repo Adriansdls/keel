@@ -1,0 +1,10 @@
+id: 70
+decision: 'Delegation maturity measured via task_spawns and plan_uses normalized by
+  session turns, using 0.0–1.0 scale: 0.0=never delegates (zero spawns in substantial
+  sessions), 0.5=occasional (some spawns but mostly linear), 1.0=routinely orchestrates
+  (heavy fan-out with planning).'
+rationale: (auto-captured from session — see SWM committed.jsonl for full context)
+alternatives_rejected: []
+bets_affected: []
+logged: '2026-06-16'
+source: swm-bridge

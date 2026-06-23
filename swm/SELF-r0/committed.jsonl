@@ -1,0 +1,9 @@
+{"id": "55bb8298a49c", "kind": "constraint", "text": "Create file named billing.py in current directory", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "59edbcd5bb70", "kind": "constraint", "text": "Implement function tiered_price(units, base)", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "de77b72bc515", "kind": "constraint", "text": "First 10 units cost base each", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "14a037c87fd4", "kind": "constraint", "text": "Units 11-50 cost 90% of base", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "87d475891e48", "kind": "constraint", "text": "Units beyond 50 cost 80% of base", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "44a8c1b08852", "kind": "constraint", "text": "Apply minimum charge of 5.00 (if total < 5.00, return 5.00)", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "369852e044cc", "kind": "constraint", "text": "Round final result to 2 decimals", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "b4b4bf54fb51", "kind": "decision", "text": "tiered_price returns total cost for given units at base price with tiered discounts", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "99d8c1a8eae0", "kind": "constraint", "text": "Test must import from billing module", "turn_added": 1, "last_seen": 1, "source": "capture"}

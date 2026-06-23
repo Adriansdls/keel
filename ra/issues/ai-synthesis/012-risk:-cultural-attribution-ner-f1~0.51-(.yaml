@@ -1,0 +1,17 @@
+id: 12
+title: 'RISK: cultural-attribution NER F1~0.51 (near-chance) is a research gap, not
+  an e'
+status: idea
+priority: p2
+area: research
+why: Research 2 flags autonomous cultural-attribution extraction (assigning assemblages
+  to NACs from text) sits near chance (F1~0.51). The architecture already routes around
+  this — cultural attribution is INTERPRETED-layer, hence human-in-loop by design
+  — but it means escalation volume is higher than a naive plan assumes, and any claim
+  of 'autonomous taxonomy synthesis' must be scoped to the observable layer (artefact-type
+  F1~0.70 is fine). Do not promise autonomous cultural-unit classification; promise
+  observable-layer extraction + human-validated attribution + IOV quantification.
+hypothesis: Observable-layer extraction is reliable enough to automate; cultural-attribution
+  is not and must remain a routed expert task.
+created: '2026-06-01'
+updated: '2026-06-01'

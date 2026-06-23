@@ -1,0 +1,9 @@
+id: 116
+decision: 'Use Test-Driven Generation (TDG) for net-new system builds: user defines
+  acceptance criteria and database schema, Claude executes implementation to satisfy
+  those criteria'
+rationale: (auto-captured from session — see SWM committed.jsonl for full context)
+alternatives_rejected: []
+bets_affected: []
+logged: '2026-06-20'
+source: swm-bridge

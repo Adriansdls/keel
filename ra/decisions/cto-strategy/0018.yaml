@@ -1,0 +1,8 @@
+id: 18
+decision: Bench chosen as more production-ready; CC-OS is more ambitious; bench can
+  be incorporated into CC-OS architecture
+rationale: (auto-captured from session — see SWM committed.jsonl for full context)
+alternatives_rejected: []
+bets_affected: []
+logged: '2026-06-16'
+source: swm-bridge

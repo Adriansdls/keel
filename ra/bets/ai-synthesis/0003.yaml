@@ -1,0 +1,229 @@
+id: 3
+statement: An agentic synthesis architecture proven on archaeology will generalise
+  to other observational, heterogeneous, multilingual, gray-literature-heavy disciplines
+  where classical meta-analysis has not taken hold.
+rationale: Adrian's stated goal is a generalisable world-class synthesis process;
+  archaeology is the hard test case (no established protocols, unstable units). If
+  it works on the hardest substrate, the design transfers downward to easier ones.
+confidence: 1.0
+evidence_needed: A second-domain probe (or strong structural argument backed by the
+  literature) showing the same architecture handles a non-archaeology heterogeneous
+  corpus without redesign of its core.
+status: active
+created: '2026-06-01'
+updated: '2026-06-14'
+updates:
+- date: '2026-06-01'
+  delta: -0.05
+  old_confidence: 0.5
+  new_confidence: 0.45
+  evidence_ref: research/notes/final_report_agentic-synthesis-impact.md ("Archaeology
+    — least positioned; mismatch fundamental, not incremental")
+  reasoning: 'Adversarial read disconfirms the NAIVE form of this bet (archaeology
+    transformed via EBM-style extract-pool-estimate synthesis): archaeology''s bottleneck
+    is interpretive, not throughput, so the EBM pipeline does not transfer. BUT the
+    report''s own meta-science loophole rescues the reframed bet — archaeology''s
+    literature-as-data (taxonomy, citation graph, inter-observer variation) IS tractable,
+    and the archaeology∩meta-science intersection ranks second-best positioned. Net
+    small negative; the bet needs restatement from "EBM-style transformation" to "ontology-repair
+    / literature-as-data synthesis." See decision log.'
+- date: '2026-06-01'
+  delta: 0.15
+  old_confidence: 0.45
+  new_confidence: 0.6
+  evidence_ref: docs/fit-assessment-cobo-docs.md; Cobo Paper1/Paper2 structure docs
+  reasoning: 'Independent convergence: the archaeology-side collaborator arrived at
+    the same citation-graph/giant-component architecture AND a concrete demonstrable
+    instantiation (Neanderthal-carnivore KG, named gold standards Brugal&Fosse 2004
+    / Hussain 2022, target journals). The architecture is no longer hypothetical —
+    it is specced end-to-end with validation design. Raises confidence the architecture
+    is buildable and provable on real archaeology. Still unvalidated empirically (no
+    recall numbers yet), so not a full confirm.'
+- date: '2026-06-01'
+  delta: 0.1
+  old_confidence: 0.6
+  new_confidence: 0.7
+  evidence_ref: Research 2 §6 (dependency-ordered MVP build map + validation gates)
+  reasoning: 'Bet #3 (architecture provable on archaeology) gains a concrete, dependency-ordered
+    MVP map with falsifiable validation gates (recall ≥0.95, F1 ≥0.65/type, κ ≥0.70,
+    coherence reproducibility ≥0.90, "reproduce CLIOARCH within uncertainty bounds")
+    and named existing components (AGNES, AutArch, CLIOARCH, ARIADNE+, SKOPE as direct
+    precedent). Tempered by: cultural-attribution NER ≈ F1 0.51 is a research gap;
+    CLIOARCH-team co-design is a hard dependency; the 14-week path is the system not
+    the paper. Net positive but with explicit preconditions now visible.'
+- date: '2026-06-05'
+  delta: 0.05
+  old_confidence: 0.7
+  new_confidence: 0.75
+  evidence_ref: experiments/triage/stewart/slice.json
+  reasoning: 'Criterion-based triage is the validated precision lever (mirror image
+    of the falsified ranker): retains 99.4% gold while every ranker concentrated 0%.
+    Confirms eligibility != similarity empirically. BUT magnitude is modest (3.2x
+    shrink) because Haiku peripheral tier is generous (only 10% gold) yet load-bearing
+    for recall (17% of gold strand there). Best path: do NOT keep all peripheral;
+    take high-precision core (65%) + citation-snowball to recover the 56 peripheral
+    gold -> smaller cleaner set than blunt core+peripheral. Exp 3 (snowball from confirmed-eligible)
+    now data-motivated. Also port reg_monitor''s two-tier confidence escalation: Haiku
+    decides, escalate to Sonnet only on low-confidence band.'
+- date: '2026-06-05'
+  delta: 0.05
+  old_confidence: 0.75
+  new_confidence: 0.8
+  evidence_ref: experiments/triage/stewart/slice_api.json + src/synthpipe/llm_api.py
+  reasoning: 'Path B (API, temp=0, paper-intrinsic) is both more reproducible AND
+    a better operating point than CLI: core precision 79% vs 65%, shrink 4.3x vs 3.2x.
+    Cost: strands 86 gold in peripheral + drops 5 gold to skip (1.5% triage recall
+    floor loss). Tool-use/schema enforcement unavailable through the context-proxy
+    (strips tools field) -> use temp=0 JSON parse, reproducibility via disk cache
+    not model determinism. Exp 3 target now: recover 86 peripheral gold via citation
+    links to the 312-paper core. Next: re-run snowball go/no-go on stable API tiers
+    with corrected sweep (links-primary, coupling saturated at >=1) + forward co-citation.'
+- date: '2026-06-05'
+  delta: 0.1
+  old_confidence: 0.8
+  new_confidence: 0.9
+  evidence_ref: /tmp/fp_inspect.log + wccarleton/mfreview repo (github API tree) +
+    data/stewart_s1.xlsx inspection
+  reasoning: 'Measured precision is a LOWER BOUND - gold set is includes-only and
+    incomplete. Stewart''s excluded set was never published -> ''missed vs excluded''
+    split is impossible from public data -> the original review''s screening is unauditable.
+    Evaluating precision against an includes-only human gold structurally penalizes
+    any tool with higher recall than the original humans. This is thesis-grade (the
+    invisible/unauditable expert-judgment harm the project targets), not a pipeline
+    bug. Reframe evaluation: agreement-with-SR + expert adjudication of the disagreement
+    set (MSCA archaeologist judges unique finds). Next quantitative check: compare
+    66 core-FPs vs 359 gold on journal/citation/year/WoS-category - if indistinguishable,
+    they are missable includes not noise. Caveats: WoS(Stewart) vs OpenAlex(us) database-frame
+    difference; some FPs may be reviews/modeling Stewart excluded on full-text.'
+- date: '2026-06-05'
+  delta: 0.15
+  old_confidence: 0.9
+  new_confidence: 1.0
+  evidence_ref: experiments/adjudicate/stewart/result.json + src/synthpipe/exp_adjudicate.py
+    + llm_api.adjudicate_api
+  reasoning: 'MAJOR REFRAME: the precision problem is largely an artifact of an incomplete,
+    unauditable gold standard, not a pipeline failure. True core-tier precision ~97%,
+    not 79%. Adrian''s hypothesis confirmed with calibrated controls. The pipeline
+    surfaces canonical literature the original human SR missed. This is thesis-grade:
+    the system makes the human review''s invisible false-negatives legible and adjudicable.
+    Implications: (1) stop optimizing precision against includes-only gold past diminishing
+    returns; (2) correct metric = agreement + adjudication of disagreement set; (3)
+    the contribution is legibility/recall-superiority over an unauditable human benchmark.
+    Caveats: adjudicator is Sonnet not human expert (controls make it credible); part
+    of gap is WoS-vs-OpenAlex frame difference. Next: confirm on full corpus; bring
+    disagreement set to MSCA archaeologist for final human adjudication.'
+- date: '2026-06-05'
+  delta: 0.05
+  old_confidence: 1.0
+  new_confidence: 1.0
+  evidence_ref: docs/idea16-kg-synthesis-design-2026-06-05.md + repo ontology/extract/kg/query.py
+    + exp03_fullchain outputs + PaleoDeepDive/EDC/Gartlehner literature
+  reasoning: 'Use B (KG as synthesis deliverable + structural disagreement-adjudicator)
+    is the prize; Use A (relevance filter) demoted since precision is mostly a gold-incompleteness
+    artifact. Concrete sequence: (1) validate existing extractor against Stewart''s
+    Extinction-Cause coding FIRST (cheap, gates everything); (2) build entity-resolution
+    layer resolve.py (EDC + authority-linking, start with taxa+periods); (3) entity-graph
+    membership/community -> adjudicate Exp-4 false-positives structurally; (4) dissent
+    map synthesis.py (descriptive-only, per ExtinctionEvent: which drivers, supported_by
+    vs contradicted_by, with provenance + observable flag). Don''t rebuild - extend.
+    Abstract-only baseline; full-text is enhancement. Open Qs for archaeologist: ExtinctionEvent
+    granularity, driver vocab (Stewart-5 vs richer induced), authority version pinning.'
+- date: '2026-06-05'
+  delta: 0.05
+  old_confidence: 1.0
+  new_confidence: 1.0
+  evidence_ref: /tmp/ft_factory3.log + .cache/fulltext (152 ok) + src/synthpipe/fulltext/resolvers/{elsevier_tdm,s2_open}.py
+  reasoning: 'Elsevier token is the confirmed +103-paper unlock (14%->45% coverage).
+    Adding WILEY_TDM_TOKEN would push toward ~65% (66 Wiley papers). S2 key is dead
+    provider-side -> Adrian must verify/re-issue in S2 dashboard or contact support;
+    s2_open runs on public pool meanwhile (marginal for full-text since OA already
+    covered by oa_direct; S2''s real value is retrieval/citation-graph). Minor report
+    gap: final per-DOI status reflects the LAST resolver (manual_queue NOT_FOUND),
+    masking inst_network/wiley DENIED -> access menu undercounts ''what unlocks more'';
+    fix = track best/most-informative status across resolvers. Net: factory validated
+    under real credentials; coverage scales with creds as designed, zero code change.'
+- date: '2026-06-06'
+  delta: 0.1
+  old_confidence: 1.0
+  new_confidence: 1.0
+  evidence_ref: experiments/kg_validate/stewart/{fulltext,stance}.json + src/synthpipe/{exp_kg_fulltext,exp_kg_stance,llm_api}.py
+  reasoning: 'THESIS-CORE VALIDATED with the right method: attribution synthesis works
+    as STANCE classification (kappa 0.56, acc 0.66 vs single-human gold), NOT as generic
+    triple extraction (kappa 0.08). The hard part is the assert-vs-mention / claim-attribution
+    boundary = the pattern-recognition vs meaning-generation boundary the thesis names.
+    Full text helps once the method handles stance. Errors cluster in ''Mixed'' (the
+    interpretive boundary) where the system correctly ABSTAINS (''None'') -> design
+    implication: auto-decide clear cases, FLAG Mixed/ambiguous for expert adjudication
+    (structure dissent, don''t resolve). Same gold-incompleteness logic likely applies
+    to attribution (Stewart''s cause coding is one human''s judgment) -> stance disagreements
+    may be defensible. Next dives: 2-stage abstract->escalate-to-fulltext-on-uncertain;
+    treat Mixed as flag-for-human; adjudicate attribution disagreements like inclusion
+    ones.'
+- date: '2026-06-06'
+  delta: 0.05
+  old_confidence: 1.0
+  new_confidence: 1.0
+  evidence_ref: experiments/crossdomain/{egeland,harrison}.json + experiments/adjudicate/stewart/result.json
+    + docs/paper1-results-skeleton.md
+  reasoning: 'Gold-incompleteness GENERALIZES directionally across 3 unrelated domains:
+    specificity perfect everywhere (skip 0.00), and FP include-rate substantial everywhere
+    (0.52-0.88, far above noise) -> precision vs includes-only gold is a LOWER BOUND
+    in every domain. BUT magnitude is domain-dependent: Stewart strong (FP indistinguishable
+    from gold), Egeland/Harrison weaker (FPs ~half genuine misses vs nearly-all for
+    Stewart). Honest caveats: Egeland/Harrison used protocol-question-as-criteria
+    (looser than Stewart''s criteria file), methods/behaviour reviews harder to screen
+    from abstract, small FP samples (n=19-33). Defensible paper claim: ''across 3
+    domains a substantial fraction of false positives are genuine includes the human
+    gold missed'' (not ''indistinguishable from gold'' -> that''s Stewart-specific).
+    Next cheap moves: tighten by writing per-domain criteria files; human adjudication
+    on Stewart; start Paper 1 draft from skeleton.'
+- date: '2026-06-06'
+  delta: -0.05
+  old_confidence: 1.0
+  new_confidence: 0.95
+  evidence_ref: experiments/percolation/{stewart,egeland,harrison}.json + src/synthpipe/experiments/percolation.py
+  reasoning: 'Percolation-predicts-recall is dead — do NOT build the paper''s theory
+    on it. Real mechanism revealed: recall = keyword + citation channels working COMPLEMENTARILY
+    and anti-correlated across domains. Stewart = weak citation connectivity (73%,
+    4% on-topic ref share) but strong keyword -> 96% (keyword finds the 27% citation-isolated
+    gold). Egeland/Harrison = stronger citation connectivity (79-87%) but weaker keyword
+    -> 81%. Citation giant-component is an upper bound on ONE channel''s reach, not
+    system recall. SURVIVING finding (modest, honest): keyword+citation are complementary/anti-correlated
+    -> explains why hybrid retrieval is robust across domains; 13-27% of gold is citation-invisible
+    (keyword-only). Usable as a paragraph (''why hybrid generalizes''), not a theory
+    section. Of the Tier-1 elegant-concepts, percolation is demoted; capture-recapture
+    and argument-frameworks remain the live high-value additions.'
+- date: '2026-06-06'
+  delta: 0.1
+  old_confidence: 0.95
+  new_confidence: 1.0
+  evidence_ref: experiments/local_triage/stewart_qwen3-8b.json vs stewart_gemma3-4b.json
+    + src/synthpipe/llm/local.py
+  reasoning: 'Local-models question ANSWERED: yes at 8B (qwen3:8b matches frontier
+    triage on the cost-critical noise-rejection, 0.765=0.767, keeping 94% gold), no
+    at 4B (gemma3 too weak to discriminate). Validates the cost architecture: high-volume
+    triage -> free on-device qwen3:8b; reserve paid frontier model for low-volume
+    interpretive core (stance/dissent/adjudication). Paper point: offline, no-API,
+    no-data-egress screening matching a frontier model -> accessibility/legibility
+    thesis (no-budget lab can run it). Caveats: 93.8% vs 98.5% gold retention = loses
+    ~5% more gold at triage (tunable via recall-biased prompt; real free-vs-recall
+    tradeoff); 1.76s/paper slow (~overnight for tens of thousands, free, parallelizable).
+    Next cheap moves: recall-biased local prompt to close the 5% gap; the intake/scoping
+    module (other big cost lever); the prospective end-to-end run on a new question.'
+- date: '2026-06-06'
+  delta: 0.1
+  old_confidence: 1.0
+  new_confidence: 1.0
+  evidence_ref: experiments/local_triage/{stewart,egeland,harrison}_qwen3-8b_recall.json
+    + /tmp/diag.log + src/synthpipe/llm/local.py
+  reasoning: 'Free, on-device, offline triage now matches/beats a frontier API on
+    gold retention across 3 domains, validated without leaking (prompt a priori, gold
+    only measured) or overfitting (held-out Egeland+Harrison generalize, even improve).
+    Strong paper claim: high-recall screening runs on a laptop, no API, no data egress,
+    >=96% gold retained -> accessibility/legibility thesis. Recall-for-shrink tradeoff
+    is explicit and tunable. Cost architecture validated end: bound corpus at intake
+    (free OpenAlex count) + free local recall-biased triage + paid frontier only for
+    low-volume interpretive synthesis. Remaining: the residual 4 misses are the gold-incompleteness
+    theme (tangential inclusions); intake/scoping module is the last cost lever +
+    the prospective end-to-end run.'
+source: null

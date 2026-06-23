@@ -1,0 +1,11 @@
+id: 11
+decision: Prioritize hyperresearch on Ch5 before running quality gates on existing
+  draft
+rationale: verify_claims gate will fail or weaken without stronger source grounding;
+  better to know what research says before staking claims
+alternatives_rejected:
+- Run quality gates on existing draft first, then conditionally run hyperresearch
+  based on results
+bets_affected: []
+logged: '2026-06-22'
+source: auto-hook

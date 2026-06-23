@@ -1,0 +1,10 @@
+{"id": "78f60b53726b", "kind": "constraint", "text": "\"reasoning\": \"Activity truncated; cannot evaluate corpus-scale harmonisation progress\",", "turn_added": 0, "last_seen": 0, "source": "capture"}
+{"id": "ef306581db6b", "kind": "constraint", "text": "\"reasoning\": \"Activity truncated; cannot evaluate human-in-loop boundary validation\",", "turn_added": 0, "last_seen": 0, "source": "capture"}
+{"id": "c68c29a6b733", "kind": "constraint", "text": "\"reasoning\": \"Activity truncated; cannot evaluate cross-domain generalisation\",", "turn_added": 0, "last_seen": 0, "source": "capture"}
+{"id": "9e2823993bf8", "kind": "constraint", "text": "\"reasoning\": \"Activity truncated; cannot evaluate percolation threshold experiments\",", "turn_added": 0, "last_seen": 0, "source": "capture"}
+{"id": "d5b20baa31ac", "kind": "constraint", "text": "\"reasoning\": \"Activity truncated; cannot evaluate scoping module stability impact\",", "turn_added": 0, "last_seen": 0, "source": "capture"}
+{"id": "bc2a0905910f", "kind": "constraint", "text": "\"reasoning\": \"Activity truncated; cannot evaluate net relevant yield metrics\",", "turn_added": 0, "last_seen": 0, "source": "capture"}
+{"id": "e879021f1280", "kind": "constraint", "text": "\"reasoning\": \"Activity truncated; cannot evaluate conclusion-shift from novel papers\",", "turn_added": 0, "last_seen": 0, "source": "capture"}
+{"id": "529b9c5aef5d", "kind": "constraint", "text": "\"reasoning\": \"Activity truncated; 0 findings logged, cannot assess completion\",", "turn_added": 0, "last_seen": 0, "source": "capture"}
+{"id": "6499c78f632a", "kind": "premise", "text": "All 7 bets and 3 experiments remain in still_open status pending actual evidence.", "turn_added": 0, "last_seen": 0, "source": "capture"}
+{"id": "dfce3cf6b0a5", "kind": "constraint", "text": "Cannot make informed judgments about resolution, contradiction, or staleness without complete activity context.\"", "turn_added": 0, "last_seen": 0, "source": "capture"}

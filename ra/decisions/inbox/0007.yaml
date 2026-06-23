@@ -1,0 +1,9 @@
+id: 7
+decision: Use argv-sniff subcommand for serve functionality
+rationale: Preserves the flat `cc-audit <path>` CLI interface; argparse subparsers
+  would break it
+alternatives_rejected:
+- argparse subparsers
+bets_affected: []
+logged: '2026-06-18'
+source: auto-hook

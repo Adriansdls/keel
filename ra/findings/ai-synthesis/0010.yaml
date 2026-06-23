@@ -1,0 +1,27 @@
+id: 10
+experiment_id: 3
+result: 'Investigated whether pipeline ''false positives'' are actually true positives
+  the Stewart gold set missed (Adrian''s hypothesis). Inspection of 66 core-tier FPs
+  (API triage, core-labeled, not in gold): dominated by canonical on-topic megafauna-extinction
+  papers in Nature/Science/QSR (e.g. ''uncertain blitzkrieg of Pleistocene megafauna''
+  2004; ''Climate change not human population growth correlates with Late Quaternary
+  megafauna decline'' Nature Comms 2021; ''New carbon dates link climatic change with
+  human colonization and Pleistocene extinctions'' Nature 2006). Checked source repo
+  wccarleton/mfreview: ALL data files (mf_review_papers.xlsx, _final, Papers_list_final_V2/V3)
+  contain only the 359 INCLUDED papers + WoS metadata/hand-coding. No excluded set,
+  no pre-screening corpus, no PRISMA enumeration published.'
+implication: 'Measured precision is a LOWER BOUND - gold set is includes-only and
+  incomplete. Stewart''s excluded set was never published -> ''missed vs excluded''
+  split is impossible from public data -> the original review''s screening is unauditable.
+  Evaluating precision against an includes-only human gold structurally penalizes
+  any tool with higher recall than the original humans. This is thesis-grade (the
+  invisible/unauditable expert-judgment harm the project targets), not a pipeline
+  bug. Reframe evaluation: agreement-with-SR + expert adjudication of the disagreement
+  set (MSCA archaeologist judges unique finds). Next quantitative check: compare 66
+  core-FPs vs 359 gold on journal/citation/year/WoS-category - if indistinguishable,
+  they are missable includes not noise. Caveats: WoS(Stewart) vs OpenAlex(us) database-frame
+  difference; some FPs may be reviews/modeling Stewart excluded on full-text.'
+confidence_delta: 0.1
+source: /tmp/fp_inspect.log + wccarleton/mfreview repo (github API tree) + data/stewart_s1.xlsx
+  inspection
+logged: '2026-06-05'

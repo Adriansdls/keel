@@ -1,0 +1,19 @@
+id: 10
+title: Observable/interpreted separation under retroactive legibility — standalone
+  publ
+status: idea
+priority: p1
+area: research
+why: 'Research 2''s hardest+most novel technical contribution: archaeological text
+  conflates observable evidence (backed bladelets, N=X) with interpreted attribution
+  (Federmesser); the system must reconstruct a distinction the source text was never
+  written to carry. Conservative extraction (observable status only for explicit physical
+  attributes; escalate the rest) + two confidence fields per claim (source-legibility
+  + extraction-accuracy). This is publishable on its own and is the core of the Paper
+  1 methods. High novelty, defensible, generalises to any observational synthesis
+  over interpretation-laden literature.'
+hypothesis: A dual-confidence conservative-extraction protocol that separates observable
+  from interpreted claims yields high escalation volume but zero downstream misclassification
+  propagation — measurably safer than flat extraction.
+created: '2026-06-01'
+updated: '2026-06-01'

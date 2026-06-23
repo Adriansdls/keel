@@ -1,0 +1,75 @@
+{
+  "ts": "2026-06-22T17:56:24+00:00",
+  "turns_since_full": 0,
+  "backend": "default+rule(floor)",
+  "results": [
+    {
+      "premise_id": "d88902aa1aaa",
+      "status": "challenged",
+      "evidence": "not evaluated (no backend)",
+      "source": "default",
+      "groundedness": 0.25
+    },
+    {
+      "premise_id": "6a24dc2314aa",
+      "status": "challenged",
+      "evidence": "not evaluated (no backend)",
+      "source": "default",
+      "groundedness": 0.25
+    },
+    {
+      "premise_id": "9df20a34bddb",
+      "status": "invalid",
+      "evidence": "provisional premise now treated as settled (shared: loci, want)",
+      "source": "rule(floor)",
+      "groundedness": 1.0
+    },
+    {
+      "premise_id": "957721ab003b",
+      "status": "invalid",
+      "evidence": "provisional premise now treated as settled (shared: hong, leng, yang)",
+      "source": "rule(floor)",
+      "groundedness": 1.0
+    },
+    {
+      "premise_id": "52ec509aa965",
+      "status": "invalid",
+      "evidence": "provisional premise now treated as settled (shared: draft)",
+      "source": "rule(floor)",
+      "groundedness": 1.0
+    },
+    {
+      "premise_id": "b7e898c15347",
+      "status": "invalid",
+      "evidence": "provisional premise now treated as settled (shared: draft, step)",
+      "source": "rule(floor)",
+      "groundedness": 1.0
+    },
+    {
+      "premise_id": "fdaee8f69a69",
+      "status": "challenged",
+      "evidence": "not evaluated (no backend)",
+      "source": "default",
+      "groundedness": 0.25
+    },
+    {
+      "premise_id": "ca512643ab1a",
+      "status": "invalid",
+      "evidence": "provisional premise now treated as settled (shared: critic)",
+      "source": "rule(floor)",
+      "groundedness": 1.0
+    }
+  ],
+  "invalid": [
+    "9df20a34bddb",
+    "957721ab003b",
+    "52ec509aa965",
+    "b7e898c15347",
+    "ca512643ab1a"
+  ],
+  "challenged": [
+    "d88902aa1aaa",
+    "6a24dc2314aa",
+    "fdaee8f69a69"
+  ]
+}

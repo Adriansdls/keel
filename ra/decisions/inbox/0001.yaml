@@ -1,0 +1,9 @@
+id: 1
+decision: Use local freeze archive (~/.claude/skills-frozen/) for storing frozen skills
+rationale: Zero overhead, zero tokens, instant recovery. Single move command to freeze
+  or thaw.
+alternatives_rejected:
+- Remote git-based approach with version history
+bets_affected: []
+logged: '2026-06-15'
+source: auto-hook

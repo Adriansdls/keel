@@ -1,0 +1,9 @@
+id: 23
+decision: 'OKR 3 restructured from ZCORA to H&P + Deputy + Parliament chain: H&P extracts
+  expert playbook → Deputy agent built from it → Parliament architecture designed
+  for Q4; grounded in D026, D027'
+rationale: (auto-captured from session — see SWM committed.jsonl for full context)
+alternatives_rejected: []
+bets_affected: []
+logged: '2026-06-16'
+source: swm-bridge

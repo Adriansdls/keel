@@ -1,0 +1,12 @@
+{"id": "a067df505ecd", "kind": "constraint", "text": "Cannot assess evidence of corpus-scale conceptual harmonisation demonstrator or domain expert validation.\",", "turn_added": 0, "last_seen": 0, "source": "capture"}
+{"id": "fdb043eb8910", "kind": "constraint", "text": "Cannot assess benchmark data showing per-stage accuracy or supervision protocol validation.\",", "turn_added": 0, "last_seen": 0, "source": "capture"}
+{"id": "2b234bccee13", "kind": "constraint", "text": "Cannot assess second-domain probe or generalization evidence beyond archaeology.\",", "turn_added": 0, "last_seen": 0, "source": "capture"}
+{"id": "afdfbb7b9ced", "kind": "constraint", "text": "Cannot assess percolation sweep results on gold-standard corpora or threshold separation evidence.\",", "turn_added": 0, "last_seen": 0, "source": "capture"}
+{"id": "8d49065b2e3c", "kind": "constraint", "text": "Cannot assess pipeline runs with/without scoping step or recall variance measurements.\",", "turn_added": 0, "last_seen": 0, "source": "capture"}
+{"id": "2cc134320db7", "kind": "constraint", "text": "Cannot assess yield ratio calculations, precision measurements, or adjudicated-novel fraction data.\",", "turn_added": 0, "last_seen": 0, "source": "capture"}
+{"id": "98fc62659b13", "kind": "constraint", "text": "Cannot assess synthesis output shifts, Jensen-Shannon divergence, or counterfactual conclusion-shift evidence.\",", "turn_added": 0, "last_seen": 0, "source": "capture"}
+{"id": "1068c3d3bddb", "kind": "constraint", "text": "Cannot assess scoping/intake step implementation or cross-domain variance measurements.\",", "turn_added": 0, "last_seen": 0, "source": "capture"}
+{"id": "b7dc583e043b", "kind": "constraint", "text": "Cannot assess final relevant set size, precision measurements, or yield ratio calculations.\",", "turn_added": 0, "last_seen": 0, "source": "capture"}
+{"id": "a3409b7680df", "kind": "constraint", "text": "Cannot assess synthesis conclusion shifts or attribution distribution changes.\",", "turn_added": 0, "last_seen": 0, "source": "capture"}
+{"id": "6ab7a3d53d9f", "kind": "premise", "text": "All seven bets and three experiments remain marked as still_open pending future activity analysis.", "turn_added": 0, "last_seen": 0, "source": "capture"}
+{"id": "830bf2424567", "kind": "constraint", "text": "Cannot make informed judgments about resolution, contradiction, or staleness without evidence of recent work on the project.\"", "turn_added": 0, "last_seen": 0, "source": "capture"}

@@ -1,0 +1,8 @@
+id: 140
+decision: Reports must expose all calculation details (eur_window, window_days, monthly_factor,
+  projection_reliable, formula basis) for auditability; not a black box
+rationale: (auto-captured from session — see SWM committed.jsonl for full context)
+alternatives_rejected: []
+bets_affected: []
+logged: '2026-06-22'
+source: swm-bridge

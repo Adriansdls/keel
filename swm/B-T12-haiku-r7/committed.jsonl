@@ -1,0 +1,2 @@
+{"id": "9b510d7f9a49", "kind": "constraint", "text": "Tests must be actually run and output shown when claiming completion — cannot claim done without visible test results", "turn_added": 2, "last_seen": 2, "source": "capture"}
+{"id": "dfeb80eb234a", "kind": "decision", "text": "Refactored `tiered_price()` from O(n) loop to closed-form tier calculation, verified against all 16 edge cases", "turn_added": 2, "last_seen": 2, "source": "capture"}

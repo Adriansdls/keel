@@ -1,0 +1,4 @@
+{"id": "c8bbfe9840a0", "kind": "constraint", "text": "Do NOT edit or add test files when fixing this bug", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "f5af280793cd", "kind": "decision", "text": "Default FILE_UPLOAD_PERMISSION should be set to 0o644", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "20060246ece8", "kind": "constraint", "text": "tempfile.NamedTemporaryFile + os.rename sequence creates 0o0600 permissions on some systems (CentOS 7.4, Python 3.6.5), causing inconsistency with other upload paths", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "7c93251e81fe", "kind": "premise", "text": "File permission inconsistency depends on uploaded file size and which temporary storage handler is used (MemoryUploadedFile vs TemporaryUploadedFile)", "turn_added": 1, "last_seen": 1, "source": "capture"}

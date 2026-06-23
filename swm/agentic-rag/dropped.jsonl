@@ -1,0 +1,78 @@
+{"kind": "premise", "text": "- Pipeline stopped at `verify_claims: pending` — the first quality gate", "reason": "no_markdown_headers", "archived_reason": "invariant"}
+{"kind": "premise", "text": "- Updated pipeline: `final_publication_formatting: \"pending\"` → `\"sent_to_author_2026-06-22\"`", "reason": "no_markdown_headers", "archived_reason": "invariant"}
+{"kind": "premise", "text": "- `chapters/05_the_evidence_object_is_the_unit_of_trust/chapter-state.json` — status: `writing_completed_waiting_for_verify_claims_approval`, pipeline stopped at `verify_claims: pending`", "reason": "no_markdown_headers", "archived_reason": "invariant"}
+{"kind": "constraint", "text": "- \"Never commit `.env` or credentials.", "reason": "no_markdown_headers", "archived_reason": "invariant"}
+{"kind": "constraint", "text": "- \"Never (forbidden under any mode or instruction): commit_or_print_secrets, force_push_default_branch, disable_or_bypass_governance\"", "reason": "no_markdown_headers", "archived_reason": "invariant"}
+{"kind": "premise", "text": "- Pipeline stopped at `verify_claims: pending`", "reason": "no_markdown_headers", "archived_reason": "invariant"}
+{"kind": "constraint", "text": "- \"Never commit `.env` or credentials.", "reason": "no_markdown_headers", "archived_reason": "invariant"}
+{"kind": "constraint", "text": "- \"Never (forbidden under any mode or instruction): commit_or_print_secrets, force_push_default_branch, disable_or_bypass_governance\"", "reason": "no_markdown_headers", "archived_reason": "invariant"}
+{"kind": "constraint", "text": "- \"Never commit `.env` or credentials.", "reason": "no_markdown_headers", "archived_reason": "invariant"}
+{"kind": "constraint", "text": "- \"Never (forbidden under any mode or instruction): commit_or_print_secrets, force_push_default_branch, disable_or_bypass_governance\"", "reason": "no_markdown_headers", "archived_reason": "invariant"}
+{"kind": "premise", "text": "- **Ch5 v2 chapter contract**: Ch4 hands off provisional `claim_force_ceiling` → Ch5 formalizes it into licensed ceiling → Ch6 uses admission criteria → Ch8 tests force fields in trace → Ch12 enforces authority", "reason": "no_markdown_headers", "archived_reason": "invariant"}
+{"kind": "premise", "text": "- Completely rewritten for v2: title \"Evidence Is a License, Not a Citation\", research_topic \"chapter-5-evidence-is-a-license\", all pipeline stages reset to \"pending\", v2_note documents new thesis and v1 artifact reuse policy", "reason": "no_markdown_headers", "archived_reason": "invariant"}
+{"kind": "elimination", "text": "- **`chapters/05_the_evidence_object_is_the_unit_of_trust/05-draft-v1-abandoned-old-thesis.md`**", "reason": "no_markdown_headers", "archived_reason": "invariant"}
+{"kind": "constraint", "text": "- \"Never commit `.env` or credentials.", "reason": "no_markdown_headers", "archived_reason": "invariant"}
+{"kind": "constraint", "text": "- \"Never (forbidden under any mode or instruction): commit_or_print_secrets, force_push_default_branch, disable_or_bypass_governance\"", "reason": "no_markdown_headers", "archived_reason": "invariant"}
+{"kind": "premise", "text": "- Claim verification was pending when interrupted.", "reason": "no_markdown_headers", "archived_reason": "invariant"}
+{"kind": "premise", "text": "- `research` through `final_publication_formatting`: all pending", "reason": "no_markdown_headers", "archived_reason": "invariant"}
+{"kind": "premise", "text": "- Reset to `phase: \"strategize\"`, `strategize: completed`, all downstream phases `pending`.", "reason": "no_markdown_headers", "archived_reason": "invariant"}
+{"kind": "premise", "text": "- Reset to `status: \"strategize_pending\"`, `pipeline.strategize: \"completed\"`, all others `pending`.", "reason": "no_markdown_headers", "archived_reason": "invariant"}
+{"kind": "premise", "text": "- State is reset to strategize-complete; research is pending.", "reason": "no_markdown_headers", "archived_reason": "invariant"}
+{"kind": "constraint", "text": "- \"Never commit `.env` or credentials.", "reason": "no_markdown_headers", "archived_reason": "invariant"}
+{"kind": "constraint", "text": "- \"Never (forbidden under any mode or instruction): commit_or_print_secrets, force_push_default_branch, disable_or_bypass_governance\"", "reason": "no_markdown_headers", "archived_reason": "invariant"}
+{"kind": "premise", "text": "- Reset to `phase: \"strategize\"`, `strategize: completed`, all downstream phases `pending`.", "reason": "no_markdown_headers", "archived_reason": "invariant"}
+{"kind": "premise", "text": "- Reset to `status: \"strategize_pending\"`, `pipeline.strategize: \"completed\"`, all others `pending`.", "reason": "no_markdown_headers", "archived_reason": "invariant"}
+{"kind": "premise", "text": "- State is reset to strategize-complete; research is pending.", "reason": "no_markdown_headers", "archived_reason": "invariant"}
+{"kind": "constraint", "text": "- \"Never commit `.env` or credentials.", "reason": "no_markdown_headers", "archived_reason": "invariant"}
+{"kind": "constraint", "text": "- \"Never (forbidden under any mode or instruction): commit_or_print_secrets, force_push_default_branch, disable_or_bypass_governance\"", "reason": "no_markdown_headers", "archived_reason": "invariant"}
+{"kind": "premise", "text": "- Reset to `phase: \"strategize\"`, `strategize: completed`, all downstream phases `pending`.", "reason": "no_markdown_headers", "archived_reason": "invariant"}
+{"kind": "premise", "text": "- Reset to `status: \"strategize_pending\"`, `pipeline.strategize: \"completed\"`, all others `pending`.", "reason": "no_markdown_headers", "archived_reason": "invariant"}
+{"kind": "premise", "text": "- State is reset to strategize-complete; research is pending.", "reason": "no_markdown_headers", "archived_reason": "invariant"}
+{"kind": "constraint", "text": "- \"Never commit `.env` or credentials.", "reason": "no_markdown_headers", "archived_reason": "invariant"}
+{"kind": "constraint", "text": "- \"Never (forbidden under any mode or instruction): commit_or_print_secrets, force_push_default_branch, disable_or_bypass_governance\"", "reason": "no_markdown_headers", "archived_reason": "invariant"}
+{"kind": "premise", "text": "- Reset to `phase: \"strategize\"`, `strategize: completed`, all downstream phases `pending`.", "reason": "no_markdown_headers", "archived_reason": "invariant"}
+{"kind": "premise", "text": "- Reset to `status: \"strategize_pending\"`, `pipeline.strategize: \"completed\"`, all others `pending`.", "reason": "no_markdown_headers", "archived_reason": "invariant"}
+{"kind": "premise", "text": "- State is reset to strategize-complete; research is pending.", "reason": "no_markdown_headers", "archived_reason": "invariant"}
+{"kind": "constraint", "text": "- \"Never commit `.env` or credentials.", "reason": "no_markdown_headers", "archived_reason": "invariant"}
+{"kind": "constraint", "text": "- \"Never (forbidden under any mode or instruction): commit_or_print_secrets, force_push_default_branch, disable_or_bypass_governance\"", "reason": "no_markdown_headers", "archived_reason": "invariant"}
+{"kind": "premise", "text": "- Reset to `phase: \"strategize\"`, `strategize: completed`, all downstream phases `pending`.", "reason": "no_markdown_headers", "archived_reason": "invariant"}
+{"kind": "premise", "text": "- Reset to `status: \"strategize_pending\"`, `pipeline.strategize: \"completed\"`, all others `pending`.", "reason": "no_markdown_headers", "archived_reason": "invariant"}
+{"kind": "premise", "text": "- State is reset to strategize-complete; research is pending.", "reason": "no_markdown_headers", "archived_reason": "invariant"}
+{"kind": "constraint", "text": "- \"Never commit `.env` or credentials.", "reason": "no_markdown_headers", "archived_reason": "invariant"}
+{"kind": "constraint", "text": "- \"Never (forbidden under any mode or instruction): commit_or_print_secrets, force_push_default_branch, disable_or_bypass_governance\"", "reason": "no_markdown_headers", "archived_reason": "invariant"}
+{"kind": "premise", "text": "- Reset to `phase: \"strategize\"`, `strategize: completed`, all downstream phases `pending`.", "reason": "no_markdown_headers", "archived_reason": "invariant"}
+{"kind": "premise", "text": "- Reset to `status: \"strategize_pending\"`, `pipeline.strategize: \"completed\"`, all others `pending`.", "reason": "no_markdown_headers", "archived_reason": "invariant"}
+{"kind": "premise", "text": "- State is reset to strategize-complete; research is pending.", "reason": "no_markdown_headers", "archived_reason": "invariant"}
+{"kind": "constraint", "text": "- \"Never commit `.env` or credentials.", "reason": "no_markdown_headers", "archived_reason": "invariant"}
+{"kind": "constraint", "text": "- \"Never (forbidden under any mode or instruction): commit_or_print_secrets, force_push_default_branch, disable_or_bypass_governance\"", "reason": "no_markdown_headers", "archived_reason": "invariant"}
+{"kind": "premise", "text": "- Reset to `phase: \"strategize\"`, `strategize: completed`, all downstream phases `pending`.", "reason": "no_markdown_headers", "archived_reason": "invariant"}
+{"kind": "premise", "text": "- Reset to `status: \"strategize_pending\"`, `pipeline.strategize: \"completed\"`, all others `pending`.", "reason": "no_markdown_headers", "archived_reason": "invariant"}
+{"kind": "premise", "text": "- State is reset to strategize-complete; research is pending.", "reason": "no_markdown_headers", "archived_reason": "invariant"}
+{"kind": "constraint", "text": "- \"Never commit `.env` or credentials.", "reason": "no_markdown_headers", "archived_reason": "invariant"}
+{"kind": "constraint", "text": "- \"Never (forbidden under any mode or instruction): commit_or_print_secrets, force_push_default_branch, disable_or_bypass_governance\"", "reason": "no_markdown_headers", "archived_reason": "invariant"}
+{"kind": "premise", "text": "- `research/topics/chapter-5-evidence-is-a-license/state.json`: `phase: \"strategize\"`, `strategize.status: \"completed\"`, `research.status: \"pending\"`.", "reason": "no_markdown_headers", "archived_reason": "invariant"}
+{"kind": "premise", "text": "- `chapters/05_the_evidence_object_is_the_unit_of_trust/chapter-state.json`: `pipeline.strategize: \"completed\"`, all downstream phases `pending`.", "reason": "no_markdown_headers", "archived_reason": "invariant"}
+{"kind": "elimination", "text": "- Quarantine note and v1 abandonment notes are intact.", "reason": "no_markdown_headers", "archived_reason": "invariant"}
+{"kind": "premise", "text": "- Reset to `phase: \"strategize\"`, `strategize: completed`, all downstream phases `pending`.", "reason": "no_markdown_headers", "archived_reason": "invariant"}
+{"kind": "premise", "text": "- Reset to `status: \"strategize_pending\"`, `pipeline.strategize: \"completed\"`, all others `pending`.", "reason": "no_markdown_headers", "archived_reason": "invariant"}
+{"kind": "premise", "text": "- State is reset to strategize-complete; research is pending.", "reason": "no_markdown_headers", "archived_reason": "invariant"}
+{"kind": "constraint", "text": "- \"Never commit `.env` or credentials.", "reason": "no_markdown_headers", "archived_reason": "invariant"}
+{"kind": "constraint", "text": "- \"Never (forbidden under any mode or instruction): commit_or_print_secrets, force_push_default_branch, disable_or_bypass_governance\"", "reason": "no_markdown_headers", "archived_reason": "invariant"}
+{"kind": "premise", "text": "- Reset to `phase: \"strategize\"`, `strategize: completed`, all downstream phases `pending`.", "reason": "no_markdown_headers", "archived_reason": "invariant"}
+{"kind": "premise", "text": "- Reset to `status: \"strategize_pending\"`, `pipeline.strategize: \"completed\"`, all others `pending`.", "reason": "no_markdown_headers", "archived_reason": "invariant"}
+{"kind": "premise", "text": "- State is reset to strategize-complete; research is pending.", "reason": "no_markdown_headers", "archived_reason": "invariant"}
+{"kind": "constraint", "text": "- \"Never commit `.env` or credentials.", "reason": "no_markdown_headers", "archived_reason": "invariant"}
+{"kind": "constraint", "text": "- \"Never (forbidden under any mode or instruction): commit_or_print_secrets, force_push_default_branch, disable_or_bypass_governance\"", "reason": "no_markdown_headers", "archived_reason": "invariant"}
+{"kind": "premise", "text": "- Reset to `phase: \"strategize\"`, `strategize: completed`, all downstream phases `pending`.", "reason": "no_markdown_headers", "archived_reason": "invariant"}
+{"kind": "premise", "text": "- Reset to `status: \"strategize_pending\"`, `pipeline.strategize: \"completed\"`, all others `pending`.", "reason": "no_markdown_headers", "archived_reason": "invariant"}
+{"kind": "premise", "text": "- State is reset to strategize-complete; research is pending.", "reason": "no_markdown_headers", "archived_reason": "invariant"}
+{"kind": "constraint", "text": "- \"Never commit `.env` or credentials.", "reason": "no_markdown_headers", "archived_reason": "invariant"}
+{"kind": "constraint", "text": "- \"Never (forbidden under any mode or instruction): commit_or_print_secrets, force_push_default_branch, disable_or_bypass_governance\"", "reason": "no_markdown_headers", "archived_reason": "invariant"}
+{"kind": "premise", "text": "- Reset to `phase: \"strategize\"`, `strategize: completed`, all downstream phases `pending`.", "reason": "no_markdown_headers", "archived_reason": "invariant"}
+{"kind": "premise", "text": "- Reset to `status: \"strategize_pending\"`, `pipeline.strategize: \"completed\"`, all others `pending`.", "reason": "no_markdown_headers", "archived_reason": "invariant"}
+{"kind": "premise", "text": "- State is reset to strategize-complete; research is pending.", "reason": "no_markdown_headers", "archived_reason": "invariant"}
+{"kind": "constraint", "text": "- \"Never commit `.env` or credentials.", "reason": "no_markdown_headers", "archived_reason": "invariant"}
+{"kind": "constraint", "text": "- \"Never (forbidden under any mode or instruction): commit_or_print_secrets, force_push_default_branch, disable_or_bypass_governance\"", "reason": "no_markdown_headers", "archived_reason": "invariant"}
+{"kind": "constraint", "text": "- Never commit `.env` or credentials; never output tokens in plaintext.", "reason": "no_markdown_headers", "archived_reason": "invariant"}
+{"kind": "constraint", "text": "- Do not claim a task is done/fixed/passing without verification evidence in the session.", "reason": "no_markdown_headers", "archived_reason": "invariant"}
+{"kind": "constraint", "text": "- Same file line 113 — \"Never let low-trust content hide inside a high-trust answer.\" This is the `min(max_claim_force)` rule.", "reason": "no_markdown_headers", "archived_reason": "invariant"}

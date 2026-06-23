@@ -1,0 +1,9 @@
+id: 39
+decision: Authoring axis measures whether developers build reusable assets (skills,
+  hooks, MCP servers, agents, packages) rather than solving the same problem one-off
+  repeatedly
+rationale: (auto-captured from session — see SWM committed.jsonl for full context)
+alternatives_rejected: []
+bets_affected: []
+logged: '2026-06-16'
+source: swm-bridge

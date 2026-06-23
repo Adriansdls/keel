@@ -1,0 +1,6 @@
+{"id": "710b5b773e07", "kind": "constraint", "text": "tiered_price(units, base): first 10 units cost base each, units 11-50 cost 90% of base, units 51+ cost 80% of base", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "863173146163", "kind": "constraint", "text": "tiered_price must apply a minimum charge of 5.00 — if computed total is below 5.00, return 5.00", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "0ea55316a862", "kind": "constraint", "text": "tiered_price result must be rounded to exactly 2 decimal places", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "514d81a157d0", "kind": "decision", "text": "Write only the acceptance test in test_billing.py; do not write the implementation", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "8f87488d4f29", "kind": "decision", "text": "Test must import billing module and call billing.tiered_price", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "ec5e9ee6c221", "kind": "premise", "text": "Test can use exact equality assertions since results are rounded to 2 decimals", "turn_added": 1, "last_seen": 1, "source": "capture"}

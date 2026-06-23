@@ -1,0 +1,11 @@
+id: 17
+decision: 'Product structure kept flat: all 21 Reforge skills in single ~/product/.claude/skills/
+  directory with no sub-disciplines. Rationale: one product (Raising Agents), and
+  sub-splitting functional areas (growth, PMF, retention) would create navigation
+  friction with zero benefit at current scale. Rejected alternative: organizing into
+  ~/product/growth/, ~/product/pmt/, ~/product/retention/.'
+rationale: (auto-captured from session — see SWM committed.jsonl for full context)
+alternatives_rejected: []
+bets_affected: []
+logged: '2026-06-15'
+source: swm-bridge

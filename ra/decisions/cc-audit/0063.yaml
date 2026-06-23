@@ -1,0 +1,9 @@
+id: 63
+decision: model_fluency is a distinct maturity axis measuring whether developers match
+  model tier to task complexity (heavyweight on hard work, lighter models on routine
+  work) rather than defaulting to a single model
+rationale: (auto-captured from session — see SWM committed.jsonl for full context)
+alternatives_rejected: []
+bets_affected: []
+logged: '2026-06-16'
+source: swm-bridge

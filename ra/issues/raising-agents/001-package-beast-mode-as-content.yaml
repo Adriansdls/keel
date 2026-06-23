@@ -1,0 +1,12 @@
+id: 1
+title: Package beast-mode setup as Raising Agents content
+status: done
+priority: p1
+area: content
+why: The meta-angle is the story — readers learn about agents better by having an
+  exceptional agent setup themselves. Demonstrates the core thesis in practice. Assets
+  already built; this is packaging, not building.
+hypothesis: A post showing how to make Claude Code audit itself earns authority through
+  evidence and gets high engagement with engineers who use Claude Code.
+created: '2026-05-26'
+updated: '2026-05-27'

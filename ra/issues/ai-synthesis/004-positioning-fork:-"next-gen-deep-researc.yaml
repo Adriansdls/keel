@@ -1,0 +1,15 @@
+id: 4
+title: 'Positioning fork: "next-gen deep research agent" vs "agentic systematic synthesi'
+status: idea
+priority: p1
+area: strategy
+why: How the paper positions against the crowded deep-research-agent lineage (OpenAI/Gemini
+  DR, Elicit, FutureHouse/PaperQA2, hyperresearch) decides whether the contribution
+  is defensible or incremental. Same architecture, different epistemic contract —
+  the ownable wedge is unit/ontology instability, which DR agents structurally ignore.
+hypothesis: Framing as "reproducible corpus-bounded synthesis + ontology repair, archaeology
+  as proving ground" survives review; framing as "better deep research agent for science"
+  loses to FutureHouse/Elicit.
+created: '2026-06-01'
+updated: '2026-06-06'
+bet_id: 1

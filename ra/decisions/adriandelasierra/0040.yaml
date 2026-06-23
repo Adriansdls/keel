@@ -1,0 +1,9 @@
+id: 40
+decision: 'Module mapping strategy: copy/adapt concepts from harness with zero runtime
+  dependencies — proxy→capture, beast→async-judge, agenth→authoring-lens, skills2→commander,
+  legible-org→client-framing'
+rationale: (auto-captured from session — see SWM committed.jsonl for full context)
+alternatives_rejected: []
+bets_affected: []
+logged: '2026-06-16'
+source: swm-bridge

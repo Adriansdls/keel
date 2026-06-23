@@ -1,0 +1,16 @@
+id: 2
+statement: The 10-family failure taxonomy derived from 44 Sonnet-validated cases covers
+  the majority of real premature-closure patterns in Claude Code sessions and will
+  catch new cases without major gaps.
+rationale: The taxonomy was derived inductively from 1,240 mined candidates, 85/90
+  Haiku-worthwhile, 44/90 Sonnet-validated, 30 true positives. The 10 families emerged
+  bottom-up; the most common shape (proxy evidence as confirmation) appeared across
+  multiple independent sessions.
+confidence: 0.55
+evidence_needed: Running replay_gate.py against all 12 gold fixtures and achieving
+  >80% catch rate with <20% false positive (over-block) rate on the 3 allowed controls.
+status: active
+created: '2026-06-04'
+updated: '2026-06-14'
+updates: []
+source: null

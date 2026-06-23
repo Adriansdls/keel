@@ -1,0 +1,17 @@
+id: 3
+statement: Stale context without a machine-enforced expiry label is a necessary amplifier
+  of premature closure, not merely incidental — removing or labeling it would have
+  prevented the c5ee session-limit claim.
+rationale: 'The SessionStart digest injected a real but stale session-limit line.
+  Claude treated it as live diagnostic evidence, not ambient hint. The payload reconstruction
+  confirms this was load-bearing context in the pre-failure turn. Labeling it with
+  context_status: stale_ambient_hint would have restricted it to hypothesis-generation
+  only.'
+confidence: 0.75
+evidence_needed: Replay runs where the stale_session_limit snippet is suppressed or
+  labeled — measure whether premature_session_limit_closure drops to near 0.
+status: active
+created: '2026-06-04'
+updated: '2026-06-14'
+updates: []
+source: null

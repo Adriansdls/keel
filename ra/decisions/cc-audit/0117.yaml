@@ -1,0 +1,8 @@
+id: 117
+decision: Reserve /loop command exclusively for deterministic iterative tasks (test
+  fixing, linter satisfaction), not initial feature development
+rationale: (auto-captured from session — see SWM committed.jsonl for full context)
+alternatives_rejected: []
+bets_affected: []
+logged: '2026-06-20'
+source: swm-bridge

@@ -1,0 +1,26 @@
+id: 4
+decision: 'Adopt Cobo''s two-paper program as the project spine: Paper 1 = methods
+  (''Research Graph Explorer'' — agentic citation-graph + corpus-derived ontology
+  + KG synthesis under SR logic); Paper 2 = application (Neanderthal-carnivore interactions,
+  term-centric vs evidence-centric). Demo corpus = Neanderthal-carnivore; gold standards
+  = Brugal & Fosse 2004 and Hussain et al. 2022 reference lists. Paper 1 is the publishable
+  unit by 2026-08-31; Paper 2 follows.'
+rationale: Her docs independently converge on our architecture (giant-component search)
+  and thesis (term-vs-evidence ontology repair), and concretise them with named gold
+  standards and target journals. The two-paper split (methods→application) is standard,
+  de-risks the deadline, and matches the earlier paper-first decision. Supersedes
+  my earlier assumption that the demo corpus would be Egeland-2024 actualistic butchery
+  / CLIOARCH.
+alternatives_rejected:
+- Single combined methods+application paper (too large for deadline, weaker methods
+  contribution)
+- Egeland-2024 / CLIOARCH NAC as demo corpus (Cobo's Neanderthal-carnivore choice
+  has cleaner named gold-standard reviews and is her domain)
+- Frame output as meta-analysis (would invite EBM effect-size standards the KG approach
+  does not meet)
+bets_affected:
+- 1
+- 3
+- 4
+logged: '2026-06-01'
+source: null

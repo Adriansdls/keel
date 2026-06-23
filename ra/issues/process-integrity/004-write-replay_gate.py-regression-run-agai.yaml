@@ -1,0 +1,11 @@
+id: 4
+title: Write replay_gate.py regression run against all 12 gold fixtures and record
+  pass
+status: idea
+priority: p1
+area: research
+why: GOLD-SAMPLE.md specifies 12 failing fixtures and 3 controls. replay_gate.py exists
+  in diagnostic-contract/ but results have not been recorded as a formal finding.
+  This is the primary validation of bet 2.
+created: '2026-06-04'
+updated: '2026-06-04'

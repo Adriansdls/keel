@@ -1,0 +1,8 @@
+id: 142
+decision: Monthly cost = (tokens_from_logs × public_versioned_pricing_table) × (30
+  / actual_days_in_window)
+rationale: (auto-captured from session — see SWM committed.jsonl for full context)
+alternatives_rejected: []
+bets_affected: []
+logged: '2026-06-22'
+source: swm-bridge

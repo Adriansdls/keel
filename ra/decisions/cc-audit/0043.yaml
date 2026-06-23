@@ -1,0 +1,9 @@
+id: 43
+decision: 'Authoring maturity uses 0.0-1.0 scale with anchors: 0.0=no asset-building
+  (ad hoc only), 0.5=opportunistic building, 1.0=systematic leverage building; rationale
+  is to quantify consistency and volume of construction activity across sessions.'
+rationale: (auto-captured from session — see SWM committed.jsonl for full context)
+alternatives_rejected: []
+bets_affected: []
+logged: '2026-06-16'
+source: swm-bridge

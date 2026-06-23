@@ -1,0 +1,16 @@
+id: 13
+title: Skills 2.0 — universal SKILL.md→contract-backed transformer
+status: idea
+priority: p1
+area: infra
+why: 'Anthropic''s SKILL.md pattern is exploding but brittle (just prompts, no I/O
+  contracts, no execution proof, no evals). Building a universal transformer + runtime
+  that adds Python-enforced contracts, hooks, telemetry, trust scoring. Generalizes
+  cto-strategy''s vault-contract pattern. High leverage: every skill-using engineer/org
+  is the addressable market. Becomes a Raising Agents flagship artifact + maybe a
+  Zartis service line.'
+hypothesis: A SKILL.md auto-transformed into skill.toml + Pydantic I/O + step decorators
+  + hook-based audit beats v1 baseline on every measurable axis (step-completion,
+  schema-pass, trust score) across 4+ stylistically diverse skills.
+created: '2026-05-28'
+updated: '2026-05-28'

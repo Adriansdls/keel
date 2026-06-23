@@ -1,0 +1,120 @@
+id: 1
+statement: Building corpus-scale conceptual harmonisation of contested analytical
+  units (NACs / industries / technocomplexes) will deliver a categorically larger
+  disciplinary transformation than automating the labour bottleneck alone.
+rationale: 'Medicine/ecology already have standardised units, so AI there is mostly
+  labour speedup. Archaeology''s distinctive pathology (Riede/CLIOARCH: same term,
+  different thing across traditions/languages) is unsolved and blocks all downstream
+  synthesis. Attacking it is both the novel research contribution and the MSCA differentiator.'
+confidence: 1.0
+evidence_needed: A demonstrator that detects same-term-different-thing (or different-term-same-thing)
+  across a real multi-tradition corpus and produces a harmonised, versioned unit mapping
+  that domain experts validate as more informative than the raw NAC labels.
+status: active
+created: '2026-06-01'
+updated: '2026-06-14'
+updates:
+- date: '2026-06-01'
+  delta: 0.1
+  old_confidence: 0.6
+  new_confidence: 0.7
+  evidence_ref: docs/fit-assessment-cobo-docs.md; Cobo Paper2 §1.2 + RQ4
+  reasoning: 'The "more than automation = ontology repair" thesis now has a concrete
+    operational instantiation: Paper 2''s term-centric vs evidence-centric mismatch
+    analysis (RQ4) is exactly unit-instability detection — the Riede problem transposed
+    to interaction vocabulary. Independent convergence onto the wedge from the domain
+    side strengthens the claim that the defensible contribution is ontology/concept
+    repair, not throughput.'
+- date: '2026-06-01'
+  delta: 0.1
+  old_confidence: 0.7
+  new_confidence: 0.7999999999999999
+  evidence_ref: Research 2 §4 (three tractable harmonisation operations)
+  reasoning: 'Bet #1 (there is "more" than labour-automation — the changed relationship
+    to corpus/discipline) is sharpened from a slogan into three concrete, newly-tractable
+    operations: (1) IOV quantification as first-class metadata, (2) coherence-score
+    as query metadata, (3) continuous querying without re-derivation. Plus the reframe
+    that the system is materially SAFER than the untracked-judgment status quo. This
+    is the strongest articulation yet of "change the relationship with the corpus."
+    Held back from a larger bump because operations (1)-(3) are still unvalidated
+    empirically.'
+- date: '2026-06-02'
+  delta: 0.05
+  old_confidence: 0.7999999999999999
+  new_confidence: 0.85
+  evidence_ref: pipeline/experiments/exp01_proxy_d2/manifest.json
+  reasoning: 'The dominant lever to raise recall is relevance-guided expansion (the
+    core/peripheral/skip classifier, Exp 2), NOT more budget -- pure structural BFS
+    cannot saturate the on-topic cluster within a reasonable node budget because off-topic
+    citers crowd it out. Two confounds to remove before trusting the number: swap
+    the weak reference-list proxy for Stewart Supplementary Table S1 (the 360 included
+    studies, a coherent cluster), and report recall stratified by decade (pre-digital
+    tail has a structural ceiling).'
+- date: '2026-06-02'
+  delta: 0.05
+  old_confidence: 0.85
+  new_confidence: 0.9
+  evidence_ref: pipeline/experiments/exp03_fullchain/manifest.json + triples.json
+    + ontology.json
+  reasoning: 'v1 is fully functional A-to-Z with every hard requirement operational
+    (relevance-guided search, PRISMA + bounded human band, corpus-induced ontology,
+    provenance-bearing triples, observable/interpretive separation, descriptive-only
+    KG), reproducible via OpenAlex + LLM decision caches. The thesis-critical observable/interpretive
+    distinction works in practice. Remaining for a strong result: guided-depth-2 vs
+    unguided-depth-2 recall-lift comparison, swap real Stewart Supp Table S1 gold,
+    N-run stability, extraction-prompt denoising.'
+- date: '2026-06-02'
+  delta: 0.03
+  old_confidence: 0.9
+  new_confidence: 0.93
+  evidence_ref: pipeline/experiments/exp06_clean/keyword.json + README.md trajectory
+  reasoning: '100% recall is approachable honestly via gold-blind channels: keyword
+    generation (a priori, reproducible) does the bulk, citation expansion (gold-blind)
+    closes the tail. The honest methodology produced a HIGHER number than the cheating
+    one -- integrity and performance aligned. Remaining ~33 gold papers are 1982-2024
+    specific taxa/region/proxy studies; close via guided/deeper citation then characterize
+    the true irreducible residual (absent from databases or citation-isolated) as
+    a finding. For scale, move heavy classification off claude -p to a batch API.'
+- date: '2026-06-03'
+  delta: 0.04
+  old_confidence: 0.93
+  new_confidence: 0.9700000000000001
+  evidence_ref: pipeline/experiments/exp08_sensitivity/summary.json
+  reasoning: 'The 0.969 hybrid recall is NOT an artifact of lucky hand-written wording
+    -- it survives phrasing variation with only 1.7-point SD, and a non-specialist
+    phrasing works as well as an expert''s. This makes the automated protocol generator
+    a viable contribution AND de-risks the headline recall claim. The ''reverse-engineer
+    protocol from Stewart''s RESULTS'' idea was rejected as circular (gold-peeking);
+    the legitimate design generates from the topic (front of funnel) and validates
+    against held-out recall. Remaining gaps for paper-grade: confirm robustness end-to-end
+    on the FULL hybrid (not just keyword channel) for >=2 extreme variants; test criteria-phrasing
+    (screening) sensitivity; add >=2 more gold-standard SRs for cross-domain generalization
+    (N=1 is weak).'
+- date: '2026-06-03'
+  delta: 0.06
+  old_confidence: 0.9700000000000001
+  new_confidence: 1.0
+  evidence_ref: pipeline/experiments/multidomain/comparison.json
+  reasoning: 'The hybrid retrieval method GENERALIZES across three distinct fields
+    (archaeology/paleo, zooarchaeology methods, behavioural ecology) -- the generalizability
+    claim is now evidence, not assertion. Citation expansion is the equalizer: keyword
+    recall is wildly domain-dependent (0.28-0.76) but hybrid clusters 0.66-0.92. This
+    is the core results table for Paper 1. Honesty upgrades: leak-free numbers (0.919
+    not 0.969), title-match conservatism quantified, all gold-blind. Remaining for
+    paper-grade: deeper citation expansion (depth=1 capped now) to push the title-gold
+    domains higher; phrasing-sensitivity on full hybrid; extraction-precision audit
+    (human/Lucia). Process risk surfaced: OpenAlex now metered ($) -- need budget-aware
+    throttle to avoid mid-run exhaustion.'
+- date: '2026-06-03'
+  delta: 0.05
+  old_confidence: 1.0
+  new_confidence: 1.0
+  evidence_ref: pipeline/docs/recall-problem-inventory.md + inspect_misses.py verdicts
+  reasoning: 'Literal 100% is impossible (P4 non-indexed, esp Egeland); honest ceilings
+    ~Stewart 0.97 / Egeland 0.85 / Harrison 0.90 with characterized residuals. Fix
+    order: (1) robust matcher DOI-union-fuzzy0.85-author-year [free, biggest, recovers
+    ~+0.10] -> re-measure; (2) uncap retrieval (cost now trivial, targets the reachable-but-missed);
+    (3) multi-source union S2+Crossref; (4) characterize irreducible non-indexed set.
+    The earlier ''additions underperformed'' negative result is now explained: it
+    was a measurement (matching) artifact, not a method failure.'
+source: null

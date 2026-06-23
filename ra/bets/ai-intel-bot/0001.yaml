@@ -1,0 +1,17 @@
+id: 1
+statement: decision:block + additionalContext in Claude Code -p mode enables efficient
+  in-session Ralph task chaining with meaningful cost reduction via context window
+  cache sharing
+rationale: 'Three independent sources: official CC docs confirm hookSpecificOutput.additionalContext
+  + decision:block on Stop hooks in -p mode; Day 40 Sentinel finding (0.90 confidence)
+  identified this pattern; CC v2.1.172 release notes (0.88 confidence) confirm June
+  2026 feature launch'
+confidence: 0.85
+evidence_needed: 'Post-upgrade empirical verification: confirm whether decision:block
+  reuses existing context window (enables cache) or creates fresh Claude turn (equivalent
+  cost to subprocess approach)'
+status: active
+created: '2026-06-16'
+updated: '2026-06-16'
+updates: []
+source: auto-hook

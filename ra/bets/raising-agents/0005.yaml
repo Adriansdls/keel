@@ -1,0 +1,16 @@
+id: 5
+statement: Paper 3 (mined contracts via process mining) closes the recall ceiling
+  from Paper 1 and is the highest-leverage next research contribution
+rationale: Paper 1 Study 2 recall = 0.214 — the ceiling from hand-written contracts.
+  Process mining over the 755-trace OPBR-Bench corpus is the direct fix. Differentiated
+  from AgentSpec (Wang 2026) because trace-driven, not NL-prompted. Closes Paper 1's
+  own stated limitation.
+confidence: 0.8
+evidence_needed: Inductive Miner on OPBR-Bench corpus yields recall > 0.214 on held-out
+  semi-blind conditions. If F1 matches Study 5 (0.982) with zero specification labor,
+  the bet validates.
+status: active
+created: '2026-05-27'
+updated: '2026-06-14'
+updates: []
+source: null

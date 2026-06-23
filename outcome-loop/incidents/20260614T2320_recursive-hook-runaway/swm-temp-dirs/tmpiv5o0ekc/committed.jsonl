@@ -1,0 +1,4 @@
+{"id": "c5243e10fcf5", "kind": "elimination", "text": "log_decision    — a firm project-level decision with rationale AND at least one rejected alternative explicitly stated.", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "0a4577401294", "kind": "constraint", "text": "Do NOT capture soft preferences.", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "111ee8245d77", "kind": "premise", "text": "All items were logged within the past 10 days and remain open pending execution of the specified replay runs and validation scripts.", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "4689a7358d69", "kind": "premise", "text": "\"narrative\": \"All three bets and both experiments remain open pending execution of specified replay runs and validation scripts.", "turn_added": 1, "last_seen": 1, "source": "capture"}

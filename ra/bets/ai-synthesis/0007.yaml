@@ -1,0 +1,21 @@
+id: 7
+statement: The novel relevant papers our pipeline finds beyond the human gold MATERIALLY
+  CHANGE the review's conclusion (counterfactual conclusion-shift), not just add bulk
+  — measurable as a shift in the synthesis output (extinction-cause attribution distribution
+  / dissent map) when including gold+novel vs gold-only.
+rationale: '''We find more papers'' only matters if they change the answer. Conceptualise
+  a paper''s contribution as its marginal effect on the synthesis output, via 4 facets:
+  coverage/novelty (new KG nodes), diversity/bias reduction (region/period/language/method
+  - the Anglophone-bias thesis pillar), evidential weight on contested claims (support/contradict
+  shift), and the headline counterfactual conclusion-shift (JS divergence of attribution
+  distribution gold vs gold+novel). Runnable on Stewart now (M3 stance synthesis exists).'
+confidence: 0.45
+evidence_needed: 'Compute attribution/dissent distribution on gold-only vs gold+adjudicated-novel;
+  measure Jensen-Shannon divergence + per-driver count shifts. Shift => completeness
+  is substantive not cosmetic. Also: novel KG nodes added; diversity delta. Stewart-only
+  initially (M3 limited to Stewart).'
+status: active
+created: '2026-06-06'
+updated: '2026-06-14'
+updates: []
+source: null

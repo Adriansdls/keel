@@ -1,0 +1,16 @@
+id: 6
+decision: 'Worked-example choice for Paper 2 is DEFERRED — explicitly not settled.
+  Earlier provisional adoption of Neanderthal–carnivore (in decisions #4 and #5) is
+  reopened pending Adrian + Lucía confirmation. Tracked as high-priority open decision
+  (issue #13).'
+rationale: Adrian postponed the call on 2026-06-01 and asked it be kept high on the
+  to-do list. Recording the deferral authoritatively so future sessions (and SWM,
+  which prematurely auto-captured it as decided) do not treat the worked-example as
+  locked. The choice gates Paper 2 corpus, validation targets, the Riede/Aarhus collaboration
+  question, and Aug-31 scope — too load-bearing to settle implicitly.
+alternatives_rejected:
+- 'Lock Neanderthal-carnivore now (rejected: Adrian postponed)'
+- 'Lock CLIOARCH now (rejected: needs external collaboration, deadline risk)'
+bets_affected: []
+logged: '2026-06-01'
+source: null

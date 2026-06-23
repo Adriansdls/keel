@@ -1,0 +1,4 @@
+{"id": "fdd596f2abb8", "kind": "constraint", "text": "Do NOT also emit a combined/compound version of facts you already split out, and do NOT split one fact into overlapping fragments.", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "356f17d8e136", "kind": "constraint", "text": "Cannot assess catch rate or false positive rate without execution data.\",", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "0fb2e149e083", "kind": "constraint", "text": "Cannot conclude without n>=10 replay runs.\",", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "a4deb02aabce", "kind": "constraint", "text": "Cannot assess causal claim without execution.\",", "turn_added": 1, "last_seen": 1, "source": "capture"}

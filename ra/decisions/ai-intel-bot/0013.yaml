@@ -1,0 +1,9 @@
+id: 13
+decision: ACID queue uses file-based coordination primitives (State-Flag, Event-Signal,
+  Threshold-Trigger) matching stigmergy pattern from arXiv 2604.03997 and Physarum
+  polycephalum; biologically-principled, not a workaround
+rationale: (auto-captured from session — see SWM committed.jsonl for full context)
+alternatives_rejected: []
+bets_affected: []
+logged: '2026-06-23'
+source: swm-bridge

@@ -1,0 +1,5 @@
+{"id": "60de087f335b", "kind": "constraint", "text": "tomllib.load() requires files opened in binary mode, not text mode", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "407ec2e2b5a2", "kind": "constraint", "text": "flask.Config.from_file() currently opens files in text mode", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "50cebc22eca7", "kind": "decision", "text": "Add a mode parameter to flask.Config.from_file() to allow binary mode, enabling simple expressions like app.config.from_file('config.toml', tomllib.load, mode='b')", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "c9415a25706b", "kind": "elimination", "text": "Verbose workaround exists (using open() with binary mode + from_mapping()), but should be replaced with simpler mode parameter", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "c03648686b41", "kind": "premise", "text": "Fix is complete and working", "turn_added": 1, "last_seen": 1, "source": "capture"}

@@ -1,0 +1,8 @@
+id: 33
+decision: Committed to apply remaining guardian patches in the same session after
+  Terminal commands complete and charter is unblocked
+rationale: (auto-captured from session — see SWM committed.jsonl for full context)
+alternatives_rejected: []
+bets_affected: []
+logged: '2026-06-15'
+source: swm-bridge

@@ -1,0 +1,15 @@
+id: 1
+hypothesis: If we run hyperresearch Brief 1 (impact/thesis) and Brief 2 (archaeology
+  system design), then we will have an evidence-backed map of the automatable workflow
+  stages, the capability frontier, and the highest-leverage build target — enough
+  to commit the paper's central claim.
+bet_id: 1
+method: 'Run both FULL-tier hyperresearch v8 briefs in briefs/. Curate outputs into
+  the vault. Extract: (a) confirmed automatable vs human-supervised stages, (b) existing
+  tools/gaps, (c) the harmonisation-vs-labour leverage question.'
+expected_learning: Whether the disciplinary-transformation thesis (Bet 1) survives
+  contact with the literature, and which build target the paper should anchor on —
+  regardless of which way the evidence points.
+status: completed
+started: '2026-06-01'
+completed: '2026-06-03'

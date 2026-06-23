@@ -1,0 +1,9 @@
+id: 25
+decision: 'Empirical calibration maps (turns, task_spawns, plan_uses) to delegation
+  score: 16-turn/0-spawns → 0.1; 21-turn/2–3-spawns+1-plan → 0.55; 30-turn/8-spawns+2-plans
+  → 0.9.'
+rationale: (auto-captured from session — see SWM committed.jsonl for full context)
+alternatives_rejected: []
+bets_affected: []
+logged: '2026-06-16'
+source: swm-bridge

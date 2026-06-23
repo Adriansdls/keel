@@ -1,0 +1,10 @@
+id: 5
+title: Promote /ideas to nav or make it a proper entry point
+status: idea
+priority: p3
+area: design
+why: Ideas page exists at /ideas/ (The Ideas Interview) but is not linked in nav —
+  only as a small homepage widget. Either promote it or consciously keep it hidden.
+  Currently in limbo.
+created: '2026-05-27'
+updated: '2026-05-27'

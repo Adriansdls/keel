@@ -1,0 +1,9 @@
+id: 14
+decision: '5th trigger pattern validated via OpenCode Telegram bot: long-poll external
+  API → localhost agent; adapted as Telegram → enqueue-task.sh → ACID queue, with
+  human interrupt latency = next session boundary'
+rationale: (auto-captured from session — see SWM committed.jsonl for full context)
+alternatives_rejected: []
+bets_affected: []
+logged: '2026-06-23'
+source: swm-bridge

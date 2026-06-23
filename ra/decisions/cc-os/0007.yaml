@@ -1,0 +1,18 @@
+id: 7
+decision: Wire-layer "validity instrument" hypothesis FALSIFIED. tool_result elision
+  does NOT cause verification_by_evidence leaks. Do not build the elision-manifest→scorer
+  feedback (OPPORTUNITIES Opp.1 governance-validity framing).
+rationale: 'Phase-1 probe over all 27 transcript-backed scored-vbe turns (3 sessions,
+  drift.jsonl v2). 2x2: leak rate with elision 65% (15/23) vs without elision 100%
+  (4/4); Fisher p=0.29 (no association); leak turns had LESS elided content (392k
+  vs 595k median chars). Direction is opposite H1. Mechanism confirmed by reading
+  all 19 verbatim leak reasons: 0/19 attributable to denied-elided-evidence; 13/19
+  require a FRESH in-turn tool call (git log, test run, Glob), 3/19 restate prior
+  results but fix is still re-fetch. The rubric penalizes "completion/factual claim
+  without in-turn tool evidence" — invariant to wire elision. An elision manifest
+  fed to the scorer would change zero scores. Cost-optimization value of the wire
+  layer stands; the governance-validity justification does not.'
+alternatives_rejected: []
+bets_affected: []
+logged: '2026-06-02'
+source: null

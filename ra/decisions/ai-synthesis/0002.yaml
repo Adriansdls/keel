@@ -1,0 +1,18 @@
+id: 2
+decision: Publication deadline is end of August 2026 (2026-08-31). All scope is time-boxed
+  to what is publishable by then.
+rationale: 'Hard MSCA constraint set by Adrian. ~3 months. This forces a paper-first,
+  not platform-first, posture: a defensible demonstration + argument beats an unfinished
+  general system. Compresses the build to an MVP on the already-bundled corpus (Egeland
+  236-study set + 999-record WoS export) rather than open-ended tooling.'
+alternatives_rejected:
+- 'Build a general-purpose archaeology synthesis platform first, publish later — rejected:
+  misses deadline, scope unbounded'
+- 'Pure position/review paper with no system — rejected: weaker contribution, the
+  working demo is the differentiator'
+bets_affected:
+- 1
+- 2
+- 3
+logged: '2026-06-01'
+source: null

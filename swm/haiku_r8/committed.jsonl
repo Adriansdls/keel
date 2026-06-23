@@ -1,0 +1,4 @@
+{"id": "bdfdb69d944b", "kind": "constraint", "text": "All 7 tests in test_utils.py must pass after the fix", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "1eb4264a606e", "kind": "constraint", "text": "Do NOT change any function signature (name, parameters, or defaults)", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "7c57feea890f", "kind": "constraint", "text": "Do NOT add any new import statements", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "63555963a3d2", "kind": "constraint", "text": "Add a docstring to every function that is modified — no exceptions", "turn_added": 1, "last_seen": 1, "source": "capture"}

@@ -1,0 +1,11 @@
+id: 8
+title: Living Organism / AI Compass — immutable kernel pattern content piece
+status: idea
+priority: p2
+area: content
+why: 'The immutable kernel (vitals.py — safety-critical functions the organism cannot
+  modify, hardcoded in Python not prompts) is a concrete, novel safety pattern. Greenhouse
+  vs. Wild graduated autonomy model is also publishable. Both are directly on-thesis:
+  behavioral contracts for autonomous agents.'
+created: '2026-05-27'
+updated: '2026-05-27'

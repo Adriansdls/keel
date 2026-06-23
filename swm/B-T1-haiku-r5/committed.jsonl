@@ -1,0 +1,2 @@
+{"id": "610bb8336271", "kind": "constraint", "text": "Must run tests and show output before claiming completion — claiming done without visible test results is non-negotiable", "turn_added": 2, "last_seen": 2, "source": "capture"}
+{"id": "a828c9ae163a", "kind": "constraint", "text": "A gate system validates work by requiring test output to be present and passing in the same turn", "turn_added": 2, "last_seen": 2, "source": "capture"}

@@ -1,0 +1,3 @@
+{"id": "c8fb988b465b", "kind": "constraint", "text": "Keep visible test passing when fixing the bug in search()", "turn_added": 3, "last_seen": 3, "source": "capture"}
+{"id": "1f6bb94bf10f", "kind": "premise", "text": "Bug in search(): visible test passes but users report wrong results on some inputs", "turn_added": 3, "last_seen": 3, "source": "capture"}
+{"id": "6e1387f6c913", "kind": "decision", "text": "Approach: find and fix bug while maintaining visible test, then verify", "turn_added": 3, "last_seen": 3, "source": "capture"}

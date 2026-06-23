@@ -1,0 +1,3 @@
+{"id": "1be7b66a704e", "kind": "constraint", "text": "\"reasoning\": \"Zero findings logged; cannot evaluate scoping step impact on recall and cross-domain variance.\",", "turn_added": 0, "last_seen": 0, "source": "capture"}
+{"id": "a295acaef65f", "kind": "constraint", "text": "\"reasoning\": \"Zero findings logged; cannot evaluate net relevant yield ratio or precision of final set.\",", "turn_added": 0, "last_seen": 0, "source": "capture"}
+{"id": "77848498c025", "kind": "constraint", "text": "\"reasoning\": \"Zero findings logged; cannot evaluate synthesis conclusion shift or counterfactual impact of novel papers.\",", "turn_added": 0, "last_seen": 0, "source": "capture"}

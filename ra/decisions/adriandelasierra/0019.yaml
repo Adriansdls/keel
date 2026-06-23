@@ -1,0 +1,7 @@
+id: 19
+decision: Keel unifies ra-pm, swm, and entropy_manager as a single integrated system
+rationale: (auto-captured from session — see SWM committed.jsonl for full context)
+alternatives_rejected: []
+bets_affected: []
+logged: '2026-06-15'
+source: swm-bridge

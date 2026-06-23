@@ -1,0 +1,28 @@
+id: 4
+decision: 'D3 (A0 gate) — Steward surfaces (the named inputs for B2/B3). READS (signals,
+  all parse-confirmed): constitution-rubric.jsonl is PRIMARY (maps 1:1 to the constitution
+  dims the Steward petitions: verification_by_evidence/action_completion/hedging_density/scope/deferrals/boldness
+  + threshold); plus beast drift.jsonl (6-dim behavior + leak quotes), events.jsonl
+  (observer decisions + transcript_ref), the trust/capture ledgers, and ~/.ra/em-drift.jsonl.
+  FAILING-TURN RETRIEVAL: events.jsonl.transcript_ref → habitat/kernel/transcript.py::parse(path,
+  session_id) → recent_turns[-12:]. PETITION CHANNEL (the only write): kernel/amend.propose(agent,
+  summary, files, evidence) with files keyed in the 4-file set {principles.md, rubric.toml,
+  authority.toml, evals.jsonl} and/or constitution.digest for candidates; sandbox
+  at ~/.claude/plugin-data/habitat/amendments/<agent>/<ts>/. amend.ratify is HUMAN-ONLY
+  — the Steward MUST NOT call it. The petition pipeline (constitution.digest + amend)
+  is unified; both loop_closer and the Steward feed it.'
+rationale: All 4 signal files parsed by orchestrator probe (schemas captured verbatim
+  in spec/A0-RECONCILIATION.md). The amend petition API + transcript retrieval path
+  were read from source (kernel/amend.py, constitution.py, transcript.py). This gives
+  B2 (senses) the exact paths to build adapters against and B3 (the loop) the exact
+  petition call + the propose-only cage — no further discovery needed before building.
+alternatives_rejected:
+- Steward parses raw CC transcripts directly to find failing turns (unnecessary —
+  events.jsonl.transcript_ref + transcript.py::parse already provide it, cached)
+- Steward writes amendments straight to live ground_truth (violates bounded autonomy
+  — propose-only to sandbox, human ratifies)
+- Build a new petition channel for the Steward (reuse the existing unified amend+digest
+  pipeline; loop_closer already feeds it)
+bets_affected: []
+logged: '2026-06-01'
+source: null

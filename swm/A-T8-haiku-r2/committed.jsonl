@@ -1,0 +1,24 @@
+{"id": "3d4cf1dbada7", "kind": "constraint", "text": "WCAG 2.1 AA compliance is non-negotiable", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "09efa38b5454", "kind": "constraint", "text": "Never mock the database in integration tests; use a real test database", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "e9824449fb09", "kind": "constraint", "text": "Never store passwords in plain text; never use weak hashing (MD5, SHA1)", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "10b8407f54a6", "kind": "constraint", "text": "Never put secrets in code", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "ab4abcf9c0f5", "kind": "constraint", "text": "No TODO/FIXME comments in committed code", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "c158bbf8852b", "kind": "constraint", "text": "OpenAPI/Swagger specification is mandatory for all REST APIs", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "7c11e53b660a", "kind": "constraint", "text": "Version APIs from day one: /api/v1/resources", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "47003640a71a", "kind": "constraint", "text": "Authorization model: permissions OR roles, never both simultaneously", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "9976918981d7", "kind": "constraint", "text": "Function max 50 lines; file max 300-400 lines", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "c26308615950", "kind": "constraint", "text": "Comprehensive error handling with centralized error handler mandatory for backends", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "0b86f7d30baa", "kind": "constraint", "text": "Validate all inputs, sanitize user data, use parameterized queries", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "fb567a620396", "kind": "constraint", "text": "On PR: all tests pass and coverage must not drop; on merge to main: full suite including E2E, staging-only deploy", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "7a07df5cfcc4", "kind": "constraint", "text": "Never compromise on security, data integrity, observability, disaster recovery", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "2193e94d3c30", "kind": "constraint", "text": "Design for horizontal scalability; keep applications stateless", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "c65d858f36a9", "kind": "constraint", "text": "Structured JSON logging only in production code", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "fab4c9b19604", "kind": "decision", "text": "Test behavior not implementation; assert on user-visible outcomes or API returns, never internal state", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "63facbd834cd", "kind": "decision", "text": "Default database: PostgreSQL (deviate only when NoSQL clearly justified by data model)", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "f99aaa49c5b7", "kind": "decision", "text": "Default architecture: Monolith (split only with clear bounded contexts and independent deploy needs)", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "a13294a7417e", "kind": "decision", "text": "Default API style: REST (use GraphQL only for multiple consumers needing flexible nested queries)", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "522d0fb1a794", "kind": "decision", "text": "Use identity provider (Auth0, Azure AD, Okta) for auth; never roll your own", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "b867ca91f23c", "kind": "decision", "text": "Customer preference takes priority for tech stack", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "1504452d7d62", "kind": "premise", "text": "Start simple, scale smart; choose simplest solution unless measured performance issue, regulatory requirement, or proven bottleneck exists", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "fab11412b9d8", "kind": "premise", "text": "Design for 10x, build for today", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "40697c04dc0e", "kind": "premise", "text": "Optimize for: team skill level, maintainability, time to market, simplicity (in priority order)", "turn_added": 1, "last_seen": 1, "source": "capture"}

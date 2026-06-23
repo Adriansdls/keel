@@ -1,0 +1,14 @@
+id: 1
+statement: verify-to-edit ratio tracking at scale serves as primary discriminator
+  for expertise-level classification
+rationale: 24h telemetry shows 91% tool success rate (412/453 PostToolUse events)
+  with verify-to-edit patterns emerging meaningfully; preliminary observation suggests
+  correlation with expertise
+confidence: 0.65
+evidence_needed: Correlate verify-to-edit ratios against independent expertise benchmarks;
+  validate across expanded project sample and longer time periods
+status: active
+created: '2026-06-16'
+updated: '2026-06-16'
+updates: []
+source: auto-hook

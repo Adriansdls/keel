@@ -1,0 +1,8 @@
+id: 9
+decision: Federation was deliberately configured to exclude cc-workshop-vault from
+  this session
+rationale: (auto-captured from session — see SWM committed.jsonl for full context)
+alternatives_rejected: []
+bets_affected: []
+logged: '2026-06-17'
+source: swm-bridge

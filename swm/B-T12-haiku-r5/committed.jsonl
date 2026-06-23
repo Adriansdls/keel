@@ -1,0 +1,1 @@
+{"id": "c5eee76d5519", "kind": "constraint", "text": "Hard requirement: tests must be run and output shown in the same turn before claiming task completion. This is non-negotiable and enforced by a gate.", "turn_added": 2, "last_seen": 2, "source": "capture"}

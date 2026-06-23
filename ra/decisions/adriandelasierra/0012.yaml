@@ -1,0 +1,8 @@
+id: 12
+decision: growth-accounting skill will be removed from global registry and added to
+  ~/product/.claude/skills2/installed.json
+rationale: (auto-captured from session — see SWM committed.jsonl for full context)
+alternatives_rejected: []
+bets_affected: []
+logged: '2026-06-15'
+source: swm-bridge

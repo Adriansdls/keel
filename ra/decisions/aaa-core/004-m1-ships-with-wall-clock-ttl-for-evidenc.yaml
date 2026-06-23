@@ -1,0 +1,15 @@
+id: 4
+decision: M1 ships with wall-clock TTL for evidence freshness; M2 replaces it with
+  ledger-order or trusted-time binding.
+rationale: 'threat-model.md marks clock-skew-defeats-freshness as partial in M1: a
+  bad or attacked host clock can defeat the wall-clock TTL. Freshness is load-bearing
+  for the stale-evidence-fails-closed property, so it must not rest on an attackable
+  clock.'
+alternatives_rejected:
+- Trust the host clock indefinitely (defeatable by clock attack)
+- Block M1 on trusted-time (would have delayed the vertical slice that proves the
+  lease/replay/atomic model)
+bets_affected:
+- 3
+logged: '2026-06-23'
+source: null

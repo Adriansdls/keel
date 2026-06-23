@@ -1,0 +1,8 @@
+id: 23
+decision: Delegation is a distinct maturity axis measured by task_spawns and plan_uses
+  relative to session turns (size-normalized delegation orchestration).
+rationale: (auto-captured from session — see SWM committed.jsonl for full context)
+alternatives_rejected: []
+bets_affected: []
+logged: '2026-06-16'
+source: swm-bridge

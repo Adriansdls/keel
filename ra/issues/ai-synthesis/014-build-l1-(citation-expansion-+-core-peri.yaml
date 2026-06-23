@@ -1,0 +1,15 @@
+id: 14
+title: Build L1 (citation expansion + core/peripheral/skip classifier + saturation
+  + re
+status: idea
+priority: p1
+area: research
+why: L1 carries the paper's headline claim (citation-expansion beats keyword search
+  that misses ~91%), is the cleanest to validate (recall is a number), and is standalone-reversible.
+  Strong L1 recall numbers are paper-worthy before the KG exists. Everything downstream
+  consumes L1's corpus, so building KG layers first risks rework. Stewart 2025 is
+  the methods 2.9.1 replication candidate (ICArEHB/Carli Peters; WoS+Scopus keyword
+  search -> 596 articles), a retrieval-recall gold standard that directly instantiates
+  the thesis.
+created: '2026-06-02'
+updated: '2026-06-02'

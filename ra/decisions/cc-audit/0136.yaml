@@ -1,0 +1,8 @@
+id: 136
+decision: Both scan-only and scan+interview paths run identical LLM-scored scan for
+  unified intelligence regardless of path
+rationale: (auto-captured from session — see SWM committed.jsonl for full context)
+alternatives_rejected: []
+bets_affected: []
+logged: '2026-06-22'
+source: swm-bridge

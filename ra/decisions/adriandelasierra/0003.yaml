@@ -1,0 +1,9 @@
+id: 3
+decision: Use Option A (local freeze archive at ~/.claude/skills-frozen/) for skill
+  management instead of Option B (remote git approach), enabling instant recovery
+  via mv command with zero overhead.
+rationale: (auto-captured from session — see SWM committed.jsonl for full context)
+alternatives_rejected: []
+bets_affected: []
+logged: '2026-06-15'
+source: swm-bridge

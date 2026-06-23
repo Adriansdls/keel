@@ -1,0 +1,9 @@
+id: 34
+decision: Verification discipline is measured as a maturity axis using verify_calls
+  (Bash, Read, Grep, Glob operations) relative to write_edits and turns; the ratio
+  discriminates between asserting work done versus evidence-driven development.
+rationale: (auto-captured from session — see SWM committed.jsonl for full context)
+alternatives_rejected: []
+bets_affected: []
+logged: '2026-06-16'
+source: swm-bridge

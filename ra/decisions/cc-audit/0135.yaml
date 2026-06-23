@@ -1,0 +1,8 @@
+id: 135
+decision: 'Landing page presents two CTA cards: ''Scan my usage'' and ''Scan + interview'',
+  replacing single button'
+rationale: (auto-captured from session — see SWM committed.jsonl for full context)
+alternatives_rejected: []
+bets_affected: []
+logged: '2026-06-22'
+source: swm-bridge

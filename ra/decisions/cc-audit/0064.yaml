@@ -1,0 +1,9 @@
+id: 64
+decision: 'Three metrics are the primary drivers of model_fluency scoring: model_entropy
+  (distribution evenness across models), distinct_models_fleet (count of models in
+  active rotation), and heavy_model_frac (fraction of work on the most expensive model)'
+rationale: (auto-captured from session — see SWM committed.jsonl for full context)
+alternatives_rejected: []
+bets_affected: []
+logged: '2026-06-16'
+source: swm-bridge

@@ -1,0 +1,10 @@
+id: 9
+decision: Ship copy-paste v1 rails (substrate-generated, correct per finding); defer
+  one-click-write-to-disk to gated fast-follow
+rationale: Earn write-access capability through evidence accumulation; v1 establishes
+  plumbing and read-correctness first
+alternatives_rejected:
+- Include one-click-write-to-disk in v1
+bets_affected: []
+logged: '2026-06-21'
+source: auto-hook

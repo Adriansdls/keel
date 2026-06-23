@@ -1,0 +1,4 @@
+{"id": "c5243e10fcf5", "kind": "elimination", "text": "log_decision    — a firm project-level decision with rationale AND at least one rejected alternative explicitly stated.", "turn_added": 0, "last_seen": 0, "source": "capture"}
+{"id": "0a4577401294", "kind": "constraint", "text": "Do NOT capture soft preferences.", "turn_added": 0, "last_seen": 0, "source": "capture"}
+{"id": "6944415181d0", "kind": "constraint", "text": "\"narrative\": \"Cannot evaluate bet or experiment outcomes without recent activity data.", "turn_added": 0, "last_seen": 0, "source": "capture"}
+{"id": "9b0e8036b042", "kind": "premise", "text": "All items marked still_open pending evidence from actual project work.", "turn_added": 0, "last_seen": 0, "source": "capture"}

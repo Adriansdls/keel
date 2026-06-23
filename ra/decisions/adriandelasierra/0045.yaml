@@ -1,0 +1,11 @@
+id: 45
+decision: 'Seven-step build order: (1) fork suit and rename, (2) write Claude Code
+  domain primer, (3) ingest_shared.py extracts academy-platform to vault/shared/,
+  (4) ingest_session.py extracts transcripts to vault/sessions/<date>/, (5) patch
+  MCP server for two-vault search, (6) write participant CLAUDE.md with zero-jargon
+  instructions, (7) create eval set of 15 questions on shared content'
+rationale: (auto-captured from session — see SWM committed.jsonl for full context)
+alternatives_rejected: []
+bets_affected: []
+logged: '2026-06-16'
+source: swm-bridge

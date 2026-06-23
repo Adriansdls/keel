@@ -1,0 +1,7 @@
+{"id": "8e21ccfd6d98", "kind": "constraint", "text": "IMPORTANT — read-only / exploration sessions (write_edits == 0): the verify-to-edit ratio is UNDEFINED, so do NOT treat zero edits as either perfect or failed verification.", "turn_added": 176, "last_seen": 176, "source": "capture"}
+{"id": "056ffb3e943c", "kind": "constraint", "text": "Never score a read-only session 0.0 for \"no edits to verify\", and never 1.0 just because the ratio is trivially satisfied.", "turn_added": 176, "last_seen": 176, "source": "capture"}
+{"id": "61d20d20699b", "kind": "constraint", "text": "0.0 = Never delegates.", "turn_added": 176, "last_seen": 176, "source": "capture"}
+{"id": "96332e3fce34", "kind": "constraint", "text": "opus for trivial lookups, or never escalating when a task needs it).", "turn_added": 176, "last_seen": 176, "source": "capture"}
+{"id": "a23325b7d71a", "kind": "constraint", "text": "0.0 = Pure consumption — never authors reusable tooling.", "turn_added": 179, "last_seen": 179, "source": "capture"}
+{"id": "f82e1f759829", "kind": "constraint", "text": "'Rigorous Solo-Verifier who never delegates').", "turn_added": 192, "last_seen": 192, "source": "capture"}
+{"id": "46924254616a", "kind": "constraint", "text": "Hard rules: ground every claim in the numbers above; do not flatter; do not hedge; do not invent telemetry that was not given.", "turn_added": 192, "last_seen": 192, "source": "capture"}

@@ -1,0 +1,18 @@
+id: 2
+title: 'Federal governance model for agents: constitution / central law / project
+  statut'
+status: idea
+priority: p2
+area: strategy
+why: Adrian proposes emulating the Spanish legal hierarchy (Constitución > Leyes >
+  Reglamentos + Estatutos de Autonomía, with principio de jerarquía AND principio
+  de competencia) for multi-project agent governance. Habitat already implements the
+  hierarchy half (machine-root > app > component); the new contribution is competence-scoped
+  project autonomy — projects own exclusive domains where they may override machine
+  defaults but never the constitution. High strategic leverage for how all projects
+  under Claude Code are governed.
+hypothesis: A dual conflict-resolution model (hierarchy for the constitution, competence-domain
+  for everything else) maps onto agent.toml + authority.toml and produces cleaner
+  multi-project governance than pure hierarchy.
+created: '2026-06-01'
+updated: '2026-06-01'

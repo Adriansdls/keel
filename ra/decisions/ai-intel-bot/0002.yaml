@@ -1,0 +1,12 @@
+id: 2
+decision: Adopt Option B (decision:block + additionalContext) for Ralph task chaining
+  instead of Option A or subprocess spawning
+rationale: Option B prevents session termination and injects next task details via
+  additionalContext, enabling true in-session continuation. Official CC docs confirm
+  this works in -p mode. Replaces current SENTINEL_RALPH_ACTIVE subprocess spawn approach.
+alternatives_rejected:
+- 'Option A: additionalContext without decision:block (non-blocking feedback only)'
+- 'Current approach: subprocess spawning via SENTINEL_RALPH_ACTIVE=1'
+bets_affected: []
+logged: '2026-06-16'
+source: auto-hook

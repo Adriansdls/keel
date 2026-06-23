@@ -1,0 +1,8 @@
+id: 129
+decision: 'All automated verification passed: 357 Python tests passed, server tests
+  passed, web/server TypeScript clean, live boot successful (web 200, api 200)'
+rationale: (auto-captured from session — see SWM committed.jsonl for full context)
+alternatives_rejected: []
+bets_affected: []
+logged: '2026-06-21'
+source: swm-bridge

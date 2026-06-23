@@ -1,0 +1,4 @@
+{"id": "e1e11ead4475", "kind": "constraint", "text": "RestructuredText (RST) format must support header_rows parameter for flexible documentation generation", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "a6209806f849", "kind": "constraint", "text": "RST class __init__() overrides parent without accepting keyword arguments, causing TypeError when header_rows is passed", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "1c8244d0efa5", "kind": "decision", "text": "Modified RST.__init__() to accept header_rows=None parameter and forward it to parent FixedWidth class", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "62d0991f4e9e", "kind": "premise", "text": "Parent FixedWidth class properly handles header_rows parameter when provided to __init__()", "turn_added": 1, "last_seen": 1, "source": "capture"}

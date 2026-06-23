@@ -1,0 +1,9 @@
+id: 111
+decision: Volume signals (sidechain_turns_total, n_subagent_sessions) take precedence
+  over per-session rates for delegation scoring; concentrated orchestrators with low
+  per-session spawn rates but high fleet volumes score HIGH.
+rationale: (auto-captured from session — see SWM committed.jsonl for full context)
+alternatives_rejected: []
+bets_affected: []
+logged: '2026-06-20'
+source: swm-bridge

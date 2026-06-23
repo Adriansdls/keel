@@ -1,0 +1,12 @@
+id: 5
+title: Extend taxonomy assignment to all 30 validated true positives (Fernando, AI
+  Summ
+status: idea
+priority: p2
+area: research
+why: ROLLING-FAILURE-TAXONOMY.md next-steps section explicitly calls this out. Only
+  c5ee has a full case note. Without case notes for the other strong examples, the
+  contract designs for families 2-10 are grounded in taxonomy description but not
+  in replay fixtures.
+created: '2026-06-04'
+updated: '2026-06-04'

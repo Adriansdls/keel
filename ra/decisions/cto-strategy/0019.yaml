@@ -1,0 +1,15 @@
+id: 19
+decision: User's role with 9 people is 'transformation enforcer + talent identifier',
+  not career coach or support function
+rationale: Angel's vision is 5-10 mega-contributors multiplied by AI; reducing prescriptive
+  involvement by Q3; these 9 are reach into org for innovation now; P070 (retrain
+  or exit) applies; Capacity OKR success depends on actual transformation not support
+alternatives_rejected:
+- Support function for 9 people with dotted-line accountability where real accountability
+  sits elsewhere
+- Career coach developing people's potential for someday innovation team membership
+- 'Focus on growing as manager through support and development (replaced with: prove
+  ability to run distributed transformation without direct line authority)'
+bets_affected: []
+logged: '2026-06-16'
+source: auto-hook

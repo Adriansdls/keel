@@ -1,0 +1,8 @@
+id: 58
+decision: When both distinct_models and model_mix are available, prioritize model_mix
+  distribution breadth as the scoring signal for model_fluency over simple model count
+rationale: (auto-captured from session — see SWM committed.jsonl for full context)
+alternatives_rejected: []
+bets_affected: []
+logged: '2026-06-16'
+source: swm-bridge

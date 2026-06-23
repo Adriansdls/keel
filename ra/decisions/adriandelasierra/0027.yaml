@@ -1,0 +1,10 @@
+id: 27
+decision: 'Apply patch to ~/.claude/skill-guardian/hook.py: modify _classify() to
+  add MUTATING_VERBS regex that restricts Bash command interception to only mutating
+  operations (mv, cp, rm, mkdir, rmdir, touch, ln, claude mcp/plugin, echo>, cat>,
+  tee)'
+rationale: (auto-captured from session — see SWM committed.jsonl for full context)
+alternatives_rejected: []
+bets_affected: []
+logged: '2026-06-15'
+source: swm-bridge

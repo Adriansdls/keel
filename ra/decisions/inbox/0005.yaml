@@ -1,0 +1,12 @@
+id: 5
+decision: Develop Guardian as one coherent plan with sequential phases rather than
+  splitting into independent work packages
+rationale: Guardian is one coupled artifact (hook + agent + knowledge base + ledger).
+  Work packages only make sense when components can ship and deliver value independently;
+  these cannot. Hook without Guardian is non-functional, Guardian without hook isn't
+  a guardian, taxonomy knowledge base alone is just documentation.
+alternatives_rejected:
+- work packages
+bets_affected: []
+logged: '2026-06-15'
+source: auto-hook

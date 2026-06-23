@@ -1,0 +1,8 @@
+id: 8
+decision: 'WP-0 (shared/ layer) completed: models.py with 26 models, store.py for
+  atomic filesystem, llm.py for subprocess-based LLM without regex'
+rationale: (auto-captured from session — see SWM committed.jsonl for full context)
+alternatives_rejected: []
+bets_affected: []
+logged: '2026-06-15'
+source: swm-bridge

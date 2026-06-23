@@ -1,0 +1,9 @@
+id: 9
+decision: 'Once charter unblocks (via render or advisory mode), immediately execute
+  WP3: write 5 rubrics/*.yaml files (calibration data already mined), run unit suite
+  plus live `claude -p` gate, update master plan'
+rationale: (auto-captured from session — see SWM committed.jsonl for full context)
+alternatives_rejected: []
+bets_affected: []
+logged: '2026-06-16'
+source: swm-bridge

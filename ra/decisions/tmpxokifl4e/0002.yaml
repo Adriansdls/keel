@@ -1,0 +1,7 @@
+id: 2
+decision: Bet logged 10 days ago with 0.55 confidence; no new evidence to adjust.",
+rationale: (auto-captured from session — see SWM committed.jsonl for full context)
+alternatives_rejected: []
+bets_affected: []
+logged: '2026-06-14'
+source: swm-bridge

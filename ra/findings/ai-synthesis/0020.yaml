@@ -1,0 +1,24 @@
+id: 20
+experiment_id: 3
+result: 'Local triage WORKS at 8B. qwen3:8b (free, on-device via Ollama, think=false+format=json)
+  on Stewart slice (337 gold+400 non-gold) vs API/Sonnet: agreement 0.81 (kappa 0.705,
+  substantial); gold retention core+peripheral LOCAL 0.938 vs API 0.985; non-gold
+  skip rate LOCAL 0.765 vs API 0.767 (IDENTICAL); tier distribution near-match (local
+  core225/periph185/skip327 vs api core260/165/312). 1.76s/paper, FREE. Contrast:
+  gemma3:4b failed (no operating point — skip rate only 0.37, kept gold but didn''t
+  shrink).'
+implication: 'Local-models question ANSWERED: yes at 8B (qwen3:8b matches frontier
+  triage on the cost-critical noise-rejection, 0.765=0.767, keeping 94% gold), no
+  at 4B (gemma3 too weak to discriminate). Validates the cost architecture: high-volume
+  triage -> free on-device qwen3:8b; reserve paid frontier model for low-volume interpretive
+  core (stance/dissent/adjudication). Paper point: offline, no-API, no-data-egress
+  screening matching a frontier model -> accessibility/legibility thesis (no-budget
+  lab can run it). Caveats: 93.8% vs 98.5% gold retention = loses ~5% more gold at
+  triage (tunable via recall-biased prompt; real free-vs-recall tradeoff); 1.76s/paper
+  slow (~overnight for tens of thousands, free, parallelizable). Next cheap moves:
+  recall-biased local prompt to close the 5% gap; the intake/scoping module (other
+  big cost lever); the prospective end-to-end run on a new question.'
+confidence_delta: 0.1
+source: experiments/local_triage/stewart_qwen3-8b.json vs stewart_gemma3-4b.json +
+  src/synthpipe/llm/local.py
+logged: '2026-06-06'

@@ -1,0 +1,10 @@
+id: 66
+decision: 'Empirical calibration: entropy 0.85, distinct_models_fleet 4, heavy_model_frac
+  0.3 across 50 sessions yields 0.9 score (L5 equivalent); entropy 0.45, distinct_models_fleet
+  2, heavy_model_frac 0.7 yields 0.45 score; entropy 0.0, distinct_models_fleet 1,
+  heavy_model_frac 1.0 yields 0.05 score'
+rationale: (auto-captured from session — see SWM committed.jsonl for full context)
+alternatives_rejected: []
+bets_affected: []
+logged: '2026-06-16'
+source: swm-bridge

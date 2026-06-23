@@ -1,0 +1,9 @@
+id: 24
+decision: 'OKR 5 created: Trust Architecture progression demo → production; three
+  KRs: June bug fix, August deploy outside localhost, September real client engagement;
+  grounded in D009 (core IP), V015 (causal chain)'
+rationale: (auto-captured from session — see SWM committed.jsonl for full context)
+alternatives_rejected: []
+bets_affected: []
+logged: '2026-06-16'
+source: swm-bridge

@@ -1,0 +1,2 @@
+{"id": "6f1b4ed5699d", "kind": "constraint", "text": "Tests must actually run and output must be visible in the same turn before claiming completion — this is non-negotiable", "turn_added": 2, "last_seen": 2, "source": "capture"}
+{"id": "ad62440304fa", "kind": "decision", "text": "Enforce visible test results as gate before marking work complete, due to prior incomplete claims without test evidence", "turn_added": 2, "last_seen": 2, "source": "capture"}

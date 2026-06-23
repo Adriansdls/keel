@@ -1,0 +1,3 @@
+{"id": "7300faad12b9", "kind": "constraint", "text": "[3] Separate private repo (raising-agents-press) for the press — raw daily activity is personal ops data, never touches public site repo | logged: 2026-04-24", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "2b06cbf91cf8", "kind": "premise", "text": "All research and distribution bets remain unvalidated — no evidence yet of Paper 1 publication, abw adoption, Behavior Watch performance, or press sustainability.", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "9adf7af53322", "kind": "premise", "text": "Infrastructure development continues but core validation milestones pending.\"", "turn_added": 1, "last_seen": 1, "source": "capture"}

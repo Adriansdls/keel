@@ -1,0 +1,9 @@
+id: 106
+decision: 'Delegation maturity scoring uses concentrated orchestrator pattern: fleet
+  n_subagent_sessions and sidechain_turns_total reveal delegated work volume; low
+  per-session spawn rates can mask high fleet-level delegation.'
+rationale: (auto-captured from session — see SWM committed.jsonl for full context)
+alternatives_rejected: []
+bets_affected: []
+logged: '2026-06-20'
+source: swm-bridge

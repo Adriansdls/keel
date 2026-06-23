@@ -1,0 +1,16 @@
+id: 8
+title: Geographic blind spots (Paper2 RQ5) may be confounded by citation-graph fragment
+status: idea
+priority: p1
+area: research
+why: 'If Eastern European / Near Eastern work is not cited by the western-core literature,
+  giant-component expansion from western seeds will not reach it — so a RETRIEVAL
+  gap (graph fragmentation by language/tradition) would be misread as a RESEARCH gap.
+  This is both a validity threat to RQ5 and a novel methodological finding: quantify
+  graph reachability by region/language. Directly applies the citation-graph-fragmentation
+  risk from docs/citation-graph-search-theory.md.'
+hypothesis: Measuring per-region/per-language reachability from seeds will show some
+  'blind spots' are disconnected components, not absent research; reporting reachability
+  alongside gap claims is required for RQ5 to hold.
+created: '2026-06-01'
+updated: '2026-06-01'

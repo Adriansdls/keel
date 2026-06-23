@@ -1,0 +1,9 @@
+id: 35
+decision: '~/.claude/context-proxy/proxy.py is chosen as primary data source: wire-level
+  chokepoint on every /v1/messages call, already 5.6G captured, shows tools offered
+  vs. tools used, beats parsing 46K jsonl transcripts'
+rationale: (auto-captured from session — see SWM committed.jsonl for full context)
+alternatives_rejected: []
+bets_affected: []
+logged: '2026-06-16'
+source: swm-bridge

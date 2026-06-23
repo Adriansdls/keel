@@ -1,0 +1,32 @@
+id: 2
+decision: 'D1 (A0 gate) — Merge line: zartis-agent is the canonical UNIT framework
+  (spec+engine+builder+runtime: archetypes, builder, runtimes, validate_concrete);
+  habitat is the KERNEL host (dispatch/observers/eventlog + constitution render +
+  AMEND channel). The live machine-root migrates onto the unified schema via SCHEMA-ONLY
+  additions (do.type, acceptance file+field, remember.strategic_state, autonomy.frozen/can_evolve,
+  rename human_only→ratification_required_for) WITHOUT changing any ground_truth byte,
+  so the rendered CLAUDE.md cannot drift. HARD PREREQUISITE: the two hash functions
+  disagree on the live machine-root (zartis sha256:b6b991e0ee381da8 vs habitat-stored
+  sha256:cded379ebc056f46970bc57271b20a8a) — unify on ONE hash fn (zartis 5-file incl
+  acceptance) BEFORE any re-ratify; until unified only habitat amend.ratify may ratify.
+  Safe order: schema additions → hash unify → re-ratify. Retire habitat libs/agent/{memory,scaffold,adopt};
+  reduce comply to a validate_concrete wrapper; keep libs/agent/{model,groundtruth}+kernel/amend
+  until the kernel is rewired to zartis spec.'
+rationale: 'Probe evidence (orchestrator-run): zartis validate_concrete on machine-root
+  parses do.type=protocol with exactly 3 violations (acceptance missing, remember
+  uses store not strategic_state, autonomy.frozen empty) — all fixable by schema additions
+  that don''t touch the 4 frozen ground_truth files. The hash incompatibility is proven
+  live and is the one real risk: adopting zartis integrity naively would false-flag
+  the live constitution as TAMPER. Both frameworks already share the identical 9-element
+  anatomy (confirmed), so this is confirm-alignment + name-owner, not a schema war.'
+alternatives_rejected:
+- Make habitat/libs/agent canonical (loses the archetypes, builder, run_loop, validate_concrete
+  — the whole point of zartis-agent)
+- Adopt zartis integrity hash immediately (would false-flag the live CLAUDE.md as
+  tamper — proven by probe)
+- Rewrite machine-root ground_truth to satisfy the schema (would change the rendered
+  CLAUDE.md bytes — unacceptable drift)
+- Keep both frameworks in parallel (the integration debt A0 exists to eliminate)
+bets_affected: []
+logged: '2026-06-01'
+source: null

@@ -1,0 +1,4 @@
+{"id": "1a359e98cf7c", "kind": "constraint", "text": "All tests must pass before merging PR (block merge on failure)", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "dc16d7a07e2f", "kind": "constraint", "text": "Coverage must not drop on PR", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "04656dd140db", "kind": "constraint", "text": "Full suite including E2E must pass before merge to main", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "4f33660b2f3d", "kind": "constraint", "text": "Deploy to staging only if E2E tests pass", "turn_added": 1, "last_seen": 1, "source": "capture"}

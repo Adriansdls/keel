@@ -1,0 +1,3 @@
+{"id": "bd69a5d34317", "kind": "constraint", "text": "\"reasoning\": \"No recent activity data provided; 0 findings logged; cannot assess recall improvement or variance reduction\",", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "8e6c4c84405c", "kind": "constraint", "text": "\"reasoning\": \"No recent activity data provided; 0 findings logged; cannot assess synthesis conclusion-shift\",", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "312cfe02755d", "kind": "constraint", "text": "Bets logged 8-13 days ago do not meet 60-day staleness threshold.", "turn_added": 1, "last_seen": 1, "source": "capture"}

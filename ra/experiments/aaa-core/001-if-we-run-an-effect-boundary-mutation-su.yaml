@@ -1,0 +1,18 @@
+id: 1
+hypothesis: If we run an effect-boundary mutation suite (PIMS) against the M1 gateway,
+  mutations that escape the M1 functional tests will reveal >=1 concrete security-property
+  gap that functional coverage masks.
+bet_id: 3
+method: Build a mutation set spanning replay, payload/target/env/tenant mismatch,
+  canonicalization-ordering + digest-collision attempts, stale/failed/unknown evidence,
+  concurrent consumers, consume-then-effect-failure, stranded consumed_pending, and
+  adapter idempotency. Run each mutation against the gateway with the M1 functional
+  suite as the regression baseline. Aggregate escapes into a PIMS refuse-rate signal.
+expected_learning: Which property boundaries the M1 tests actually enforce vs only
+  cover by construction; whether PIMS-style aggregation produces a durable regression
+  signal; the concrete shape of any escape (which becomes an M2 fix). Regardless of
+  outcome, we learn whether functional-test-pass is a valid security claim for this
+  boundary.
+status: running
+started: '2026-06-23'
+completed: null

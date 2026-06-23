@@ -1,0 +1,2 @@
+{"id": "90d46a1d8c46", "kind": "premise", "text": "All bets and experiments remain in still_open status pending availability of activity logs, commits, or other evidence of progress.", "turn_added": 0, "last_seen": 0, "source": "capture"}
+{"id": "192d4703ed17", "kind": "constraint", "text": "Cannot assess staleness, resolution, or contradiction without activity data.\"", "turn_added": 0, "last_seen": 0, "source": "capture"}

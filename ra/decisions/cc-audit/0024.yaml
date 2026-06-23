@@ -1,0 +1,9 @@
+id: 24
+decision: 'Three delegation tiers: 0.0 = never delegates (zero spawns/plans in substantial
+  session), 0.5 = occasional (few spawns/plans, mostly linear), 1.0 = routinely orchestrates
+  (spawns subagents, uses plan mode, acts as coordinator).'
+rationale: (auto-captured from session — see SWM committed.jsonl for full context)
+alternatives_rejected: []
+bets_affected: []
+logged: '2026-06-16'
+source: swm-bridge

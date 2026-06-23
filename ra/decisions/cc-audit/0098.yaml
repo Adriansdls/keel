@@ -1,0 +1,8 @@
+id: 98
+decision: LLM judge ruled out as bottleneck solution; Judge→tier calibration (Phase-B/D5)
+  never executed.
+rationale: (auto-captured from session — see SWM committed.jsonl for full context)
+alternatives_rejected: []
+bets_affected: []
+logged: '2026-06-20'
+source: swm-bridge

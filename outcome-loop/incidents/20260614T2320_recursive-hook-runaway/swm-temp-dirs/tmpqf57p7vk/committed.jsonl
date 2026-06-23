@@ -1,0 +1,9 @@
+{"id": "65838968c8c5", "kind": "constraint", "text": "Cannot assess progress toward demonstrator detecting cross-tradition unit conflicts.\",", "turn_added": 0, "last_seen": 0, "source": "capture"}
+{"id": "df0662bf23c2", "kind": "constraint", "text": "Cannot assess human-in-loop boundary validation or benchmark existence.\",", "turn_added": 0, "last_seen": 0, "source": "capture"}
+{"id": "5696d39b4359", "kind": "constraint", "text": "Cannot assess generalization probe to second domain.\",", "turn_added": 0, "last_seen": 0, "source": "capture"}
+{"id": "e4db9081b038", "kind": "constraint", "text": "Cannot assess percolation sweep experiments or separable threshold evidence.\",", "turn_added": 0, "last_seen": 0, "source": "capture"}
+{"id": "d23ae0f2de5c", "kind": "constraint", "text": "Cannot assess scoping module stabilization experiments or variance measurements.\",", "turn_added": 0, "last_seen": 0, "source": "capture"}
+{"id": "f8bdbd8582c1", "kind": "constraint", "text": "Cannot assess net relevant yield measurements or yield ratio calculations.\",", "turn_added": 0, "last_seen": 0, "source": "capture"}
+{"id": "31d1d74ce6ba", "kind": "constraint", "text": "Cannot assess counterfactual conclusion-shift or Jensen-Shannon divergence measurements.\",", "turn_added": 0, "last_seen": 0, "source": "capture"}
+{"id": "18d73a932401", "kind": "premise", "text": "All 7 bets and 3 experiments logged 8-13 days ago remain open pending implementation work.", "turn_added": 0, "last_seen": 0, "source": "capture"}
+{"id": "fd279315958e", "kind": "constraint", "text": "Cannot assess progress toward stated evidence criteria without activity logs showing development, measurements, or validation runs.\"", "turn_added": 0, "last_seen": 0, "source": "capture"}

@@ -1,0 +1,2 @@
+{"id": "183f62f1b556", "kind": "constraint", "text": "Completion claims must be backed by verification evidence (test output, build result, or explicit statement of why testing is not possible). This is non-negotiable per CC-OS constitution.", "turn_added": 3, "last_seen": 3, "source": "capture"}
+{"id": "ae0cf0439556", "kind": "decision", "text": "Speaker has committed to never claim task completion without showing verification evidence or explicitly stating why verification cannot be performed.", "turn_added": 3, "last_seen": 3, "source": "capture"}

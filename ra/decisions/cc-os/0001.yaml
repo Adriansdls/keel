@@ -1,0 +1,34 @@
+id: 1
+decision: 'Build the OS Steward via a Steward-scoped reconciliation FIRST (not a full
+  habitat audit, not straight-to-build), then a 6-step sequence: (1) reconcile the
+  substrate — decide ONE agent framework (zartis-agent=unit framework supersedes habitat/libs-agent;
+  habitat=kernel host), map the drift signals the Steward reads + the amend/petition
+  channel it writes, settle where the Steward lives; (2) the Steward''s contract —
+  its ground_truth (may read drift ledgers + failing turns, may petition-to-sandbox,
+  may NEVER enact/ratify; rubric = a good petition is specific+minimal+evidence-grounded);
+  (3) thinnest REAL Steward — one live signal (beast verification/scope leak) → pull
+  the failing turns → root-cause → ONE amendment petition to sandbox; verify it forks
+  + stays bounded; (4) human ratification UX — the morning review (petition + evidence
+  + diff → ratify/dismiss): the living-loop close + the demo; (5) schedule it — cron/launchd
+  → actually unattended; (6) multi-tenant/productize — per-tenant constitution+Steward,
+  the human-Steward org role, client accountability surface.'
+rationale: 'The Steward sits on top of the OS, but the OS carries integration debt
+  — two overlapping agent frameworks (habitat/libs-agent live vs zartis-agent clean)
+  + archetype/builder/loop not wired into the live kernel. Building on that unsettled
+  foundation = building on sand; a FULL habitat audit is vanity scope. Resolution:
+  a targeted audit scoped to exactly what the Steward needs (substrate + signals +
+  petition channel + home) — small, decisive, de-risks downstream, and IS the honest-audit
+  instinct, bounded. The pieces already exist (drift ledgers live; amend.skeleton/propose_from_digest
+  live; run_loop built); step 1 connects them, step 3 is the thinnest real loop. Propose-only
+  + human-ratified throughout (the OS''s own invariant). Org/multi-tenant scale is
+  where the Steward is decisively justified; solo scale dogfoods it.'
+alternatives_rejected:
+- Full honest audit of all of habitat first (vanity scope; the Steward only needs
+  a narrow slice settled)
+- Jump straight to building the Steward (builds on the unreconciled two-framework
+  foundation; the ambiguity would poison it)
+- Ship the digest as a scheduled cron skill and call it the Steward (not an agent;
+  no adaptive root-cause; the over-engineering trap)
+bets_affected: []
+logged: '2026-06-01'
+source: null

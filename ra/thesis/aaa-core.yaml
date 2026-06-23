@@ -1,0 +1,14 @@
+statement: Make consequential AI-agent actions safe enough to deploy in real enterprise
+  workflows by proving — through adversarial mutation testing at the effect boundary
+  — that a protected endpoint + atomic single-use Action Lease refuses every unauthorised
+  execution, with an OSS-clean core that becomes the substrate of a commercial Agent
+  Action Assurance Pilot offer.
+open_questions:
+- Can an OSS-clean core stay commercially valuable as a consulting/pilot offer when
+  the commercial value is messy enterprise integration (policy/rollout/topology),
+  not the core primitive itself?
+- Can sender-constrained leases (M3, mTLS + DPoP-style proof-of-possession) close
+  theft-of-first-use without degrading agent UX/latency enough that real workflows
+  actually adopt them?
+claims: []
+updated: '2026-06-23'

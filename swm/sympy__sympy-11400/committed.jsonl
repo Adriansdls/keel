@@ -1,0 +1,3 @@
+{"id": "550868bc362e", "kind": "constraint", "text": "Do NOT edit or add test files", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "6b493246376e", "kind": "decision", "text": "sinc should be converted to Piecewise form in ccode output instead of 'Not supported in C' message", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "e9709cadc8aa", "kind": "premise", "text": "math.h does not have a sinc function; sinc(x) should be represented as sin(x)/x when x≠0, else 1", "turn_added": 1, "last_seen": 1, "source": "capture"}

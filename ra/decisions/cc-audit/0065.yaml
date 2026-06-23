@@ -1,0 +1,10 @@
+id: 65
+decision: 'Score anchors: 0.0 = single-model habit (entropy ~0, fleet=1, heavy_frac=1.0,
+  no routing judgment); 0.5 = partial routing (2-3 models, mixed but heavy-leaning
+  distribution); 1.0 = deliberate routing (several models in balanced rotation, heavy
+  model used selectively)'
+rationale: (auto-captured from session — see SWM committed.jsonl for full context)
+alternatives_rejected: []
+bets_affected: []
+logged: '2026-06-16'
+source: swm-bridge

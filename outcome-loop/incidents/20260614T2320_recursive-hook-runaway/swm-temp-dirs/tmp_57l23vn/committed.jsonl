@@ -1,0 +1,4 @@
+{"id": "8c8a42d67589", "kind": "constraint", "text": "\"reasoning\": \"Activity log truncated; cannot assess progress on scoping module stabilisation experiments.\",", "turn_added": 0, "last_seen": 0, "source": "capture"}
+{"id": "c5c2dace81b3", "kind": "constraint", "text": "\"reasoning\": \"Activity log truncated; cannot assess yield ratio measurements or precision benchmarks.\",", "turn_added": 0, "last_seen": 0, "source": "capture"}
+{"id": "bfedb2795a60", "kind": "constraint", "text": "\"reasoning\": \"Activity log truncated; cannot assess conclusion-shift analysis or JS divergence measurements.\",", "turn_added": 0, "last_seen": 0, "source": "capture"}
+{"id": "72f37f8037cc", "kind": "premise", "text": "Without full activity context, conservative judgment warrants keeping all items in 'still_open' status pending concrete evidence.\"", "turn_added": 0, "last_seen": 0, "source": "capture"}

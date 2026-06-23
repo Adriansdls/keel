@@ -1,0 +1,15 @@
+id: 5
+hypothesis: The pipeline's final relevant set is larger than the human gold at high
+  precision (net relevant yield ratio > 1), making it a more complete review than
+  the original.
+bet_id: 6
+method: 'Add metrics to M1/M2 reporting: recall vs gold; precision of final screened
+  set; |final relevant set|/|gold| (yield ratio); adjudicated-genuine fraction of
+  novel (non-gold) finds (reuse Sonnet adjudication + archaeologist). Compute across
+  Stewart+Egeland+Harrison. Guardrail: yield only counts at a verified precision floor.'
+expected_learning: Whether 'more papers than gold' is real (genuine extra relevant
+  papers at high precision) or a precision-loss artifact. Reframes M1 success from
+  recall-against-incomplete-gold to net comprehensiveness.
+status: running
+started: '2026-06-06'
+completed: null

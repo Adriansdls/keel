@@ -1,0 +1,9 @@
+id: 7
+decision: Agent must operate as an LLM-grade process without human-contractor constraints
+  (fatigue, bandwidth, quarterly limits), leveraging parallelizable tool calls and
+  context-window refills to maximize outcome.
+rationale: (auto-captured from session — see SWM committed.jsonl for full context)
+alternatives_rejected: []
+bets_affected: []
+logged: '2026-06-17'
+source: swm-bridge

@@ -1,0 +1,3 @@
+{"id": "fdd596f2abb8", "kind": "constraint", "text": "Do NOT also emit a combined/compound version of facts you already split out, and do NOT split one fact into overlapping fragments.", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "083cd9261b0f", "kind": "constraint", "text": "de all items; emit 'still_open' for anything you cannot judge.", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "b1633ddc9dea", "kind": "constraint", "text": "Without catch rate and false positive measurements, the taxonomy coverage claim cannot be validated.\",", "turn_added": 1, "last_seen": 1, "source": "capture"}

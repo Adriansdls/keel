@@ -1,0 +1,14 @@
+id: 1
+decision: No iPhone/wearable data — use pmset Mac-dark as sleep proxy, labelled 'Mac
+  dark' not 'slept'
+rationale: Honest framing over convenient framing. We do not have ground truth on
+  sleep. pmset is observable and correct. Claiming sleep implies biological tracking
+  we don't have.
+alternatives_rejected:
+- Apple Health / HealthKit integration
+- manual sleep log
+- wearable (Oura, etc)
+bets_affected:
+- 4
+logged: '2026-04-24'
+source: null

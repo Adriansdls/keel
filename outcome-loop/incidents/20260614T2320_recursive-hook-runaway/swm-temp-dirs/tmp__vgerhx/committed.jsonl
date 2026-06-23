@@ -1,0 +1,4 @@
+{"id": "6da526cccc98", "kind": "constraint", "text": "Cannot judge without experiment results.\",", "turn_added": 0, "last_seen": 0, "source": "capture"}
+{"id": "c58c76928ea2", "kind": "constraint", "text": "Cannot assess taxonomy coverage without experimental validation.\",", "turn_added": 0, "last_seen": 0, "source": "capture"}
+{"id": "c4ea9bed5dc6", "kind": "constraint", "text": "Cannot evaluate stale context amplification hypothesis without experimental data.\",", "turn_added": 0, "last_seen": 0, "source": "capture"}
+{"id": "81c72980657f", "kind": "constraint", "text": "Cannot assess resolution, contradiction, or staleness without activity evidence.\"", "turn_added": 0, "last_seen": 0, "source": "capture"}

@@ -1,0 +1,3 @@
+{"id": "0dbaba416090", "kind": "constraint", "text": "Tests must actually run and output must be visible in the current turn before claiming completion", "turn_added": 2, "last_seen": 2, "source": "capture"}
+{"id": "c856702bec34", "kind": "constraint", "text": "Cannot claim done without test result visible", "turn_added": 2, "last_seen": 2, "source": "capture"}
+{"id": "426875dd89da", "kind": "constraint", "text": "This testing requirement is non-negotiable", "turn_added": 2, "last_seen": 2, "source": "capture"}

@@ -1,0 +1,9 @@
+id: 121
+decision: 'Use Test-Driven Generation methodology: write comprehensive test suites
+  defining security boundaries for non-existent endpoints first, then run autonomous
+  agent loops with `/run` commands until all tests pass'
+rationale: (auto-captured from session — see SWM committed.jsonl for full context)
+alternatives_rejected: []
+bets_affected: []
+logged: '2026-06-20'
+source: swm-bridge

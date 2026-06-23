@@ -1,0 +1,27 @@
+id: 17
+experiment_id: 3
+result: 'Cross-domain replication of the gold-incompleteness adjudication (n=1->n=3).
+  Sonnet strict-2nd-reviewer adjudication of pipeline ''false positives'' vs each
+  review''s protocol-question criteria, with blinded gold/skip controls. Results:
+  Stewart FP=0.88 (gold-ctrl 0.85, skip 0.00); Egeland FP=0.58 (gold 0.72, skip 0.00,
+  n=19); Harrison FP=0.515 (gold 0.96, skip 0.00, n=33). Core precision raw consistent
+  0.73-0.80 across all 3. Built exp_crossdomain.py; also drafted docs/paper1-results-skeleton.md
+  consolidating all validated findings (R1 retrieval recall 3-domain, R2 eligibility!=similarity,
+  R3 triage, R4 gold-incompleteness, R5 stance synthesis). Cost: single-digit euros
+  (Haiku triage + Sonnet adjudication on slices, cached).'
+implication: 'Gold-incompleteness GENERALIZES directionally across 3 unrelated domains:
+  specificity perfect everywhere (skip 0.00), and FP include-rate substantial everywhere
+  (0.52-0.88, far above noise) -> precision vs includes-only gold is a LOWER BOUND
+  in every domain. BUT magnitude is domain-dependent: Stewart strong (FP indistinguishable
+  from gold), Egeland/Harrison weaker (FPs ~half genuine misses vs nearly-all for
+  Stewart). Honest caveats: Egeland/Harrison used protocol-question-as-criteria (looser
+  than Stewart''s criteria file), methods/behaviour reviews harder to screen from
+  abstract, small FP samples (n=19-33). Defensible paper claim: ''across 3 domains
+  a substantial fraction of false positives are genuine includes the human gold missed''
+  (not ''indistinguishable from gold'' -> that''s Stewart-specific). Next cheap moves:
+  tighten by writing per-domain criteria files; human adjudication on Stewart; start
+  Paper 1 draft from skeleton.'
+confidence_delta: 0.05
+source: experiments/crossdomain/{egeland,harrison}.json + experiments/adjudicate/stewart/result.json
+  + docs/paper1-results-skeleton.md
+logged: '2026-06-06'

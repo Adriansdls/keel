@@ -1,0 +1,9 @@
+id: 11
+decision: cc-config-ui event spike (25% of 453 daily events) requires investigation
+  to distinguish real scope growth from observer clustering artifacts, before noise
+  obscures analyzable signal
+rationale: (auto-captured from session — see SWM committed.jsonl for full context)
+alternatives_rejected: []
+bets_affected: []
+logged: '2026-06-15'
+source: swm-bridge

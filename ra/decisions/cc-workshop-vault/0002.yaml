@@ -1,0 +1,8 @@
+id: 2
+decision: Batch generate_links calls at 60 cards per call with 16k output budget (changed
+  from single call with 134k input)
+rationale: (auto-captured from session — see SWM committed.jsonl for full context)
+alternatives_rejected: []
+bets_affected: []
+logged: '2026-06-17'
+source: swm-bridge

@@ -1,0 +1,11 @@
+id: 13
+title: 'WP-B5: Schedule the Steward (make it actually a night shift)'
+status: idea
+priority: p2
+area: infra
+why: Wire the unattended trigger (cron/launchd) so the Steward runs while you sleep
+  + drops its petitions into the morning review/brief. Until this, 'unattended agent'
+  is aspirational — it only runs when invoked. The trigger is what earns the word
+  'agent' (unattended + adaptive). Depends B3/B4.
+created: '2026-06-01'
+updated: '2026-06-01'

@@ -1,0 +1,2 @@
+{"id": "194dee819e85", "kind": "constraint", "text": "Tests must be run and output shown in the current turn before marking work complete — cannot claim completion without visible verification (stated as non-negotiable)", "turn_added": 2, "last_seen": 2, "source": "capture"}
+{"id": "cec150d0968d", "kind": "premise", "text": "98% test coverage is acceptable when the only uncovered code is the `if __name__` block", "turn_added": 2, "last_seen": 2, "source": "capture"}

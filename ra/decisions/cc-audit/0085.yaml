@@ -1,0 +1,10 @@
+id: 85
+decision: Fleet-level volume signals (sidechain_turns_total and n_subagent_sessions)
+  are the primary truth for delegation axis scoring; per-session spawn rates are secondary.
+  A concentrated orchestrator with low per-session spawns but high fleet volume scores
+  high.
+rationale: (auto-captured from session — see SWM committed.jsonl for full context)
+alternatives_rejected: []
+bets_affected: []
+logged: '2026-06-19'
+source: swm-bridge

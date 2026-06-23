@@ -1,0 +1,8 @@
+id: 6
+decision: 'Definition of done: 5 approved operations, 1 reject, 1 redirect, 1 migration
+  batch executed, full ledger trail, self-modification hard-blocked'
+rationale: (auto-captured from session — see SWM committed.jsonl for full context)
+alternatives_rejected: []
+bets_affected: []
+logged: '2026-06-15'
+source: swm-bridge

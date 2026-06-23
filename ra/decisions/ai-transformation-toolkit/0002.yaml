@@ -1,0 +1,9 @@
+id: 2
+decision: CC-specific question/prompt content is intentionally left unpinned; developer
+  will author this as a design call by rewriting from provided templates, not a pre-specified
+  requirement
+rationale: (auto-captured from session — see SWM committed.jsonl for full context)
+alternatives_rejected: []
+bets_affected: []
+logged: '2026-06-18'
+source: swm-bridge

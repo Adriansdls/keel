@@ -1,0 +1,8 @@
+id: 32
+decision: Flagged rubrics will be retuned based on calibration results and per-axis
+  cross-model agreement
+rationale: (auto-captured from session — see SWM committed.jsonl for full context)
+alternatives_rejected: []
+bets_affected: []
+logged: '2026-06-16'
+source: swm-bridge

@@ -1,0 +1,2 @@
+{"id": "faee8908474a", "kind": "constraint", "text": "Tests must actually be run in the current session and their output shown before claiming completion", "turn_added": 3, "last_seen": 3, "source": "capture"}
+{"id": "b27d89961252", "kind": "constraint", "text": "This testing verification requirement is non-negotiable", "turn_added": 3, "last_seen": 3, "source": "capture"}

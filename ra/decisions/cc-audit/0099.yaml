@@ -1,0 +1,9 @@
+id: 99
+decision: 'Selected weighting signals for delegation: spawns_per_session, delegation_mgmt_per_session,
+  plan_rate, sidechain_turns_total, n_subagent_sessions; sidechain_turns_total and
+  n_subagent_sessions are primary truth signals.'
+rationale: (auto-captured from session — see SWM committed.jsonl for full context)
+alternatives_rejected: []
+bets_affected: []
+logged: '2026-06-20'
+source: swm-bridge

@@ -1,0 +1,4 @@
+{"id": "c5243e10fcf5", "kind": "elimination", "text": "log_decision    — a firm project-level decision with rationale AND at least one rejected alternative explicitly stated.", "turn_added": 0, "last_seen": 0, "source": "capture"}
+{"id": "0a4577401294", "kind": "constraint", "text": "Do NOT capture soft preferences.", "turn_added": 0, "last_seen": 0, "source": "capture"}
+{"id": "e73a8b972794", "kind": "premise", "text": "Necessary cause hypothesis unvalidated.\",", "turn_added": 0, "last_seen": 0, "source": "capture"}
+{"id": "63b5cd4f1704", "kind": "premise", "text": "\"narrative\": \"All three bets and two experiments remain unvalidated.", "turn_added": 0, "last_seen": 0, "source": "capture"}

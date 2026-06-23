@@ -1,0 +1,9 @@
+id: 5
+decision: Verification maturity defined on 0-1 scale (0=assertion-based with no checks;
+  0.5=sometimes verifies; 1.0=evidence-driven with routine test/read confirmation)
+  across L1-L5 tiers
+rationale: (auto-captured from session — see SWM committed.jsonl for full context)
+alternatives_rejected: []
+bets_affected: []
+logged: '2026-06-16'
+source: swm-bridge

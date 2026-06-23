@@ -1,0 +1,10 @@
+id: 1
+decision: 'CC-audit recommendation/brief is ready for developer to continue, structured
+  to include: decision plus rationale (construct-validity argument and redundancy
+  finding), exact AITT source files (paths in Addendum 2 tables), repo structure,
+  5-step build order (spike-first), and validation gate before lens building'
+rationale: (auto-captured from session — see SWM committed.jsonl for full context)
+alternatives_rejected: []
+bets_affected: []
+logged: '2026-06-18'
+source: swm-bridge

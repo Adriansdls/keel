@@ -1,0 +1,26 @@
+id: 19
+title: CC OS needs a clean LLM completion endpoint — `claude -p` (the agent CLI) is
+  the
+status: idea
+priority: p2
+area: infra
+why: 'Surfaced building Track 2 (forge). The framework''s LLM-for-structure path (zagent/llm.ask)
+  shells to `claude -p` — the FULL subscription agent, not a bare completion API.
+  Two failure modes proven: (1) it safety-flags structured requests — ''Return ONLY
+  JSON'' was refused as a prompt-injection override (verified: it replied ''matches
+  prompt injection… classic override attempt''); (2) it is slow + highly variable
+  (75s, 123s observed) so any fixed timeout intermittently empties → degenerate fallbacks.
+  This silently degrades propose (thin stubs), and likely the gate''s adversarial
+  judge + run_loop''s _decide_next, which all route through the same backend. Mitigations
+  applied (rephrase the prompt to dodge the injection heuristic; raise timeout 120→240s)
+  are band-aids. The right fix is a dedicated, fast, reliable structured-completion
+  endpoint for the builder/runtime — decoupled from the interactive agent CLI. Connects
+  to the wire/proxy work: the proxy already mediates /v1/messages and could expose
+  a clean completion route. Affects every LLM-first code path in CC OS.'
+hypothesis: If the builder/runtime call a clean completion endpoint (direct API with
+  a system prompt that expects structured output, or a proxy-mediated route) instead
+  of `claude -p`, propose/gate/loop become fast + reliable + un-flagged — removing
+  the silent-stub failure mode across all LLM-first paths. Until then, two-phase human-ratify
+  flows tolerate it but single-shot LLM steps are unreliable.
+created: '2026-06-02'
+updated: '2026-06-02'

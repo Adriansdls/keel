@@ -1,0 +1,2 @@
+{"id": "a5b2c4e77012", "kind": "premise", "text": "All seven open bets and three open experiments remain in still_open status pending evidence from actual development work, benchmark runs, or domain validation.", "turn_added": 0, "last_seen": 0, "source": "capture"}
+{"id": "69da6f4b5734", "kind": "constraint", "text": "Cannot determine staleness, resolution, or contradiction without activity data to evaluate against the stated evidence requirements.\"", "turn_added": 0, "last_seen": 0, "source": "capture"}

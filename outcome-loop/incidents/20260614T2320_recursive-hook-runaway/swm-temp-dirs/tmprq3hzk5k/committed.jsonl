@@ -1,0 +1,4 @@
+{"id": "7300faad12b9", "kind": "constraint", "text": "[3] Separate private repo (raising-agents-press) for the press — raw daily activity is personal ops data, never touches public site repo | logged: 2026-04-24", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "67ea8ed3a39b", "kind": "constraint", "text": "Cannot measure open rates or format validation without first 5 issues sent.\",", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "4bbef84e2cb5", "kind": "constraint", "text": "Experiment cannot start until public release.", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "5a58bd1856e9", "kind": "constraint", "text": "Cannot measure subscriber quality post-launch until publication occurs.\",", "turn_added": 1, "last_seen": 1, "source": "capture"}

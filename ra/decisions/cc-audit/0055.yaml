@@ -1,0 +1,9 @@
+id: 55
+decision: 'Verification scoring anchors: 0.0=claims without checking (many edits,
+  almost no verify_calls), 0.5=verifies sometimes (meaningful share ships unchecked),
+  1.0=evidence-driven (verify_calls keep pace with edits)'
+rationale: (auto-captured from session — see SWM committed.jsonl for full context)
+alternatives_rejected: []
+bets_affected: []
+logged: '2026-06-16'
+source: swm-bridge

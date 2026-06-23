@@ -1,0 +1,2 @@
+{"id": "0e7e66d05181", "kind": "premise", "text": "All bets and experiments remain in 'still_open' status pending evidence.", "turn_added": 0, "last_seen": 0, "source": "capture"}
+{"id": "5779b7689f0c", "kind": "constraint", "text": "Cannot assess progress, resolution, or contradiction without activity context.\"", "turn_added": 0, "last_seen": 0, "source": "capture"}

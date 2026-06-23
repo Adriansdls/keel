@@ -1,0 +1,9 @@
+id: 93
+decision: Concentrated orchestrators with high fleet volume but low per-session rates
+  must score HIGH, even when spawns_per_session and frac_sessions_delegating appear
+  modest
+rationale: (auto-captured from session — see SWM committed.jsonl for full context)
+alternatives_rejected: []
+bets_affected: []
+logged: '2026-06-20'
+source: swm-bridge

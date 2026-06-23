@@ -1,0 +1,11 @@
+id: 124
+decision: 'Replay visualization redesigned: changed to vertical timeline format with
+  visual ''GAP'' band as centerpiece—full-width dashed red band positioned between
+  work rows and final claim, showing where tests should have run but didn''t. Rationale:
+  makes test-execution absence a visual presence, immediately apparent at a glance
+  rather than narrative-dependent.'
+rationale: (auto-captured from session — see SWM committed.jsonl for full context)
+alternatives_rejected: []
+bets_affected: []
+logged: '2026-06-21'
+source: swm-bridge

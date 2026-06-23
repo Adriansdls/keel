@@ -1,0 +1,9 @@
+id: 43
+decision: 'Support two parallel delivery modes: local MCP (git clone → python setup.py)
+  and hosted MCP remote (participants add endpoint to claude_desktop_config.json for
+  zero local setup)'
+rationale: (auto-captured from session — see SWM committed.jsonl for full context)
+alternatives_rejected: []
+bets_affected: []
+logged: '2026-06-16'
+source: swm-bridge

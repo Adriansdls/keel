@@ -1,0 +1,14 @@
+id: 2
+title: 'Lab agents: interactive AI personas embedded in the site, each expert in one
+  RA '
+status: done
+priority: p1
+area: design
+why: Transforms the site from a read-only publication into a live demonstration of
+  the research itself — agents that ARE the subject matter, exhibiting the exact failure
+  modes the papers describe. High differentiation. No one else does this.
+hypothesis: Visitors who talk to a behaviorally-constrained agent (and watch it fail
+  or succeed) understand behavioral regression 10x faster than reading about it. The
+  agents are the proof of the thesis, not just a UI feature.
+created: '2026-05-27'
+updated: '2026-05-27'

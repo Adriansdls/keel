@@ -1,0 +1,12 @@
+id: 7
+title: 'WP-A4: Name + package as "CC OS" — shippable'
+status: idea
+priority: p2
+area: infra
+why: The product is "CC OS" (kernel + unit framework + living constitution + the Steward).
+  Package the plugin/distribution, the install path, the docs (what it is, the 5 organs,
+  the two scopes, the Steward), so it can be adopted at Zartis + dropped into a client.
+  'Adoptable' requires a clean install + a clear story, not a pile of repos. Depends
+  A1-A3.
+created: '2026-06-01'
+updated: '2026-06-01'

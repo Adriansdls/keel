@@ -1,0 +1,20 @@
+id: 5
+title: 'Citation-graph percolation as the systematic-search method: seed + frontier
+  expa'
+status: idea
+priority: p1
+area: research
+why: 'Adrian''s intuition: model corpus discovery as percolation on the citation graph
+  — seed papers, extract citations, expand frontier, recover a question-specific giant
+  component; possible contribution = seeds needed to saturate. Directly serves the
+  recall-guarantee pillar (deep-research agents sample; systematic synthesis needs
+  auditable recall). Reframed correctly, saturation = a measurable, reproducible recall
+  proxy — a graph-theoretic systematic-search method. High-leverage, on-thesis, but
+  the raw ER threshold is the wrong model and parts are prior art (Connected Papers,
+  Inciteful, citationchaser, Wohlin snowballing).'
+hypothesis: Relevance-weighted frontier expansion from a small seed set converges
+  to a topic-coherent corpus whose recall vs a gold-standard PRISMA search can be
+  measured; seed-count-to-saturation is characterizable per question.
+created: '2026-06-01'
+updated: '2026-06-01'
+experiment_id: 1

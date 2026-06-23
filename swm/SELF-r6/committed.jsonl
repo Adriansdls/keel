@@ -1,0 +1,8 @@
+{"id": "de3ee9211071", "kind": "constraint", "text": "Implement function tiered_price(units, base) in file billing.py", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "d4efda0eca09", "kind": "constraint", "text": "Pricing tier 1: first 10 units cost base each", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "000f24cba77c", "kind": "constraint", "text": "Pricing tier 2: units 11-50 cost 90% of base each", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "d684e982f514", "kind": "constraint", "text": "Pricing tier 3: units beyond 50 cost 80% of base each", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "1bfb9093ff65", "kind": "constraint", "text": "Apply minimum charge of $5.00 to the total", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "a423ba0a41d5", "kind": "constraint", "text": "Round final result to 2 decimal places", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "731568554570", "kind": "constraint", "text": "Write acceptance test in test_billing.py that proves spec compliance", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "7b995a2b84b2", "kind": "constraint", "text": "Test must import from billing module and be run", "turn_added": 1, "last_seen": 1, "source": "capture"}

@@ -1,0 +1,32 @@
+id: 6
+decision: D-A1.2 (refines D1) — Reconcile the field-name deltas via BILINGUAL READERS,
+  not by renaming inside frozen ground_truth files. Escalate-to-human set read as
+  human_only OR ratification_required_for (habitat model.check_authority + constitution._authority_rules
+  merge+dedupe; zartis permit.decide accepts both). Continuity store read as store
+  OR strategic_state (habitat model.has_memory). machine-root's frozen authority.toml
+  keeps human_only verbatim — zero frozen-byte change. machine-root migrated via agent.toml-only
+  additions (do.type=protocol, [competence.remember] strategic_state, [ground_truth.anchor]
+  acceptance, [autonomy] frozen/can_evolve) + a real ground_truth/acceptance probe.
+  comply.py needs NO edit (bilingual has_memory makes machine-root read compliant,
+  so the revert branch is skipped).
+rationale: 'Adrian chose bilingual. The blast radius proved rename-in-place (D1 literal)
+  is unsafe: authority.toml is a frozen ground_truth file, so a key rename changes
+  its bytes (invalidates the hash), makes model.check_authority silently stop gating
+  commit/push/deploy, and deletes the human_only section from the rendered CLAUDE.md.
+  Bilingual achieves one interoperable schema while honoring D1''s no-frozen-byte-change
+  constraint. Verified live: render_body byte-identical (a3899089647fa8e0), validate_concrete(machine-root)=NONE,
+  agent verify intact with ZERO re-ratify, check_authority(''commit'')->ask, has_memory->True,
+  acceptance 5/5 + tamper teeth, 15/15 fleet intact, habitat+zartis suites green.</rationale>
+
+  <parameter name="alternatives_rejected">["Rename human_only->ratification_required_for
+  in machine-root/authority.toml (D1 literal): breaks the frozen-byte invariant +
+  the live commit/push gate + the CLAUDE.md render", "Rename + update all habitat
+  readers to the new name only: a flag-day rename of a live governance file; bilingual
+  is strictly safer + backward-compatible", "Migrate the whole 15-agent fleet agent.toml
+  in A1, and delete libs/agent/{memory,scaffold,adopt}+comply now: out of scope —
+  those are still load-bearing for habitat CLI + agent_gate + remediate until A2 rewires
+  the kernel"]'
+alternatives_rejected: []
+bets_affected: []
+logged: '2026-06-01'
+source: null

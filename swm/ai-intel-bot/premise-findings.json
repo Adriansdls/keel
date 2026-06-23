@@ -1,0 +1,125 @@
+{
+  "ts": "2026-06-23T10:29:59+00:00",
+  "turns_since_full": 0,
+  "backend": "sonnet(shared.llm)",
+  "results": [
+    {
+      "premise_id": "193d0a65e91d",
+      "status": "uncertain",
+      "evidence": "No recent context provided to verify or challenge Devin architecture claims",
+      "source": "sonnet(shared.llm)",
+      "groundedness": 1.0
+    },
+    {
+      "premise_id": "433425a900ad",
+      "status": "uncertain",
+      "evidence": "No recent context about Cursor Automations or Sentinel trigger implementation status",
+      "source": "sonnet(shared.llm)",
+      "groundedness": 1.0
+    },
+    {
+      "premise_id": "6a331e607ad8",
+      "status": "uncertain",
+      "evidence": "Design philosophy claim requires context about current bottlenecks to verify",
+      "source": "sonnet(shared.llm)",
+      "groundedness": 0.25
+    },
+    {
+      "premise_id": "a1adbea10993",
+      "status": "uncertain",
+      "evidence": "No recent context about Claude Code Agent Teams architecture to confirm current state",
+      "source": "sonnet(shared.llm)",
+      "groundedness": 1.0
+    },
+    {
+      "premise_id": "630b8924b30a",
+      "status": "uncertain",
+      "evidence": "Historical convergence claim requires recent architecture data to verify persistence",
+      "source": "sonnet(shared.llm)",
+      "groundedness": 0.25
+    },
+    {
+      "premise_id": "08078c8485dd",
+      "status": "uncertain",
+      "evidence": "Architectural principle needs current system behavior data for validation",
+      "source": "sonnet(shared.llm)",
+      "groundedness": 0.25
+    },
+    {
+      "premise_id": "895a14774511",
+      "status": "uncertain",
+      "evidence": "TIDE baseline metric requires recent measurement data to confirm stability",
+      "source": "sonnet(shared.llm)",
+      "groundedness": 1.0
+    },
+    {
+      "premise_id": "e4fef5027353",
+      "status": "uncertain",
+      "evidence": "Historical event distribution data; no recent context to verify if pattern continues",
+      "source": "sonnet(shared.llm)",
+      "groundedness": 0.25
+    },
+    {
+      "premise_id": "43b8465ae1b1",
+      "status": "uncertain",
+      "evidence": "Policy friction metrics require recent governance event data for verification",
+      "source": "sonnet(shared.llm)",
+      "groundedness": 1.0
+    },
+    {
+      "premise_id": "2fee0c82e9db",
+      "status": "uncertain",
+      "evidence": "Novelty claim requires recent codebase search to confirm no new implementations",
+      "source": "sonnet(shared.llm)",
+      "groundedness": 0.25
+    },
+    {
+      "premise_id": "1b5b50b9e814",
+      "status": "challenged",
+      "evidence": "Uses present tense 'currently waiting' which is likely stale without recent status update",
+      "source": "sonnet(shared.llm)",
+      "groundedness": 0.113
+    },
+    {
+      "premise_id": "a0f7b3337b3c",
+      "status": "uncertain",
+      "evidence": "Technical capability claim requires recent testing or documentation review",
+      "source": "sonnet(shared.llm)",
+      "groundedness": 0.25
+    },
+    {
+      "premise_id": "e5bddcbca3a1",
+      "status": "uncertain",
+      "evidence": "Historical finding requires recent context to verify if pattern remains valid",
+      "source": "sonnet(shared.llm)",
+      "groundedness": 1.0
+    },
+    {
+      "premise_id": "1962a0ee8ed3",
+      "status": "challenged",
+      "evidence": "States cost estimate 'must be obtained' - unclear if this dependency was resolved",
+      "source": "sonnet(shared.llm)",
+      "groundedness": 0.863
+    },
+    {
+      "premise_id": "746e11d0ba40",
+      "status": "uncertain",
+      "evidence": "Governance metrics require recent event data to confirm active operation",
+      "source": "sonnet(shared.llm)",
+      "groundedness": 0.25
+    },
+    {
+      "premise_id": "30fe3a54f512",
+      "status": "challenged",
+      "evidence": "Explicitly marked as provisional and unconfirmed; no recent context to upgrade status",
+      "source": "sonnet(shared.llm)",
+      "groundedness": 1.0
+    }
+  ],
+  "invalid": [],
+  "challenged": [
+    "1b5b50b9e814",
+    "1962a0ee8ed3",
+    "30fe3a54f512"
+  ]
+}

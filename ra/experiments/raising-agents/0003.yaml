@@ -1,0 +1,14 @@
+id: 3
+hypothesis: Inductive Miner on OPBR-Bench 755-trace corpus yields recall > 0.214 on
+  held-out semi-blind perturbation conditions
+bet_id: 5
+method: Implement pm4py Inductive Miner pipeline on Agent Behavior Trace format. Train
+  on Study 2 reference corpus. Evaluate on semi-blind held-out conditions. Compare
+  recall, precision, F1 vs Paper 1 Study 2 hand-written contracts.
+expected_learning: 'Positive: validates Paper 3 Option A as primary thesis — mined
+  contracts close the recall ceiling. Negative: mining yields noisy Petri nets with
+  poor precision → need more targeted mining (e.g., per-behavior-category). Either
+  way: sets the empirical baseline for Paper 3.'
+status: running
+started: '2026-05-25'
+completed: null

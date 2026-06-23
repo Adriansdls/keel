@@ -1,0 +1,15 @@
+id: 4
+statement: The press (automated editorial pipeline) enables sustainable weekly output
+  without creator burnout
+rationale: 'Solo operation at research + content + tooling simultaneously requires
+  automation at the content layer or one of the three collapses. The press hypothesis:
+  if daily synthesis + indicator are automatic, Adrian''s cognitive load is creative-only.'
+confidence: 0.6
+evidence_needed: '8 consecutive weeks of press running without manual intervention.
+  Measure: does episode shipping frequency hold while paper work is also active? Does
+  Adrian log relief or friction?'
+status: active
+created: '2026-05-27'
+updated: '2026-06-14'
+updates: []
+source: null

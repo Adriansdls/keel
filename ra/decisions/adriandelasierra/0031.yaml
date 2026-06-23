@@ -1,0 +1,8 @@
+id: 31
+decision: 'Recommended decision: truncate ledger.jsonl at record 179 and start fresh
+  (Option A) to unblock charter immediately, pending user confirmation'
+rationale: (auto-captured from session — see SWM committed.jsonl for full context)
+alternatives_rejected: []
+bets_affected: []
+logged: '2026-06-15'
+source: swm-bridge

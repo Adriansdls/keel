@@ -1,0 +1,8 @@
+id: 2
+decision: 'Option B executed: 14 skills from .agents/skills/ symlinked to .claude/skills/
+  for availability across libros/ directory and subdirectories'
+rationale: (auto-captured from session — see SWM committed.jsonl for full context)
+alternatives_rejected: []
+bets_affected: []
+logged: '2026-06-22'
+source: swm-bridge

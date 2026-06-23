@@ -1,0 +1,7 @@
+{"id": "3eca510696b5", "kind": "constraint", "text": "\"reasoning\": \"No recent activity data provided; cannot evaluate evidence for corpus-scale harmonisation transformation\",", "turn_added": 0, "last_seen": 0, "source": "capture"}
+{"id": "4f9fd2cb7b0d", "kind": "constraint", "text": "\"reasoning\": \"No recent activity data provided; cannot evaluate human-in-the-loop boundary validation\",", "turn_added": 0, "last_seen": 0, "source": "capture"}
+{"id": "b6bde88a7dc0", "kind": "constraint", "text": "\"reasoning\": \"No recent activity data provided; cannot evaluate generalization to other disciplines\",", "turn_added": 0, "last_seen": 0, "source": "capture"}
+{"id": "1566f61b9bce", "kind": "constraint", "text": "\"reasoning\": \"No recent activity data provided; cannot evaluate percolation threshold separation experiments\",", "turn_added": 0, "last_seen": 0, "source": "capture"}
+{"id": "36ce92f38efb", "kind": "constraint", "text": "\"reasoning\": \"No recent activity data provided; cannot evaluate scoping module stabilisation effects\",", "turn_added": 0, "last_seen": 0, "source": "capture"}
+{"id": "146ee20dba30", "kind": "constraint", "text": "\"reasoning\": \"No recent activity data provided; cannot evaluate synthesis conclusion shift experiment\",", "turn_added": 0, "last_seen": 0, "source": "capture"}
+{"id": "c9867a82a2ff", "kind": "premise", "text": "All seven bets and three experiments remain in still_open status pending evidence.", "turn_added": 0, "last_seen": 0, "source": "capture"}

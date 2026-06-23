@@ -1,0 +1,8 @@
+id: 83
+decision: alias claudit added to ~/.zshrc; activation verified via grep; users must
+  run 'source ~/.zshrc && claudit' to activate
+rationale: (auto-captured from session — see SWM committed.jsonl for full context)
+alternatives_rejected: []
+bets_affected: []
+logged: '2026-06-19'
+source: swm-bridge

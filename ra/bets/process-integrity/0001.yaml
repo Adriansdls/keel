@@ -1,0 +1,16 @@
+id: 1
+statement: Injecting the zartis_contract system prompt into the pre-failure c5ee payload
+  will cause Opus to run a discriminating probe instead of prematurely closing on
+  session-limit as root cause, in at least 60% of runs.
+rationale: The raw arm replicates the original failure (no contract). The prose_warning
+  arm adds soft guidance. The zartis_contract arm adds an explicit D0-D3 state machine
+  and prohibits durable actions below D3. The failure in c5ee was caused by missing
+  epistemic enforcement, so explicit structural enforcement should shift behavior.
+confidence: 0.65
+evidence_needed: n>=10 replay runs with run_c5_replay_experiment.py comparing contract_desired_behavior
+  rate across all three arms.
+status: active
+created: '2026-06-04'
+updated: '2026-06-14'
+updates: []
+source: null

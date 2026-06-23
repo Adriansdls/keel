@@ -1,0 +1,3 @@
+{"id": "fdd596f2abb8", "kind": "constraint", "text": "Do NOT also emit a combined/compound version of facts you already split out, and do NOT split one fact into overlapping fragments.", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "d3a0386d9920", "kind": "premise", "text": "All three open bets and two open experiments remain in still_open status pending evidence from experiment execution.", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "135a19ab39e3", "kind": "premise", "text": "\"narrative\": \"All three bets and both experiments remain unexecuted pending evidence collection.", "turn_added": 1, "last_seen": 1, "source": "capture"}

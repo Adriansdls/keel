@@ -1,0 +1,2 @@
+{"id": "50bce791021d", "kind": "constraint", "text": "\"narrative\": \"Recent activity data was truncated; cannot evaluate progress on any bet or experiment.", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "336c9d1fa9a7", "kind": "premise", "text": "All 7 bets and 3 experiments remain classified as still_open pending evidence of resolution, contradiction, or staleness.", "turn_added": 1, "last_seen": 1, "source": "capture"}

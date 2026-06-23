@@ -1,0 +1,21 @@
+id: 3
+experiment_id: 1
+result: 'Hybrid multi-channel retrieval (gold-blind) lifts recall vs Stewart''s 359
+  from citation-only 0.282 to 0.908 (327/360): clean keyword channel (3 published-protocol
+  queries + 24 LLM-generated gold-blind queries over OpenAlex+Semantic Scholar+Crossref)
+  = 0.864; union with cached citation expansion = 0.908. Matching upgraded to DOI
+  + normalized-title+year. Critical integrity correction: an earlier 0.889 used query
+  terms derived from inspecting missed gold papers (gold-peeking = invalid); replaced
+  with query_gen.py (Opus expands the QUESTION only, never the gold list) and the
+  clean number (0.864) beat the peeked one. claude -p spawns a full process per call
+  (~3-5s) so large guided citation runs are throughput-bound.'
+implication: '100% recall is approachable honestly via gold-blind channels: keyword
+  generation (a priori, reproducible) does the bulk, citation expansion (gold-blind)
+  closes the tail. The honest methodology produced a HIGHER number than the cheating
+  one -- integrity and performance aligned. Remaining ~33 gold papers are 1982-2024
+  specific taxa/region/proxy studies; close via guided/deeper citation then characterize
+  the true irreducible residual (absent from databases or citation-isolated) as a
+  finding. For scale, move heavy classification off claude -p to a batch API.'
+confidence_delta: 0.03
+source: pipeline/experiments/exp06_clean/keyword.json + README.md trajectory
+logged: '2026-06-02'

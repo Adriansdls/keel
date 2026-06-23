@@ -1,0 +1,9 @@
+id: 12
+decision: Anthropic shipped Dreaming (inter-session pattern extraction and preloading)
+  as production feature in Claude May 2026, independently validating Sentinel's EVOLVE
+  architecture at production scale
+rationale: (auto-captured from session — see SWM committed.jsonl for full context)
+alternatives_rejected: []
+bets_affected: []
+logged: '2026-06-23'
+source: swm-bridge

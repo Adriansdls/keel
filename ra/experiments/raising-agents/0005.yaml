@@ -1,0 +1,16 @@
+id: 5
+hypothesis: If subscriber quality (% engineers actually building agents) after Paper
+  1 launch is >60% of subscriber base, research-first sequencing attracted the right
+  audience
+bet_id: 3
+method: 'Run subscriber survey in episode 004–005 window: ''what do you build?'',
+  ''do you evaluate agents?'', ''why did you subscribe?''. Secondary: inbound from
+  research community citing RA (Google Scholar, Twitter/X mentions). Compare subscriber
+  growth rate pre vs post Paper 1 preprint.'
+expected_learning: 'Positive: confirms research-first is the right sequencing for
+  this audience. Negative: subscriber base is mostly AI-curious generalists → content
+  strategy needs to be more accessible while keeping research-grade rigour. Either:
+  reveals who is actually reading and what they need.'
+status: running
+started: '2026-05-04'
+completed: null

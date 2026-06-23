@@ -1,0 +1,17 @@
+id: 22
+title: WP A3.5 — Wire layer as kernel primitive (6 cost fixes implemented + documented)
+status: idea
+priority: p2
+area: infra
+why: The context-proxy wire layer now carries 6 implemented cost-optimization fixes
+  (tool denylist, selective tool_result pruning, tool-desc compression, SR field stabilisation,
+  persistent cache, wire-masking disabled). Measured 78% cost reduction on-machine;
+  ~30-38% generalizable. These should be promoted from a sidecar daemon to a governed
+  kernel primitive (lifecycle owned by habitat, wire_events.jsonl on event bus, deny/keep
+  policy from permit.toml, selftest health check). Doc at ~/habitat/docs/WIRE_COST_OPTIMIZATION.md.
+hypothesis: Promoting the wire layer to a kernel primitive (A3.5, between A3 and A4)
+  makes the cost fixes governable + the same chokepoint enables the Steward's B2 observability
+  (elision manifest) and a narrow fail-closed egress secret-scan — without shipping
+  the rejected memory/general-enforcement claims.
+created: '2026-06-02'
+updated: '2026-06-02'

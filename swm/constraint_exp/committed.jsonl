@@ -1,0 +1,5 @@
+{"id": "2940639d3d04", "kind": "decision", "text": "Design and run experiment 1 with real difficulty, real-world conditions, using small iterations", "turn_added": 0, "last_seen": 0, "source": "capture"}
+{"id": "f9bbb1c47c82", "kind": "premise", "text": "Haiku r1 achieved 5/5 on all constraints, establishing a baseline; but n=1 sample raises uncertainty", "turn_added": 0, "last_seen": 0, "source": "capture"}
+{"id": "c2e10c3ca902", "kind": "constraint", "text": "C4 (docstrings) and C2 (signatures) are easy-to-forget constraints at risk of being dropped under variance", "turn_added": 0, "last_seen": 0, "source": "capture"}
+{"id": "f6f48c36ea6e", "kind": "decision", "text": "Launching a test matrix to assess whether constraints hold under variance", "turn_added": 0, "last_seen": 0, "source": "capture"}
+{"id": "5a84d47c9c63", "kind": "premise", "text": "P2 achieved 20/20 on the full constraint test matrix, validating constraints hold across tested variance conditions", "turn_added": 1, "last_seen": 1, "source": "capture"}

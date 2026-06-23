@@ -1,0 +1,16 @@
+id: 4
+statement: An OSS-clean Apache-2.0 reference core is sufficient to win a paying Agent
+  Action Assurance Pilot engagement, because the commercial value lives in enterprise
+  integration/policy/rollout (not the primitive) and the public repo anchors credibility.
+rationale: ADR-0003 chose Apache-2.0 with a future dual-license option preserved;
+  5/6 existing repos are Proprietary so the core must stay clean; Adrian's mandate
+  (A001) frames this as a consulting+product path.
+confidence: 0.4
+evidence_needed: At least one signed Agent Action Assurance Pilot engagement or LOI;
+  or a qualified enterprise prospect reaching scoping conversations on the basis of
+  the public repo.
+status: active
+created: '2026-06-23'
+updated: '2026-06-23'
+updates: []
+source: null

@@ -1,0 +1,9 @@
+id: 41
+decision: Build cc-workshop-vault, a suit instantiation for Claude Code workshops
+  with shared content from zartis-academy-platform and per-workshop sessions from
+  transcripts
+rationale: (auto-captured from session — see SWM committed.jsonl for full context)
+alternatives_rejected: []
+bets_affected: []
+logged: '2026-06-16'
+source: swm-bridge

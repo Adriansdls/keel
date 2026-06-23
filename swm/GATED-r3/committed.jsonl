@@ -1,0 +1,6 @@
+{"id": "3ae048c1ede5", "kind": "constraint", "text": "Test definitions of done must pass on correct implementations before being considered valid", "turn_added": 3, "last_seen": 3, "source": "capture"}
+{"id": "64ca36a7d19e", "kind": "decision", "text": "test_billing.py must explicitly pin tier boundaries at unit counts 10/11 and 50/51", "turn_added": 3, "last_seen": 3, "source": "capture"}
+{"id": "ea28e04730bb", "kind": "decision", "text": "test_billing.py must explicitly pin minimum-charge floor behavior with small inputs (0 and a few units)", "turn_added": 3, "last_seen": 3, "source": "capture"}
+{"id": "2deefa492330", "kind": "decision", "text": "test_billing.py must explicitly pin 2-decimal rounding behavior", "turn_added": 3, "last_seen": 3, "source": "capture"}
+{"id": "a38043210cf5", "kind": "premise", "text": "Zero base cost still triggers the minimum charge (incorrect prior assumption that it did not)", "turn_added": 3, "last_seen": 3, "source": "capture"}
+{"id": "bbded74c5b52", "kind": "elimination", "text": "First definition of done attempt was rejected by GATE as unfit", "turn_added": 3, "last_seen": 3, "source": "capture"}

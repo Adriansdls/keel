@@ -1,0 +1,28 @@
+id: 21
+experiment_id: 3
+result: 'SOLVED the local-triage gold-retention gap (was qwen3:8b 0.938 vs API 0.985).
+  A principled recall-biased prompt (written a priori from SR screening best-practice:
+  ''high-recall first pass, skip only if clearly off-topic, when unsure choose peripheral'';
+  NO gold/missed-paper inspection) closes it. Recall-biased qwen3:8b gold retention
+  (core+peripheral): Stewart 0.988 (API 0.985), Egeland HELD-OUT 0.96 (API 0.927),
+  Harrison HELD-OUT 0.994 (API 0.969) — matches/BEATS API on all 3, beats on both
+  held-out. Tradeoff: lower noise-rejection (skip 0.565-0.682 vs API 0.767-0.877).
+  Diagnosis: recall recovered 17/21 default-missed gold; the 4 residual have full
+  abstracts (not data-limited) but are tangential (rewilding law, CH4 dynamics, carbon
+  stocks, plant genetics — mention megafauna, not extinction) = defensible skips /
+  gold-incompleteness. Fixed a cache-key bug (bias not in key). Added bias param to
+  llm/local.py + experiments/local_triage.py.'
+implication: 'Free, on-device, offline triage now matches/beats a frontier API on
+  gold retention across 3 domains, validated without leaking (prompt a priori, gold
+  only measured) or overfitting (held-out Egeland+Harrison generalize, even improve).
+  Strong paper claim: high-recall screening runs on a laptop, no API, no data egress,
+  >=96% gold retained -> accessibility/legibility thesis. Recall-for-shrink tradeoff
+  is explicit and tunable. Cost architecture validated end: bound corpus at intake
+  (free OpenAlex count) + free local recall-biased triage + paid frontier only for
+  low-volume interpretive synthesis. Remaining: the residual 4 misses are the gold-incompleteness
+  theme (tangential inclusions); intake/scoping module is the last cost lever + the
+  prospective end-to-end run.'
+confidence_delta: 0.1
+source: experiments/local_triage/{stewart,egeland,harrison}_qwen3-8b_recall.json +
+  /tmp/diag.log + src/synthpipe/llm/local.py
+logged: '2026-06-06'

@@ -1,0 +1,22 @@
+id: 14
+experiment_id: 3
+result: 'WP2 full-text acquisition built (fulltext.py): DOI->Unpaywall->repository-first
+  PDF candidates->Europe PMC fallback->pymupdf extract, all cached. Coverage on 337
+  gold DOIs: 48 usable full text (14%, median 67k chars), 90 download_fail (publisher
+  403 to all bots incl hyperresearch browser-fetch: Royal Society/PNAS/Elsevier/Cell),
+  148 no_oa, 50 no_pdf, 1 lookup_fail. Iterated Unpaywall-only (30) -> +repository+EuropePMC
+  (48). hyperresearch fetch also 403 on publishers.'
+implication: 'CANNOT get all full text freely. ~14% via OA; ~70% (publisher-403 +
+  non-OA) requires INSTITUTIONAL ACCESS (archaeologist university EZproxy/library
+  or logged-in browser profile) - a (b) credentials blocker. Design consequence: WP2
+  full-text is fundamentally PARTIAL without credentials; extraction must mix full-text
+  (where available) + abstract fallback; KG built on heterogeneous depth (reportable
+  limitation). Decision point: (a) get institutional access -> high coverage, or (b)
+  accept 14% full-text + abstract fallback. KEY NEXT TEST (runnable now, no more coverage
+  needed): re-run WP1 attribution validation on the 48 full-text papers (full text
+  vs their abstract) - does full text actually close the attribution-extraction gap
+  (kappa 0.43)? If yes -> justifies pursuing institutional access; if no -> full text
+  isn''t the lever, save the effort.'
+confidence_delta: 0.0
+source: src/synthpipe/fulltext.py + .cache/fulltext (337 meta entries) + /tmp/ft_fetch2.log
+logged: '2026-06-05'

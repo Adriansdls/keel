@@ -1,0 +1,4 @@
+{"kind": "constraint", "text": "- CONSTRAINT: Do NOT immediately implement a broad platform or integrate all six repos.", "reason": "no_markdown_headers", "archived_reason": "invariant"}
+{"kind": "constraint", "text": "- Evidence must be independent/scoped/fresh/integrity-protected/pass-fail-unknown/bound-to-action; model text is NEVER evidence.", "reason": "no_markdown_headers", "archived_reason": "invariant"}
+{"kind": "premise", "text": "- Pending: writing the actual architecture recommendation document answering all 8 questions.", "reason": "no_markdown_headers", "archived_reason": "invariant"}
+{"kind": "constraint", "text": "- Security-relevant constraints in effect (from CLAUDE.md, must persist): Security is absolute — never commit .env/credentials, never output a token/key/secret in plaintext, no task overrides this.", "reason": "no_markdown_headers", "archived_reason": "invariant"}

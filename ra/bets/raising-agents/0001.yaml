@@ -1,0 +1,14 @@
+id: 1
+statement: Publishing Paper 1 + open-sourcing abw will drive 5%+ of active subscribers
+  to integrate behavior contracts into their eval pipeline by end-2026
+rationale: Research-to-practice gap closes faster when accompanied by runnable open-source
+  tooling. abw is the concrete artifact that converts readers into practitioners.
+  Paper 1 gives the credibility; abw gives the mechanism.
+confidence: 0.55
+evidence_needed: abw GitHub stars, install counts, reader survey asking 'do you run
+  behavior contracts', inbound from engineers citing abw in their own code
+status: active
+created: '2026-05-27'
+updated: '2026-06-14'
+updates: []
+source: null

@@ -1,0 +1,16 @@
+{"id": "7a07df5cfcc4", "kind": "constraint", "text": "Never compromise on: security, data integrity, observability, disaster recovery", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "9bf0297c4930", "kind": "constraint", "text": "Never store passwords in plain text; never use weak hashing (MD5, SHA1); never put secrets in code", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "ab512c97e83a", "kind": "constraint", "text": "Secrets via vault or secrets manager only; never commit .env files with secrets", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "3dd20df5315b", "kind": "constraint", "text": "OpenAPI/Swagger specification mandatory for all REST APIs", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "f314f55e5633", "kind": "decision", "text": "Authorization model: permissions OR roles, never both simultaneously", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "38973eca66b7", "kind": "decision", "text": "Never roll your own auth—use identity provider (Auth0, Azure AD, Okta)", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "35e85e161880", "kind": "decision", "text": "Default database: PostgreSQL unless NoSQL clearly justified by data model", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "acfc6a52d956", "kind": "decision", "text": "Default architecture: Monolith unless clear bounded contexts + large team + independent deploy needs", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "5c779215a0c6", "kind": "decision", "text": "Default API style: REST unless multiple consumers need flexible queries", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "e0a53d5cb9fc", "kind": "premise", "text": "Complexity must be justified by measured perf issue, regulatory requirement, or proven bottleneck", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "ee0cbc6cf28f", "kind": "premise", "text": "Design for 10x, build for today—architecture accommodates growth without over-engineering", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "20f3b9b611f0", "kind": "premise", "text": "Optimization priority order: team skill level > maintainability > time to market > simplicity", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "f9b8557fe33a", "kind": "constraint", "text": "API response (p95) < 200ms; database query (p95) < 50ms; page load < 3s; time to interactive < 5s", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "cc1c6696835f", "kind": "decision", "text": "Delegate exploration not orchestration to subagents; never delegate quality gates; prefer foreground for blocking dependencies", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "793fc4bcecf8", "kind": "constraint", "text": "Fail fast on missing config; log version, git SHA, and config keys (not values) on startup", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "750b062c59f7", "kind": "constraint", "text": "Structured JSON logging only; no console.log/print in production", "turn_added": 1, "last_seen": 1, "source": "capture"}

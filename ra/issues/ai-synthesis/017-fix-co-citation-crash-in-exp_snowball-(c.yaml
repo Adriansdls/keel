@@ -1,0 +1,11 @@
+id: 17
+title: Fix co-citation crash in exp_snowball (citing_works unhandled HTTPError) +
+  sweep
+status: idea
+priority: p2
+area: research
+why: Snowball go/no-go GREEN but co-citation signal (Adrian's pick) crashed on forward-citer
+  fetch; sweep fixed directional links at >=1 while outlink>=2 is 6.4x cleaner. Needed
+  to lock snowball operating point.
+created: '2026-06-05'
+updated: '2026-06-05'

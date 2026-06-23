@@ -1,0 +1,18 @@
+id: 2
+hypothesis: If we add mTLS + DPoP-style proof-of-possession to lease consume in M3,
+  stolen-lease-presented-by-wrong-actor mutations will all refuse at consume, with
+  end-to-end consume latency overhead small enough not to block adoption in a real
+  cc-os agent workflow.
+bet_id: 5
+method: Implement sender-constrained leases (bind a presenter public key to the lease;
+  require a fresh DPoP proof at consume; mTLS at the transport). Build a stolen-lease
+  mutation suite. Measure consume latency vs the M1 baseline inside a cc-os-driven
+  deploy workflow; characterize the integration friction (key provisioning, agent-side
+  key custody).
+expected_learning: Whether sender binding is feasible in-process or requires a real
+  transport; the latency cost in ms and whether it crosses an adoption threshold;
+  where key custody lives in the agent topology (which informs whether the boundary
+  claim survives an agent that can edit its own hooks).
+status: running
+started: '2026-06-23'
+completed: null

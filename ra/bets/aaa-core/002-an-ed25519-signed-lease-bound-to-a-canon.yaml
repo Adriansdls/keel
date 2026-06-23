@@ -1,0 +1,19 @@
+id: 2
+statement: An Ed25519-signed lease bound to a canonical action_digest (tenant + target
+  + environment + action_type + payload) refuses every altered-payload / wrong-target
+  / wrong-env / wrong-tenant presentation at consume, and wrong-scope or wrong-commit
+  evidence is rejected because the GATEWAY (not the agent) verifies bound_action_digest
+  and evidence subject.
+rationale: M1 tests test_altered_payload_rejected, test_wrong_environment_rejected,
+  test_wrong_tenant_rejected, test_wrong_commit_evidence_no_lease are green; canonical.py
+  produces the binding; evidence.py performs gateway-side validation.
+confidence: 0.8
+evidence_needed: PIMS digest-collision + canonicalization-ordering mutations (e.g.
+  field reordering, unicode normalization, extra-field injection) that yield a matching
+  digest for a different action; any mutation that consumes with a mismatched action
+  or accepts wrong-scope evidence falsifies.
+status: active
+created: '2026-06-23'
+updated: '2026-06-23'
+updates: []
+source: null

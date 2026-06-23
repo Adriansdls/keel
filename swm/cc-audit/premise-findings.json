@@ -1,0 +1,131 @@
+{
+  "ts": "2026-06-22T12:05:34+00:00",
+  "turns_since_full": 0,
+  "backend": "default+rule(floor)",
+  "results": [
+    {
+      "premise_id": "a102815a504b",
+      "status": "invalid",
+      "evidence": "provisional premise now treated as settled (shared: passed, default)",
+      "source": "rule(floor)",
+      "groundedness": 1.0
+    },
+    {
+      "premise_id": "c6c35945c33e",
+      "status": "challenged",
+      "evidence": "not evaluated (no backend)",
+      "source": "default",
+      "groundedness": 0.25
+    },
+    {
+      "premise_id": "337310d5542c",
+      "status": "invalid",
+      "evidence": "provisional premise now treated as settled (shared: server, with, note)",
+      "source": "rule(floor)",
+      "groundedness": 1.0
+    },
+    {
+      "premise_id": "8a9a2c5ebc8e",
+      "status": "challenged",
+      "evidence": "not evaluated (no backend)",
+      "source": "default",
+      "groundedness": 0.25
+    },
+    {
+      "premise_id": "15566b884355",
+      "status": "challenged",
+      "evidence": "not evaluated (no backend)",
+      "source": "default",
+      "groundedness": 0.25
+    },
+    {
+      "premise_id": "eb8a10234c15",
+      "status": "challenged",
+      "evidence": "not evaluated (no backend)",
+      "source": "default",
+      "groundedness": 0.25
+    },
+    {
+      "premise_id": "cffcdf0faa37",
+      "status": "invalid",
+      "evidence": "provisional premise now treated as settled (shared: clarity, user)",
+      "source": "rule(floor)",
+      "groundedness": 1.0
+    },
+    {
+      "premise_id": "aa52bc51e0a5",
+      "status": "invalid",
+      "evidence": "provisional premise now treated as settled (shared: your, which, both)",
+      "source": "rule(floor)",
+      "groundedness": 1.0
+    },
+    {
+      "premise_id": "734d20882647",
+      "status": "challenged",
+      "evidence": "not evaluated (no backend)",
+      "source": "default",
+      "groundedness": 0.25
+    },
+    {
+      "premise_id": "23a663e03108",
+      "status": "challenged",
+      "evidence": "not evaluated (no backend)",
+      "source": "default",
+      "groundedness": 0.25
+    },
+    {
+      "premise_id": "0d651d8f31e2",
+      "status": "challenged",
+      "evidence": "not evaluated (no backend)",
+      "source": "default",
+      "groundedness": 0.25
+    },
+    {
+      "premise_id": "7d983c9c2ed4",
+      "status": "challenged",
+      "evidence": "not evaluated (no backend)",
+      "source": "default",
+      "groundedness": 0.25
+    },
+    {
+      "premise_id": "1f0c7952ee5e",
+      "status": "challenged",
+      "evidence": "not evaluated (no backend)",
+      "source": "default",
+      "groundedness": 0.25
+    },
+    {
+      "premise_id": "2a0b0c6ae0cb",
+      "status": "challenged",
+      "evidence": "not evaluated (no backend)",
+      "source": "default",
+      "groundedness": 0.25
+    },
+    {
+      "premise_id": "c362bf9d1683",
+      "status": "challenged",
+      "evidence": "not evaluated (no backend)",
+      "source": "default",
+      "groundedness": 0.25
+    }
+  ],
+  "invalid": [
+    "a102815a504b",
+    "337310d5542c",
+    "cffcdf0faa37",
+    "aa52bc51e0a5"
+  ],
+  "challenged": [
+    "c6c35945c33e",
+    "8a9a2c5ebc8e",
+    "15566b884355",
+    "eb8a10234c15",
+    "734d20882647",
+    "23a663e03108",
+    "0d651d8f31e2",
+    "7d983c9c2ed4",
+    "1f0c7952ee5e",
+    "2a0b0c6ae0cb",
+    "c362bf9d1683"
+  ]
+}

@@ -1,0 +1,12 @@
+id: 7
+title: Cohabit ghost ledger — refusal-as-first-class-citizen content piece
+status: idea
+priority: p2
+area: content
+why: The ghost ledger pattern (every agent consideration/refusal/execution/revert
+  logged, indexed, queryable) is novel and directly on-thesis. Most agent systems
+  hide refusals. Making them first-class is a publishable behavioral engineering stance.
+hypothesis: A post on ghost ledger + refusal logging earns disproportionate engagement
+  from engineers who've been burned by agents acting silently.
+created: '2026-05-27'
+updated: '2026-05-27'

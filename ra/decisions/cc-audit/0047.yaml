@@ -1,0 +1,9 @@
+id: 47
+decision: The authoring axis measures whether developers build reusable assets (skills,
+  hooks, MCP servers, agents, packages) instead of repeatedly solving the same problem
+  by hand; this is the scope of 'authoring' in the maturity framework.
+rationale: (auto-captured from session — see SWM committed.jsonl for full context)
+alternatives_rejected: []
+bets_affected: []
+logged: '2026-06-16'
+source: swm-bridge

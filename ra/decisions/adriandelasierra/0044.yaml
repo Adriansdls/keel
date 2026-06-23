@@ -1,0 +1,9 @@
+id: 44
+decision: 'Admin post-workshop workflow: copy transcript file to transcripts/ → run
+  ingest_session.py → git push; participants pull and vault becomes live with new
+  session content'
+rationale: (auto-captured from session — see SWM committed.jsonl for full context)
+alternatives_rejected: []
+bets_affected: []
+logged: '2026-06-16'
+source: swm-bridge

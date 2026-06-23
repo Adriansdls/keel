@@ -1,0 +1,7 @@
+{"id": "d6dd9e5d735c", "kind": "constraint", "text": "Cannot assess whether corpus-scale conceptual harmonisation demonstrator has been built or validated.\",", "turn_added": 0, "last_seen": 0, "source": "capture"}
+{"id": "ffdc83dd2460", "kind": "constraint", "text": "Cannot assess whether human-in-the-loop boundary benchmark has been conducted.\",", "turn_added": 0, "last_seen": 0, "source": "capture"}
+{"id": "604113a82ed8", "kind": "constraint", "text": "Cannot assess whether second-domain probe has been attempted.\",", "turn_added": 0, "last_seen": 0, "source": "capture"}
+{"id": "9f21b83ba9e2", "kind": "constraint", "text": "Cannot assess whether percolation sweep on gold-standard corpora has been performed.\",", "turn_added": 0, "last_seen": 0, "source": "capture"}
+{"id": "f0c3aced8b4c", "kind": "constraint", "text": "Cannot assess whether conversational intake module has been tested with vs without scoping.\",", "turn_added": 0, "last_seen": 0, "source": "capture"}
+{"id": "a5c1c4b61cd6", "kind": "constraint", "text": "Cannot assess whether net relevant yield measurements have been conducted.\",", "turn_added": 0, "last_seen": 0, "source": "capture"}
+{"id": "0382dd0dacdf", "kind": "constraint", "text": "Cannot assess whether counterfactual conclusion-shift analysis has been performed.\",", "turn_added": 0, "last_seen": 0, "source": "capture"}

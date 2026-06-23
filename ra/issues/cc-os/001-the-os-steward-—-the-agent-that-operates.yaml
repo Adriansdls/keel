@@ -1,0 +1,23 @@
+id: 1
+title: The OS Steward — the agent that operates the living constitution
+status: idea
+priority: p1
+area: strategy
+why: 'The CC OS''s defensible core is a LIVING constitution (compiled, drift-checked,
+  evidence-evolved, human-ratified) — governance that learns under human control,
+  vs competitors'' static policy docs. That core is inert without an operator: today
+  the evolve-loop only runs when invoked and only does fixed stat-mining. The Steward
+  is the unattended governed loop that closes it adaptively — reads the OS''s drift
+  signals (constitution-rubric, beast drift, trust scores, recurring corrections),
+  ROOT-CAUSES why a rule isn''t holding (forks on findings = genuinely an agent, not
+  a cron skill), and petitions a specific, minimal, evidence-grounded amendment for
+  human ratification. Never enacts (bounded autonomy). Domain-agnostic + per-tenant
+  → one agent, N deployments → the consulting product differentiator for an Anthropic
+  partner.'
+hypothesis: A Steward that investigates governance drift and petitions evidence-grounded
+  amendments (propose-only, human-ratified) will (a) keep the constitution coherent
+  without manual review, and (b) be the demo/differentiator that drives enterprise
+  adoption of governed Claude. Justified at org/multi-tenant scale; borderline/over-engineered
+  at solo scale.
+created: '2026-06-01'
+updated: '2026-06-01'

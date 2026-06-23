@@ -1,0 +1,10 @@
+# Strategic State
+
+_Durable world-model — auto-maintained by SWM, re-injected each turn._
+
+## Constraints
+- Do NOT also emit a combined/compound version of facts you already split out, and do NOT split one fact into overlapping fragments.
+- "narrative": "Cannot evaluate bet or experiment outcomes without recent activity data.
+
+## Premises (provisional)
+- All items marked still_open pending evidence from actual project work.

@@ -1,0 +1,19 @@
+id: 1
+experiment_id: 1
+result: 'v1 citation-expansion pipeline built and runs A-to-Z (OpenAlex -> BFS ->
+  CitationGraph -> recall), reproducible via on-disk cache. Baseline exp01_proxy_d2
+  (8 seeds, depth 2, forward cap 300, budget 9000) on a weak proxy gold (Stewart reference
+  list, 261 DOIs): recall 0.277 (70/253 excl. seeds). Giant component = 1.0. Key diagnosis:
+  depth-2 new_ratio=4.66 means expansion was budget-truncated, NOT saturated; 8079/9000
+  nodes are off-gold -> unguided forward expansion wastes budget on topically-irrelevant
+  hubs. Pre-1980 recall = 0 (digitization tail).'
+implication: 'The dominant lever to raise recall is relevance-guided expansion (the
+  core/peripheral/skip classifier, Exp 2), NOT more budget -- pure structural BFS
+  cannot saturate the on-topic cluster within a reasonable node budget because off-topic
+  citers crowd it out. Two confounds to remove before trusting the number: swap the
+  weak reference-list proxy for Stewart Supplementary Table S1 (the 360 included studies,
+  a coherent cluster), and report recall stratified by decade (pre-digital tail has
+  a structural ceiling).'
+confidence_delta: 0.05
+source: pipeline/experiments/exp01_proxy_d2/manifest.json
+logged: '2026-06-02'

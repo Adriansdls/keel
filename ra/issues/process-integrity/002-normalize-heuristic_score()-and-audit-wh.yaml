@@ -1,0 +1,11 @@
+id: 2
+title: Normalize heuristic_score() and audit whether it correctly classifies the 10
+  exi
+status: idea
+priority: p1
+area: research
+why: The scoring heuristic uses keyword matching. Before drawing conclusions from
+  run summaries, verify it correctly labels the 10 Sonnet runs already captured in
+  c5_replay_claude-sonnet-4-6_n10. Misclassification would invalidate bet 1 conclusions.
+created: '2026-06-04'
+updated: '2026-06-04'

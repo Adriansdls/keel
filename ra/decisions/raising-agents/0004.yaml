@@ -1,0 +1,14 @@
+id: 4
+decision: The press is not publishable content until episode 010 — hard rule
+rationale: Building a system that publicly tracks your own building is the closet-hours
+  trap applied to itself. The system must produce value first (evidence, research,
+  content) before it becomes the subject. Prevents navel-gazing from consuming the
+  mission.
+alternatives_rejected:
+- meta-content from day one
+- episode 001 about the press
+bets_affected:
+- 2
+- 4
+logged: '2026-04-24'
+source: null

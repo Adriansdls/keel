@@ -1,0 +1,13 @@
+id: 3
+decision: Score on heuristic_score() rather than an LLM judge for initial experiment
+  runs.
+rationale: Speed and cost. The heuristic correctly classifies root_cause_category
+  using keyword matching on model output and scores premature_session_limit_closure
+  deterministically. An LLM judge would be more accurate but adds latency and cost
+  per run. Switch to LLM judge only if heuristic shows high noise in the raw arm results.
+alternatives_rejected:
+- LLM-judge scoring — deferred to later validation pass
+bets_affected:
+- 1
+logged: '2026-06-04'
+source: null

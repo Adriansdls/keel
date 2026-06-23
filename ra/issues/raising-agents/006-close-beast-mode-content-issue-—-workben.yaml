@@ -1,0 +1,9 @@
+id: 6
+title: Close beast-mode content issue — workbench post and repo already shipped
+status: done
+priority: p1
+area: content
+why: 'Issue 001 is marked idea but the work is done: /workbench/beast-mode.html published,
+  raising-agents/beast-mode repo live. Needs status update to done.'
+created: '2026-05-27'
+updated: '2026-05-27'

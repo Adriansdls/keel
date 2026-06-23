@@ -1,0 +1,32 @@
+# cowork configuration
+# You probably don't need to change anything here.
+
+# ── How cowork thinks ─────────────────────────────────────────────────────────
+llm:
+  # "subscription" uses your Claude subscription. No extra setup needed. (default)
+  # "api"          uses an Anthropic API key. For advanced users.
+  mode: subscription
+  fast_model:  claude-haiku-4-5
+  smart_model: claude-sonnet-4-5
+  # api_key_env: ANTHROPIC_API_KEY   # uncomment if using mode: api
+
+# ── What cowork remembers ─────────────────────────────────────────────────────
+memory:
+  check_assumptions_every: 5
+  max_inject_size: 12000
+  share_global_decisions: true
+
+# ── Project health ────────────────────────────────────────────────────────────
+health:
+  check_every_days: 7
+  warn_if_idea_leakage_above: 0.40
+  # auto_promote_ideas: false   # set true to enable automatic idea→issue promotion
+  # promotion_confidence_threshold: 0.7
+  # max_auto_promotions_per_run: 3
+  # promotion_candidates_per_run: 10
+
+# ── Outcome tracking ──────────────────────────────────────────────────────────
+outcomes:
+  check_every_days: 7
+  flag_stale_bets_after_days: 60
+  decision_check_after_days: 30

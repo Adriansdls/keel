@@ -1,0 +1,27 @@
+{"id": "40452df0601a", "kind": "constraint", "text": "E2E tests only for critical business paths (auth, payment, core workflows); everything else gets unit + integration", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "6ef087a6f81f", "kind": "constraint", "text": "Never mock the database in integration tests; use a test database instead", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "b18196847989", "kind": "constraint", "text": "Test behavior, not implementation; assert on what user sees or API returns, never on internal state", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "3d4cf1dbada7", "kind": "constraint", "text": "WCAG 2.1 AA compliance is non-negotiable", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "9976918981d7", "kind": "constraint", "text": "Function max 50 lines; file max 300-400 lines", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "ab4abcf9c0f5", "kind": "constraint", "text": "No TODO/FIXME comments in committed code", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "3d510fad1a8b", "kind": "constraint", "text": "Comprehensive error handling mandatory; centralized error handler mandatory for backends", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "f8d4a02cc5d9", "kind": "constraint", "text": "All tests must pass on PR (blocks merge); coverage must not drop", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "c158bbf8852b", "kind": "constraint", "text": "OpenAPI/Swagger specification is mandatory for all REST APIs", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "7c11e53b660a", "kind": "constraint", "text": "Version APIs from day one: /api/v1/resources", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "c7c0246abbd8", "kind": "constraint", "text": "Non-CRUD operations use command pattern: POST /commands/verb-noun (kebab-case)", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "3babe3e0f8eb", "kind": "constraint", "text": "Permissions OR roles, never both simultaneously", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "9bf0297c4930", "kind": "constraint", "text": "Never store passwords in plain text; never use weak hashing (MD5, SHA1); never put secrets in code", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "d845163b7eab", "kind": "constraint", "text": "Validate required environment variables at startup before accepting traffic", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "db5d1d1f05c5", "kind": "constraint", "text": "Structured JSON logging only in production code; no console.log/println/print", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "f9b8557fe33a", "kind": "constraint", "text": "API response p95 < 200ms; database query p95 < 50ms; page load < 3s; time to interactive < 5s", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "40bdaae8f604", "kind": "decision", "text": "PostgreSQL is default database; deviate only if NoSQL clearly justified by data model", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "e5b0d29d6d10", "kind": "decision", "text": "Monolith is default architecture; deviate if clear bounded contexts + large team + independent deploy needs", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "93aa3e494a3d", "kind": "decision", "text": "REST is default API style; deviate if multiple consumers need flexible queries across deeply nested data", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "e79a93df2f18", "kind": "decision", "text": "Never roll your own auth; always use identity provider (Auth0, Azure AD, Okta)", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "018b0c5d0f86", "kind": "decision", "text": "PrimeReact/PrimeNG/PrimeVue is default UI library; deviate only if client already uses different", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "30b05b30ba37", "kind": "premise", "text": "Customer preference takes priority; respect client tech stack", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "82736d4868a5", "kind": "premise", "text": "Start simple, scale smart; choose simplest solution unless measured perf issue, regulatory requirement, or proven bottleneck", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "e62f772704bd", "kind": "premise", "text": "Optimize for team skill level, maintainability, time to market, simplicity (in that order)", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "100259516b57", "kind": "premise", "text": "Delegate exploration, not orchestration; subagents handle research, lead agent owns sequencing and quality gates", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "65e911efb2cf", "kind": "premise", "text": "Security, data integrity, observability, and disaster recovery are non-negotiable—never compromise", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "ba7814a04494", "kind": "premise", "text": "Design for horizontal scalability; keep applications stateless", "turn_added": 1, "last_seen": 1, "source": "capture"}

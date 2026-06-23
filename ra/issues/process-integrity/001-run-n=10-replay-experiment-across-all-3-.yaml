@@ -1,0 +1,12 @@
+id: 1
+title: Run n=10 replay experiment across all 3 arms and record summary results
+status: idea
+priority: p0
+area: research
+why: The experiment harness exists (run_c5_replay_experiment.py) and two partial runs
+  are already in reports/ (n1 Opus, n10 Sonnet). Need a clean n=10 Opus run across
+  all 3 arms to test bet 1.
+hypothesis: zartis_contract arm will show contract_desired_behavior >= 6/10 vs <3/10
+  for raw arm
+created: '2026-06-04'
+updated: '2026-06-04'

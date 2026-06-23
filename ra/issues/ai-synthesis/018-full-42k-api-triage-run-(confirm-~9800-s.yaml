@@ -1,0 +1,10 @@
+id: 18
+title: Full 42K API triage run (confirm ~9800-survivor projection)
+status: idea
+priority: p2
+area: research
+why: API triage slice (temp=0, paper-intrinsic) projects 42K->~9800 survivors at 98.5%
+  recall, core precision 79%. Need full-corpus run to confirm tier distribution and
+  lock operating set. Overnight, cached, cheap.
+created: '2026-06-05'
+updated: '2026-06-05'

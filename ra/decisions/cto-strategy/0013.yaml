@@ -1,0 +1,8 @@
+id: 13
+decision: ≥1 internal process must run with AI as primary executor and human as validator,
+  with trust score tracked week-over-week
+rationale: (auto-captured from session — see SWM committed.jsonl for full context)
+alternatives_rejected: []
+bets_affected: []
+logged: '2026-06-16'
+source: swm-bridge

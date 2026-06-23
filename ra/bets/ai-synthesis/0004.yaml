@@ -1,0 +1,47 @@
+id: 4
+statement: Under semantic (embedding/LLM-judged) edge-weighting, the on-topic and
+  off-topic sub-graphs of the citation network have SEPARABLE percolation thresholds
+  — so frontier expansion with a prune cutoff between them yields a bounded, high-recall,
+  question-specific corpus with a measurable recall guarantee.
+rationale: Relevance-pruning a citation graph = bond percolation. Molloy–Reed (⟨k²⟩/⟨k⟩>2)
+  and Cohen p_c=⟨k⟩/(⟨k²⟩−⟨k⟩) give the critical threshold at which a component shatters.
+  If the off-topic subgraph shatters at a higher prune level than the on-topic subgraph,
+  a cutoff between them gives provably bounded, high-recall search — the recall-guarantee
+  pillar that separates systematic synthesis from sampling deep-research agents. This
+  is the candidate core theorem of the paper.
+confidence: 0.6000000000000001
+evidence_needed: 'Percolation sweep on gold-standard corpora (Egeland 236, Buss PRISMA
+  set, 999-record WoS export): vary semantic prune threshold, measure recall-vs-PRISMA
+  and off-topic leak; test whether a separating threshold exists. Also test whether
+  the archaeology citation graph is single-component or fragments by tradition/language
+  (reachability failure mode).'
+status: active
+created: '2026-06-01'
+updated: '2026-06-14'
+updates:
+- date: '2026-06-01'
+  delta: 0.05
+  old_confidence: 0.5
+  new_confidence: 0.55
+  evidence_ref: 'research/notes/final_report_agentic-synthesis-impact.md (Clark et
+    al. 2025: 91% median miss for de novo LLM searching)'
+  reasoning: 'Report documents that de novo LLM searching misses a median 91% of eligible
+    studies and that this is NOT fixable by better prompting/larger models — it is
+    a structural failure of the query-based paradigm. This makes citation-graph percolation
+    the motivated alternative to a documented open failure, raising the value/relevance
+    of the bet. It does not yet raise confidence in our threshold-separation claim
+    itself (still unvalidated) — only modest +0.05. Evidence still needed: percolation
+    recall vs human gold set on Egeland/CLIOARCH/savedrecs.'
+- date: '2026-06-01'
+  delta: 0.05
+  old_confidence: 0.55
+  new_confidence: 0.6000000000000001
+  evidence_ref: Cobo Paper1 §2.2, §3.1
+  reasoning: Her pipeline already implements citation-network expansion + giant-component
+    logic + saturation curves + a drift-prevention classifier — i.e. the percolation
+    search is being built, with a validation plan (recall vs manual + gold-standard
+    reference list). Confirms the approach is operationalizable. Held to a small delta
+    because the core empirical claim (on-topic vs off-topic threshold separation;
+    recall actually high) is still unmeasured — that is precisely what experiment
+    1 must produce.
+source: null

@@ -1,0 +1,1 @@
+{"kind": "constraint", "text": "- Include all items; emit 'still_open' for anything you cannot judge.", "reason": "no_markdown_headers", "archived_reason": "invariant"}

@@ -1,0 +1,8 @@
+id: 4
+decision: Known limitation (delegation/model_fluency fleet-level aggregation) will
+  be designed around in WP4 rather than treated as blocking
+rationale: (auto-captured from session — see SWM committed.jsonl for full context)
+alternatives_rejected: []
+bets_affected: []
+logged: '2026-06-16'
+source: swm-bridge

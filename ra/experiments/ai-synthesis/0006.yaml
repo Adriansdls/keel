@@ -1,0 +1,16 @@
+id: 6
+hypothesis: Including the novel (non-gold) relevant papers shifts the review's synthesis
+  conclusion (extinction-cause attribution distribution) vs gold-only — i.e. the extra
+  papers change the answer, not just the count.
+bet_id: 7
+method: 'On Stewart (M3 stance synthesis available): compute the cause-attribution
+  distribution (Anthropogenic/Climate/Mixed/Impact/None) over gold-only, then over
+  gold + adjudicated-genuine novel finds. Measure Jensen-Shannon divergence + per-driver
+  count shifts. Secondary facets: novel KG nodes/edges added by the novel papers;
+  diversity delta (region/period/method). Report whether conclusion shifts materially.'
+expected_learning: Whether our recall-superiority is SUBSTANTIVE (changes the conclusion
+  -> completeness matters) or CONFIRMATORY (same conclusion, papers add robustness/coverage/bias-reduction).
+  Either is publishable; the counterfactual is the headline test linking M1+M4+M3.
+status: running
+started: '2026-06-06'
+completed: null

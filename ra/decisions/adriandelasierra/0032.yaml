@@ -1,0 +1,8 @@
+id: 32
+decision: 'Selected Option A: run charter/attest fix commands directly in Terminal
+  to bypass Claude Code''s charter hook restrictions'
+rationale: (auto-captured from session — see SWM committed.jsonl for full context)
+alternatives_rejected: []
+bets_affected: []
+logged: '2026-06-15'
+source: swm-bridge

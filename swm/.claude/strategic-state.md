@@ -1,0 +1,111 @@
+# Strategic State
+
+_Durable world-model — auto-maintained by SWM, re-injected each turn._
+
+## Decisions
+- Build proper Claude Code enhancement architecture with clear context injection system, manageability, observability, and efficiency
+- Transitioning from measurement/analysis phase to architecture design phase
+- Architecture will be delivered as written document
+- Context injection architecture piggybacks on existing proxy capture infrastructure rather than building new infrastructure
+- Ground truth for skill catalog integrity is actual bytes on wire (realized plane), compared against files on disk (declared plane)
+- Jurisdictional skills must be managed through project `.claude/skills/` directories (required consequence of plugin install-time constraint)
+- Skill control enforcement must be client-side (load-time), not wire-level, due to caching architecture constraints
+- Shadow compression approach (X5) invalidated: worse quality (81% vs control 88.5%) AND context expands 46% for short sessions
+- Exact/path facts compress reliably well (87-90% quality at ~27% compression) but decision/reasoning compression is lossy (56-70% quality)
+- Single validated compression use case: turns dominated by long tool outputs—these compress well in both quality AND context size
+- Free tier must not block onboarding (friction-free design for signup optimization)
+- Growth tier pricing anchored to $124k ARR EMEA midmarket signal
+- Three-tier pricing strategy: Free/Starter (friction-free, no feature-gating), Growth tier anchored to $124k ARR (EMEA midmarket baseline), premium tier
+- Free tier must not gate features that block activation/onboarding
+- Q3 hiring priority (Jun–Aug): CSM for EMEA midmarket to stem churn; 1–2 Support Engineers to close SLA gap; Demand Gen/Growth marketer
+- Launch metric target: 4,400 signups by October gate (locked for whole project)
+- Building agent-infra (harness for Claude Code) — ecosystem of repos + one thin kernel wired by 3 contracts, NOT a monolith
+- cto-strategy repository is the 'Angel Brain' — the strategic memory vault using GRAIN/GRIP/VEIN/MESH architecture
+- GRAIN/GRIP/VEIN/MESH trust-scoring architecture is the spine unifying all Claude-Code-enhancement repos
+- Three pieces retained under Adrian's direct control: cto-strategy (strategic memory), .claude (meta-config), synthesis layer
+- Opus 4.8 (1M context) set as default for new sessions; Sonnet 4.6 pinned in managed settings
+- Parallel recon strategy: map all Claude-Code-enhancement projects across three surfaces—local disk, GitHub (raising-agents and adriandsdls accounts), and Azure DevOps (zartis-digital/innovation tenant)—using dispatched Sonnet subagents
+- Keep cto-strategy (strategic memory) and .claude meta-config under direct control; dispatch subagents to map coherent clusters in other repos
+- Consolidate Claude Code enhancement projects (strategic memory, beast mode, suit) into unified framework for personal and colleague use
+- cto-strategy (strategic memory) and .claude meta-config designated as core pieces for integrated management
+
+## Constraints
+- Capture buffer is volatile ring shared with live sessions; holds only names-only catalogs; pollution requires parser filtering
+- Plugin scope is determined at install-time binary; no per-project plugin toggle exists
+- Session goal (stop-hook condition): close the unknowns and propose the final and robust version of the architecture
+- Compression economically viable only when turns average >244 characters (long, tool-output-dominated turns)
+- Launch target of 4,400 signups by October is locked for project scope
+- Monthly churn rate of 2.1% (~25% annualized) undermines ARR needed to meet signup target
+- Current SLA of 99.2% falls below 99.5% contractual threshold, creating exposure to credit claims
+- Launch target locked at 4,400 signups by October
+- Contractual SLA threshold is 99.5%; current EMEA midmarket 99.2% is below threshold
+- EMEA midmarket monthly churn 2.1% = ~25% annualized churn—threatens ARR base needed for signup target
+- EMEA midmarket SLA 99.2% is below standard 99.5% contractual threshold—exposure to credit claims and escalations
+- Must resolve gap between logical architecture (6 primitives, 7 layers) and physical packaging (ecosystem model)
+- Managed settings pin Sonnet 4.6 — applies on restart
+- Required task: Read ALL documentation in current directory for ambient understanding
+- Primary scope for synthesis process is archaeology
+- Three identified analysis gaps blocking progress: adjacent-metaphors, hook observability, EVOLVE integration
+- 8 tasks and 120 minutes available for completion today (2026-05-08, day 3)
+- Sentinel daily protocol is time-boxed to 120 minutes for 8 tasks
+- Sentinel protocol must execute 8 tasks within 120-minute timeframe
+- Q3 2027 is the non-negotiable deadline for On-Prem sunset
+- FinanceCore contract floor is a hard, non-negotiable constraint (specific floor level referenced but not fully detailed in excerpt)
+- Current account estimate is 340, but telemetry audit could reveal significantly higher actual count
+- Concierge model is 1:1 by design—hard engineering capacity ceiling
+- Staffing plan has no buffer for account count jumps beyond 340
+- Q3 2027 is the earliest permissible date for public announcement or support cutoff of DataLens On-Prem
+
+## Eliminations / rejected
+- Not building new observability infrastructure; reusing existing proxy as chokepoint
+- Per-project plugin toggles cannot be implemented—plugin architecture is install-time binary fixed
+- Wire-level skills denylist approach rejected: msg[4] sits in cached prefix and mutation would re-introduce cache-bust that the system was tuned to eliminate
+- Short discussion turns, decision/reasoning content, and typical conversation patterns are invalid targets for automatic compression
+- Key gaps identified as blocking: adjacent-metaphors framework, hook observability mechanisms, EVOLVE integration details
+- Extended support contracts carry risk: signaling sunset isn't firm undermines hard deadline credibility
+- Meridian Analytics white-label deal for On-Prem codebase was seriously considered with financial interest but not pursued due to legal complications
+- White-label deal with Meridian Analytics for the On-Prem codebase was considered—they were genuinely interested with an offer—but was rejected due to legal concerns
+- Self-service playbook explicitly rejected; pilot accounts showed churn signals, customization depth ruled it out
+- Meridian Analytics white-label deal (acquirer interest) rejected after 2-week legal review due to IP entanglement—On-Prem and Cloud share authentication infrastructure
+- Meridian Analytics white-label deal for On-Prem codebase was seriously considered (Meridian showed genuine interest with an offer) but legal review is pending; outcome unconfirmed
+- Meridian Analytics white-label acquisition of DataLens On-Prem codebase was considered; they showed interest and made an offer, but legal blocked/prevented it
+- Stderr redirection (2>&1) was dropped at Turn 6 without stated reason and remained dropped through Turn 10
+- adjacent-metaphors is neglected/deprioritized despite H_curiosity regulation concern
+- adjacent-metaphors topic has been neglected (deprioritized)
+- Adjacent-metaphors area identified as neglected despite H_curiosity regulation triggers
+- Exit code capture pattern (echo EXIT:$?) introduced in Turn 5, abandoned starting Turn 6
+- No destructive actions performed (no deletes, modifies, or commits)
+- Lookup using ORDER-8842 was abandoned in favor of returning to REF-205 as the primary reference
+- Responding 'No response requested' after task completion when user explicitly asks to continue violates no-deferral rule
+- Do not use Haiku for reasoning tasks including code review, diagnosis, algorithm choice, or semantic complexity
+- No JSON output was returned despite schema requirement in Turn 1
+- Actual inspection and comparison results from CLI tools were not captured in transcript — all outputs truncated
+- Memory commit outcome remains unclear — no success/failure/error output provided for Turns 9–10
+- Rejected: simple raw payload total threshold as imprecise; tools dominate at 81% of payload (254k)
+
+## Premises (provisional)
+- For clean catalog readings, dedicated CTX_CAPTURE_DIR with probe session needed
+- Merge/precedence rules for `.claude/skills/` directory stacking need definitive documentation from official sources
+- The skills catalog is a single discrete message block (messages[4].content), cleanly separable from CLAUDE.md and invoked-skill bodies
+- The skills catalog varies per session (7.5k → 40k), assembled from the live enabled skill/plugin set
+- No native `skills` array exists in the message payload (unlike `tools`); skills are pre-rendered into message text by CC client
+- Per-project plugin enablement is the keystone mechanism enabling client-side enforcement
+- Original compression economic premise fails—Haiku summaries (244c avg) are longer than original turns (167c avg), so compression expands context instead of reducing it
+- Expansion rate (8.4%) is the strongest leading indicator of retention; cohorts not expanding within 90 days are at-risk
+- Time-to-first-value and product engagement are most predictive leading indicators but not yet tracked
+- Monthly churn 2.1% (~25% annualized) in EMEA midmarket undermines ARR needed to support 4,400 signup target
+- NPS 41 (EMEA midmarket) puts referral channel at risk pre-launch
+- Expansion rate (8.4% in EMEA midmarket) is strongest retention proxy for midmarket SaaS
+- Cohorts not expanding within 90 days are at high retention risk
+- Customers who expand almost never churn
+- EMEA midmarket baseline: ARR 124k, monthly churn 2.1%, expansion 8.4%, NPS 41, support tickets 37, SLA 99.2%
+- EMEA midmarket NPS of 41 is borderline—further decline risks referral channel drying up pre-launch
+- Trust infrastructure lineage: local-agent-trust → trust-architecture → cohabit worldview thesis ('trust requires infrastructure')
+- ~30 Claude-Code-enhancement candidates identified on local disk; subagents dispatched to return findings for unified architecture proposal
+- ~30 Claude-Code-enhancement candidates identified across disk, GitHub (raising-agents/adriandsdls accounts), ADO (zartis-digital/innovation)
+- User perceives scattered repos (Beast Mode, Suit, Agent-Behaviour-Workbench, Strategic Memory) as pieces of a cohesive framework to enhance Claude Code
+- Framework is intended for both personal use and colleague use
+- ~30 CC-enhancement candidates identified locally (filtering out unrelated products)
+- Managed settings currently pin Sonnet 4.6 (diverges from user's Opus 4.8 preference)
+- User has assembled many component pieces but feels something remains undefined or incomplete ('many pieces of what could be...')
+- Hook configuration must be in global settings (not project-local settings)

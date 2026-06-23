@@ -1,0 +1,9 @@
+id: 46
+decision: 'Verification discipline is measured via two independent metrics: verify_to_edit_ratio
+  (per-change frequency) and frac_sessions_verifying (per-session reflex likelihood),
+  not as a single aggregated score.'
+rationale: (auto-captured from session — see SWM committed.jsonl for full context)
+alternatives_rejected: []
+bets_affected: []
+logged: '2026-06-16'
+source: swm-bridge

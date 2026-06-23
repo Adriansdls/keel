@@ -1,0 +1,3 @@
+{"id": "7bce07e199f6", "kind": "constraint", "text": "Fixing RangeSlider widget initialization bug in matplotlib where valinit parameter causes IndexError", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "7e77bbe5a210", "kind": "premise", "text": "Matplotlib polygons created by axvspan/axhspan automatically close with exactly 4 vertices (indices 0-3)", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "6b9853e17374", "kind": "decision", "text": "Removed lines 906 and 912 from RangeSlider.set_val() that assigned to xy[4], which was out of bounds for the 4-vertex polygon", "turn_added": 1, "last_seen": 1, "source": "capture"}

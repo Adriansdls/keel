@@ -1,0 +1,9 @@
+# Strategic State
+
+_Durable world-model — auto-maintained by SWM, re-injected each turn._
+
+## Constraints
+- Cannot determine staleness without activity timestamps spanning the required 60-day window."
+
+## Premises (provisional)
+- All seven bets and three experiments remain in 'still_open' status pending evidence of progress, validation, or contradiction.

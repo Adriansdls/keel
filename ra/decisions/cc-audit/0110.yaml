@@ -1,0 +1,9 @@
+id: 110
+decision: frac_sessions_delegating scores low only when coinciding with near-zero
+  sidechain_turns_total AND n_subagent_sessions; volume is the truth signal that supersedes
+  participation frequency
+rationale: (auto-captured from session — see SWM committed.jsonl for full context)
+alternatives_rejected: []
+bets_affected: []
+logged: '2026-06-20'
+source: swm-bridge

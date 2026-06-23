@@ -1,0 +1,27 @@
+id: 13
+experiment_id: 3
+result: 'WP1 gate: does extracted attributed_to(Event->Driver) reproduce Stewart''s
+  hand-coded Extinction Cause? Cause-stratified gold sample (n=43), existing Sonnet
+  abstract-only extractor (542 triples), LLM temp=0 mapping of extracted drivers->Stewart-5.
+  Result: 5-class accuracy 0.558, kappa 0.433 (moderate); binary attribution-vs-None
+  0.721. After fixing metric (LLM map filters effect-triples), None row clean 9/10
+  and Impact 3/3, but 11 papers with a real gold cause -> predicted None. Diagnosis:
+  dominant residual error is UNDER-EXTRACTION of the causal-attribution relation from
+  abstracts (not mapping, not retrieval). Built goldcoding.py (loads 360 DOI->cause),
+  exp_kg_validate.py, llm_api.map_attribution_to_cause.'
+implication: 'Gate is BELOW the kappa>=0.6 bar but for a diagnosable, fixable reason:
+  causal-attribution under-extraction from abstract-only text. This justifies WP2
+  (full text) AND better extraction tooling. Adrian proposed LangExtract (Google)
+  + NuExtract3 (NuMind). Assessment: ADOPT LangExtract as WP3 extraction framework
+  - source grounding (exact spans = stronger provenance than current free-text evidence_quote
+  + hallucination filter) and built-in long-doc chunking (enables WP2 full-text);
+  integration snag = it speaks Gemini/OpenAI-compatible/Ollama not our Anthropic proxy
+  (need shim or Ollama-local or Gemini). NuExtract3 = benchmark-don''t-assume: 4B
+  local VLM for forms/templates, relations via nested JSON not open triples, strength
+  is null-reliability (precision) but our bottleneck is recall. Decision: make extraction
+  backend PLUGGABLE, benchmark {Sonnet, LangExtract+Claude, LangExtract+NuExtract-local}
+  on WP1 cause-kappa; gate metric decides.'
+confidence_delta: 0.0
+source: experiments/kg_validate/stewart/result.json + goldcoding.py + exp_kg_validate.py
+  + LangExtract/NuExtract3 docs
+logged: '2026-06-05'

@@ -1,0 +1,8 @@
+id: 120
+decision: For large migrations, begin with read-only discovery phase to generate centralized
+  tracking document (e.g., migration-plan.md) before any code changes
+rationale: (auto-captured from session — see SWM committed.jsonl for full context)
+alternatives_rejected: []
+bets_affected: []
+logged: '2026-06-20'
+source: swm-bridge

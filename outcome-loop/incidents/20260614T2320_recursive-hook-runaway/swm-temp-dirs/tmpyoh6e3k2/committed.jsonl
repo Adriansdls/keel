@@ -1,0 +1,11 @@
+{"id": "17063784d6ce", "kind": "constraint", "text": "Cannot judge whether demonstrator or evidence has emerged.\",", "turn_added": 0, "last_seen": 0, "source": "capture"}
+{"id": "7de9ceca5df0", "kind": "constraint", "text": "Cannot assess benchmark progress or validation results.\",", "turn_added": 0, "last_seen": 0, "source": "capture"}
+{"id": "604113a82ed8", "kind": "constraint", "text": "Cannot assess whether second-domain probe has been attempted.\",", "turn_added": 0, "last_seen": 0, "source": "capture"}
+{"id": "1dc2cf2ca843", "kind": "constraint", "text": "Cannot assess whether sweeps on gold-standard corpora have been conducted.\",", "turn_added": 0, "last_seen": 0, "source": "capture"}
+{"id": "c3d1351fe869", "kind": "constraint", "text": "Cannot assess whether scoping experiments have been run or variance measured.\",", "turn_added": 0, "last_seen": 0, "source": "capture"}
+{"id": "4a3db2f778c8", "kind": "constraint", "text": "Cannot assess whether yield ratio measurements have been conducted across domains.\",", "turn_added": 0, "last_seen": 0, "source": "capture"}
+{"id": "1831b7161d1a", "kind": "constraint", "text": "Cannot assess whether counterfactual synthesis comparisons have been performed.\",", "turn_added": 0, "last_seen": 0, "source": "capture"}
+{"id": "9634b3ecae46", "kind": "constraint", "text": "Cannot assess whether scoping/intake experiments have yielded findings.\",", "turn_added": 0, "last_seen": 0, "source": "capture"}
+{"id": "2ea36171ae14", "kind": "constraint", "text": "Cannot assess whether synthesis conclusion-shift analysis has been performed.\",", "turn_added": 0, "last_seen": 0, "source": "capture"}
+{"id": "f9d738718104", "kind": "premise", "text": "All seven bets and three experiments remain in 'still_open' status pending observable evidence from project execution.", "turn_added": 0, "last_seen": 0, "source": "capture"}
+{"id": "15305a210e4a", "kind": "constraint", "text": "Cannot judge resolution, contradiction, or staleness without activity context.\"", "turn_added": 0, "last_seen": 0, "source": "capture"}

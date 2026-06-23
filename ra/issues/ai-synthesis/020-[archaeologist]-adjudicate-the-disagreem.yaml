@@ -1,0 +1,13 @@
+id: 20
+title: '[ARCHAEOLOGIST] Adjudicate the disagreement set: are our ''false positives''
+  genui'
+status: in-progress
+priority: p1
+area: research
+why: 'Exp-4: Sonnet (strict 2nd reviewer) judged 88% of our core false-positives as
+  includes under Stewart''s own criteria - same rate as Stewart''s own includes. Need
+  the human expert to adjudicate a stratified sample to convert ''Sonnet says include''
+  into expert-confirmed gold-incompleteness. This is the load-bearing claim of the
+  paper''s evaluation reframe.'
+created: '2026-06-05'
+updated: '2026-06-05'

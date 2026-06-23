@@ -1,0 +1,8 @@
+id: 91
+decision: Adrian rejects AskUserQuestion calls that skip prior clarification; never
+  present options without explaining each one first.
+rationale: (auto-captured from session — see SWM committed.jsonl for full context)
+alternatives_rejected: []
+bets_affected: []
+logged: '2026-06-19'
+source: swm-bridge

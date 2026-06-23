@@ -1,0 +1,23 @@
+id: 6
+experiment_id: 1
+result: 'Deep per-paper inspection of missed gold (inspect_misses.py) across 3 domains
+  found the dominant blocker is LOSSY MATCHING, not retrieval. Title-only exact/0.92-fuzzy
+  matching misses the same paper due to diacritics (naivete), OpenAlex title truncation,
+  tokenization (fine tuning/finetuning), dropped/added subtitles. Re-match test on
+  the SAME corpus (DOI-union-fuzzy0.85): Egeland 0.661->0.780 (+0.12), Harrison 0.670->0.761
+  (+0.09), zero new retrieval. Stewart (DOI gold) was immune, which is why it alone
+  looked clean and why the network/fuzzy additions appeared useless (matching losses
+  ate the gains). Full inventory: P1 lossy matching (big/free), P2 retrieval under-reach
+  (Stewart 86% of misses are in-OpenAlex well-connected but not retrieved due to caps),
+  P3 single-source OpenAlex-centric (Harrison 22% in Crossref/S2), P4 genuinely non-indexed
+  (Egeland 1860-2021 old/book lit, hard ceiling), P5 gold-resolution noise.'
+implication: 'Literal 100% is impossible (P4 non-indexed, esp Egeland); honest ceilings
+  ~Stewart 0.97 / Egeland 0.85 / Harrison 0.90 with characterized residuals. Fix order:
+  (1) robust matcher DOI-union-fuzzy0.85-author-year [free, biggest, recovers ~+0.10]
+  -> re-measure; (2) uncap retrieval (cost now trivial, targets the reachable-but-missed);
+  (3) multi-source union S2+Crossref; (4) characterize irreducible non-indexed set.
+  The earlier ''additions underperformed'' negative result is now explained: it was
+  a measurement (matching) artifact, not a method failure.'
+confidence_delta: 0.05
+source: pipeline/docs/recall-problem-inventory.md + inspect_misses.py verdicts
+logged: '2026-06-03'

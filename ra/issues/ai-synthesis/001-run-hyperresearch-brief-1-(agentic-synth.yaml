@@ -1,0 +1,13 @@
+id: 1
+title: Run hyperresearch Brief 1 (agentic synthesis impact + thesis)
+status: idea
+priority: p1
+area: research
+why: Maps the capability frontier and tests the discipline-transformation thesis (Bet
+  1) — the paper's central claim depends on it.
+hypothesis: The most impactful lever is not full automation of the existing workflow
+  but changing the corpus relationship (continuous, queryable, contradiction-aware
+  synthesis).
+created: '2026-06-01'
+updated: '2026-06-01'
+experiment_id: 1

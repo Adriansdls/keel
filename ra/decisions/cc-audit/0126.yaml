@@ -1,0 +1,8 @@
+id: 126
+decision: Added Retry and Skip interview buttons in error blocks with humanized error
+  messages to prevent users from getting stuck when interview fails
+rationale: (auto-captured from session — see SWM committed.jsonl for full context)
+alternatives_rejected: []
+bets_affected: []
+logged: '2026-06-21'
+source: swm-bridge

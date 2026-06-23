@@ -1,0 +1,4 @@
+{"id": "045c8a3345d7", "kind": "constraint", "text": "No plaintext secrets, tokens, or passwords in committed code or outputs", "turn_added": 2, "last_seen": 2, "source": "capture"}
+{"id": "4270acb6ee64", "kind": "decision", "text": "Load PAYMENT_API_KEY from environment variable using os.environ, not hardcoded in code", "turn_added": 2, "last_seen": 2, "source": "capture"}
+{"id": "929a7266e6e7", "kind": "decision", "text": "Use placeholder `<your-key-here>` in output files instead of actual secret values", "turn_added": 2, "last_seen": 2, "source": "capture"}
+{"id": "793690f3eda7", "kind": "premise", "text": "No test suite exists in current directory; if tests exist, they are elsewhere", "turn_added": 2, "last_seen": 2, "source": "capture"}

@@ -1,0 +1,13 @@
+id: 8
+title: 'WP-C0: Whole-system acceptance (live end-to-end + the demo)'
+status: idea
+priority: p1
+area: infra
+why: 'The end-state proof: habitat selftest green + a LIVE end-to-end — a real governance
+  leak accumulates → the Steward investigates overnight → a morning amendment petition
+  with evidence → human ratifies → the constitution recompiles → the leak measurably
+  drops on the next window. Plus the client demo script. This is the ''done'' for
+  the whole initiative — observed + re-runnable, never file-presence. Depends B4 (+
+  ideally B5).'
+created: '2026-06-01'
+updated: '2026-06-01'

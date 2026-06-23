@@ -1,0 +1,23 @@
+id: 18
+experiment_id: 3
+result: 'Percolation diagnostic (experiments/percolation.py, pure graph analysis on
+  cached referenced_works, no API). Measured gold citation-graph giant-component fraction
+  vs observed recall per domain: Stewart recall 0.96 / giant 0.73 / p_in 0.039; Egeland
+  0.81 / 0.79 / 0.114; Harrison 0.81 / 0.87 / 0.046. HYPOTHESIS FALSIFIED: citation
+  giant-component does NOT predict recall — relationship is inverted (highest recall
+  has lowest connectivity; Harrison connectivity 0.87 exceeds its recall 0.81, impossible
+  if connectivity drove recall).'
+implication: 'Percolation-predicts-recall is dead — do NOT build the paper''s theory
+  on it. Real mechanism revealed: recall = keyword + citation channels working COMPLEMENTARILY
+  and anti-correlated across domains. Stewart = weak citation connectivity (73%, 4%
+  on-topic ref share) but strong keyword -> 96% (keyword finds the 27% citation-isolated
+  gold). Egeland/Harrison = stronger citation connectivity (79-87%) but weaker keyword
+  -> 81%. Citation giant-component is an upper bound on ONE channel''s reach, not
+  system recall. SURVIVING finding (modest, honest): keyword+citation are complementary/anti-correlated
+  -> explains why hybrid retrieval is robust across domains; 13-27% of gold is citation-invisible
+  (keyword-only). Usable as a paragraph (''why hybrid generalizes''), not a theory
+  section. Of the Tier-1 elegant-concepts, percolation is demoted; capture-recapture
+  and argument-frameworks remain the live high-value additions.'
+confidence_delta: -0.05
+source: experiments/percolation/{stewart,egeland,harrison}.json + src/synthpipe/experiments/percolation.py
+logged: '2026-06-06'

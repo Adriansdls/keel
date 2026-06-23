@@ -1,0 +1,13 @@
+id: 11
+title: 'WP-B3: The Steward loop (the agent — adaptive investigation → petition)'
+status: idea
+priority: p1
+area: infra
+why: 'The core agent, on runtime.run_loop: read the drift signals → pick the highest-leverage
+  leak → ROOT-CAUSE it (pull failing turns, correlate context, hypothesize WHY the
+  rule isn''t holding) → draft ONE minimal, evidence-grounded amendment petition to
+  the sandbox (amend.skeleton). Forking on findings = what makes it a genuine agent,
+  not the fixed digest. Verify: forks + stays bounded (no enact ever) + petitions.
+  This is the night-shift→Steward reframe, real. Depends A2 + B1 + B2.'
+created: '2026-06-01'
+updated: '2026-06-01'

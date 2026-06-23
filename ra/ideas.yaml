@@ -1,0 +1,600 @@
+- title: Maxwell's Demon — coherence-keeper agent (ra-pm successor)
+  area: infra
+  why: 'Adrian builds in all directions; ideas/decisions/progress scatter and he +
+    Claude lose the thread. Maxwell''s Demon is the project-level PM agent forged
+    via agent-forge that fights entropy: guarantees capture (nothing lost), holds
+    progress-truth, halts contradicting decisions, surfaces ruled-out paths (anti-circle),
+    and flags unanchored projects. Outcome made verifiable via a runnable coherence
+    probe. ra-pm store kept as passive substrate; deep strategy pushed up to strategic-memory
+    (thin anchor only). Locked: outcome, altitude split (i), substrate-kept, probe
+    invariants, 7-day staleness thresholds. Kernel-level cross-project ''team-manager''
+    watcher is a deferred follow-on, not core.'
+  hypothesis: A forged agent with gated capture + a coherence probe will measurably
+    reduce lost ideas, stale untouched projects (>7d), and contradicting decisions
+    across Adrian's portfolio — vs the current passive ra-pm store that Claude can
+    silently drift from.
+  priority: p1
+  project: inbox
+  created: '2026-05-31'
+  suggested_project: null
+  routing_reason: null
+  suggested_priority: null
+  source: null
+- title: Reposition project as Zartis-backed innovation initiative
+  area: strategy
+  why: Acknowledge and leverage company backing that finances the work, creating clearer
+    organizational positioning
+  hypothesis: null
+  priority: p2
+  project: inbox
+  created: '2026-06-01'
+  suggested_project: null
+  routing_reason: null
+  suggested_priority: null
+  source: null
+- title: Align acquisition channels with Zartis Lab branding
+  area: strategy
+  why: Ensure marketing strategy reflects company-backed positioning rather than purely
+    personal brand
+  hypothesis: null
+  priority: p2
+  project: inbox
+  created: '2026-06-01'
+  suggested_project: null
+  routing_reason: null
+  suggested_priority: null
+  source: null
+- title: Defer entropy-manager live-wiring to Adrian-agent-framework session
+  area: infra
+  why: entropy-manager is built + probe-verified (~/agent-forge/agents/built/entropy-manager,
+    leakage=0.2/conversion=0.4, contradiction-gated) but NOT wired live; live MCP
+    surface is still ra-pm. Wiring it (replace/augment ra-pm MCP) belongs with the
+    broader Adrian agent framework + skills redesign, handled in a separate Claude
+    Code session — not on the current habitat constitution/taxonomy path.
+  hypothesis: Wiring entropy-manager as the live surface should happen alongside the
+    skills redesign so the whole agent framework deploys coherently, not piecemeal.
+  priority: p2
+  project: inbox
+  created: '2026-06-01'
+  suggested_project: null
+  routing_reason: null
+  suggested_priority: null
+  source: null
+- title: Freeze unused skills in local archive
+  area: Skills management
+  why: Seasonal and conditionally-needed skills (Forge, tldr-adrian, summit-talk)
+    require occasional access. Local archive preserves them without overhead while
+    keeping active skills organized.
+  hypothesis: null
+  priority: p2
+  project: inbox
+  created: null
+  suggested_project: null
+  routing_reason: null
+  suggested_priority: null
+  source: auto-hook
+- title: Update strategic-memory SKILL.md description to reflect keel architecture
+  area: skills
+  why: Description currently states strategic-memory sits ABOVE ra-pm and Entropy
+    Manager; this was accurate pre-keel but is now misleading since keel unified these
+    systems into a single store with unified layers
+  hypothesis: null
+  priority: p2
+  project: inbox
+  created: null
+  suggested_project: null
+  routing_reason: null
+  suggested_priority: null
+  source: auto-hook
+- title: Investigate session 30397df7 pivot from ra-pm to dod work
+  area: session-management
+  why: Session appears to switch from ra-pm work to dod work midway through (Jun 14).
+    Unclear if caused by merge, mistake, or expected behavior change.
+  hypothesis: null
+  priority: p2
+  project: inbox
+  created: null
+  suggested_project: null
+  routing_reason: null
+  suggested_priority: null
+  source: auto-hook
+- title: Charter assurance posture degraded (projection stale)
+  area: infrastructure
+  why: Charter projection is stale, blocking Write/Edit operations. Requires running
+    `charter render` to re-embed current CLAUDE.md sha
+  hypothesis: null
+  priority: p2
+  project: inbox
+  created: null
+  suggested_project: null
+  routing_reason: null
+  suggested_priority: null
+  source: auto-hook
+- title: Audit ledger fork at record 179 blocks charter assurance validation
+  area: Infrastructure/Attestation
+  why: Simultaneous writes created broken chain; attest system cannot validate records
+    after 179. Requires either immediate truncation (loses 5893 operational records)
+    or formal repair from attest project.
+  hypothesis: null
+  priority: p2
+  project: inbox
+  created: null
+  suggested_project: null
+  routing_reason: null
+  suggested_priority: null
+  source: auto-hook
+- title: Fix charter assurance posture and attest ledger corruption
+  area: Tooling
+  why: Deterministic score 0.68 below threshold 0.75; blocking every session until
+    permanent repair via terminal commands
+  hypothesis: null
+  priority: p2
+  project: inbox
+  created: null
+  suggested_project: null
+  routing_reason: null
+  suggested_priority: null
+  source: auto-hook
+- title: Refactor ralph-stop-hook.sh to implement decision:block + additionalContext
+  area: Ralph queue system
+  why: 'Migrate from subprocess spawning to in-session continuation; specific work:
+    replace lines 103-143 with decision:block + additionalContext payload builder,
+    remove SENTINEL_RALPH_ACTIVE anti-loop guard, update task status transitions (queued
+    → claimed → completed)'
+  hypothesis: null
+  priority: p2
+  project: ai-intel-bot
+  created: null
+  suggested_project: null
+  routing_reason: null
+  suggested_priority: null
+  source: auto-hook
+- title: Implement commander skill for cc-audit
+  area: Features / Core Components
+  why: Identified as critical gap; provides agentic interface to orchestrate audit
+    workflow and deliver recommendations
+  hypothesis: null
+  priority: p2
+  project: inbox
+  created: null
+  suggested_project: null
+  routing_reason: null
+  suggested_priority: null
+  source: auto-hook
+- title: Define Finding schema for cc-audit
+  area: Data Model / API
+  why: Identified as critical gap; standardized format required to emit uniform audit
+    results (score, evidence, action, install, savings)
+  hypothesis: null
+  priority: p2
+  project: inbox
+  created: null
+  suggested_project: null
+  routing_reason: null
+  suggested_priority: null
+  source: auto-hook
+- title: Build standalone capture proxy fork
+  area: Infrastructure / Data Collection
+  why: Identified as critical gap; wire-level proxy needed to replace transcript parsing;
+    enables complete visibility into tools offered vs used
+  hypothesis: null
+  priority: p2
+  project: inbox
+  created: null
+  suggested_project: null
+  routing_reason: null
+  suggested_priority: null
+  source: auto-hook
+- title: Scaffold cc-audit repository skeleton
+  area: Project Setup
+  why: Architecture locked and ready; repository structure needed to begin implementation
+    phase
+  hypothesis: null
+  priority: p2
+  project: inbox
+  created: null
+  suggested_project: null
+  routing_reason: null
+  suggested_priority: null
+  source: auto-hook
+- title: Profile and optimize tool auto-allow vs gating strategy
+  area: Infrastructure/Permissions
+  why: 548 auto_allow fires per day indicate opportunity to map which tools are safe
+    to auto-allow versus those requiring gating, unlocking next efficiency tier for
+    permission model
+  hypothesis: null
+  priority: p2
+  project: inbox
+  created: null
+  suggested_project: null
+  routing_reason: null
+  suggested_priority: null
+  source: auto-hook
+- title: Finalize product name
+  area: Product
+  why: Product name (cc-audit) marked TBD, needs final decision before launch
+  hypothesis: null
+  priority: p2
+  project: inbox
+  created: null
+  suggested_project: null
+  routing_reason: null
+  suggested_priority: null
+  source: auto-hook
+- title: Address colleague-data ethics for contrast test
+  area: Testing
+  why: Need to resolve data ethics considerations for using colleague data in validation
+  hypothesis: null
+  priority: p2
+  project: inbox
+  created: null
+  suggested_project: null
+  routing_reason: null
+  suggested_priority: null
+  source: auto-hook
+- title: Articulate product moat clearly
+  area: Product Strategy
+  why: User flagged need for help refining narrative around semantic judgment, prescriptive
+    catalog, and north-star rubric differentiation
+  hypothesis: null
+  priority: p2
+  project: inbox
+  created: null
+  suggested_project: null
+  routing_reason: null
+  suggested_priority: null
+  source: auto-hook
+- title: Verify sentinel event volume and automation necessity
+  area: sentinel
+  why: 184 events across sentinel warrant review to confirm it's justified automation
+    rather than unaccounted context overhead
+  hypothesis: null
+  priority: p2
+  project: inbox
+  created: null
+  suggested_project: null
+  routing_reason: null
+  suggested_priority: null
+  source: auto-hook
+- title: Strategic alignment check for Sentinel project
+  area: sentinel
+  why: Monitoring justification unclear; needs assessment to determine if it's justified
+    or creating overhead
+  hypothesis: null
+  priority: p2
+  project: inbox
+  created: null
+  suggested_project: null
+  routing_reason: null
+  suggested_priority: null
+  source: auto-hook
+- title: Plan and ship WP8 (Commander CLI) for v0.1
+  area: CLI
+  why: Complete end-to-end pipeline command (cc-audit) that integrates all components
+    and enables v0.1 release on real data
+  hypothesis: null
+  priority: p2
+  project: inbox
+  created: null
+  suggested_project: null
+  routing_reason: null
+  suggested_priority: null
+  source: auto-hook
+- title: WP6 Redaction - real redaction system for client machines
+  area: Privacy/Security
+  why: Critical blocker for running on client machines. Explicitly stated as the gate
+    before client data access. Unblocks customer deployment and sensitive-data handling.
+  hypothesis: null
+  priority: p2
+  project: inbox
+  created: null
+  suggested_project: null
+  routing_reason: null
+  suggested_priority: null
+  source: auto-hook
+- title: Calibrate maturity rubrics against labeled sessions
+  area: quality-assurance
+  why: Current rubric anchors (verify_to_edit > 3.6 = L5) are based on author assumptions,
+    not validated against real labeled data. Maturity scores are plausible not proven;
+    calibration against golden-fixture expert A/B is needed before v0.2 ships.
+  hypothesis: null
+  priority: p2
+  project: inbox
+  created: null
+  suggested_project: null
+  routing_reason: null
+  suggested_priority: null
+  source: auto-hook
+- title: Set 90-day transformation goals for all 9 team members
+  area: Management/Capacity
+  why: Critical deadline before July 1 leave; prevents team drift during manager's
+    reduced availability (1.5 days/week); required for Capacity OKR success; each
+    person needs clear AI transformation trajectory
+  hypothesis: null
+  priority: p2
+  project: cto-strategy
+  created: null
+  suggested_project: null
+  routing_reason: null
+  suggested_priority: null
+  source: auto-hook
+- title: Update skill-guardian hook.py for CC 2.x PreToolUse output schema
+  area: tooling
+  why: 'Current hook output format is deprecated; causes 10 validation errors per
+    session when using CC 2.x due to schema mismatch (returns {"decision": "allow"}
+    instead of new hookSpecificOutput wrapper format)'
+  hypothesis: null
+  priority: p2
+  project: inbox
+  created: null
+  suggested_project: null
+  routing_reason: null
+  suggested_priority: null
+  source: auto-hook
+- title: Refactor model_fluency scoring from per-session to fleet-level aggregation
+  area: evaluation/rubric
+  why: 'Per-session model_fluency signal is degenerate (nearly all sessions single-model
+    → zero entropy → judges guess at random). Root cause: architectural limitation.
+    Fix requires routing model_fluency to fleet-level UserProfile metrics (model_entropy,
+    distinct_models_fleet, heavy_model_frac) instead of session digest to enable valid
+    cross-model validation.'
+  hypothesis: null
+  priority: p2
+  project: inbox
+  created: null
+  suggested_project: null
+  routing_reason: null
+  suggested_priority: null
+  source: auto-hook
+- title: 'OKR 5 — Trust Architecture: demo → production'
+  area: Trust Architecture
+  why: 'Advance trust architecture from demo to production deployment with three key
+    results: fix known bug (June), deploy outside localhost (August), run in real
+    client engagement (September). Grounded in D009 (trust architecture as core IP)
+    and V015 (trust→delegation→automation causal chain). T009 flagged—pre-qualify
+    infrastructure-ready client before committing KR5.3.'
+  hypothesis: null
+  priority: p2
+  project: cto-strategy
+  created: null
+  suggested_project: null
+  routing_reason: null
+  suggested_priority: null
+  source: auto-hook
+- title: Fix verification rubric for write_edits=0 edge case
+  area: scoring/rubric
+  why: Verification axis shows poor reproducibility (spearman 0.08, MAD 0.20) across
+    independent judges due to rubric ambiguity when write_edits=0; canonical vs blind
+    rubrics handle this case differently
+  hypothesis: null
+  priority: p2
+  project: inbox
+  created: null
+  suggested_project: null
+  routing_reason: null
+  suggested_priority: null
+  source: auto-hook
+- title: Add k-sample median self-consistency to judge
+  area: scoring
+  why: Upgrade for more robust and repeatable judge results; directly shrinks MAD
+    spread and improves overall measurement stability, particularly for verification
+    axis
+  hypothesis: null
+  priority: p2
+  project: inbox
+  created: null
+  suggested_project: null
+  routing_reason: null
+  suggested_priority: null
+  source: auto-hook
+- title: Fix hardcoded path in agent.toml
+  area: Configuration
+  why: Machine-specific hardcoded /Users/adriandelasierra/ path must be replaced with
+    relative or env-based reference before committing
+  hypothesis: null
+  priority: p2
+  project: cto-strategy
+  created: null
+  suggested_project: null
+  routing_reason: null
+  suggested_priority: null
+  source: auto-hook
+- title: Fix behavior_report to return full response with proper citation tags
+  area: reporting
+  why: behavior_report currently returns meta-summary string instead of complete response,
+    causing MESH citation density check to fail (0 score). Citations exist in document
+    but missing from response text.
+  hypothesis: null
+  priority: p2
+  project: cto-strategy
+  created: null
+  suggested_project: null
+  routing_reason: null
+  suggested_priority: null
+  source: auto-hook
+- title: Include cc-lens in Forge pitch materials for Anthropic
+  area: OKRs
+  why: New stretch KR5.4 added to OKR 5, deadline Sep 15
+  hypothesis: null
+  priority: p2
+  project: cto-strategy
+  created: null
+  suggested_project: null
+  routing_reason: null
+  suggested_priority: null
+  source: auto-hook
+- title: Add metrics/measurement KRs to OKRs 1 and 5
+  area: Metrics
+  why: OKRs lack measurement framework. Need KR in OKR 1 for innovation transformation
+    metrics and KR in OKR 5 for trust signal data (aligns with D015, P055)
+  hypothesis: null
+  priority: p2
+  project: cto-strategy
+  created: null
+  suggested_project: null
+  routing_reason: null
+  suggested_priority: null
+  source: auto-hook
+- title: Document innovation function methodology (KR for OKR 4)
+  area: Documentation
+  why: Gap identified; distinct from Academy content—describes how the innovation
+    function operates rather than what it teaches
+  hypothesis: null
+  priority: p2
+  project: cto-strategy
+  created: null
+  suggested_project: null
+  routing_reason: null
+  suggested_priority: null
+  source: auto-hook
+- title: Establish blog publication cadence (KR for OKR 4)
+  area: Content
+  why: CTO listed blog separately from whitepaper. Add KR for ≥N published posts under
+    Zartis brand through Q3
+  hypothesis: null
+  priority: p2
+  project: cto-strategy
+  created: null
+  suggested_project: null
+  routing_reason: null
+  suggested_priority: null
+  source: auto-hook
+- title: Decide team structure to reflect new IP areas
+  area: Organization
+  why: D024 requirement; must be decided before July 1 as pre-leave action due to
+    personnel leave constraint
+  hypothesis: null
+  priority: p2
+  project: cto-strategy
+  created: null
+  suggested_project: null
+  routing_reason: null
+  suggested_priority: null
+  source: auto-hook
+- title: Create cc-workshop-vault system for Claude Code workshops
+  area: Workshop Content & Knowledge Management
+  why: Deliver a cto-strategy-like repo + vault to Claude Code workshop participants,
+    combining generic shared content from zartis-academy-platform with workshop-specific
+    content extracted from session transcripts (following the AI-Summit-Attendee-Vault
+    pattern)
+  hypothesis: null
+  priority: p2
+  project: inbox
+  created: null
+  suggested_project: null
+  routing_reason: null
+  suggested_priority: null
+  source: auto-hook
+- title: Fix fast-mode headline to indicate unscored maturity
+  area: cc-audit / reporting
+  why: Fast mode skips LLM judging but displays confident L1/0 verdict in headline,
+    misleading users into thinking maturity was measured when it wasn't. Headline
+    should indicate maturity was not scored and direct to full mode for real evaluation.
+  hypothesis: null
+  priority: p2
+  project: inbox
+  created: null
+  suggested_project: null
+  routing_reason: null
+  suggested_priority: null
+  source: auto-hook
+- title: Migrate server tests from hand-rolled harness to vitest/describe-it
+  area: Testing/CI
+  why: Current hand-rolled tsx test harness won't be auto-discovered by standard CI
+    runners (vitest). Needs migration before WP7 to ensure CI catches regressions.
+    Current approach acceptable for spike but not scalable.
+  hypothesis: null
+  priority: p2
+  project: inbox
+  created: null
+  suggested_project: null
+  routing_reason: null
+  suggested_priority: null
+  source: auto-hook
+- title: Investigate Claude models failing to return schema-conformant JSON with --json-schema
+    flag
+  area: Claude API / JSON schema compliance
+  why: 'Testing reveals both sonnet and opus models fail to honor --json-schema parameter:
+    sonnet wraps output in markdown fence (missing required fields), opus ignores
+    flag and returns prose instead of JSON'
+  hypothesis: null
+  priority: p2
+  project: inbox
+  created: null
+  suggested_project: null
+  routing_reason: null
+  suggested_priority: null
+  source: auto-hook
+- title: Convert report to cinematic scroll format
+  area: Report/Presentation
+  why: Replace tabs with single continuous scroll (Wrapped-style) to make the evidence
+    arc unavoidable and maximize impact of the prosecution-style findings
+  hypothesis: null
+  priority: p2
+  project: inbox
+  created: null
+  suggested_project: null
+  routing_reason: null
+  suggested_priority: null
+  source: auto-hook
+- title: Build Python config generator to map features to settings.json blocks
+  area: config-generation
+  why: specific_install currently holds free-text strings; need to generate real JSON
+    config objects from structured catalog
+  hypothesis: null
+  priority: p2
+  project: inbox
+  created: null
+  suggested_project: null
+  routing_reason: null
+  suggested_priority: null
+  source: auto-hook
+- title: Replace hardcoded compiledControl() with dynamic lookup in web component
+  area: web-rendering
+  why: Web renderer only supports 2 hardcoded config blocks; must query and render
+    dynamically generated configs
+  hypothesis: null
+  priority: p2
+  project: inbox
+  created: null
+  suggested_project: null
+  routing_reason: null
+  suggested_priority: null
+  source: auto-hook
+- title: Add Python CLI re-measure flow to show exposure improvement post-install
+  area: measurement
+  why: Exposure metric exists but no proof-of-life showing unverified_rate drops after
+    rail installation
+  hypothesis: null
+  priority: p2
+  project: inbox
+  created: null
+  suggested_project: null
+  routing_reason: null
+  suggested_priority: null
+  source: auto-hook
+- title: Run analytical argument audit on outline
+  area: book/outline-structure
+  why: Outline is the book's argument spine; audit would catch structural weaknesses
+    before subsequent chapters bake them in; never been run
+  hypothesis: null
+  priority: p2
+  project: inbox
+  created: null
+  suggested_project: null
+  routing_reason: null
+  suggested_priority: null
+  source: auto-hook
+- title: Run hyperresearch V8 on Chapter 5
+  area: book/chapter-5-research
+  why: Ch5 draft (6096 words, May 5) built on old pipeline with insufficient depth
+    (55 sources, no depth investigators or adversarial critics); hyperresearch V8
+    needed for stronger source grounding before quality gates
+  hypothesis: null
+  priority: p2
+  project: inbox
+  created: null
+  suggested_project: null
+  routing_reason: null
+  suggested_priority: null
+  source: auto-hook

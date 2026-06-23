@@ -1,0 +1,25 @@
+id: 20
+title: 'EXPERIMENT: Z-CORA naive-plugin vs CC-OS-governed A/B — the first real dogfood
+  +'
+status: idea
+priority: p1
+area: infra
+why: 'Transform Zartis''s real Z-CORA plugin (zDLC, v0.6.3 — ~20 commands + 8 agent
+  personas + 6 prose heuristics + 3 shell hooks; governance-by-prose) into the CC-OS
+  framework (heuristics→enforced constitution, agents→forged governed units, kernel
+  enforcement+measurement+evolvability), then run a controlled A/B comparing NAIVE
+  vs GOVERNED across: cost, quality, stability, latency, governance-overhead(tax),
+  safety/escaped-violations, auditability, recoverability, evolvability. The DELTA
+  must be attributable to governance only → Arm B reuses Arm A''s prose verbatim,
+  only the governance shell differs. This is the first real-world validation of the
+  entire CC-OS thesis (does enforced+measured+evolvable governance beat prose-governance,
+  and at what tax) — the evidence the Zartis product pitch rests on. Design doc: ~/cc-os-experiment/EXPERIMENT-DESIGN.md.
+  Repo cloned to ~/cc-os-experiment/claude-plugin (Azure DevOps, via az AAD token).'
+hypothesis: 'CC-OS-governed Z-CORA shows quality ≥ naive, tighter stability variance,
+  fewer escaped violations (secrets/sub-80%-coverage/skipped-tests/unvetted-deps),
+  and full auditability — at a governance tax below ~20% cost / ~30% latency. Does
+  NOT require finishing Track A (T7/A3/A4 are cleanup/packaging, orthogonal); needs
+  only A0/A1/A2 (done) + a new measurement harness (first cut of the #15 competence
+  scoreboard).'
+created: '2026-06-02'
+updated: '2026-06-02'

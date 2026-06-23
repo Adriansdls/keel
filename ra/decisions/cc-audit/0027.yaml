@@ -1,0 +1,9 @@
+id: 27
+decision: Delegation maturity is measured via task_spawns and plan_uses metrics normalized
+  by session turns; these metrics discriminate L1-L5 capability for orchestration
+  vs solo execution.
+rationale: (auto-captured from session — see SWM committed.jsonl for full context)
+alternatives_rejected: []
+bets_affected: []
+logged: '2026-06-16'
+source: swm-bridge

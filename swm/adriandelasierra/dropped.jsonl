@@ -1,0 +1,9 @@
+{"kind": "decision", "text": "- lets go with local freeze.", "reason": "no_markdown_headers", "archived_reason": "invariant"}
+{"kind": "constraint", "text": "| WP-2 | **PLANNED** (not started) | SWM portability + bidirectional bridge — plan written, execution never started |", "reason": "no_markdown_headers", "archived_reason": "invariant"}
+{"kind": "elimination", "text": "The `projection_stale` stop hook signal is a beast-mode auditor artifact indicating governance status, not a task completion failure.", "reason": "no_ephemeral_actions", "archived_reason": "invariant"}
+{"kind": "constraint", "text": "> You MUST NOT write to, edit, or delete any file under `~/.claude/skill-guardian/`.", "reason": "no_markdown_headers", "archived_reason": "invariant"}
+{"kind": "premise", "text": "- (b) skip Phase-B, ship v0.1 as-is (calibration stays \"pending human oracle\").", "reason": "no_markdown_headers", "archived_reason": "invariant"}
+{"kind": "premise", "text": "- **Stop hook trust violation**: Early claim about `langextract` absence was flagged as unverified and low trust.", "reason": "no_markdown_headers", "archived_reason": "invariant"}
+{"kind": "premise", "text": "- `ValueError: a coroutine was expected, got <_GatheringFuture pending>`", "reason": "no_markdown_headers", "archived_reason": "invariant"}
+{"kind": "constraint", "text": "* **Zero Trust (Architecture & Package Management):** I never trust Claude Code to determine folder structures, and I absolutely never allow it to run `npm install <package>`.", "reason": "no_markdown_headers", "archived_reason": "invariant"}
+{"kind": "constraint", "text": "* *Test 2:* User A in Tenant 1 CANNOT read Document Y in Tenant 2.", "reason": "no_markdown_headers", "archived_reason": "invariant"}

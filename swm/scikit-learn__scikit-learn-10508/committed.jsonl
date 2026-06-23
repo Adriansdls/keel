@@ -1,0 +1,6 @@
+{"id": "3596013fca78", "kind": "constraint", "text": "Must not edit or add test files", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "949ccd5c4b17", "kind": "constraint", "text": "Empty list transformation should return empty array consistently regardless of class dtype", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "0ba562786e44", "kind": "decision", "text": "Add early return for empty inputs: if len(y) == 0, return np.array([], dtype=np.int64)", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "cb48fa35832e", "kind": "premise", "text": "column_or_1d converts empty sequences to empty float64 arrays by default", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "1000d9ae0781", "kind": "premise", "text": "np.searchsorted fails when casting float64 arrays to string class dtypes", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "a60c296b093e", "kind": "constraint", "text": "Cannot run full test suite due to environment limitations: Cython .pyx to .so compilation incompatible with current setuptools/numpy/Python 3.12; verification limited to code inspection and system sklearn testing", "turn_added": 3, "last_seen": 3, "source": "capture"}

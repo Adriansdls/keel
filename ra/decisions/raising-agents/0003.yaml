@@ -1,0 +1,12 @@
+id: 3
+decision: Separate private repo (raising-agents-press) for the press — raw daily activity
+  is personal ops data, never touches public site repo
+rationale: Raw collector output contains personal data (app names, timestamps, work
+  patterns). Must be isolated from the public repo by architecture, not by discipline.
+alternatives_rejected:
+- single repo with gitignored private dirs
+- encrypted files in public repo
+bets_affected:
+- 4
+logged: '2026-04-24'
+source: null

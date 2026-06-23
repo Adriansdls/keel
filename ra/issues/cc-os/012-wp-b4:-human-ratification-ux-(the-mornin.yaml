@@ -1,0 +1,11 @@
+id: 12
+title: 'WP-B4: Human ratification UX (the morning review — the living-loop close)'
+status: idea
+priority: p1
+area: infra
+why: 'The Steward petitions; a human legislates. Build the review surface: each petition
+  shown as {what + why + the evidence turns + the constitution diff} → ratify (amend.ratify
+  → recompile + re-pin) or dismiss. This is what makes the governance LIVING (the
+  loop only closes with the human) AND it''s the demo. Depends B3.'
+created: '2026-06-01'
+updated: '2026-06-01'

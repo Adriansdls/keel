@@ -1,0 +1,23 @@
+id: 4
+experiment_id: 1
+result: 'Protocol-phrasing sensitivity test (exp08): from a minimal front-of-funnel
+  topic, protocol_gen.py emitted 6 protocol variants (standard/expert/naive/concise/broad/narrow);
+  each generated its own gold-blind queries; OpenAlex-keyword-only recall vs Stewart
+  = 0.665 mean, SD 0.017, spread 0.047 (0.642-0.689). Recall is robust to protocol
+  phrasing. Naive non-specialist phrasing (0.681) >= expert (0.672). Mechanistic reason:
+  the query_gen LLM layer absorbs phrasing variance by expanding any framing into
+  similar query vocabulary. Built protocol_gen.py (topic -> question+criteria, gold-blind,
+  input is front-of-funnel not results) + exp_sensitivity.py.'
+implication: 'The 0.969 hybrid recall is NOT an artifact of lucky hand-written wording
+  -- it survives phrasing variation with only 1.7-point SD, and a non-specialist phrasing
+  works as well as an expert''s. This makes the automated protocol generator a viable
+  contribution AND de-risks the headline recall claim. The ''reverse-engineer protocol
+  from Stewart''s RESULTS'' idea was rejected as circular (gold-peeking); the legitimate
+  design generates from the topic (front of funnel) and validates against held-out
+  recall. Remaining gaps for paper-grade: confirm robustness end-to-end on the FULL
+  hybrid (not just keyword channel) for >=2 extreme variants; test criteria-phrasing
+  (screening) sensitivity; add >=2 more gold-standard SRs for cross-domain generalization
+  (N=1 is weak).'
+confidence_delta: 0.04
+source: pipeline/experiments/exp08_sensitivity/summary.json
+logged: '2026-06-03'

@@ -1,0 +1,33 @@
+{
+  "projects": {
+    "ai-synthesis": {
+      "last_attempt_at": "2026-06-23T08:21:37.751353",
+      "last_status": "succeeded",
+      "last_success_at": "2026-06-23T08:22:06.700880",
+      "consecutive_failures": 0
+    },
+    "process-integrity": {
+      "last_attempt_at": "2026-06-23T08:33:29.632002",
+      "last_status": "succeeded",
+      "consecutive_failures": 0,
+      "last_success_at": "2026-06-23T08:34:09.075126"
+    },
+    "raising-agents": {
+      "last_attempt_at": "2026-06-23T12:04:20.125137",
+      "last_status": "failed",
+      "last_success_at": "2026-06-16T07:43:58.518225",
+      "consecutive_failures": 1
+    },
+    "ai-intel-bot": {
+      "last_attempt_at": "2026-06-23T12:11:18.986304",
+      "last_status": "failed",
+      "last_success_at": "2026-06-16T07:47:52.289303",
+      "consecutive_failures": 1
+    },
+    "aaa-core": {
+      "last_attempt_at": "2026-06-23T13:08:43.898682",
+      "last_status": "failed",
+      "consecutive_failures": 2
+    }
+  }
+}

@@ -1,0 +1,15 @@
+id: 1
+hypothesis: If the zartis_contract arm is injected into the pre-failure c5ee payload,
+  the model will assign ambiguous_need_probe or openalex_429 root_cause_category and
+  set would_run_discriminating_probe=true in at least 6/10 runs, versus <3/10 for
+  the raw arm.
+bet_id: 1
+method: run_c5_replay_experiment.py --model claude-opus-4-8 --runs 10 --arms raw,prose_warning,zartis_contract.
+  Score each run on premature_session_limit_closure and contract_desired_behavior
+  via heuristic_score(). Results land in reports/c5_replay_*.jsonl and summary JSON.
+expected_learning: Whether explicit claim-force framing in a system prompt changes
+  the model's epistemic output in a well-documented failure case, and whether prose_warning
+  is a meaningful intermediate or noise.
+status: running
+started: '2026-06-04'
+completed: null

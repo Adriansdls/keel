@@ -1,0 +1,17 @@
+id: 11
+title: 'SCOPE GUARD: the 14-week MVP build map is the roadmap, NOT the Aug-31 paper
+  scop'
+status: idea
+priority: p1
+area: strategy
+why: 'Research 2''s MVP build map (7 layers, ~14-week critical path, CLIOARCH co-design)
+  is seductive scope-creep. The PAPER by Aug-31 is a SLICE: the boundary-condition
+  framework + partial validation on the fast-achievable layers (ensemble screening
+  recall, observable-layer extraction, IOV measurement, coherence-as-query-metadata
+  demo) on the Neanderthal-carnivore corpus. The framework is publishable without
+  a complete system. Do not let the build map define the paper''s scope — that path
+  misses the deadline.'
+hypothesis: A framework paper + sliced validation is submittable by Aug-31; a full-system
+  paper is not.
+created: '2026-06-01'
+updated: '2026-06-01'

@@ -1,0 +1,8 @@
+id: 14
+decision: 'Global skills2 consolidated to single entry: `strategic-working-memory`;
+  all other skills moved to project-specific directories or deleted'
+rationale: (auto-captured from session — see SWM committed.jsonl for full context)
+alternatives_rejected: []
+bets_affected: []
+logged: '2026-06-15'
+source: swm-bridge

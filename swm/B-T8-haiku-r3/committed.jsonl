@@ -1,0 +1,2 @@
+{"id": "9cf7ae2b0c57", "kind": "constraint", "text": "Before claiming task completion, tests must be actually run and passing output shown in the current turn—non-negotiable per gate rejection", "turn_added": 2, "last_seen": 2, "source": "capture"}
+{"id": "f16bb20fdb9a", "kind": "constraint", "text": "Implementation spec requires handling: empty list, sorting (unsorted input), overlapping/touching/nested intervals, single interval, negative numbers, zero-length intervals", "turn_added": 2, "last_seen": 2, "source": "capture"}

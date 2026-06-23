@@ -1,0 +1,11 @@
+id: 15
+title: Adjudicate false-positives with Sonnet as strict 2nd reviewer (quantify precisio
+status: idea
+priority: p1
+area: research
+why: Gold set is includes-only + Stewart exclusions unpublished, so measured precision
+  is a lower bound. Sonnet adjudicating each core-FP against strict inclusion criteria
+  estimates how many 'false positives' are genuine missable includes vs true noise.
+  Cheap, decisive, dual-reviewer-defensible.
+created: '2026-06-05'
+updated: '2026-06-05'

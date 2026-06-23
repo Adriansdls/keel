@@ -1,0 +1,19 @@
+id: 3
+statement: An adversarial mutation suite (PIMS) run at the effect boundary will catch
+  security regressions / coverage gaps that the M1 functional test suite misses, producing
+  a refuse-rate signal that is a more honest security claim than functional-test pass
+  count.
+rationale: The thesis explicitly names mutation testing at the effect boundary as
+  the proof instrument; functional tests cover properties by construction, which under-claims
+  the actual boundary; what-is-protected.md already enumerates the NOT-protected gaps
+  that mutation testing would surface as escapes.
+confidence: 0.5
+evidence_needed: 'Run PIMS against M1: count mutations that escape M1 functional tests.
+  >=1 escape confirms the bet (functional tests under-claim); zero escapes with a
+  credible-sized suite would weaken it. Either way the suite itself becomes the durable
+  proof instrument.'
+status: active
+created: '2026-06-23'
+updated: '2026-06-23'
+updates: []
+source: null

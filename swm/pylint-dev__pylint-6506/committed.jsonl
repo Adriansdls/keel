@@ -1,0 +1,4 @@
+{"id": "c8bbfe9840a0", "kind": "constraint", "text": "Do NOT edit or add test files when fixing this bug", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "ca9e487bb4db", "kind": "decision", "text": "The traceback for unrecognized options should be removed; only the error message should be shown (e.g., 'Unrecognized option found: Q')", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "ab33652f428d", "kind": "premise", "text": "Current behavior prints both an error message and a traceback when an unrecognized option is passed; desired behavior matches mypy's approach of showing just the error without traceback", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "158d65842928", "kind": "premise", "text": "The _UnrecognizedOptionError is raised in pylint.config.config_initialization._config_initialization and propagates with a traceback", "turn_added": 1, "last_seen": 1, "source": "capture"}

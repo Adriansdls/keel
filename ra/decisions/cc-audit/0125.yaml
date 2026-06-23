@@ -1,0 +1,8 @@
+id: 125
+decision: Implemented {regen:true} turn mechanism that re-streams replies from existing
+  history without re-pushing the user message, enabling retry without duplicates
+rationale: (auto-captured from session — see SWM committed.jsonl for full context)
+alternatives_rejected: []
+bets_affected: []
+logged: '2026-06-21'
+source: swm-bridge

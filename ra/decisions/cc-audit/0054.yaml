@@ -1,0 +1,8 @@
+id: 54
+decision: 'Empirical calibration: 0 spawns/16 turns→0.1 score; 2–3 spawns+1 plan/21
+  turns→0.55 score; 8 spawns+2 plans/30 turns→0.9 score.'
+rationale: (auto-captured from session — see SWM committed.jsonl for full context)
+alternatives_rejected: []
+bets_affected: []
+logged: '2026-06-16'
+source: swm-bridge

@@ -1,0 +1,10 @@
+id: 23
+title: '[ARCHAEOLOGIST] Authority version-pinning policy (which PBDB / PeriodO / ICS
+  sna'
+status: idea
+priority: p3
+area: research
+why: Entity resolution (WP4) links taxa/periods to external authorities. 'Versioned-taxonomy-with-coherence'
+  (thesis) requires pinning a reproducible authority snapshot. Domain+methods decision.
+created: '2026-06-05'
+updated: '2026-06-05'

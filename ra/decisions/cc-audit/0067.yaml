@@ -1,0 +1,8 @@
+id: 67
+decision: n=10 calibration required; n=3 produced noise-driven failures that n=10
+  overturns; minimum sample for validation established at n=10
+rationale: (auto-captured from session — see SWM committed.jsonl for full context)
+alternatives_rejected: []
+bets_affected: []
+logged: '2026-06-16'
+source: swm-bridge

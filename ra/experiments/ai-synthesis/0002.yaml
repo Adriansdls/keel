@@ -1,0 +1,16 @@
+id: 2
+hypothesis: If we measure agentic performance separately per pipeline stage (retrieval,
+  extraction, appraisal/RoB, conceptual harmonisation, synthesis) on an archaeology
+  corpus, then a sharp competence boundary will appear — high on extraction/retrieval,
+  low on judgement — that defines where the human-in-the-loop gate must sit.
+bet_id: 2
+method: Replicate one of the worked examples (Egeland actualistic-butchery thematic
+  review or Buss great-whales protocol corpus / the savedrecs Neandertal-subsistence
+  set) with an agentic pipeline; benchmark each stage against the human-authored ground
+  truth; locate the accuracy cliff.
+expected_learning: Where automated synthesis stops being trustworthy in archaeology
+  specifically — the empirical basis for the governance/validation regime, regardless
+  of the absolute numbers.
+status: completed
+started: '2026-06-01'
+completed: '2026-06-05'

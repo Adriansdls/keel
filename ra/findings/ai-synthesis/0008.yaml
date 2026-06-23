@@ -1,0 +1,20 @@
+id: 8
+experiment_id: 3
+result: 'Haiku eligibility triage validated on Stewart slice (337 in-corpus gold +
+  2000 random non-gold). Tiers: core 432 papers/279 gold (65% tier precision, 80x
+  base-rate lift), peripheral 538/56 gold (10%), skip 1367/2 gold. Recall: core-only
+  0.828 (too lossy), core+peripheral 0.994. Projected full-42K core+peripheral survivors
+  ~13,342 = 3.2x shrink, precision 0.8%->2.5%. Cost: claude -p subscription (no metered
+  billing), cached. 0.7s/paper -> full 42K ~8h.'
+implication: 'Criterion-based triage is the validated precision lever (mirror image
+  of the falsified ranker): retains 99.4% gold while every ranker concentrated 0%.
+  Confirms eligibility != similarity empirically. BUT magnitude is modest (3.2x shrink)
+  because Haiku peripheral tier is generous (only 10% gold) yet load-bearing for recall
+  (17% of gold strand there). Best path: do NOT keep all peripheral; take high-precision
+  core (65%) + citation-snowball to recover the 56 peripheral gold -> smaller cleaner
+  set than blunt core+peripheral. Exp 3 (snowball from confirmed-eligible) now data-motivated.
+  Also port reg_monitor''s two-tier confidence escalation: Haiku decides, escalate
+  to Sonnet only on low-confidence band.'
+confidence_delta: 0.05
+source: experiments/triage/stewart/slice.json
+logged: '2026-06-05'

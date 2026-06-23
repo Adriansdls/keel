@@ -1,0 +1,3 @@
+{"id": "f0dfbf919e13", "kind": "constraint", "text": "Zero findings logged; cannot evaluate progress or readiness for synthesis.\",", "turn_added": 0, "last_seen": 0, "source": "capture"}
+{"id": "c784e707873f", "kind": "premise", "text": "All bets (logged 8-13 days ago) and experiments remain open pending evidence.", "turn_added": 0, "last_seen": 0, "source": "capture"}
+{"id": "963b8d12e379", "kind": "constraint", "text": "Cannot assess resolution, contradiction, or synthesis-readiness without activity context.\"", "turn_added": 0, "last_seen": 0, "source": "capture"}

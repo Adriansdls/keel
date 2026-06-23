@@ -1,0 +1,15 @@
+id: 1
+hypothesis: If we publish Paper 1 + release abw publicly, we will see measurable adoption
+  (installs, GitHub stars, reader survey responses citing behavior contracts) within
+  60 days
+bet_id: 1
+method: Ship Paper 1 preprint to arXiv. Publish abw on GitHub with install docs. Run
+  reader survey in episode 003–004 timeframe. Track GitHub stars, PyPI installs if
+  packaged, inbound from engineers.
+expected_learning: 'Regardless of outcome: we learn whether the paper+tool combo drives
+  practice adoption or whether additional activation is needed (workshops, tutorials,
+  blog posts). Negative: tool alone not enough, need hand-holding. Positive: validates
+  research-to-practice path.'
+status: running
+started: '2026-05-04'
+completed: null

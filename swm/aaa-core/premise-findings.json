@@ -1,0 +1,42 @@
+{
+  "ts": "2026-06-23T11:08:47+00:00",
+  "turns_since_full": 0,
+  "backend": "rule(floor)",
+  "results": [
+    {
+      "premise_id": "d88902aa1aaa",
+      "status": "invalid",
+      "evidence": "provisional premise now treated as settled (shared: tasks, pending)",
+      "source": "rule(floor)",
+      "groundedness": 1.0
+    },
+    {
+      "premise_id": "1631e35f17d2",
+      "status": "invalid",
+      "evidence": "provisional premise now treated as settled (shared: with, lease, state)",
+      "source": "rule(floor)",
+      "groundedness": 1.0
+    },
+    {
+      "premise_id": "bbc30f0b08f9",
+      "status": "invalid",
+      "evidence": "provisional premise now treated as settled (shared: with, unknown, lease)",
+      "source": "rule(floor)",
+      "groundedness": 1.0
+    },
+    {
+      "premise_id": "cc79168629c6",
+      "status": "invalid",
+      "evidence": "provisional premise now treated as settled (shared: unknown, state, where)",
+      "source": "rule(floor)",
+      "groundedness": 1.0
+    }
+  ],
+  "invalid": [
+    "d88902aa1aaa",
+    "1631e35f17d2",
+    "bbc30f0b08f9",
+    "cc79168629c6"
+  ],
+  "challenged": []
+}

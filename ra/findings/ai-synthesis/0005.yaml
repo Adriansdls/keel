@@ -1,0 +1,25 @@
+id: 5
+experiment_id: 1
+result: 'Multi-domain validation (exp_multidomain), identical gold-blind leak-free
+  pipeline across 3 gold-standard SRs. Hybrid (keyword + gold-blind citation expansion)
+  vs keyword-only: Stewart/megafauna 0.758->0.919 (DOI); Egeland/butchery 0.284->0.661
+  (title); Harrison/predator-prey-ecology 0.409->0.668 (title). Citation expansion
+  lifts recall +0.14 to +0.38 in EVERY domain and rescues weak-keyword domains most.
+  Fixed the earlier 0.969 leak (it seeded citation from gold-cap-corpus); honest leak-free
+  Stewart = 0.919. Title-match QC on Stewart''s own corpus: DOI 0.919 vs title 0.828
+  -> title-matching under-counts ~10%, so the title-gold domains (Egeland/Harrison)
+  are conservative floors (~0.73-0.74 true). OpenAlex hit a $1/day budget cap mid-session;
+  resolved with a funded API key.'
+implication: 'The hybrid retrieval method GENERALIZES across three distinct fields
+  (archaeology/paleo, zooarchaeology methods, behavioural ecology) -- the generalizability
+  claim is now evidence, not assertion. Citation expansion is the equalizer: keyword
+  recall is wildly domain-dependent (0.28-0.76) but hybrid clusters 0.66-0.92. This
+  is the core results table for Paper 1. Honesty upgrades: leak-free numbers (0.919
+  not 0.969), title-match conservatism quantified, all gold-blind. Remaining for paper-grade:
+  deeper citation expansion (depth=1 capped now) to push the title-gold domains higher;
+  phrasing-sensitivity on full hybrid; extraction-precision audit (human/Lucia). Process
+  risk surfaced: OpenAlex now metered ($) -- need budget-aware throttle to avoid mid-run
+  exhaustion.'
+confidence_delta: 0.06
+source: pipeline/experiments/multidomain/comparison.json
+logged: '2026-06-03'

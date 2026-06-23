@@ -1,0 +1,17 @@
+id: 1
+statement: Consume-before-effect + SQLite WAL compare-and-set (issued -> consumed_pending,
+  rowcount == 1 under BEGIN IMMEDIATE) yields exactly-one-winner single-use consume
+  even under concurrent consumers, with no transaction held open across the effect
+  call.
+rationale: ADR-0001 documents the lifecycle; test_concurrent_consume.py is green and
+  asserts exactly-one consumer; consume-before-effect separates consumption from effect
+  success so a failed effect cannot reopen the replay surface.
+confidence: 0.85
+evidence_needed: PIMS concurrency mutations (racing consumers, crash between TX1 and
+  TX2, retry-after-fail) — any case with >=2 successful consumers falsifies; a stranded
+  consumed_pending that ever returns to issued falsifies.
+status: active
+created: '2026-06-23'
+updated: '2026-06-23'
+updates: []
+source: null

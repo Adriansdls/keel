@@ -1,0 +1,17 @@
+id: 2
+decision: Represent replay material as an extracted JSON snippet (load_bearing_tail
+  + earlier_payload_evidence) rather than passing the full 2.5MB payload to claude
+  -p.
+rationale: The full payload exceeds practical prompt limits for claude -p experiments.
+  The extracted material includes the 12-message tail and up to 4 earlier snippets
+  per signal category (stale_session_limit, prior_openalex_429, prior_claude_p_worked),
+  which are the load-bearing context windows identified in C5-PAYLOAD-RECONSTRUCTION.md.
+alternatives_rejected:
+- Pass full forwarded payload — infeasible at 1.7MB for subprocess invocation
+- Use only the final 3 messages — loses the stale digest context which is the key
+  confounder
+bets_affected:
+- 1
+- 3
+logged: '2026-06-04'
+source: null

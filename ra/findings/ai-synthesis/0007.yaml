@@ -1,0 +1,18 @@
+id: 7
+experiment_id: 2
+result: 'Ranker bake-off on cached 42,361-paper Stewart corpus (gold=360, ceiling=0.936).
+  Three rankers compared by recall@N / precision@N: lexical (current), MiniLM (incumbent
+  embed, never previously measured), SPECTER (allenai-specter, citation-trained scientific
+  embedding). Results: ALL THREE FLAT, n*=42361 for every ranker. R@1000: lexical
+  0.32, minilm 0.33, specter 0.24. prec@100: lexical 25%, minilm 28%, specter 11%.
+  SPECTER (the hypothesized 2-2.5x winner) was the WORST.'
+implication: 'Hypothesis falsified: semantic ranking cannot fix precision. Root cause
+  is deeper than the audit claimed: in systematic-review screening, relevance is criterion-based
+  (PECO inclusion checklist), NOT topical similarity. Embedding similarity captures
+  topic; the 42K corpus is saturated with topically-identical non-gold papers, so
+  similarity ranking pulls non-gold lookalikes UP. Pivot: precision lever is a cheap
+  per-document LLM eligibility triage (Haiku) over the full corpus, then Sonnet deep-screen
+  on survivors. Drop all similarity-based ranking and similarity-pruned retrieval.'
+confidence_delta: 0.0
+source: experiments/funnel/stewart/rankoff.json + docs/next-steps-2026-06-04.md
+logged: '2026-06-05'

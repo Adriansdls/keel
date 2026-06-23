@@ -1,0 +1,17 @@
+id: 5
+statement: A conversational intake/scoping module (chaos -> bounded PECO protocol
+  + breadth-probed corpus) materially STABILISES downstream results (reduces cross-domain
+  variance in retrieval recall) and bounds cost, not just convenience.
+rationale: Recall varies 0.96/0.81/0.81 across domains; some variance is a scoping
+  problem (vague queries) not retrieval. Better query formulation lifts recall; bounded
+  corpus stabilises triage/synthesis; logged protocol = reproducibility (thesis legibility
+  pillar). M0 is the only untested input variable.
+confidence: 0.55
+evidence_needed: Run pipeline with vs without scoping step across >=2 domains; measure
+  change in recall AND variance. Breadth-probe accuracy (predicted vs actual OpenAlex
+  count). Corpus lands in target band. Expert-rated protocol quality.
+status: active
+created: '2026-06-06'
+updated: '2026-06-14'
+updates: []
+source: null

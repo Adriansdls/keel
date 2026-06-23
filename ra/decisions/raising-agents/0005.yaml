@@ -1,0 +1,13 @@
+id: 5
+decision: 'Workspace as symlinks: ~/raising-agents/ is a single entry point, all subdirs
+  are symlinks to real homes (two git repos, two Obsidian vaults, hidden runtime)'
+rationale: One mental model beats five. site/ is public git, press/ is private git
+  — must never be conflated. ops/ lives in Documents for iCloud/Obsidian convention.
+  Runtime is not user-facing content. Symlinks are a cheap ergonomic win that collapse
+  without breaking anything.
+alternatives_rejected:
+- single monorepo
+- no workspace — cd into each separately
+bets_affected: []
+logged: '2026-04-20'
+source: null

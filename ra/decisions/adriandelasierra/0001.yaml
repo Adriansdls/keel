@@ -1,0 +1,8 @@
+id: 1
+decision: 'Option 1 implementation: proxy polls flag file (instead of env var), auto-deletes
+  after one-shot capture'
+rationale: (auto-captured from session — see SWM committed.jsonl for full context)
+alternatives_rejected: []
+bets_affected: []
+logged: '2026-06-15'
+source: swm-bridge

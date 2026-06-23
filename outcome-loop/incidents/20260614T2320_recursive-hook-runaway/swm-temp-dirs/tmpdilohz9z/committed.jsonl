@@ -1,0 +1,3 @@
+{"id": "9fe7148fca43", "kind": "constraint", "text": "Cannot evaluate bet outcome.\",", "turn_added": 0, "last_seen": 0, "source": "capture"}
+{"id": "c554376c6e5b", "kind": "constraint", "text": "Cannot evaluate coverage claim.\",", "turn_added": 0, "last_seen": 0, "source": "capture"}
+{"id": "9c31e420a3a1", "kind": "constraint", "text": "Cannot evaluate stale context hypothesis.\",", "turn_added": 0, "last_seen": 0, "source": "capture"}

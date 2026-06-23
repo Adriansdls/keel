@@ -1,0 +1,11 @@
+id: 5
+title: 'WP-A2: Wire the unit framework into the live kernel'
+status: in-progress
+priority: p1
+area: infra
+why: The builder + the 3 archetypes + run_agent/run_loop must be reachable from the
+  live kernel (as observers/CLI), aligned with the existing forge_gate/agent_gate
+  observers — one path from 'forge a unit' to 'it runs governed under the kernel'.
+  Today the clean framework is islanded from the live host. Depends A1.
+created: '2026-06-01'
+updated: '2026-06-02'

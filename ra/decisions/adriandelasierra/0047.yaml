@@ -1,0 +1,10 @@
+id: 47
+decision: 'cc-workshop-vault customization limited to: DOMAIN_PRIMER for CC workshop
+  context, query classifier prompt reframed for ''Claude Code workshop participant'',
+  and two-layer content architecture; vault_graph.py, trust.py, trust scoring, provenance
+  contracts, mesh scoring remain unchanged'
+rationale: (auto-captured from session — see SWM committed.jsonl for full context)
+alternatives_rejected: []
+bets_affected: []
+logged: '2026-06-16'
+source: swm-bridge

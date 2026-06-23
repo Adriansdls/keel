@@ -1,0 +1,12 @@
+id: 3
+title: Build interactive lab agents — visitors talk to behavioral agents on the site
+status: done
+priority: p2
+area: dev
+why: Lab agents are an acquisition + demonstration channel. Engineers interact with
+  a live behavioral agent, experience OPBR or trust scoring firsthand. Converts browsers
+  into subscribers. CSS/JS infrastructure already loaded in lab/index.html.
+hypothesis: An interactive agent demo on the lab page increases subscriber conversion
+  vs. static experiment cards alone.
+created: '2026-05-27'
+updated: '2026-05-28'

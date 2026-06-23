@@ -1,0 +1,2 @@
+{"id": "550868bc362e", "kind": "constraint", "text": "Do NOT edit or add test files", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "f1e1585ff1a9", "kind": "premise", "text": "trigsimp(1/2/k * (-I*exp(I*k) + I*exp(-I*k))) should simplify to sinc(k)", "turn_added": 1, "last_seen": 1, "source": "capture"}

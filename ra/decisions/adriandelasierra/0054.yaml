@@ -1,0 +1,8 @@
+id: 54
+decision: Cache fix prioritized first (rank 0.91) because it has highest € return
+  and requires only one config line; tool-trim savings compound only on stable prefix
+rationale: (auto-captured from session — see SWM committed.jsonl for full context)
+alternatives_rejected: []
+bets_affected: []
+logged: '2026-06-22'
+source: swm-bridge

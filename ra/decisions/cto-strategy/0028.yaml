@@ -1,0 +1,9 @@
+id: 28
+decision: Commit all generic/reusable files (competence/, ground_truth/, agent.toml
+  structure) but exclude machine-local config (.serena/) and personal/org-specific
+  files (vault/agenda/, okrs docs)
+rationale: (auto-captured from session — see SWM committed.jsonl for full context)
+alternatives_rejected: []
+bets_affected: []
+logged: '2026-06-16'
+source: swm-bridge

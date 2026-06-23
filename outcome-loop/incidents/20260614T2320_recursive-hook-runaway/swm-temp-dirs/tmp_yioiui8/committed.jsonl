@@ -1,0 +1,2 @@
+{"id": "e31d44dedb5e", "kind": "constraint", "text": "Cannot evaluate the predicted 6/10 vs <3/10 root_cause_category assignment rate without run data.\",", "turn_added": 0, "last_seen": 0, "source": "capture"}
+{"id": "61c07722d88b", "kind": "constraint", "text": "Cannot evaluate whether premature closure rate drops to near 0 as hypothesized.\",", "turn_added": 0, "last_seen": 0, "source": "capture"}

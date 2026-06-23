@@ -1,0 +1,8 @@
+id: 1
+decision: Option B (symlink .agents/skills/* to .claude/skills/) recommended as 'probably
+  the right call' — fixes for all future sessions in this project
+rationale: (auto-captured from session — see SWM committed.jsonl for full context)
+alternatives_rejected: []
+bets_affected: []
+logged: '2026-06-22'
+source: swm-bridge

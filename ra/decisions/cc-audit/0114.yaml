@@ -1,0 +1,9 @@
+id: 114
+decision: After accepting any file modification from Claude, immediately execute TypeScript
+  compiler and linter inside the agent's terminal context to pipe errors back into
+  agent memory
+rationale: (auto-captured from session — see SWM committed.jsonl for full context)
+alternatives_rejected: []
+bets_affected: []
+logged: '2026-06-20'
+source: swm-bridge

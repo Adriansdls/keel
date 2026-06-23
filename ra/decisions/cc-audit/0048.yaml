@@ -1,0 +1,9 @@
+id: 48
+decision: 'Authoring axis uses three scoring anchors: 0.0 (pure consumption—never
+  authors reusable tooling), 0.5 (occasional authoring—sometimes writes reusable scripts/configs
+  but mostly one-off), 1.0 (leverage-builder—routinely packages recurring work).'
+rationale: (auto-captured from session — see SWM committed.jsonl for full context)
+alternatives_rejected: []
+bets_affected: []
+logged: '2026-06-16'
+source: swm-bridge

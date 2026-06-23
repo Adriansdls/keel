@@ -1,0 +1,8 @@
+id: 74
+decision: Judge consensus uses k-median + spread to derive confidence signal; 7 component
+  tests passing
+rationale: (auto-captured from session — see SWM committed.jsonl for full context)
+alternatives_rejected: []
+bets_affected: []
+logged: '2026-06-16'
+source: swm-bridge

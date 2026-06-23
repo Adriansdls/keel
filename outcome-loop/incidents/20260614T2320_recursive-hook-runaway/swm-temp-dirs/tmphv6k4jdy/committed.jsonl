@@ -1,0 +1,5 @@
+{"id": "7300faad12b9", "kind": "constraint", "text": "[3] Separate private repo (raising-agents-press) for the press — raw daily activity is personal ops data, never touches public site repo | logged: 2026-04-24", "turn_added": 0, "last_seen": 0, "source": "capture"}
+{"id": "7adf2524dc12", "kind": "constraint", "text": "Cannot evaluate adoption metrics without launch.\",", "turn_added": 0, "last_seen": 0, "source": "capture"}
+{"id": "8c9d8d3c3e8e", "kind": "constraint", "text": "Cannot evaluate sustainability claims without operational data.\",", "turn_added": 0, "last_seen": 0, "source": "capture"}
+{"id": "3a0abd1579ed", "kind": "premise", "text": "Recall validation pending.\",", "turn_added": 0, "last_seen": 0, "source": "capture"}
+{"id": "82f885eadfda", "kind": "constraint", "text": "\"reasoning\": \"Cannot run experiment until Paper 1 published and abw released.", "turn_added": 0, "last_seen": 0, "source": "capture"}

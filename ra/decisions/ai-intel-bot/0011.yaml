@@ -1,0 +1,11 @@
+id: 11
+decision: Implement value-critic as code-enforced agent (upgrade) rather than prose
+rationale: The skill features multi-step analysis workflow (5-part framework), requires
+  judgment and reasoning over structured inputs (scan inventory and JSON), and produces
+  consequential analysis output. These characteristics exceed the threshold for plain
+  prose.
+alternatives_rejected:
+- Implement as plain prose documentation
+bets_affected: []
+logged: '2026-06-17'
+source: auto-hook

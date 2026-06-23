@@ -1,0 +1,99 @@
+{
+  "ts": "2026-06-18T11:45:21+00:00",
+  "turns_since_full": 0,
+  "backend": "default+rule(floor)",
+  "results": [
+    {
+      "premise_id": "f1a694ee2ac8",
+      "status": "challenged",
+      "evidence": "not evaluated (no backend)",
+      "source": "default",
+      "groundedness": 0.25
+    },
+    {
+      "premise_id": "2325fc90f14c",
+      "status": "challenged",
+      "evidence": "not evaluated (no backend)",
+      "source": "default",
+      "groundedness": 0.25
+    },
+    {
+      "premise_id": "1051b9cd5e6d",
+      "status": "challenged",
+      "evidence": "not evaluated (no backend)",
+      "source": "default",
+      "groundedness": 0.25
+    },
+    {
+      "premise_id": "51325db814b2",
+      "status": "challenged",
+      "evidence": "not evaluated (no backend)",
+      "source": "default",
+      "groundedness": 0.25
+    },
+    {
+      "premise_id": "73b9d851592f",
+      "status": "challenged",
+      "evidence": "not evaluated (no backend)",
+      "source": "default",
+      "groundedness": 0.25
+    },
+    {
+      "premise_id": "f65f8f7bbb13",
+      "status": "challenged",
+      "evidence": "not evaluated (no backend)",
+      "source": "default",
+      "groundedness": 0.25
+    },
+    {
+      "premise_id": "fedfe0cd9450",
+      "status": "challenged",
+      "evidence": "not evaluated (no backend)",
+      "source": "default",
+      "groundedness": 0.25
+    },
+    {
+      "premise_id": "5972e174be5c",
+      "status": "challenged",
+      "evidence": "not evaluated (no backend)",
+      "source": "default",
+      "groundedness": 0.25
+    },
+    {
+      "premise_id": "6ab4efdfef5e",
+      "status": "challenged",
+      "evidence": "not evaluated (no backend)",
+      "source": "default",
+      "groundedness": 0.25
+    },
+    {
+      "premise_id": "d88902aa1aaa",
+      "status": "challenged",
+      "evidence": "not evaluated (no backend)",
+      "source": "default",
+      "groundedness": 0.25
+    },
+    {
+      "premise_id": "501b938a2346",
+      "status": "invalid",
+      "evidence": "provisional premise now treated as settled (shared: these, tools, need)",
+      "source": "rule(floor)",
+      "groundedness": 1.0
+    }
+  ],
+  "invalid": [
+    "501b938a2346"
+  ],
+  "challenged": [
+    "f1a694ee2ac8",
+    "2325fc90f14c",
+    "1051b9cd5e6d",
+    "51325db814b2",
+    "73b9d851592f",
+    "f65f8f7bbb13",
+    "fedfe0cd9450",
+    "5972e174be5c",
+    "6ab4efdfef5e",
+    "d88902aa1aaa"
+  ]
+}

@@ -1,0 +1,12 @@
+id: 4
+decision: Do not proceed with guessing session identity; require direct input from
+  Adrian providing session ID, date, or initial prompt text
+rationale: Multiple search and verification attempts all yielded incorrect sessions;
+  the projection is stale and the model cannot reliably identify which session contains
+  the keel development work
+alternatives_rejected:
+- Continue attempting to locate session through search and guessing
+- Proceed with further unverified assumptions
+bets_affected: []
+logged: '2026-06-15'
+source: auto-hook

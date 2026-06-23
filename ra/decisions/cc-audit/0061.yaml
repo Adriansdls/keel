@@ -1,0 +1,9 @@
+id: 61
+decision: Fluent routing (1.0 score) reserves cheap models for mechanical work and
+  stronger models for hard reasoning; model_mix demonstrates deliberate matching,
+  not random variance.
+rationale: (auto-captured from session — see SWM committed.jsonl for full context)
+alternatives_rejected: []
+bets_affected: []
+logged: '2026-06-16'
+source: swm-bridge

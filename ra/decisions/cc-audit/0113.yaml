@@ -1,0 +1,9 @@
+id: 113
+decision: 'Established three-tier trust hierarchy for AI-generated code: Absolute
+  Trust (syntactical transformations), Conditional Trust (test generation with upfront
+  edge case specification), Zero Trust (architecture and package management decisions)'
+rationale: (auto-captured from session — see SWM committed.jsonl for full context)
+alternatives_rejected: []
+bets_affected: []
+logged: '2026-06-20'
+source: swm-bridge

@@ -1,0 +1,2 @@
+{"id": "3cd073d8a982", "kind": "constraint", "text": "Project gate requires showing actual test results in the current turn when claiming completion — asserting tests pass without running them and showing output triggers rejection", "turn_added": 2, "last_seen": 2, "source": "capture"}
+{"id": "6b6a74e7190b", "kind": "elimination", "text": "Do not claim completion based on prior test runs; tests must be executed and their results displayed in the current turn", "turn_added": 2, "last_seen": 2, "source": "capture"}

@@ -1,0 +1,24 @@
+id: 5
+decision: D-A1.1 (refines D1) — Canonical ground_truth hash = habitat's algorithm
+  (4-file {principles,rubric,authority,evals}, 32-char, null-separated). zartis engine/ground_truth/anchor.ratified_hash
+  changed to compute byte-for-byte identically (kernel/integrity delegates to it).
+  acceptance is deliberately NOT in the frozen hash set — a test that may evolve without
+  re-ratification. Proven by tests/wp_a1_parity_test.py (6/6).
+rationale: 'Adrian delegated the call; decided on risk. The 15-agent census showed
+  habitat carries 10 incl the LIVE machine constitution; zartis carries 5 fresh agents.
+  Keeping habitat''s algorithm = all 10 habitat agents keep VALID stored hashes (zero
+  re-ratify of the live constitution, no TAMPER window); only the 5 zartis agents
+  re-bless. The hash does not feed the CLAUDE.md render (proven), so it is purely
+  an integrity-primitive choice. D1 picked zartis''s 5-file hash before the census
+  existed; the census inverted the risk.</rationale>
+
+  <parameter name="alternatives_rejected">["zartis 5-file/16-char wins (D1 as ratified):
+  invalidates all 10 habitat hashes incl live machine-root, forcing atomic hash-swap+re-ratify
+  with a TAMPER window — higher risk, render is hash-independent anyway", "Bilingual
+  hash verifier accepting both formats: weakens the tamper root-of-trust (two valid
+  fingerprints forever)", "Add acceptance to the hash too: forces re-ratification
+  on every probe edit — tests should evolve, law shouldn''t"]'
+alternatives_rejected: []
+bets_affected: []
+logged: '2026-06-01'
+source: null

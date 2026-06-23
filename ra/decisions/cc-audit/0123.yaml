@@ -1,0 +1,9 @@
+id: 123
+decision: Use local Postgres MCP server for schema inspection; instruct agent to query
+  information_schema before writing SQL/ORM logic to eliminate hallucinated column
+  names
+rationale: (auto-captured from session — see SWM committed.jsonl for full context)
+alternatives_rejected: []
+bets_affected: []
+logged: '2026-06-20'
+source: swm-bridge

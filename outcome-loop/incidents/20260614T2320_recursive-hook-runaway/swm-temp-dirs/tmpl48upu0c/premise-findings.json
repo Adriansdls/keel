@@ -1,0 +1,18 @@
+{
+  "ts": "2026-06-14T21:04:41+00:00",
+  "turns_since_full": 1,
+  "backend": "rule-only",
+  "results": [
+    {
+      "premise_id": "0ddccb524526",
+      "status": "challenged",
+      "evidence": "not evaluated (no backend)",
+      "source": "default",
+      "groundedness": 0.25
+    }
+  ],
+  "invalid": [],
+  "challenged": [
+    "0ddccb524526"
+  ]
+}

@@ -1,0 +1,8 @@
+id: 10
+decision: WP7 role is assembly of pre-built components into the v0.1 report; components
+  from WP2, WP5, and WP0 already exist
+rationale: (auto-captured from session — see SWM committed.jsonl for full context)
+alternatives_rejected: []
+bets_affected: []
+logged: '2026-06-16'
+source: swm-bridge

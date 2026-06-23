@@ -1,0 +1,11 @@
+id: 20
+decision: Layer a scope dimension (team/department/enterprise) on top of Zartis's
+  existing what-based service structure, not replacing it
+rationale: Overlaying scope on the what-structure bridges Anthropic's portal inbound
+  model with Zartis's service taxonomy, enabling lead conversion while preserving
+  the existing service organization
+alternatives_rejected:
+- Replace Zartis's what-based structure entirely with Anthropic's scope-based model
+bets_affected: []
+logged: '2026-06-16'
+source: auto-hook

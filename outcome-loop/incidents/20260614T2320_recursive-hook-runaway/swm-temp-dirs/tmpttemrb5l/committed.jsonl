@@ -1,0 +1,4 @@
+{"id": "fdd596f2abb8", "kind": "constraint", "text": "Do NOT also emit a combined/compound version of facts you already split out, and do NOT split one fact into overlapping fragments.", "turn_added": 0, "last_seen": 0, "source": "capture"}
+{"id": "0e50e10ede19", "kind": "constraint", "text": "Cannot assess sustainability or frequency.\",", "turn_added": 0, "last_seen": 0, "source": "capture"}
+{"id": "766137ba6721", "kind": "constraint", "text": "Cannot measure 8-week uninterrupted operation yet.\",", "turn_added": 0, "last_seen": 0, "source": "capture"}
+{"id": "a29a547969b7", "kind": "constraint", "text": "Cannot measure subscriber quality metrics.\",", "turn_added": 0, "last_seen": 0, "source": "capture"}

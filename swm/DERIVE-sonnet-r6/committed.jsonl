@@ -1,0 +1,9 @@
+{"id": "729d3dbb2d9a", "kind": "constraint", "text": "First 10 units cost base each (Tier 1: 100%)", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "86a81470ca6c", "kind": "constraint", "text": "Units 11-50 cost 90% of base each (Tier 2)", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "b0ff4e094128", "kind": "constraint", "text": "Units beyond 50 cost 80% of base each (Tier 3)", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "f2ef4d96af9b", "kind": "constraint", "text": "Minimum charge of 5.00: if computed total is below 5.00, use 5.00", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "c3b1ef79a8dd", "kind": "constraint", "text": "Round result to 2 decimal places", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "16d932abc9d9", "kind": "constraint", "text": "Function: tiered_price(units, base) in billing.py module", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "f1f20ef35c1d", "kind": "decision", "text": "Test-first approach: write acceptance test before implementation to define the contract", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "ccac2a4bb1d7", "kind": "decision", "text": "Tests in test_billing.py; must use `import billing` and call `billing.tiered_price`", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "9d1d41814a28", "kind": "premise", "text": "Common implementation mistakes to catch: off-by-one errors on tier boundaries (units 10/11 and 50/51), miscount tier 2 units as 39 or 41 instead of 40, apply 90% to unit 10, start 80% at unit 50 instead of 51, truncate instead of round, return string instead of numeric, ignore minimum when base is zero", "turn_added": 1, "last_seen": 1, "source": "capture"}

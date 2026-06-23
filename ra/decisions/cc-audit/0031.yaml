@@ -1,0 +1,8 @@
+id: 31
+decision: User will wait for completion notification before reporting per-axis cross-model
+  agreement rather than polling for results
+rationale: (auto-captured from session — see SWM committed.jsonl for full context)
+alternatives_rejected: []
+bets_affected: []
+logged: '2026-06-16'
+source: swm-bridge

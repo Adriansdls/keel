@@ -1,0 +1,8 @@
+id: 4
+decision: MCP tool signatures and cc-audit --emit-artifact JSON schema are intentionally
+  left unpinned; to be designed during steps 1–3 of the build order
+rationale: (auto-captured from session — see SWM committed.jsonl for full context)
+alternatives_rejected: []
+bets_affected: []
+logged: '2026-06-18'
+source: swm-bridge

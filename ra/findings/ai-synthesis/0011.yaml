@@ -1,0 +1,26 @@
+id: 11
+experiment_id: 3
+result: 'Sonnet strict independent-second-reviewer adjudication of core false-positives
+  against Stewart''s own inclusion criteria, with controls (slice: 337 gold+2000 nongold).
+  RESULTS: SKIP-control 0/60 include (specificity perfect), GOLD-control 51/60 include=0.85
+  (sensitivity high, slightly strict), FP 58/66 include=0.879. False-positives pass
+  strict screening at SAME rate as gold''s own includes (88% vs 85%) -> statistically
+  indistinguishable from genuine includes. Adjudicator conservative (rejects 15% of
+  real gold, 100% of skip). FP-includes are canonical: Nature 2006 carbon-dates (235
+  cites), blitzkrieg 2004, Nature Comms 2021 climate, Africa Pleistocene Overkill
+  1966. Core precision raw 0.788 -> adjusted 0.974.'
+implication: 'MAJOR REFRAME: the precision problem is largely an artifact of an incomplete,
+  unauditable gold standard, not a pipeline failure. True core-tier precision ~97%,
+  not 79%. Adrian''s hypothesis confirmed with calibrated controls. The pipeline surfaces
+  canonical literature the original human SR missed. This is thesis-grade: the system
+  makes the human review''s invisible false-negatives legible and adjudicable. Implications:
+  (1) stop optimizing precision against includes-only gold past diminishing returns;
+  (2) correct metric = agreement + adjudication of disagreement set; (3) the contribution
+  is legibility/recall-superiority over an unauditable human benchmark. Caveats: adjudicator
+  is Sonnet not human expert (controls make it credible); part of gap is WoS-vs-OpenAlex
+  frame difference. Next: confirm on full corpus; bring disagreement set to MSCA archaeologist
+  for final human adjudication.'
+confidence_delta: 0.15
+source: experiments/adjudicate/stewart/result.json + src/synthpipe/exp_adjudicate.py
+  + llm_api.adjudicate_api
+logged: '2026-06-05'

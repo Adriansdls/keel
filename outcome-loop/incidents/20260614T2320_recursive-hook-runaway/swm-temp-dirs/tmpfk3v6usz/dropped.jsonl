@@ -1,0 +1,2 @@
+{"kind": "constraint", "text": "- Include all items; emit 'still_open' for anything you cannot judge.", "reason": "no_markdown_headers", "archived_reason": "invariant"}
+{"kind": "constraint", "text": "- **ExtractedFacts** (hard constraints, decisions + rationale, dropped options, premises)", "reason": "no_markdown_headers", "archived_reason": "invariant"}

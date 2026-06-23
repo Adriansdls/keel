@@ -1,0 +1,30 @@
+id: 12
+experiment_id: 3
+result: 'Deep research on idea #16 (KG synthesis) -> solid design (docs/idea16-kg-synthesis-design-2026-06-05.md).
+  Findings: (1) The KG pipeline ALREADY EXISTS in repo (ontology.py induces schema
+  from corpus; extract.py = Sonnet triples with observable-flag + provenance + 2 confidences;
+  kg.py = networkx graph; query.py) and ran in exp03 (118 triples, 72 obs/46 interp).
+  Induced ontology already has dissent relations driver_supported_by / driver_contradicted_by.
+  (2) Core gap = entity resolution: extracted entities are raw mention-strings (''Pleistocene
+  extinctions'', ''arrival of man''); exact-match merge fails. This IS the taxonomic-instability
+  thesis problem. (3) Precedent: PaleoDeepDive (Peters&Re 2014) machine-read paleo
+  lit -> PBDB at human parity; medical SR LLM extraction 96.3% (Gartlehner 2024);
+  EDC canonicalization + LINK-KG per-type coref are the ER methods. (4) Normalization
+  authorities: PBDB API (dynamic versioned taxonomy = thesis primitive), GBIF, PeriodO,
+  ICS. (5) KILLER VALIDATION available: Stewart xlsx hand-codes every paper''s Extinction
+  Cause (Anthro/Climate/Mixed/Impact/None) -> test if extracted attributed_to(Event->Driver)
+  reproduces it (kappa).'
+implication: 'Use B (KG as synthesis deliverable + structural disagreement-adjudicator)
+  is the prize; Use A (relevance filter) demoted since precision is mostly a gold-incompleteness
+  artifact. Concrete sequence: (1) validate existing extractor against Stewart''s
+  Extinction-Cause coding FIRST (cheap, gates everything); (2) build entity-resolution
+  layer resolve.py (EDC + authority-linking, start with taxa+periods); (3) entity-graph
+  membership/community -> adjudicate Exp-4 false-positives structurally; (4) dissent
+  map synthesis.py (descriptive-only, per ExtinctionEvent: which drivers, supported_by
+  vs contradicted_by, with provenance + observable flag). Don''t rebuild - extend.
+  Abstract-only baseline; full-text is enhancement. Open Qs for archaeologist: ExtinctionEvent
+  granularity, driver vocab (Stewart-5 vs richer induced), authority version pinning.'
+confidence_delta: 0.05
+source: docs/idea16-kg-synthesis-design-2026-06-05.md + repo ontology/extract/kg/query.py
+  + exp03_fullchain outputs + PaleoDeepDive/EDC/Gartlehner literature
+logged: '2026-06-05'

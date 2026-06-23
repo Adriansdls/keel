@@ -1,0 +1,2 @@
+{"id": "6a1cdc430354", "kind": "premise", "text": "All seven open bets and three open experiments remain in still_open status pending evidence from pipeline execution, domain probes, or measurement campaigns.", "turn_added": 0, "last_seen": 0, "source": "capture"}
+{"id": "5db361a0e7c3", "kind": "constraint", "text": "Cannot assess staleness or resolution without activity logs.\"", "turn_added": 0, "last_seen": 0, "source": "capture"}

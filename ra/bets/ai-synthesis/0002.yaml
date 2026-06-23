@@ -1,0 +1,40 @@
+id: 2
+statement: A human-in-the-loop boundary that keeps appraisal/judgment supervised while
+  automating search/extraction will produce synthesis that peer reviewers accept as
+  epistemically valid.
+rationale: 'Measured capability gradient: AI data extraction ~0.95 but risk-of-bias/appraisal
+  judgment ~0.62, plus fabricated-citation risk and the Glass/Eysenck ''garbage-in''
+  critique. Drawing the automation line at the right stage is what separates a credible
+  tool from mega-silliness.'
+confidence: 0.8
+evidence_needed: Benchmark showing per-stage accuracy against an expert gold set,
+  with a defined supervision protocol, where the human+AI pipeline matches or beats
+  fully-manual synthesis on quality while cutting time substantially.
+status: active
+created: '2026-06-01'
+updated: '2026-06-14'
+updates:
+- date: '2026-06-01'
+  delta: 0.1
+  old_confidence: 0.55
+  new_confidence: 0.65
+  evidence_ref: research/notes/final_report_agentic-synthesis-impact.md (Clark et
+    al. 2025; Cochrane+Campbell+JBI+CEE 2025 joint position statement)
+  reasoning: 'Report independently confirms the human-in-the-loop boundary: de novo
+    search-design (91% miss for LLMs), contextual risk-of-bias for non-RCT evidence,
+    qualitative synthesis, and normative interpretation are all human-primary per
+    the institutional consensus. Our boundary placement matches the external verdict
+    — raises confidence the boundary is correct.'
+- date: '2026-06-01'
+  delta: 0.15
+  old_confidence: 0.65
+  new_confidence: 0.8
+  evidence_ref: Research 2 final report §1-2,4,8 (boundary-condition architecture)
+  reasoning: 'Bet #2 (human-in-loop boundary) goes from "confirmed principle" to "confirmed
+    AND given a formal framework." Research 2''s boundary-condition architecture operationalises
+    the pattern-recognition/meaning-generation split per pathology, with named failure
+    modes, escalation triggers, and a per-claim dual-confidence provenance schema.
+    Reinforced by RAGTruth (synthesis-level hallucination persists with RAG) + GhostCite
+    (14-95% citation hallucination) → descriptive-only autonomous synthesis, interpretation
+    human-written. The boundary is no longer a caveat; it is the thesis.'
+source: null

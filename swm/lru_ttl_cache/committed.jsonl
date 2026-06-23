@@ -1,0 +1,9 @@
+{"id": "5062e9f77352", "kind": "constraint", "text": "LRUCache constructor takes capacity and ttl_seconds parameters", "turn_added": 6, "last_seen": 6, "source": "capture"}
+{"id": "f32f33cb56df", "kind": "constraint", "text": "At most `capacity` live entries allowed; LRU entry evicted when full", "turn_added": 6, "last_seen": 6, "source": "capture"}
+{"id": "66ea825ddaa1", "kind": "constraint", "text": "Entries expire `ttl_seconds` after their last put() call", "turn_added": 6, "last_seen": 6, "source": "capture"}
+{"id": "8e2a5bc5d315", "kind": "constraint", "text": "Both get() and put() operations count as 'use' for recency tracking", "turn_added": 6, "last_seen": 6, "source": "capture"}
+{"id": "6adec92e7a84", "kind": "decision", "text": "Expiration is based on put-time only, not on last access/get time", "turn_added": 6, "last_seen": 6, "source": "capture"}
+{"id": "a3e2ea384258", "kind": "decision", "text": "Expired entries are cleaned lazily (on access), not proactively", "turn_added": 6, "last_seen": 6, "source": "capture"}
+{"id": "c29f2f9f197b", "kind": "decision", "text": "Use OrderedDict to track access order with first item as LRU", "turn_added": 6, "last_seen": 6, "source": "capture"}
+{"id": "e56ed9af3414", "kind": "decision", "text": "Store each entry as (value, put_time) tuple for TTL calculation", "turn_added": 6, "last_seen": 6, "source": "capture"}
+{"id": "8ffc8b7188b4", "kind": "premise", "text": "Implementation is complete and verified with 15 passing tests", "turn_added": 6, "last_seen": 6, "source": "capture"}

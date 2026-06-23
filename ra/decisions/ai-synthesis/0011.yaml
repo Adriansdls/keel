@@ -1,0 +1,25 @@
+id: 11
+decision: 'Scoping session decisions (2026-06-02): (1) Reproducibility defended BOTH
+  ways — frozen-artifact decision-cache (temp 0 + pinned model versions + published
+  per-paper decision cache) AND N-run statistical stability (recall reported mean
+  +/- sd over N runs). (2) Deadline posture: commit the paper to FULL L1-L4 incl.
+  knowledge graph + queries (ambitious). (3) Recall-validation gold standard = Stewart
+  et al. 2025 (CONFIRMED; supersedes the Egeland recommendation in #10). (4) Human-review
+  time is NOT the binding constraint on the Stewart recall path: recall is automated
+  DOI/title matching against Stewart''s 360-paper included list; Lucia''s time concentrates
+  only in bounded, non-per-run tasks (ontology refinement once, ~100-triple audit,
+  Neanderthal-carnivore appraisal).'
+rationale: 'Verified Stewart''s methods by reading the PDF: it has a genuine PRISMA
+  flow (515 screened -> 360 included), an accessible included list (Appendix + Supplementary
+  Table S1 with DOIs), a WoS+Scopus keyword baseline to beat, a small pre-digital
+  tail (~1959-2023, unlike Egeland''s 1860), is domain-distinct from Case 2, already
+  contains an internal citation-network analysis, and EXPLICITLY flags that keyword
+  search missed older work (BHL returned 557 more) -- so our citation-expansion recall
+  test directly answers a limitation the authors raised. My earlier ''Stewart coded
+  all 596 with no winnow'' was unverified and false. Adrian chose full L1-L4 + both-reproducibility
+  for maximum claim strength given Stewart removes the human bottleneck from the recall
+  step.'
+alternatives_rejected: []
+bets_affected: []
+logged: '2026-06-02'
+source: null

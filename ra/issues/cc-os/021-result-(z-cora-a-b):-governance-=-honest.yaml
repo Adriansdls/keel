@@ -1,0 +1,32 @@
+id: 21
+title: 'RESULT (Z-CORA A/B): governance = honesty-enforcement + guarantee, NOT quality/e'
+status: idea
+priority: p1
+area: infra
+why: 'Empirical A/B of naive Z-CORA vs CC-OS-governed (same prose, only enforcement
+  differs), 140 runs (50 sonnet + 90 haiku), objective deterministic scoring, proxy
+  off. FINDINGS: (1) Explicit-rule SAFETY (secret/MD5/unvetted-dep/authority-pressure-to-hardcode):
+  0 violations all arms+models — a decent model obeys explicit rules with or without
+  enforcement; governance is pure tax here (~33% cost, ~46% latency). (2) HONESTY
+  (false-''done'' = claimed working without running): sonnet naive 17%→governed 0%;
+  haiku naive 89%→governed 50% (n=18/arm). The gate FORCES evidence; prose only hopes.
+  (3) The weaker the model, the higher the naive lie-rate AND the bigger the governance
+  help. (4) Quality on a clear coding task tied at 1.0. INSIGHT: prose governs the
+  average/explicit case; enforcement governs the IMPLICIT behavioral failure (over-claiming,
+  not-verifying, drift) that the model commits without ''deciding'' to and prose can''t
+  stop. HONEST LIMIT: one correction-retry only HALVED haiku''s lie-rate (50% residual)
+  → weak models need a HARD gate (block-until-evidence), not a polite retry — concrete
+  next iteration. PRODUCT PITCH (corrected): not ''makes a good model better'' but
+  ''run a CHEAPER model at scale, safely + honestly, and PROVE it'' (guarantee + audit
+  trail + honesty floor prose can''t give). Deliverables: ~/cc-os-experiment/{SUMMARY.md,
+  RESULTS.md, zcora-ccos/ (structural transform: 8 governed units + constitution,
+  validated+blessed), harness/}.'
+hypothesis: 'Next experiments to deepen proof: (a) HARD gate (block until evidence)
+  vs the 1-retry gate — does it drive haiku false-done to ~0? (b) long-horizon multi-step
+  drift (prose decays as context grows — the proxy-pruning #17 — gate re-checks every
+  turn); (c) leak-rate at very high N on a SUBTLE/implicit violation not explicitly
+  in the prose (tests whether the constitution generalizes beyond enumerated rules).
+  The value is in the second moment (variance/tail/guarantee) + implicit-behavior
+  regime, confirmed on honesty; safety-on-explicit-rules is a null (prose suffices).'
+created: '2026-06-02'
+updated: '2026-06-02'

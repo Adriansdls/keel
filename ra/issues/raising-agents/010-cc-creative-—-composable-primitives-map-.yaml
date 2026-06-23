@@ -1,0 +1,11 @@
+id: 10
+title: CC Creative — composable primitives map content piece
+status: idea
+priority: p3
+area: content
+why: The 12 Claude Code composable primitives no competitor matches (hooks, subagents,
+  teams, skills, MCP, sessions, worktrees, auto-memory, permissions, sandboxing, context
+  mgmt) is the most concrete technical framing of why Claude Code is different. Engineers
+  find this immediately useful.
+created: '2026-05-27'
+updated: '2026-05-27'

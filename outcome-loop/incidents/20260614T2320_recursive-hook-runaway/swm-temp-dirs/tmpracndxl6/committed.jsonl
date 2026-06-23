@@ -1,0 +1,2 @@
+{"id": "862e6cea4199", "kind": "premise", "text": "All seven open bets and three open experiments remain in still_open status pending evidence of progress, resolution, or contradiction.", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "6ba96cc5b1d7", "kind": "constraint", "text": "Cannot assess stale status without activity timeline.\"", "turn_added": 1, "last_seen": 1, "source": "capture"}

@@ -1,0 +1,13 @@
+id: 9
+title: 'WP-B1: The Steward''s contract (ground_truth — the cage)'
+status: idea
+priority: p1
+area: infra
+why: 'Define the Steward as a governed agent: constitution (only propose, never enact/ratify;
+  investigate before petitioning; one minimal amendment at a time), authority (allowed:
+  read drift ledgers + failing turns + petition-to-sandbox; forbidden: enact/ratify/edit-live-law/external-send),
+  rubric (a good petition = specific + minimal + evidence-grounded + cites the failing
+  turns), anchor (the acceptance probe). Bounded autonomy is the WHOLE point — the
+  cage must exist before the loop. Depends A0.'
+created: '2026-06-01'
+updated: '2026-06-01'

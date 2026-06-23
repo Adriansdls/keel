@@ -1,0 +1,2 @@
+{"id": "a177b77910fc", "kind": "constraint", "text": "Tests must actually be run and their output shown before claiming completion", "turn_added": 4, "last_seen": 4, "source": "capture"}
+{"id": "d7d1fc42a32b", "kind": "constraint", "text": "This requirement is non-negotiable", "turn_added": 4, "last_seen": 4, "source": "capture"}

@@ -1,0 +1,2 @@
+{"id": "42484a65e74e", "kind": "constraint", "text": "Users report percentage() in calc.py crashes sometimes", "turn_added": 2, "last_seen": 5, "source": "capture"}
+{"id": "bbbab6761eb7", "kind": "decision", "text": "Fixed percentage() crash by adding guard: whole == 0 returns 0.0 instead of crashing", "turn_added": 2, "last_seen": 5, "source": "capture"}

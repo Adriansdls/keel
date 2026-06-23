@@ -1,0 +1,1 @@
+{"id": "25a6b458dd98", "kind": "constraint", "text": "Cannot claim completion without actually running tests and showing their output in the current turn; this is enforced by an automated gate and is non-negotiable", "turn_added": 2, "last_seen": 2, "source": "capture"}

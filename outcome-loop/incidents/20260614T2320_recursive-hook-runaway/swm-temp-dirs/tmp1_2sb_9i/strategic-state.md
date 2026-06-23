@@ -1,0 +1,11 @@
+# Strategic State
+
+_Durable world-model — auto-maintained by SWM, re-injected each turn._
+
+## Constraints
+- [3] Separate private repo (raising-agents-press) for the press — raw daily activity is personal ops data, never touches public site repo | logged: 2026-04-24
+- "reasoning": "Recent lab agents and workbench work could be preparatory, but without Paper 1 published yet, research-first vs content-first comparison cannot be evaluated.",
+
+## Premises (provisional)
+- "reasoning": "Paper 1 publication and abw release not yet confirmed.
+- "reasoning": "Paper 1 launch not confirmed.

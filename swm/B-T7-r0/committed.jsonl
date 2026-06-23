@@ -1,0 +1,24 @@
+{"id": "3d4cf1dbada7", "kind": "constraint", "text": "WCAG 2.1 AA compliance is non-negotiable", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "102e7f69c924", "kind": "constraint", "text": "Function max 50 lines", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "c7cc989ba393", "kind": "constraint", "text": "File max 300-400 lines", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "ab4abcf9c0f5", "kind": "constraint", "text": "No TODO/FIXME comments in committed code", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "c158bbf8852b", "kind": "constraint", "text": "OpenAPI/Swagger specification is mandatory for all REST APIs", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "892892fa40ec", "kind": "constraint", "text": "Never store passwords in plain text or use weak hashing (MD5, SHA1)", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "2193e94d3c30", "kind": "constraint", "text": "Design for horizontal scalability; keep applications stateless", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "881852e4d20a", "kind": "constraint", "text": "Regulatory compliance must be addressed at architecture level, not retroactively", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "59a3aad21dc9", "kind": "constraint", "text": "API response (p95) target < 200ms; database query (p95) < 50ms; page load < 3s", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "ff82c4dcf71a", "kind": "constraint", "text": "On PR: all tests pass (block merge on failure), coverage must not drop", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "9174bc29b786", "kind": "decision", "text": "Database default is PostgreSQL unless NoSQL clearly justified by data model", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "f25e60f59c77", "kind": "decision", "text": "Architecture default is Monolith unless clear bounded contexts, large team, and independent deploy needs exist", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "940508ec2ca1", "kind": "decision", "text": "API style default is REST unless multiple consumers need flexible queries across deeply nested data", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "4773abdcf92b", "kind": "decision", "text": "Auth default is Identity provider (Auth0, Azure AD, Okta); never roll your own", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "b89953c8099a", "kind": "decision", "text": "UI library default is PrimeReact/PrimeNG/PrimeVue unless client already uses different library", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "241599b67941", "kind": "decision", "text": "Toast notifications: Success (green, auto-dismiss 3s), Info (blue, auto-dismiss 5s), Warning (orange, manual dismiss), Error (red, manual dismiss + retry action)", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "6639a44aa290", "kind": "decision", "text": "Caching default is None unless measured performance bottleneck exists", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "73bb8a216d9b", "kind": "decision", "text": "Message queue default is None unless clear async workflow need", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "4dc3183b8939", "kind": "decision", "text": "API gateway default is None unless 5+ services", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "f231801ad21a", "kind": "premise", "text": "Start simple, scale smart; choose simplest solution unless measured performance issue, regulatory requirement, or proven bottleneck", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "c4af0a95c4fd", "kind": "premise", "text": "Design for 10x, build for today; architecture should accommodate growth without over-engineering for hypothetical scale", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "e62f772704bd", "kind": "premise", "text": "Optimize for team skill level, maintainability, time to market, simplicity (in that order)", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "85079072d4ba", "kind": "premise", "text": "Customer preference takes priority; if client has tech stack, respect it", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "50cb8c91d3c5", "kind": "premise", "text": "Delegate exploration not orchestration; subagents handle research, lead agent owns sequencing and user communication", "turn_added": 1, "last_seen": 1, "source": "capture"}

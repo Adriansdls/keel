@@ -1,0 +1,8 @@
+id: 141
+decision: Implementation includes 395 Python tests plus 10 new tests (8 for window
+  span calculation, 2 for projection regression blocking)
+rationale: (auto-captured from session — see SWM committed.jsonl for full context)
+alternatives_rejected: []
+bets_affected: []
+logged: '2026-06-22'
+source: swm-bridge

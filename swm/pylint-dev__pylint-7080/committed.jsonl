@@ -1,0 +1,4 @@
+{"id": "cb67020b4c9d", "kind": "constraint", "text": "src/gen/* files should not be checked by pylint", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "f92271668991", "kind": "premise", "text": "Bug present: --recursive=y ignores ignore-paths configuration", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "7ca58322d90a", "kind": "decision", "text": "Root cause is in _discover_files() method in pylint/lint/pylinter.py - code checks if directories are ignored but not individual files", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "8a59a7837ae8", "kind": "decision", "text": "Fix by adding ignore-check for individual files before yielding them in the file discovery generator", "turn_added": 1, "last_seen": 1, "source": "capture"}

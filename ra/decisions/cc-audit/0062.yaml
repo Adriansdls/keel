@@ -1,0 +1,9 @@
+id: 62
+decision: 'model_fluency maturity axis is scored 0.0–1.0 using three dimensions: model_entropy
+  (how evenly work spreads across models), distinct_models_fleet (count of models
+  in rotation), and heavy_model_frac (whether expensive models are reserved or overused)'
+rationale: (auto-captured from session — see SWM committed.jsonl for full context)
+alternatives_rejected: []
+bets_affected: []
+logged: '2026-06-16'
+source: swm-bridge

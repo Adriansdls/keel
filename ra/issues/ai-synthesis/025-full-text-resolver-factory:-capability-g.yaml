@@ -1,0 +1,14 @@
+id: 25
+title: 'Full-text resolver factory: capability-gated pluggable resolvers, attempt-driven'
+status: done
+priority: p2
+area: research
+why: 'Full-text access varies per-user (subscriptions/keys) and per-environment (on/off
+  campus network), and is best discovered by TRYING not declaring. Design: Resolver
+  registry + Factory; AccessProfile learned per network fingerprint; ordered fallback
+  chain (cache->OA->EuropePMC->Crossref->Elsevier/Wiley TDM->inst network/browser->manual);
+  resilience via timeout/retry/circuit-breaker/content-validation; denied-vs-not_found
+  distinction powers a ''what access unlocks +N papers'' report. Refactor of fulltext.py.
+  Design doc: docs/fulltext-resolver-factory-design-2026-06-05.md.'
+created: '2026-06-05'
+updated: '2026-06-05'

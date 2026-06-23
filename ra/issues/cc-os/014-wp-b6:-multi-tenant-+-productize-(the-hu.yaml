@@ -1,0 +1,13 @@
+id: 14
+title: 'WP-B6: Multi-tenant + productize (the human-Steward role + client surface)'
+status: idea
+priority: p2
+area: strategy
+why: Make the Steward per-tenant (each team/client has its own constitution + Steward;
+  one agent, N deployments) + define the human-Steward ROLE (who reviews petitions,
+  owns the constitution's evolution — the new org function) + the client accountability
+  surface (the audit trail + the 'your standards are self-improving under your control'
+  story). This is the Zartis/client adoption layer + the category-defining positioning.
+  Depends B4 + A4.
+created: '2026-06-01'
+updated: '2026-06-01'

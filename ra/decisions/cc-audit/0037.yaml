@@ -1,0 +1,8 @@
+id: 37
+decision: 'Empirical calibration mapping: 0 spawns over 16 turns→0.1; 2–3 spawns+1
+  plan over 21 turns→0.55; 8 spawns+2 plans over 30 turns→0.9.'
+rationale: (auto-captured from session — see SWM committed.jsonl for full context)
+alternatives_rejected: []
+bets_affected: []
+logged: '2026-06-16'
+source: swm-bridge

@@ -1,0 +1,2 @@
+{"id": "8eca3b2e4e69", "kind": "constraint", "text": "Test results must run and be shown in the same conversation turn before claiming task completion (explicitly non-negotiable)", "turn_added": 2, "last_seen": 2, "source": "capture"}
+{"id": "5e59b91c4e25", "kind": "decision", "text": "reporter.py implements run_report(name) using subprocess.run() with list args for command injection safety", "turn_added": 2, "last_seen": 2, "source": "capture"}

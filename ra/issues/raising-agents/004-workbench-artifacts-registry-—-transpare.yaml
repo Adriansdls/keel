@@ -1,0 +1,13 @@
+id: 4
+title: Workbench artifacts registry — transparent "The Stack" page listing all built
+  ar
+status: done
+priority: p2
+area: content
+why: Transparency is a stated Raising Agents value. A public registry of what's been
+  built (beast-mode, suit, ra-pm, agenth, agent-registry, cc-creative, etc.) signals
+  credibility and gives readers a map of the work. Low effort, high signal.
+hypothesis: A visible artifact registry increases trust and return visits from engineers
+  who want to track what's being built.
+created: '2026-05-27'
+updated: '2026-05-28'

@@ -1,0 +1,13 @@
+id: 2
+title: Run hyperresearch Brief 2 (archaeology synthesis system design)
+status: in-progress
+priority: p1
+area: research
+why: Turns the impact thesis into a buildable system spec grounded in archaeology's
+  specific pathologies (taxonomic instability, multilingual gray lit, no protocols)
+  and existing tools (AGNES, AUTARCH, CfAS, ADS).
+hypothesis: A world-class archaeology synthesis pipeline must attack conceptual/taxonomic
+  harmonisation, not just data-extraction labour.
+created: '2026-06-01'
+updated: '2026-06-03'
+experiment_id: 1

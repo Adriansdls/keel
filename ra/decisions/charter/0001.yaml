@@ -1,0 +1,8 @@
+id: 1
+decision: 'Implement 4-phase sequence: Detection → Knowledge base → Guardian agent
+  → Migration batching'
+rationale: (auto-captured from session — see SWM committed.jsonl for full context)
+alternatives_rejected: []
+bets_affected: []
+logged: '2026-06-15'
+source: swm-bridge

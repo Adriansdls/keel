@@ -1,0 +1,15 @@
+id: 3
+title: 'WP-A0: Honest audit + the reconciliation decision (the gate)'
+status: done
+priority: p0
+area: infra
+why: 'Everything is blocked on one unsettled fact: the CC OS has TWO overlapping agent
+  frameworks (habitat/libs-agent live vs zartis-agent clean) + the archetype/builder/loop
+  not wired into the live kernel + ~50 observers of unknown keep/dedupe status. A0
+  = the honest, bounded audit that produces THE canonical architecture decision: which
+  framework is canonical (rec: zartis-agent=unit framework, habitat=kernel host),
+  the observer inventory (keep/dedupe/retire), and the named signal sources + petition
+  channel the Steward will use. No code — a map + a ratified decision. Gates A1-A4
+  and B1-B6.'
+created: '2026-06-01'
+updated: '2026-06-01'

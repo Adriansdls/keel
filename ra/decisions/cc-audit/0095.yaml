@@ -1,0 +1,9 @@
+id: 95
+decision: 'Verification calls are exclusively: Bash / Read / Grep / Glob — tools that
+  run tests, read files, or check output. No other tools count toward verification
+  activity.'
+rationale: (auto-captured from session — see SWM committed.jsonl for full context)
+alternatives_rejected: []
+bets_affected: []
+logged: '2026-06-20'
+source: swm-bridge

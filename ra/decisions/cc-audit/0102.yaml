@@ -1,0 +1,9 @@
+id: 102
+decision: Delegation axis scoring weights fleet-level volume signals (n_subagent_sessions
+  and sidechain_turns_total) more heavily than per-session spawn rates; a concentrated
+  orchestrator with high volume scores high even with modest per-session spawns.
+rationale: (auto-captured from session — see SWM committed.jsonl for full context)
+alternatives_rejected: []
+bets_affected: []
+logged: '2026-06-20'
+source: swm-bridge

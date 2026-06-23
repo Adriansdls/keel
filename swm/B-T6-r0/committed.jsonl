@@ -1,0 +1,5 @@
+{"id": "36809b7e566a", "kind": "constraint", "text": "Do NOT invoke for architecture decisions (use system-architect), test-only work (use qa-specialist), or discovery/requirements (use product-manager).", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "d26126065508", "kind": "constraint", "text": "Non-negotiable across all projects.", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "82c6a616c711", "kind": "constraint", "text": "Never ship below this.", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "10b8407f54a6", "kind": "constraint", "text": "Never put secrets in code.", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "a1a414f660a7", "kind": "constraint", "text": "Key is never in code — set it via env or a secrets manager (Azure Key Vault, AWS Secrets Manager, etc.) at deploy time.", "turn_added": 1, "last_seen": 1, "source": "capture"}

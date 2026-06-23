@@ -1,0 +1,34 @@
+{
+  "ts": "2026-06-22T15:55:34+00:00",
+  "turns_since_full": 3,
+  "backend": "rule-only",
+  "results": [
+    {
+      "premise_id": "2953b533d676",
+      "status": "challenged",
+      "evidence": "not evaluated (no backend)",
+      "source": "default",
+      "groundedness": 0.25
+    },
+    {
+      "premise_id": "dca4294ba783",
+      "status": "challenged",
+      "evidence": "not evaluated (no backend)",
+      "source": "default",
+      "groundedness": 0.25
+    },
+    {
+      "premise_id": "b43ff651cf90",
+      "status": "challenged",
+      "evidence": "not evaluated (no backend)",
+      "source": "default",
+      "groundedness": 0.25
+    }
+  ],
+  "invalid": [],
+  "challenged": [
+    "2953b533d676",
+    "dca4294ba783",
+    "b43ff651cf90"
+  ]
+}

@@ -1,0 +1,14 @@
+id: 6
+decision: Paper 1 ships before aggressive audience building — research credibility
+  first
+rationale: 'The audience RA wants (engineers building agents seriously) is credibility-sensitive.
+  Building audience before the research is credible risks attracting the wrong readers
+  and setting wrong expectations. Sequence: paper → credibility → audience growth.'
+alternatives_rejected:
+- grow audience first then validate with research
+- simultaneous paper + content push from day one
+bets_affected:
+- 1
+- 3
+logged: '2026-05-01'
+source: null

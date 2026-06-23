@@ -1,0 +1,9 @@
+{"id": "c0ef1d7cccc8", "kind": "constraint", "text": "All 7 tests in test_utils.py must pass after fix", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "d88d8b8f0e77", "kind": "constraint", "text": "Do NOT change any function signature", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "7c57feea890f", "kind": "constraint", "text": "Do NOT add any new import statements", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "59d3d134c21f", "kind": "constraint", "text": "Add a docstring to every function modified", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "7dfcb1a99169", "kind": "premise", "text": "Exactly 4 bugs, one in each function", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "623639e2b847", "kind": "premise", "text": "calculate_discount: price + should be price -", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "2841a85ba4b6", "kind": "premise", "text": "paginate: page * page_size should be (page - 1) * page_size", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "14b3139f8d6e", "kind": "premise", "text": "normalize_scores: / max_val should be / (max_val - min_val)", "turn_added": 1, "last_seen": 1, "source": "capture"}
+{"id": "69e06ef95c03", "kind": "premise", "text": "batch_process: range(..., 1) should be range(..., batch_size)", "turn_added": 1, "last_seen": 1, "source": "capture"}

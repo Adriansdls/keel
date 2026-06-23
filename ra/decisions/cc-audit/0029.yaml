@@ -1,0 +1,9 @@
+id: 29
+decision: Target session (413 turns, 1 task spawn, 0 plan uses) scores 0.14 (L1) on
+  delegation axis; spawn density 0.0024 vs ~0.095 baseline for L2-L3 confirms solo
+  executor pattern without orchestration.
+rationale: (auto-captured from session — see SWM committed.jsonl for full context)
+alternatives_rejected: []
+bets_affected: []
+logged: '2026-06-16'
+source: swm-bridge

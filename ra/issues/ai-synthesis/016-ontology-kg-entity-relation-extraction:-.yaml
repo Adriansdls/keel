@@ -1,0 +1,12 @@
+id: 16
+title: 'Ontology/KG entity-relation extraction: relevance as schema instantiation
+  (filte'
+status: idea
+priority: p1
+area: research
+why: 'Adrian''s idea: relevance as schema instantiation not similarity. Discrimination
+  is in the typed relation reports_extinction_event(taxon,period), not class-bag presence.
+  Use A precision filter; Use B the KG IS the synthesis deliverable AND structural
+  tool to adjudicate gold-disagreements. Thesis-core.'
+created: '2026-06-05'
+updated: '2026-06-05'

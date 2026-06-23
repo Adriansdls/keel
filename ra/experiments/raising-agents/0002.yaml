@@ -1,0 +1,15 @@
+id: 2
+hypothesis: If first 5 Behavior Watch issues maintain >40% open rate and artifact-focused
+  issues outperform narrative ones on click-through, the format (bi-weekly + one artifact)
+  is validated for target audience
+bet_id: 2
+method: 'Track open rate, click rate, reply count per issue. Classify each issue:
+  artifact-heavy (trace teardown, contract, tool) vs narrative-heavy. Compare engagement
+  by type. Run after issues 001–005.'
+expected_learning: 'Positive: validates bi-weekly + artifact format → stay the course.
+  Negative: low engagement even with good artifacts → audience mismatch or format
+  wrong → need to test different cadence or format. Either: concrete data on what
+  this specific audience engages with.'
+status: running
+started: '2026-05-04'
+completed: null

@@ -1,0 +1,9 @@
+id: 5
+decision: If forced to pick one OKR to lead, choose OKR 1 (Alignment Playbook) due
+  to Angel's explicit sequencing (alignment before development) and strongest commercial
+  pull from Anthropic on alignment
+rationale: (auto-captured from session — see SWM committed.jsonl for full context)
+alternatives_rejected: []
+bets_affected: []
+logged: '2026-06-16'
+source: swm-bridge

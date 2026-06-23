@@ -1,0 +1,7 @@
+{"id": "17690877a497", "kind": "constraint", "text": "Tier boundaries are exact: units 1–10 cost base each; 11–50 cost 90% of base; 51+ cost 80% of base", "turn_added": 2, "last_seen": 2, "source": "capture"}
+{"id": "bbb7d8044b1d", "kind": "constraint", "text": "Minimum charge floor: if computed total < $5.00, result is $5.00", "turn_added": 2, "last_seen": 2, "source": "capture"}
+{"id": "f96fbd80fe34", "kind": "constraint", "text": "Result must be rounded to 2 decimal places", "turn_added": 2, "last_seen": 2, "source": "capture"}
+{"id": "0e78b4bee8e2", "kind": "decision", "text": "Test strategy: validate boundaries via price differences (10→11 must differ by $9, 50→51 by $8) to catch off-by-one mutations", "turn_added": 2, "last_seen": 2, "source": "capture"}
+{"id": "878feb5c309a", "kind": "decision", "text": "Test strategy: verify exact discount rates (90%, 80%) and minimum charge as separate concerns to isolate mutation types", "turn_added": 2, "last_seen": 2, "source": "capture"}
+{"id": "1f831d8de7e5", "kind": "premise", "text": "Acceptance test quality is measured by mutation testing: must fail on off-by-one boundaries, wrong rates, missing minimum, or wrong/missing rounding", "turn_added": 2, "last_seen": 2, "source": "capture"}
+{"id": "1e194fd5fe1a", "kind": "elimination", "text": "Single happy-path test is insufficient; must comprehensively pin all spec clauses", "turn_added": 2, "last_seen": 2, "source": "capture"}

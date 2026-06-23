@@ -1,0 +1,8 @@
+id: 134
+decision: User choice between scan-only and scan+interview flows moved from mid-flow
+  screen to landing page to eliminate detour
+rationale: (auto-captured from session — see SWM committed.jsonl for full context)
+alternatives_rejected: []
+bets_affected: []
+logged: '2026-06-22'
+source: swm-bridge

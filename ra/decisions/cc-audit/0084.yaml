@@ -1,0 +1,8 @@
+id: 84
+decision: Heuristic scoring verdicts and axis verdicts from aggregate signals are
+  not certified operational assertions; must be labeled unverified in prose
+rationale: (auto-captured from session — see SWM committed.jsonl for full context)
+alternatives_rejected: []
+bets_affected: []
+logged: '2026-06-19'
+source: swm-bridge

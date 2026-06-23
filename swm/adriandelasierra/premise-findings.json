@@ -1,0 +1,435 @@
+{
+  "ts": "2026-06-22T16:41:05+00:00",
+  "turns_since_full": 0,
+  "backend": "default+sonnet(shared.llm)+trust-gated",
+  "results": [
+    {
+      "premise_id": "482eb61111b9",
+      "status": "challenged",
+      "evidence": "not evaluated (no backend)",
+      "source": "default",
+      "groundedness": 0.25
+    },
+    {
+      "premise_id": "184824f496f7",
+      "status": "challenged",
+      "evidence": "not evaluated (no backend)",
+      "source": "default",
+      "groundedness": 0.25
+    },
+    {
+      "premise_id": "ce6091af10df",
+      "status": "challenged",
+      "evidence": "not evaluated (no backend)",
+      "source": "default",
+      "groundedness": 0.25
+    },
+    {
+      "premise_id": "486d13b1a309",
+      "status": "challenged",
+      "evidence": "not evaluated (no backend)",
+      "source": "default",
+      "groundedness": 0.25
+    },
+    {
+      "premise_id": "3d56484facaf",
+      "status": "challenged",
+      "evidence": "not evaluated (no backend)",
+      "source": "default",
+      "groundedness": 0.25
+    },
+    {
+      "premise_id": "233603bb87ce",
+      "status": "challenged",
+      "evidence": "not evaluated (no backend)",
+      "source": "default",
+      "groundedness": 0.25
+    },
+    {
+      "premise_id": "a8f3eb2136bc",
+      "status": "challenged",
+      "evidence": "not evaluated (no backend)",
+      "source": "default",
+      "groundedness": 0.25
+    },
+    {
+      "premise_id": "d2dd53ff30c9",
+      "status": "challenged",
+      "evidence": "not evaluated (no backend)",
+      "source": "default",
+      "groundedness": 0.25
+    },
+    {
+      "premise_id": "316e8909dcd1",
+      "status": "challenged",
+      "evidence": "not evaluated (no backend)",
+      "source": "default",
+      "groundedness": 0.25
+    },
+    {
+      "premise_id": "a133552d1aab",
+      "status": "challenged",
+      "evidence": "not evaluated (no backend)",
+      "source": "default",
+      "groundedness": 0.25
+    },
+    {
+      "premise_id": "58f05922f4d9",
+      "status": "challenged",
+      "evidence": "not evaluated (no backend)",
+      "source": "default",
+      "groundedness": 0.25
+    },
+    {
+      "premise_id": "860acc56bfc3",
+      "status": "challenged",
+      "evidence": "not evaluated (no backend)",
+      "source": "default",
+      "groundedness": 0.25
+    },
+    {
+      "premise_id": "db31594747cc",
+      "status": "challenged",
+      "evidence": "not evaluated (no backend)",
+      "source": "default",
+      "groundedness": 0.25
+    },
+    {
+      "premise_id": "8e8d24f49f7f",
+      "status": "challenged",
+      "evidence": "not evaluated (no backend)",
+      "source": "default",
+      "groundedness": 0.25
+    },
+    {
+      "premise_id": "36a0acfd087d",
+      "status": "challenged",
+      "evidence": "not evaluated (no backend)",
+      "source": "default",
+      "groundedness": 0.25
+    },
+    {
+      "premise_id": "3b8aa017739e",
+      "status": "challenged",
+      "evidence": "not evaluated (no backend)",
+      "source": "default",
+      "groundedness": 0.25
+    },
+    {
+      "premise_id": "a95022723ead",
+      "status": "challenged",
+      "evidence": "not evaluated (no backend)",
+      "source": "default",
+      "groundedness": 0.25
+    },
+    {
+      "premise_id": "b286869c4116",
+      "status": "challenged",
+      "evidence": "not evaluated (no backend)",
+      "source": "default",
+      "groundedness": 0.25
+    },
+    {
+      "premise_id": "5cdb4820958a",
+      "status": "challenged",
+      "evidence": "not evaluated (no backend)",
+      "source": "default",
+      "groundedness": 0.25
+    },
+    {
+      "premise_id": "7e1fc3b57ae1",
+      "status": "challenged",
+      "evidence": "not evaluated (no backend)",
+      "source": "default",
+      "groundedness": 0.25
+    },
+    {
+      "premise_id": "ca484808dc09",
+      "status": "challenged",
+      "evidence": "not evaluated (no backend)",
+      "source": "default",
+      "groundedness": 0.25
+    },
+    {
+      "premise_id": "6df408711b0a",
+      "status": "challenged",
+      "evidence": "not evaluated (no backend)",
+      "source": "default",
+      "groundedness": 0.25
+    },
+    {
+      "premise_id": "b32d345174e5",
+      "status": "challenged",
+      "evidence": "not evaluated (no backend)",
+      "source": "default",
+      "groundedness": 0.25
+    },
+    {
+      "premise_id": "8dfbe9c0858f",
+      "status": "challenged",
+      "evidence": "not evaluated (no backend)",
+      "source": "default",
+      "groundedness": 0.25
+    },
+    {
+      "premise_id": "aeaefa20a86c",
+      "status": "challenged",
+      "evidence": "not evaluated (no backend)",
+      "source": "default",
+      "groundedness": 0.25
+    },
+    {
+      "premise_id": "1a1c37b04efe",
+      "status": "challenged",
+      "evidence": "not evaluated (no backend)",
+      "source": "default",
+      "groundedness": 0.25
+    },
+    {
+      "premise_id": "9c264b9092f4",
+      "status": "challenged",
+      "evidence": "not evaluated (no backend)",
+      "source": "default",
+      "groundedness": 0.25
+    },
+    {
+      "premise_id": "a233ac8f76cf",
+      "status": "challenged",
+      "evidence": "not evaluated (no backend)",
+      "source": "default",
+      "groundedness": 0.25
+    },
+    {
+      "premise_id": "c50e942260db",
+      "status": "challenged",
+      "evidence": "not evaluated (no backend)",
+      "source": "default",
+      "groundedness": 0.25
+    },
+    {
+      "premise_id": "4d9bb8b89f96",
+      "status": "challenged",
+      "evidence": "not evaluated (no backend)",
+      "source": "default",
+      "groundedness": 0.25
+    },
+    {
+      "premise_id": "ab5d814923fc",
+      "status": "valid",
+      "evidence": "No evidence in recent context contradicts Guardian Phase 1/2 completion or Phase 3 readiness",
+      "source": "sonnet(shared.llm)",
+      "groundedness": 1.0
+    },
+    {
+      "premise_id": "d40e85f57c80",
+      "status": "valid",
+      "evidence": "Ledger fork at record 179 not mentioned in recent git operations context",
+      "source": "sonnet(shared.llm)",
+      "groundedness": 1.0
+    },
+    {
+      "premise_id": "f45c1d26c671",
+      "status": "valid",
+      "evidence": "Truncated operational stamps assessment unaffected by recent branch cleanup",
+      "source": "sonnet(shared.llm)",
+      "groundedness": 1.0
+    },
+    {
+      "premise_id": "a8fa5fc37aee",
+      "status": "valid",
+      "evidence": "Audit trail preservation claim not challenged by recent repo sync work",
+      "source": "sonnet(shared.llm)",
+      "groundedness": 1.0
+    },
+    {
+      "premise_id": "98cfefd427ed",
+      "status": "valid",
+      "evidence": "4-step Terminal process for charter unblocking not referenced in recent context",
+      "source": "sonnet(shared.llm)",
+      "groundedness": 1.0
+    },
+    {
+      "premise_id": "fac3615502c6",
+      "status": "valid",
+      "evidence": "Attest ledger corruption as root cause unchanged by recent git operations",
+      "source": "sonnet(shared.llm)",
+      "groundedness": 1.0
+    },
+    {
+      "premise_id": "2f7cc2e2c4bb",
+      "status": "valid",
+      "evidence": "Charter SWM staleness cycle not addressed in recent branch fixes",
+      "source": "sonnet(shared.llm)",
+      "groundedness": 1.0
+    },
+    {
+      "premise_id": "e27b2d733ee1",
+      "status": "valid",
+      "evidence": "Guardian Phase 3 behavior specification unaffected by repo sync operations",
+      "source": "sonnet(shared.llm)",
+      "groundedness": 1.0
+    },
+    {
+      "premise_id": "d0a6d69a0d35",
+      "status": "challenged",
+      "evidence": "Recent context shows concrete git operations (branch fixes, repo pushes), not exploratory research\u2014unclear which task this premise references",
+      "source": "sonnet(shared.llm)",
+      "groundedness": 0.863
+    },
+    {
+      "premise_id": "a7cfff115dc0",
+      "status": "valid",
+      "evidence": "Proxy integration gap claim unrelated to recent git/branch work",
+      "source": "sonnet(shared.llm)",
+      "groundedness": 1.0
+    },
+    {
+      "premise_id": "8e0ea8ed603a",
+      "status": "valid",
+      "evidence": "24-hour event log session lifecycle analysis not invalidated by recent operations",
+      "source": "sonnet(shared.llm)",
+      "groundedness": 1.0
+    },
+    {
+      "premise_id": "5922c5ec09d4",
+      "status": "valid",
+      "evidence": "Permission/policy observer convergence finding unaffected by branch cleanup",
+      "source": "sonnet(shared.llm)",
+      "groundedness": 1.0
+    },
+    {
+      "premise_id": "10ae7d018c82",
+      "status": "challenged",
+      "evidence": "[trust-gated: ungrounded valid g=0.25] Event distribution across projects not contradicted by recent single-repo operations",
+      "source": "trust-gated",
+      "groundedness": 0.25
+    },
+    {
+      "premise_id": "1a596309fd00",
+      "status": "valid",
+      "evidence": "Domain primer quality claim unrelated to git branch operations",
+      "source": "sonnet(shared.llm)",
+      "groundedness": 1.0
+    },
+    {
+      "premise_id": "75def015e58e",
+      "status": "valid",
+      "evidence": "Suit extraction framework description unchanged by recent context",
+      "source": "sonnet(shared.llm)",
+      "groundedness": 1.0
+    },
+    {
+      "premise_id": "076b65cb6563",
+      "status": "valid",
+      "evidence": "cto-strategy reference implementation status unaffected by repo sync",
+      "source": "sonnet(shared.llm)",
+      "groundedness": 1.0
+    },
+    {
+      "premise_id": "17ba04866a50",
+      "status": "valid",
+      "evidence": "Historical AI-Summit-Attendee-Vault pattern not challenged by recent work",
+      "source": "sonnet(shared.llm)",
+      "groundedness": 1.0
+    },
+    {
+      "premise_id": "5ecd44e57878",
+      "status": "valid",
+      "evidence": "Academy curriculum local clone status not mentioned in recent context",
+      "source": "sonnet(shared.llm)",
+      "groundedness": 1.0
+    },
+    {
+      "premise_id": "668d81edaf4f",
+      "status": "valid",
+      "evidence": "Phase-B human labels task status unrelated to git operations",
+      "source": "sonnet(shared.llm)",
+      "groundedness": 1.0
+    },
+    {
+      "premise_id": "d88902aa1aaa",
+      "status": "challenged",
+      "evidence": "Generic 'Pending Tasks' label too vague to verify against recent concrete git operations",
+      "source": "sonnet(shared.llm)",
+      "groundedness": 0.25
+    },
+    {
+      "premise_id": "32dfb1a11da5",
+      "status": "valid",
+      "evidence": "Code compilation and pending e2e test status not contradicted by branch fixes",
+      "source": "sonnet(shared.llm)",
+      "groundedness": 1.0
+    },
+    {
+      "premise_id": "6663d4d29e6b",
+      "status": "valid",
+      "evidence": "Operational claims definition unaffected by recent context",
+      "source": "sonnet(shared.llm)",
+      "groundedness": 1.0
+    },
+    {
+      "premise_id": "08460c95f874",
+      "status": "valid",
+      "evidence": "Agent provenance handling signal finding unrelated to git branch work",
+      "source": "sonnet(shared.llm)",
+      "groundedness": 1.0
+    },
+    {
+      "premise_id": "bffe4542099b",
+      "status": "valid",
+      "evidence": "Dashboard tabs rendering status not mentioned in recent repo operations",
+      "source": "sonnet(shared.llm)",
+      "groundedness": 1.0
+    },
+    {
+      "premise_id": "9bf4af408da2",
+      "status": "valid",
+      "evidence": "Structural darkness of hooks/MCP/memory not addressed in recent git fixes",
+      "source": "sonnet(shared.llm)",
+      "groundedness": 1.0
+    },
+    {
+      "premise_id": "b181bb95c577",
+      "status": "valid",
+      "evidence": "Tier 2-to-3 gap characterization unchanged by recent branch cleanup",
+      "source": "sonnet(shared.llm)",
+      "groundedness": 1.0
+    }
+  ],
+  "invalid": [],
+  "challenged": [
+    "482eb61111b9",
+    "184824f496f7",
+    "ce6091af10df",
+    "486d13b1a309",
+    "3d56484facaf",
+    "233603bb87ce",
+    "a8f3eb2136bc",
+    "d2dd53ff30c9",
+    "316e8909dcd1",
+    "a133552d1aab",
+    "58f05922f4d9",
+    "860acc56bfc3",
+    "db31594747cc",
+    "8e8d24f49f7f",
+    "36a0acfd087d",
+    "3b8aa017739e",
+    "a95022723ead",
+    "b286869c4116",
+    "5cdb4820958a",
+    "7e1fc3b57ae1",
+    "ca484808dc09",
+    "6df408711b0a",
+    "b32d345174e5",
+    "8dfbe9c0858f",
+    "aeaefa20a86c",
+    "1a1c37b04efe",
+    "9c264b9092f4",
+    "a233ac8f76cf",
+    "c50e942260db",
+    "4d9bb8b89f96",
+    "d0a6d69a0d35",
+    "10ae7d018c82",
+    "d88902aa1aaa"
+  ]
+}
