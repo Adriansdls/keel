@@ -16,7 +16,7 @@ from __future__ import annotations
 
 import json
 import sys
-from datetime import date, datetime, timedelta
+from datetime import date, datetime
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
@@ -126,6 +126,7 @@ def _build_context(project_id: str, cfg) -> str:
 def _apply_verdicts(project_id: str, report: OutcomeReport) -> list[str]:
     applied: list[str] = []
     for v in report.verdicts:
+        v.project_id = project_id
         store.save_verdict(v)
         try:
             if v.target_type == "bet":
@@ -177,7 +178,21 @@ def _apply_verdicts(project_id: str, report: OutcomeReport) -> list[str]:
 
 # ── Public API ────────────────────────────────────────────────────────────────
 
-def run_project(project_id: str) -> OutcomeReport | None:
+def project_has_actionable(project_id: str) -> bool:
+    """Whether a project currently has anything the outcome loop can judge."""
+    cfg = store.load_config()
+    today = date.today()
+    return (
+        any(b.status == BetStatus.active for b in store.load_bets(project_id))
+        or any(e.status == ExperimentStatus.running for e in store.load_experiments(project_id))
+        or any(
+            d.logged and (today - d.logged).days >= cfg.outcomes.decision_check_after_days
+            for d in store.load_decisions(project_id)
+        )
+    )
+
+
+def run_project(project_id: str, *, raise_on_error: bool = False) -> OutcomeReport | None:
     """Run the outcome loop for one project. Returns None if nothing to review."""
     cfg = store.load_config()
     ctx = _build_context(project_id, cfg)
@@ -185,16 +200,7 @@ def run_project(project_id: str) -> OutcomeReport | None:
         return None
 
     # Nothing actionable — skip Sonnet call
-    has_bets  = bool([b for b in store.load_bets(project_id)
-                      if b.status == BetStatus.active])
-    has_exps  = bool([e for e in store.load_experiments(project_id)
-                      if e.status == ExperimentStatus.running])
-    today     = date.today()
-    has_olddec = any(
-        d.logged and (today - d.logged).days >= cfg.outcomes.decision_check_after_days
-        for d in store.load_decisions(project_id)
-    )
-    if not (has_bets or has_exps or has_olddec):
+    if not project_has_actionable(project_id):
         return None
 
     try:
@@ -205,6 +211,8 @@ def run_project(project_id: str) -> OutcomeReport | None:
             model=Model.smart,
         )
     except LLMExtractionError:
+        if raise_on_error:
+            raise
         return None
 
     _apply_verdicts(project_id, report)

@@ -8,6 +8,7 @@ Fail-open: exit 0 on any error, never blocks the user.
 from __future__ import annotations
 
 import json
+import os
 import sys
 from pathlib import Path
 
@@ -26,15 +27,17 @@ def _read_event() -> dict:
         return {}
 
 
-def _turn_count(project_id: str) -> int:
+def _turn_count(event: dict) -> int:
     try:
-        from shared.store import load_turn_counter
-        return load_turn_counter(project_id)
+        from swm.swm_paths import resolve
+        return int(resolve(event).turn_counter.read_text().strip())
     except Exception:
         return 0
 
 
 def main() -> int:
+    if os.environ.get("KEEL_INTERNAL_LLM") == "1":
+        return 0
     event = _read_event()
     cwd = event.get("cwd", "")
 
@@ -45,13 +48,17 @@ def main() -> int:
         return 0
 
     # Throttle: only fire every N turns
-    turns = _turn_count(project_id)
-    if turns % _EVERY_N_TURNS != 0:
+    turns = _turn_count(event)
+    if turns <= 0 or turns % _EVERY_N_TURNS != 0:
         return 0
 
     try:
+        from shared.runtime import try_lock
         from entropy.cadence import run_if_due
-        report = run_if_due()
+        with try_lock("entropy") as acquired:
+            if not acquired:
+                return 0
+            report = run_if_due()
         if report:
             print(f"[entropy] brief complete — leakage: {report.leakage_rate}, "
                   f"dormant: {report.dormant_idea_count}", file=sys.stderr)

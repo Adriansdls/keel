@@ -17,6 +17,7 @@ block to stdout (which lands in the model's next-turn context), always exit 0
 from __future__ import annotations
 
 import json
+import os
 import sys
 from pathlib import Path
 
@@ -58,6 +59,8 @@ def _bump_counter() -> int:
 
 
 def main() -> int:
+    if os.environ.get("KEEL_INTERNAL_LLM") == "1":
+        return 0
     if disabled():
         return 0
     event = _read_event()

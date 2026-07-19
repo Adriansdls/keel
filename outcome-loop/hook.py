@@ -1,19 +1,13 @@
 #!/usr/bin/env python3
-"""Stop hook — outcome loop cadence trigger.
-
-Runs every 40 turns (less frequent than entropy — Sonnet is more expensive).
-Calls cadence.run_if_due() — returns immediately if conditions not met.
-Fail-open: exit 0 on any error.
-"""
+"""Stop hook: trigger one incremental global outcome review when due."""
 from __future__ import annotations
 
 import json
+import os
 import sys
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
-
-_EVERY_N_TURNS = 40
 
 
 def _read_event() -> dict:
@@ -25,41 +19,29 @@ def _read_event() -> dict:
 
 
 def main() -> int:
+    if os.environ.get("KEEL_INTERNAL_LLM") == "1":
+        return 0
     event = _read_event()
-    cwd   = event.get("cwd", "")
-
     try:
-        from shared.store import match_project_by_cwd, load_turn_counter
-        project_id = match_project_by_cwd(cwd) or "_global"
-        turns = load_turn_counter(project_id)
-    except Exception:
-        return 0
+        from shared.store import match_project_by_cwd
+        if not match_project_by_cwd(event.get("cwd", "")):
+            return 0
 
-    if turns % _EVERY_N_TURNS != 0:
-        return 0
-
-    try:
-        # Dynamic import — avoids hyphenated package issue
-        import importlib.util as _ilu
-        _spec = _ilu.spec_from_file_location(
-            "cadence", Path(__file__).parent / "cadence.py")
-        _mod = _ilu.module_from_spec(_spec)
-        _spec.loader.exec_module(_mod)
-
-        results = _mod.run_if_due()
-        if results:
-            n_verdicts = sum(len(r.verdicts) for r in results.values())
-            print(f"[outcome-loop] {len(results)} project(s) reviewed, "
-                  f"{n_verdicts} verdict(s)", file=sys.stderr)
-    except Exception as e:
-        print(f"[outcome-loop] hook error (fail-open): {e}", file=sys.stderr)
-
+        import importlib.util
+        spec = importlib.util.spec_from_file_location("outcome_cadence", Path(__file__).parent / "cadence.py")
+        module = importlib.util.module_from_spec(spec)
+        spec.loader.exec_module(module)
+        result = module.run_if_due(event)
+        if result:
+            print(
+                f"[outcome-loop] {result['project_id']} {result['status']} "
+                f"({result.get('verdict_count', 0)} verdicts)",
+                file=sys.stderr,
+            )
+    except Exception as exc:
+        print(f"[outcome-loop] hook error (fail-open): {exc}", file=sys.stderr)
     return 0
 
 
 if __name__ == "__main__":
-    try:
-        sys.exit(main())
-    except Exception as e:
-        print(f"[outcome-loop] fatal (fail-open): {e}", file=sys.stderr)
-        sys.exit(0)
+    sys.exit(main())

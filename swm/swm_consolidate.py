@@ -15,6 +15,7 @@ from __future__ import annotations
 import json
 import os
 import re
+import signal
 import subprocess
 import sys
 import tempfile
@@ -25,6 +26,7 @@ sys.path.insert(0, str(HERE))
 import swm_store as store  # noqa: E402
 
 SUB_ENV = {k: v for k, v in os.environ.items() if k not in ("ANTHROPIC_API_KEY", "ANTHROPIC_AUTH_TOKEN")}
+SUB_ENV["KEEL_INTERNAL_LLM"] = "1"
 
 _PROMPT = (
     "You are consolidating a project's durable strategic memory. Below is a JSON list of facts, "
@@ -43,11 +45,19 @@ _PROMPT = (
 
 def _sonnet(payload: str, timeout: float = 90.0) -> list[dict]:
     with tempfile.TemporaryDirectory() as td:
-        p = subprocess.run(
+        proc = subprocess.Popen(
             ["claude", "-p", "--model", "sonnet", "--output-format", "json", "--setting-sources", "project",
              _PROMPT + payload],
-            cwd=td, capture_output=True, text=True, timeout=timeout, env=SUB_ENV, stdin=subprocess.DEVNULL,
+            cwd=td, stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True,
+            env=SUB_ENV, stdin=subprocess.DEVNULL, start_new_session=True,
         )
+        try:
+            stdout, stderr = proc.communicate(timeout=timeout)
+        except subprocess.TimeoutExpired:
+            os.killpg(proc.pid, signal.SIGKILL)
+            proc.communicate()
+            raise
+        p = subprocess.CompletedProcess(proc.args, proc.returncode, stdout, stderr)
     if not p.stdout.strip():
         raise RuntimeError(f"empty stdout rc={p.returncode}")
     outer = json.loads(p.stdout)

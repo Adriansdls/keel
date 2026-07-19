@@ -13,6 +13,7 @@ Fail-open: any error → exit 0, never blocks the user.
 from __future__ import annotations
 
 import json
+import os
 import sys
 from datetime import date
 from pathlib import Path
@@ -154,6 +155,8 @@ def _apply(ev, project_id: str) -> str | None:
 # ── Main ──────────────────────────────────────────────────────────────────────
 
 def main() -> int:
+    if os.environ.get("KEEL_INTERNAL_LLM") == "1":
+        return 0
     event = _read_event()
     tpath = event.get("transcript_path", "")
     if not tpath:

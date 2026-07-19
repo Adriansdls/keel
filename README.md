@@ -26,6 +26,9 @@ Once installed, keel runs silently in the background on every Claude Code sessio
 - **Watches for entropy** — notices when ideas pile up unacted on, projects go dark, or the field gets illegible.
 - **Closes the loop** — retrospectively checks whether open bets have resolved and decisions are being honored.
 
+Outcome reviews are incremental: each eligible Stop event reviews at most one
+globally due project, with machine-wide locking to prevent overlapping reviews.
+
 ---
 
 ## Project tools (available in every Claude session)

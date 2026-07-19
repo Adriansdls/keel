@@ -393,6 +393,8 @@ def _payload_cwd() -> str | None:
 
 
 def main():
+    if os.environ.get("KEEL_INTERNAL_LLM") == "1":
+        return 0
     if not DATA.exists():
         return
 

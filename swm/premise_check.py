@@ -17,6 +17,7 @@ findings land and surface on the next turn. Fail-open: any error → exit 0.
 from __future__ import annotations
 
 import json
+import os
 import re
 import sys
 from datetime import datetime, timezone
@@ -90,6 +91,8 @@ def _bump() -> int:
 
 
 def main() -> int:
+    if os.environ.get("KEEL_INTERNAL_LLM") == "1":
+        return 0
     if disabled():
         return 0
     event = _read_event()

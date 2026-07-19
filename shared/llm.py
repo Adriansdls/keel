@@ -27,6 +27,7 @@ from __future__ import annotations
 
 import json
 import os
+import signal
 import subprocess
 import tempfile
 import sys
@@ -225,7 +226,9 @@ def _safe_env() -> dict:
     Forces the CLI to use subscription auth.
     """
     strip = {"ANTHROPIC_API_KEY", "ANTHROPIC_AUTH_TOKEN"}
-    return {k: v for k, v in os.environ.items() if k not in strip}
+    env = {k: v for k, v in os.environ.items() if k not in strip}
+    env["KEEL_INTERNAL_LLM"] = "1"
+    return env
 
 
 def _strip_code_fences(text: str) -> str:
@@ -252,19 +255,24 @@ def _call_subprocess(prompt: str, resolved_model: str, timeout: int) -> str:
     """
     try:
         with tempfile.TemporaryDirectory() as tmp_cwd:
-            result = subprocess.run(
+            proc = subprocess.Popen(
                 [
                     "claude", "-p",
                     "--model", resolved_model,
                     "--output-format", "json",
+                    "--setting-sources", "project",
                     prompt,
                 ],
-                capture_output=True,
+                stdout=subprocess.PIPE,
+                stderr=subprocess.PIPE,
                 text=True,
-                timeout=timeout,
                 stdin=subprocess.DEVNULL,
                 cwd=tmp_cwd,   # neutral cwd — no project hooks, no auth conflicts
+                env=_safe_env(),
+                start_new_session=True,
             )
+            stdout, stderr = proc.communicate(timeout=timeout)
+            result = subprocess.CompletedProcess(proc.args, proc.returncode, stdout, stderr)
     except FileNotFoundError:
         raise LLMExtractionError(
             "⚠  keel needs Claude Code to be installed.\n"
@@ -272,6 +280,11 @@ def _call_subprocess(prompt: str, resolved_model: str, timeout: int) -> str:
             "   Once installed, try again."
         )
     except subprocess.TimeoutExpired:
+        try:
+            os.killpg(proc.pid, signal.SIGKILL)
+            proc.communicate()
+        except Exception:
+            pass
         raise LLMExtractionError(f"LLM call timed out after {timeout}s")
 
     if result.returncode != 0:
@@ -395,6 +408,7 @@ def _extract_sdk(
             "input_schema": json_schema,
         }],
         tool_choice={"type": "tool", "name": "extract"},  # force tool use — no prose possible
+        timeout=_timeout(model),
     )
 
     # Tool response is already a dict — no parsing needed

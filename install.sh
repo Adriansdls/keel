@@ -123,20 +123,20 @@ settings_path = Path("$CLAUDE_SETTINGS")
 packages     = Path("$PACKAGES")
 venv_python  = Path("$VENV/bin/python")
 
-# Map: event → list of (command, timeout)
+# Map: event → desired hook specifications. Re-runs reconcile existing keel hooks.
 HOOKS = {
     "UserPromptSubmit": [
-        (str(venv_python) + " " + str(packages / "swm/inject.py"),        5),
+        {"command": str(venv_python) + " " + str(packages / "swm/inject.py"), "timeout": 5},
     ],
     "Stop": [
-        (str(venv_python) + " " + str(packages / "swm/capture.py"),       45),
-        (str(venv_python) + " " + str(packages / "swm/premise_check.py"), 45),
-        (str(venv_python) + " " + str(packages / "auto-capture/hook.py"), 45),
-        (str(venv_python) + " " + str(packages / "entropy/hook.py"),          60),
-        (str(venv_python) + " " + str(packages / "outcome-loop/hook.py"),     90),
+        {"command": str(venv_python) + " " + str(packages / "swm/capture.py"), "timeout": 210},
+        {"command": str(venv_python) + " " + str(packages / "swm/premise_check.py"), "timeout": 240},
+        {"command": str(venv_python) + " " + str(packages / "auto-capture/hook.py"), "timeout": 120},
+        {"command": str(venv_python) + " " + str(packages / "entropy/hook.py"), "timeout": 120, "async": True},
+        {"command": str(venv_python) + " " + str(packages / "outcome-loop/hook.py"), "timeout": 210, "async": True},
     ],
     "PreCompact": [
-        (str(venv_python) + " " + str(packages / "swm/pre_compact.py"),   30),
+        {"command": str(venv_python) + " " + str(packages / "swm/pre_compact.py"), "timeout": 240},
     ],
 }
 
@@ -147,22 +147,26 @@ else:
     s = {}
 
 hooks_cfg = s.setdefault("hooks", {})
-added = 0
+changed = 0
 
-for event, entries in HOOKS.items():
+for event, desired in HOOKS.items():
     event_list = hooks_cfg.setdefault(event, [])
-    # Collect all commands already registered for this event
-    existing = {
-        h.get("command", "")
-        for entry in event_list
-        for h in entry.get("hooks", [])
-    }
-    for cmd, timeout in entries:
-        if cmd not in existing:
-            event_list.append({
-                "hooks": [{"type": "command", "command": cmd, "timeout": timeout}]
-            })
-            added += 1
+    desired_commands = {spec["command"] for spec in desired}
+    kept = []
+    for entry in event_list:
+        other_hooks = [
+            hook for hook in entry.get("hooks", [])
+            if hook.get("command", "") not in desired_commands
+        ]
+        if other_hooks:
+            kept.append({**entry, "hooks": other_hooks})
+    reconciled = kept + [
+        {"hooks": [{"type": "command", **spec}]}
+        for spec in desired
+    ]
+    if reconciled != event_list:
+        hooks_cfg[event] = reconciled
+        changed += 1
 
 # Atomic write
 import tempfile
@@ -170,7 +174,7 @@ tmp = settings_path.with_suffix(".tmp")
 tmp.write_text(json.dumps(s, indent=2), encoding="utf-8")
 import os as _os
 _os.replace(tmp, settings_path)
-print(f"  ✓ {added} hook(s) registered")
+print(f"  ✓ keel hook configuration reconciled ({changed} event group(s) changed)")
 PYEOF
 
 # ── 8. Migrate ~/.ra/ if present ──────────────────────────────────────────────

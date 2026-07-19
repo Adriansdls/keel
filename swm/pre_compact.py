@@ -13,6 +13,7 @@ exits 0 (fail-open).
 from __future__ import annotations
 
 import json
+import os
 import shutil
 import sys
 from datetime import datetime, timezone
@@ -64,6 +65,8 @@ def _read_event() -> dict:
 
 
 def main() -> int:
+    if os.environ.get("KEEL_INTERNAL_LLM") == "1":
+        return 0
     if disabled():
         return 0
     event = _read_event()

@@ -43,6 +43,7 @@ import json
 import os
 import tempfile
 import uuid
+import fcntl
 from datetime import date, datetime
 from pathlib import Path
 from typing import Optional
@@ -98,10 +99,16 @@ def _atomic_yaml(path: Path, data: object) -> None:
 
 
 def _atomic_jsonl_append(path: Path, record: dict) -> None:
-    """Append one JSON line atomically (read → append → rewrite)."""
+    """Append one JSON line while excluding concurrent writers."""
     path.parent.mkdir(parents=True, exist_ok=True)
-    existing = path.read_text(encoding="utf-8") if path.exists() else ""
-    _atomic_write(path, existing + json.dumps(record, ensure_ascii=False, default=str) + "\n")
+    with path.open("a", encoding="utf-8") as handle:
+        fcntl.flock(handle.fileno(), fcntl.LOCK_EX)
+        try:
+            handle.write(json.dumps(record, ensure_ascii=False, default=str) + "\n")
+            handle.flush()
+            os.fsync(handle.fileno())
+        finally:
+            fcntl.flock(handle.fileno(), fcntl.LOCK_UN)
 
 
 # ── Config ───────────────────────────────────────────────────────────────────

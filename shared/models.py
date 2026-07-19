@@ -436,6 +436,7 @@ class OutcomeVerdict(BaseModel):
     """LLM judgment on whether a bet / decision / experiment has resolved."""
     model_config = ConfigDict(use_enum_values=True)
 
+    project_id:       str = ""
     target_id:        str
     target_type:      Literal["bet", "decision", "experiment"]
     verdict:          VerdictType
